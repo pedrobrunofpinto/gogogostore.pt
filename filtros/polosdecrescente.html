@@ -1,0 +1,87 @@
+---
+layout: default
+---
+<div class="capscontain"><div class="caps"><h6 class="found"><a href="{{ site.url }}">Home</a><a href="{{ site.url }}{{ page.url }}">{{ page.url }}</a></h6></div></div>
+<div class="uplost"><h1 class="lost"> {{ page.url | slugify }} </h1></div>
+<main class="test">
+  <div class="eve">
+  
+    <div class="pagination pages"></div>
+  
+<div class="filters"><div class="titlefilter"><h3 class="order"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Preço Alto - Baixo</h3></div><div class="linkinside"><a class="filterlink" href="{{ site.url }}/filtros/poloscrescente/"><h3 class="upprice">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/polos"><h3 class="upprice">Relevância</h3></a></div></div>
+</div></div>
+ <main class="lest">
+ <form class="filter" method="get">
+  <fieldset id="oozer-filters">
+      <h2 class="colecioes">Coleções</h2>
+                  <label class="oozer-filters">
+
+      <input class="f" type="radio" name="oozer-filter" value="basic">
+      Basic</label>   <span class="checkmark"></span>
+          <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="padrao">
+      Padrão</label>  
+
+            <h2 class="colecioes">Cores</h2>
+                <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Preto">
+      Preto</label> 
+
+                      <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Branco">
+      Branco</label>  <span class="checkmark"></span>
+
+                      <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Cinzento">
+      Cinzento</label>  <span class="checkmark"></span>
+
+                            <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Castanho">
+      Castanho</label> 
+
+                                  <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Azul">
+      Azul</label>  
+                         
+      
+
+          <button href="{{ page.url }}" class="restaurar">Restaurar</button> 
+
+
+
+  </fieldset>
+</form>
+<ul class="list prodcontain" id="oozer-list">
+ {% assign sorted = site.products | sort: "price" | reverse %}
+{% for t in sorted %}
+  {% if t.categoria == "polos" %}
+
+  <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
+  <div class="productplace" >
+  <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
+    <div class="btn">
+      <h4 data-position="{{ t.price }}">{{ t.price }}0€</h4>
+<button id="my-button" class="snipcart-add-item cartbut inside"
+    data-item-id="{{ t.id }}"
+    data-item-name="{{ t.name }}"
+    data-item-price="{{ t.price }}"
+    data-item-weight="{{ t.weight }}"
+    data-item-custom2-name="Tamanho"
+    data-item-custom2-options="S|M|L|XL"
+    data-item-custom2-required="true"
+    data-item-custom3-name="Cor"
+    data-item-custom3-options="{{ page.color }}"
+    data-item-custom3-required="True"
+    data-item-quantity="1"
+    data-item-url="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"
+    data-item-description="{{ t.discrip }}"
+    data-item-image="{{ t.image }}">
+    Adicionar ao carrinho   
+</button>
+</li>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+
+
+</ul>
+</main>
+<div class="letop"><img id="toTop" class="top" src="/assets/images/top.png" alt=""></div>
+
+</main>
+

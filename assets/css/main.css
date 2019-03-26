@@ -1,0 +1,1624 @@
+@import url('https://fonts.googleapis.com/css?family=GFS+Didot');
+
+
+.snip-header__total {
+	display: none;
+}
+
+#my-size {
+  width: 20%;
+}
+
+.colecioes {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#colors {
+    width: 20%;
+}
+
+.colors {
+  margin-left: 20px;
+}
+
+.restaurar {
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  width: 1000px;
+  justify-content: center;
+}
+
+.banner2 {
+  width: 100%;
+}
+
+.h4name {
+  font-size: 8px !important;
+  margin-bottom: 5px !important;
+  margin-top: 10px;
+}
+
+.h4price {
+  font-weight: 900 !important;
+  font-size: 10px !important;
+    margin-bottom: 20px !important;
+}
+
+.banner3 {
+  width: 100%;
+}
+
+
+.pages li {
+  font-size: 15px;
+  background: black;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  line-height: 1.6em;
+  margin-right: 2px;
+  text-align: center;
+  width: 1.6em; 
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+.pages li:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000
+}
+
+.pages ul {
+  border: 0;
+  padding: 0;
+}
+
+.active {
+  background-color: #fff !important;
+  border: 1px solid #000 !important;
+  color: #000 !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "GFS Didot";
+  font-weight: 50 !important;
+  letter-spacing: 5px;
+}
+
+.error {
+  height: 100vh;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snip-ico--close {
+  font-family: "Snipcart";
+}
+
+.snip-layout {
+  font-family: "GFS Didot";
+}
+
+
+select {
+
+  /* make arrow and background */
+
+  background:
+    linear-gradient(45deg, transparent 50%, white 50%),
+    linear-gradient(135deg, white 50%, transparent 50%),
+    linear-gradient(to right, black, black);
+  background-position:
+    calc(100% - 21px) calc(1em + 2px),
+    calc(100% - 16px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+
+  /* styling and reset */
+
+  border: none;
+  font: 300 1em/100% "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5em;
+  width: 400px;
+  /* reset */
+
+  border-radius: 0;
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+} 
+
+
+.snip-layout .snip-btn--highlight {
+  background: black;
+  color: white;
+}
+
+.what {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.snip-layout .snip-btn--highlight:hover {
+  background: gray;
+}
+
+.snip-header__total-label {
+  display: none;
+}
+
+.contactface {
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  letter-spacing: 2px;
+  font-family: "Helvetica" !important;
+  margin-top: 5px;
+}
+
+.productwindow {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px 20px 100px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.wrapu {
+  display: flex;
+  width: 100%;
+}
+
+.bar {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  font-weight: thin;
+}
+
+.icons {
+  display: flex;
+  margin: 5px 10px 0 0;
+}
+
+#bag {
+  fill: white;
+}
+
+.person {
+  fill: white;
+  margin-right: 10px;
+}
+
+
+
+.sortBy {
+  float: right;
+  width: 275px;
+}
+
+.sortBy h4 {
+  float: left;
+  margin-top: 7px;
+}
+
+
+
+
+header {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  top: 0;
+  z-index: 5;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all 300ms ease-out;
+}
+
+a:hover {
+  color: #808080;
+}
+
+footer {
+  content: "";
+  display: block;
+  background-color: black;
+  height: 100%;
+  margin-top: -10px;
+}
+
+.open {
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.be {
+  display: flex;
+  flex-direction: column;
+}
+
+.let {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.it {
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+}
+
+input[type=text] {
+    padding:5px; 
+    -webkit-border-radius: 1px solid black;
+    border-radius: 1px solid black;
+    font-family: "Crimson Text";
+    border: 1;
+    box-shadow: 0;
+}
+
+#my-quantity {
+  font-family: "Crimson Text";
+font-size: 30px;
+border: 2px solid black !important;
+width: 10%;
+text-align: center;
+}
+
+.quantttt {
+  display: flex;
+}
+
+.minus, .plus{
+      width:33px;
+      height:33px;
+      background: black;
+      padding:8px 3px 8px 5px;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      cursor: pointer;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold !important;
+    }
+
+.thisbtn {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 60px;
+  height: 20px;
+}
+
+.whatel {
+  margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.containbig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px 50px 50px 50px;
+}
+
+hr {
+  color: white;
+}
+
+.follow {
+  text-align: center;
+  color:white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.social {
+  display: flex;
+  color: white;
+  letter-spacing: 0;
+  margin-left: 20px;
+}
+
+.lost {
+  color:black;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 3px;
+  display: inline;
+  text-align: center;
+}
+
+.uplost {
+  width: 100%;
+  text-align: center;
+}
+
+.found {
+  color:black;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 3px; 
+  display: inline;
+  align-self: center;
+
+}
+
+.caps {
+  width: 100%;
+  margin: 119px 300px 20px 7px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.capscontain {
+  margin: 20px 550px 20px 20px;
+}
+
+#snip-header__total-label {
+  display: none;
+}
+
+.detailflex {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 1px solid #dadada;
+}
+
+
+#snipcart-amount {
+  display: none;
+}
+
+.carl {
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.face {
+  fill: white;
+}
+
+.insta {
+  fill:white;
+  margin-left: 10px;
+}
+
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.submit {
+    padding:5px 15px; 
+    background: white; 
+    border:0 none;
+    cursor:pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.email {
+  height: 50px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+
+}
+
+
+.banner1 {
+  width: 100%;
+    margin-top:0.5%;
+
+}
+
+nav {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.getprod {
+  display: flex; 
+  justify-content: space-between;
+  width: 100%;
+}
+
+.look {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.loo2 {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nolook {
+  
+}
+
+.wrap {
+  display: flex;
+  margin-top:0.5%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.sec {
+  flex-shrink: 0;
+  margin-bottom: 50px;
+  width: 65%;
+}
+
+.productdetails {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.search {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+    margin-top: 20px;
+}
+
+.menu {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+}
+
+.logo {
+  width: 200px;
+  margin: 20px 0 0 20px;
+}
+
+
+.productss {
+  cursor: pointer;
+    transition: all 300ms ease-out;
+}
+
+.productss:hover {
+  color: #909090;
+}
+
+.productsss {
+  cursor: pointer;
+    transition: all 300ms ease-out;
+}
+
+.productsss:hover {
+  color: #909090;
+}
+
+
+.no {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+align-self: center;
+margin-top:20px;
+}
+
+.sublist {
+  color: black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 300;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  font-size: 15px;
+  z-index: -100;
+}
+
+.show {
+  z-index: 10;
+    color: black;
+  background-color: white;
+  width: 100%;
+  opacity: 1;
+  border: 1px black solid;
+  font-size: 10px;
+  margin-top:-30px;
+}
+
+.inside {
+  margin-bottom: 10px;
+}
+
+.optionss {
+  display: flex;
+}
+
+.hamb {
+  width: 20px;
+  display: none;
+}
+
+
+
+.lili {
+  margin-left: 10px;
+}
+
+.thep {
+  color: white;
+  font-family: "Helvetica" !important;
+  font-size: 10px;
+  letter-spacing: 2px !important;
+  margin-top: 5px;
+}
+
+li {
+  list-style: none;
+  margin-left: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.snip-layout .snip-footer {
+  display: none;
+}
+
+/** PRODUCT DISPLAY **/
+
+.btn {
+  opacity: 1;
+  transition: all 300ms ease-out;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.pages {
+  display: flex;
+  width: auto;
+  font-size: 20px;
+  color: white !important;
+  justify-content: end;
+
+}
+
+.num {
+  font-size: 15px;
+  background: black;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+.tipolol {
+  width: 453px;
+  height: 711px;
+}
+
+.prodcontain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
+
+}
+
+.lest {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+#oozer-filters {
+  width: 200px;
+}
+
+input[type='radio']:hover{
+  background-color: #eee;
+}
+
+.productplace {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.prod {
+  position: relative;
+  overflow: hidden;
+}
+
+.left {
+  width: 40%;
+}
+
+.productimage {
+  width: 100%;
+  align-self: center;
+}
+
+.imgfcontain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #A9A9A9;
+}
+
+.fotterimg {
+  width: 100px;
+  margin: 10px 10px 50px 10px;
+  align-self: center
+}
+
+.top {
+  position: fixed;
+  width: 5%;
+  bottom: 0;
+  right: 0;
+  z-index: 2000;
+}
+
+#toTop {
+    padding: 5px 3px;
+    background: #000;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    display: none;
+}
+
+
+
+
+#my-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  flex-shrink: 0;
+  width: 60%;
+  outline: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  transition: all 300ms ease-out;
+}
+
+#my-button:hover {
+  background-color: #909090;
+}
+
+.thisbtn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  transition: all 300ms ease-out;
+}
+
+button:hover {
+  background-color: #909090;
+}
+
+/** ROLETA **/
+
+.wrapper{
+  width:100%;
+  position:relative;
+  margin:120px auto 0 0;
+}
+
+.wrapper1 {
+  width:100%;
+  position:relative;
+  margin:5px auto 5px 0;
+}
+
+/**
+ * Padding is set relative to the width
+ * of the element, so here padding-top:60% is
+ * a percentage of the width. This allows us 
+ * to set the height as a ratio of the width
+ *
+ */
+.carousel{
+  width: 100%;
+  position: relative;
+  padding-top: 37%;
+  overflow: hidden;
+}
+
+.inner{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+/**
+ * ==========================
+ * Animation styles
+ * 
+ * Notes:
+ * 1. We use z-index to position active slides in-front 
+ * of non-active slides
+ * 2. We set right:0 and left:0 on .slide to provide us with
+ * a default positioning on both sides of the slide. This allows 
+ * us to trigger JS and CSS3 animations easily
+ *
+ */
+
+
+.slide{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.slide.active,
+.slide.left,
+.slide.right{
+  z-index: 2;
+  opacity: 1;
+}
+
+/**
+ * ==========================
+ * JS animation styles
+ * 
+ * We use jQuery.animate to control the sliding animations
+ * when CSS3 animations are not available. In order for
+ * the next slide to slide in from the right, we need
+ * to change the left:0 property of the slide to left:auto
+ *
+ */
+
+.js-reset-left{left:auto}
+
+/**
+ * ==========================
+ * CSS animation styles
+ * 
+ * .slide.left and .slide.right set-up
+ * the to-be-animated slide so that it can slide
+ * into view. For example, a slide that is about 
+ * to slide in from the right will:
+ * 1. Be positioned to the right of the viewport (right:-100%)
+ * 2. Slide in when the style is superseded with a more specific style (right:0%)
+ *
+ */
+.slide.left{
+  left:-100%;
+  right:0;
+}
+
+.slide.right{
+  right:-100%;
+  left: auto;
+}
+
+.transition .slide.left{left:0%}
+.transition .slide.right{right:0%}
+
+/**
+ * The following classes slide the previously active
+ * slide out of view before positioning behind the 
+ * currently active slide
+ *
+ */
+.transition .slide.shift-right{right: 100%;left:auto}
+.transition .slide.shift-left{left: 100%;right:auto}
+
+/**
+ * This sets the CSS properties that will animate. We set the
+ * transition-duration property dynamically via JS.
+ * We use the browser's default transition-timing-function
+ * for simplicity's sake
+ * 
+ * It is important to note that we are using CodePen's inbuilt
+ * CSS3 property prefixer. For your own projects, you will need
+ * to prefix the transition and transform properties here to ensure
+ * reliable support across browsers
+ *
+ */
+.transition .slide{
+  transition-property: right, left, margin;
+}
+
+/**
+ * ==========================
+ * Indicators
+ *
+ */
+.indicators{
+  width:100%;
+  position: absolute;
+  bottom:0;
+  z-index: 4;
+  padding:0;
+  text-align: center;
+}
+
+.indicators li{
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  margin: 5px;
+  background: #fff;
+  list-style-type: none;
+  border-radius: 50%;
+  cursor:pointer;
+  transition:background 0.3s ease-out;
+}
+
+.indicators li.active{background:#909090}
+
+.indicators li:hover{background-color:#909090}
+
+/**
+ * ==========================
+ * Arrows 
+ *
+ */
+.arrow{
+  width: 20px;
+  height: 20px;
+  position:absolute;
+  top:50%;
+  z-index:2;
+  border-top:3px solid #fff;
+  border-right:3px solid #fff;
+  cursor:pointer;
+  transition:border-color 0.3s ease-out;
+}
+
+.arrow:hover{border-color:#909090}
+
+.arrow-left{
+  left:20px;
+  transform:rotate(225deg);
+}
+
+.arrow-right{
+  right:20px;
+  transform:rotate(45deg);
+}
+
+/**
+ * ==========================
+ * For demo purposes only
+ * 
+ * Please note that the styles below are used
+ * for the purposes of this demo only. There is no need
+ * to use these in any of your own projects
+ *
+ */
+.slide{
+  text-align:center;
+  padding-top:60%;
+  background-size:cover;
+}
+
+
+
+.slide:nth-child(1){
+  background-image:url(/assets/images/1.jpg);
+  background-repeat:no-repeat;
+background-size:contain;
+ }
+
+.slide:nth-child(2){
+  background-image:url(/assets/images/2.jpg);
+    background-repeat:no-repeat;
+background-size:contain;
+}
+
+.slide:nth-child(3){
+    background-image:url(/assets/images/1.jpg);
+  background-repeat:no-repeat;
+background-size:contain;
+ }
+
+ /* Slide */
+
+.howmutch {
+  text-align: center;
+  color: black;
+  width: 100%;
+  background-color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Crimson Text";
+  letter-spacing: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/** ROLETA **/
+
+.wrapper1{
+  width:100%;
+  position:relative;
+}
+
+/**
+ * Padding is set relative to the width
+ * of the element, so here padding-top:60% is
+ * a percentage of the width. This allows us 
+ * to set the height as a ratio of the width
+ *
+ */
+.carousel1{
+  width: 100%;
+  position: relative;
+  padding-top: 37%;
+  overflow: hidden;
+}
+
+.inner{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+/**
+ * ==========================
+ * Animation styles
+ * 
+ * Notes:
+ * 1. We use z-index to position active slides in-front 
+ * of non-active slides
+ * 2. We set right:0 and left:0 on .slide to provide us with
+ * a default positioning on both sides of the slide. This allows 
+ * us to trigger JS and CSS3 animations easily
+ *
+ */
+
+
+.slide1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.slide1.active,
+.slide1.left,
+.slide1.right{
+  z-index: 2;
+  opacity: 1;
+}
+
+/**
+ * ==========================
+ * JS animation styles
+ * 
+ * We use jQuery.animate to control the sliding animations
+ * when CSS3 animations are not available. In order for
+ * the next slide to slide in from the right, we need
+ * to change the left:0 property of the slide to left:auto
+ *
+ */
+
+.js-reset-left{left:auto}
+
+/**
+ * ==========================
+ * CSS animation styles
+ * 
+ * .slide.left and .slide.right set-up
+ * the to-be-animated slide so that it can slide
+ * into view. For example, a slide that is about 
+ * to slide in from the right will:
+ * 1. Be positioned to the right of the viewport (right:-100%)
+ * 2. Slide in when the style is superseded with a more specific style (right:0%)
+ *
+ */
+.slide1.left{
+  left:-100%;
+  right:0;
+}
+
+.slide1.right{
+  right:-100%;
+  left: auto;
+}
+
+.transition .slide1.left{left:0%}
+.transition .slide1.right{right:0%}
+
+/**
+ * The following classes slide the previously active
+ * slide out of view before positioning behind the 
+ * currently active slide
+ *
+ */
+.transition .slide1.shift-right{right: 100%;left:auto}
+.transition .slide1.shift-left{left: 100%;right:auto}
+
+/**
+ * This sets the CSS properties that will animate. We set the
+ * transition-duration property dynamically via JS.
+ * We use the browser's default transition-timing-function
+ * for simplicity's sake
+ * 
+ * It is important to note that we are using CodePen's inbuilt
+ * CSS3 property prefixer. For your own projects, you will need
+ * to prefix the transition and transform properties here to ensure
+ * reliable support across browsers
+ *
+ */
+.transition .slide1{
+  transition-property: right, left, margin;
+}
+
+/**
+ * ==========================
+ * Indicators
+ *
+ */
+.indicators{
+  width:100%;
+  position: absolute;
+  bottom:0;
+  z-index: 4;
+  padding:0;
+  text-align: center;
+}
+
+.indicators li{
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  margin: 5px;
+  background: #fff;
+  list-style-type: none;
+  border-radius: 50%;
+  cursor:pointer;
+  transition:background 0.3s ease-out;
+}
+
+.indicators li.active{background:#909090}
+
+.indicators li:hover{background-color:#909090}
+
+/**
+ * ==========================
+ * Arrows 
+ *
+ */
+.arrow{
+  width: 20px;
+  height: 20px;
+  position:absolute;
+  top:50%;
+  z-index:5;
+  border-top:3px solid #fff;
+  border-right:3px solid #fff;
+  cursor:pointer;
+  transition:border-color 0.3s ease-out;
+}
+
+.arrow:hover{border-color:#909090}
+
+.arrow-left{
+  left:20px;
+  transform:rotate(225deg);
+}
+
+.arrow-right{
+  right:20px;
+  transform:rotate(45deg);
+}
+
+/**
+ * ==========================
+ * For demo purposes only
+ * 
+ * Please note that the styles below are used
+ * for the purposes of this demo only. There is no need
+ * to use these in any of your own projects
+ *
+ */
+.slide1{
+  text-align:center;
+  padding-top:60%;
+  background-size:cover;
+}
+
+
+
+.slide1:nth-child(1){
+  background-image:url(/assets/images/men.jpg);
+  background-repeat:no-repeat;
+background-size:contain;
+ }
+
+.slide1:nth-child(2){
+  background-image:url(/assets/images/y.jpg);
+    background-repeat:no-repeat;
+background-size:contain;
+}
+
+.slide1:nth-child(3){
+    background-image:url(/assets/images/men.jpg);
+  background-repeat:no-repeat;
+background-size:contain;
+ }
+
+ /* Slide */
+
+.howmutch {
+  text-align: center;
+  color: black;
+  width: 100%;
+  background-color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Crimson Text";
+  letter-spacing: 3px;
+  height: 50px;
+}
+
+.loopi {
+  
+  cursor: pointer;
+}
+
+/* LIGHTBOX */
+
+a.lightbox img {
+height: 150px;
+border: 3px solid white;
+margin: 0 20px 20px 20px;
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+position: fixed;
+top: -100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+left: 0;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+z-index: 4000;
+top: 130px;
+left:-50px;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
+border: 3px solid white;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+.cartbut {
+  height: 50px;
+  margin-top: 20px;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 80%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 120px;
+}
+
+.mobi {
+  background-color: white;
+   top: 100px;
+  opacity: 0;
+  z-index: -500;
+  display: flex;
+  height: 50px;
+  border: 1px solid black;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  transition: all 300ms ease-in-out;
+}
+
+.displaymobi {
+  top: 70px;
+  opacity: 1;
+  z-index: 500;
+}
+
+#sub {
+  text-align: center;
+  font-size: 9px;
+}
+
+.crash {
+  background-color: black;
+   top: 210px;
+  opacity: 0;
+  z-index: -500;
+  display: flex;
+  height: 50px;
+  border: 1px solid white;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  transition: all 300ms ease-in-out;
+}
+
+.crashshow {
+  top: 120px;
+  opacity: 1;
+  z-index: 500;
+}
+
+.yeah {
+  text-align: center;
+  font-size: 9px;
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+
+  #no {
+    display: none;
+  }
+  .thep {
+    display: none;
+  }
+
+  .menu {
+    width: auto;
+  }
+  .hamb {
+    display: block;
+  }
+  .imgfcontain {
+    height: 200px;
+  }
+  .lest {
+      flex-wrap: wrap;
+  }
+}
+
+
+
+.eve {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.filters {
+  margin-top: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.order {
+  font-size: 12px;
+}
+
+.ordertop {
+  display: flex;
+}
+
+.place {
+  font-weight: 900 !important;
+}
+
+.linkinside {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.upprice {
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  opacity: 0;
+  margin-top: 10px;
+  display: none;
+  transition: all 300ms ease-in-out;
+}
+
+.upriceshow {
+    margin-bottom: 20px;
+
+    display: block;
+  opacity: 1;
+  margin-top: 5px;
+}
+
+.upprice:hover {
+  color: #808080;
+}
+
+.priceget {
+  text-align: left;
+  font-size: 15px !important;
+  margin-top: 10px;
+  font-weight: 900 !important;
+}
+
+
+
+.our {
+  display: flex;
+}
+
+
+.filterlink {
+  color: black !important;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 200px;
+  }
+  li{
+    font-size: 15px;
+  }
+      .fotterimg {
+    width: 40px;
+  }
+  .imgfcontain {
+    height: 50px;
+  }
+
+  .sec {
+    width: 200px;
+  }
+
+  .inside {
+    width: 200px;
+  }
+  .lebutton {
+    width: 200px;
+  }
+  .productwindow {
+    align-content: center;
+    justify-content: center;
+  }
+  .productdetails {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .loo2 {
+    display: none;
+  }
+    .fotterimg {
+    width: 40px;
+  }
+  .imgfcontain {
+    height: 50px;
+  }
+   .lest {
+      flex-wrap: wrap;
+  }
+}
+

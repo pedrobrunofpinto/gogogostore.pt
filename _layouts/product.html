@@ -1,0 +1,89 @@
+---
+layout: default
+---
+<div class="capscontain"><div class="caps"><h6 class="found"><a href="{{ site.url }}">Home</a><a href="{{ site.url }}{{ page.url }}">{{ page.url }}</a></h6><h1 class="lost"> {{ page.categoria }} </h1></div></div>
+<main class="test">
+<div class="productwindow">
+<div class="detailflex">
+
+<a class="lightbox" href="#detail">
+<img class="pimg" src="{{ page.sec }}">   
+</a> 
+<div class="lightbox-target" id="detail">
+<img class="pimg" src="{{ page.sec }}">
+<div  class="arrow arrow-left" href="#sap"></div>
+<div  class="arrow arrow-right" href="#mak"></div>
+<a class="lightbox-close" href="#"></a>
+</div>
+
+{% if page.thir %}
+<a class="lightbox" href="#sap">
+<img class="pimg" src="{{ page.thir }}">
+</a> 
+<div class="lightbox-target" id="sap">
+<img class="pimg" src="{{ page.thir }}">
+<div  class="arrow arrow-left" href="#mak"></div>
+<div  class="arrow arrow-right" href="#detail"></div>
+<a class="lightbox-close" href="#"></a>
+</div>
+{% endif %}
+</div>
+
+<a class="" href="#mak">
+<img class="sec" src="{{ page.image }}">
+</a> 
+<div class="lightbox-target" id="mak">
+<div  class="arrow arrow-left" href="#detail"></div>
+<div  class="arrow arrow-right" href="#sap"></div>
+<img class="pimg" src="{{ page.image }}">
+<a class="lightbox-close" href="#"></a>
+</div>
+<div class="productdetails">
+
+<h3 class="inside">{{ page.name }}</h3>
+<div class="what">
+    <h3 class="whatel inside priceget">Preço: {{ page.price }}0€</h3>
+    <h3 class="whatel">Tamanho:</h3>
+<select class="inside inside" id="my-size">
+        <option>---</option>
+    <option>S</option>
+    <option>M</option>
+    <option>L</option>
+    <option>XL</option>
+</select>
+    <h3 class="whatel inside">Cor:</h3>
+<select id="colors" class="inside">
+    <option>---</option>
+    <option>{{ page.color[0] }}</option>
+    
+</select>
+</div>
+<h3 class="whatel inside">Quantidade:</h3>
+
+<div class="quantttt">
+    <span class="minus">-</span>
+<input type='text' name='quantity' value='0' class='qty inside' id="my-quantity" />
+    <span class="plus">+</span>
+</div>
+
+<button id="my-button" class="snipcart-add-item cartbut lebutton"
+    data-item-id="{{ page.id }}"
+    data-item-name="{{ page.name }}"
+    data-item-price="{{ page.price }}"
+    data-item-weight="{{ page.weight }}"
+    data-item-custom2-name="Tamanho"
+    data-item-custom2-options="S|M|L|XL"
+    data-item-custom2-required="true"
+    data-item-custom3-name="Cor"
+    data-item-custom3-options="{{ page.color[0] }}"
+    data-item-custom3-required="True"
+    data-item-quantity="1"
+    data-item-url="{{ site.url }}/products/{{ page.categoria }}/{{ page.att }}/{{ page.link }}"
+    data-item-description="{{ page.discrip }}"
+    data-item-image="{{ page.image }}">
+    Adicionar ao carrinho   
+</button>
+</div>
+</div>
+
+
