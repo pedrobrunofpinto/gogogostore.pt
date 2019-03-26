@@ -1511,7 +1511,7 @@ top: 120px;
     display: block;
   }
   .imgfcontain {
-    height: 200px;
+    height: 100%;
   }
   .lest {
       flex-wrap: wrap;
@@ -1602,7 +1602,7 @@ top: 120px;
     width: 40px;
   }
   .imgfcontain {
-    height: 50px;
+    height: 100%;
   }
 
   .sec {
@@ -1632,7 +1632,7 @@ top: 120px;
     width: 40px;
   }
   .imgfcontain {
-    height: 50px;
+    height: 100%;
   }
    .lest {
       flex-wrap: wrap;
