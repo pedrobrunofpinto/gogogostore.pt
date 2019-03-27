@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Camisa MS Blue Long
 link: camisamsbluelong
-price: 13.90
+price: 21.90
 weight: 20
 image: /assets/images/produtos/29.jpg
 sec: /assets/images/produtos/24.jpg

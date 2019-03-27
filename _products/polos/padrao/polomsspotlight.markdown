@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Polo MS Spotlight
 link: polomsspotlight
-price: 15.90
+price: 21.90
 weight: 20
 image: /assets/images/produtos/6.jpg
 sec: /assets/images/produtos/7.jpg

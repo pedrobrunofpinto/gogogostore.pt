@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Camisa MS Classic White Long
 link: camisamsclassicwhitelong
-price: 15.90
+price: 21.90
 weight: 20
 image: /assets/images/produtos/42.jpg
 sec: /assets/images/produtos/45.jpg
