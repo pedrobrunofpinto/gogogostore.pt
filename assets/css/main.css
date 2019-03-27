@@ -755,7 +755,7 @@ input[type='radio']:hover{
 
 .filtername {
   color: white;
-  font-size: 23px !important;
+  font-size: 15px !important;
     display: flex;
       justify-content: center;
   align-items: center;
@@ -769,9 +769,12 @@ input[type='radio']:hover{
   display: none;
   color: white;
   content: "";
-  height: 50px;
-  width: 100%;
+  height: 30px;
+  width: 80%;
   background-color: black;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .prod {
@@ -1534,6 +1537,9 @@ top: 120px;
   #no {
     display: none;
   }
+  .prodcontain {
+    margin-right: 10%;
+  }
   .found {
     display: none;
   }
@@ -1552,6 +1558,10 @@ top: 120px;
   }
   .lest {
       flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
   }
   .restaurar{
     text-align: center;
@@ -1568,6 +1578,7 @@ top: 120px;
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  align-items: center;
   }
   .oofiltershow {
     display: flex;
@@ -1578,7 +1589,8 @@ top: 120px;
   .restaurar {
   }
   .filtercontainer {
-    display: block;
+    display: flex;
+    margin-bottom: 10px;
   }
 
 .filter {
