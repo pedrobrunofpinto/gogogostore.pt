@@ -26,6 +26,8 @@ html{
   width: 20%;
 }
 
+
+
 .colecioes {
   text-align: center;
   margin-top: 10px;
@@ -649,6 +651,7 @@ margin-top:20px;
 
 .hamb {
   width: 20px;
+  margin-right: 10px;
   display: none;
 }
 
@@ -723,7 +726,8 @@ li {
   justify-content: center;
   margin-bottom: 30px;
   width: 100%;
-
+  align-items: center;
+  align-content: center;
 }
 
 .lest {
@@ -733,7 +737,10 @@ li {
 }
 
 #oozer-filters {
-  width: 200px;
+  width: 100%;
+}
+
+.filter {
 }
 
 input[type='radio']:hover{
@@ -746,9 +753,32 @@ input[type='radio']:hover{
   width: 250px;
 }
 
+.filtername {
+  color: white;
+  font-size: 23px !important;
+    display: flex;
+      justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  display: none;
+  text-align: center;
+}
+
+.filtercontainer {
+  display: none;
+  color: white;
+  content: "";
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+
 .prod {
   position: relative;
   overflow: hidden;
+  align-items: center;
+  justify-content: center;
 }
 
 .left {
@@ -1204,6 +1234,7 @@ align-items: center;
   transition-property: right, left, margin;
 }
 
+
 /**
  * ==========================
  * Indicators
@@ -1493,6 +1524,9 @@ top: 120px;
   color: white;
 }
 
+.oofilter {
+  display: none;
+}
 
 
 @media only screen and (max-width: 1100px) {
@@ -1515,6 +1549,39 @@ top: 120px;
   }
   .lest {
       flex-wrap: wrap;
+  }
+  .restaurar{
+    text-align: center;
+  }
+  #oozer-filters {
+    display: none;
+  }
+  fieldset {
+    display: none;
+  }
+  .oofilter {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  }
+  .oofiltershow {
+    display: flex;
+  }
+  .filtername{
+    display: block;
+  }
+  .restaurar {
+  }
+  .filtercontainer {
+    display: block;
+  }
+
+.filter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   }
 }
 
@@ -1594,6 +1661,18 @@ top: 120px;
 @media only screen and (max-width: 600px) {
   .logo {
     width: 200px;
+  }
+  #oozer-filters {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  text-align: center;
+  }
+
+.filter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   }
   li{
     font-size: 15px;

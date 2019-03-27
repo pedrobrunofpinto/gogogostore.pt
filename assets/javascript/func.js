@@ -45,6 +45,9 @@ $( document ).ready(function() {
     $(".order").click(function () {
       $(".upprice").toggleClass("upriceshow");
   });
+  $(".filtercontainer").click(function () {
+    $(".oofilter").toggleClass("oofiltershow");
+  });
 
 
   $(".productimage").mouseover(function () {
@@ -58,6 +61,7 @@ $( document ).ready(function() {
   $('#my-size').change(function() {
     $('#my-button').data('item-custom2-value', $(this).val());
   });
+
   $('.pagination').pagination({
     itemsToPaginate: ".prod",
     activeClass: 'active',
