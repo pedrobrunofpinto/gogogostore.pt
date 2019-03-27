@@ -777,7 +777,7 @@ input[type='radio']:hover{
 
 .filtername {
   color: white;
-  font-size: 15px !important;
+  font-size: 10px !important;
     display: flex;
       justify-content: center;
   align-items: center;
@@ -797,6 +797,7 @@ input[type='radio']:hover{
   justify-content: center;
   align-items: center;
   align-content: center;
+  margin-top: 10px;
 }
 .sortcontainer {
   display: none;
@@ -850,16 +851,23 @@ input[type='radio']:hover{
   z-index: 2000;
 }
 
+.mobileum {
+  font-size: 10px !important;
+}
+
+.mobiledois {
+  font-size: 13px !important;
+}
+
 #toTop {
     padding: 5px 3px;
     background: #000;
     color: #fff;
     position: fixed;
-    bottom: 0;
-    right: 5px;
+    bottom: 20px;
+    left: 0;
     display: none;
 }
-
 
 
 
@@ -1593,7 +1601,7 @@ top: 120px;
     align-items: center;
   }
   .prodcontain {
-    margin-right: 12%;
+    margin-right: 15%;
   }
   .found {
     display: none;
