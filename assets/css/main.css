@@ -1534,6 +1534,9 @@ top: 120px;
   #no {
     display: none;
   }
+  .found {
+    display: none;
+  }
   .thep {
     display: none;
   }
