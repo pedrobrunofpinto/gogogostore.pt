@@ -65,7 +65,7 @@ layout: default
 <input type='text' name='quantity' value='0' class='qty inside' id="my-quantity" />
     <span class="plus">+</span>
 </div>
-
+{% if page.stock == "sim" %}
 <button id="my-button" class="snipcart-add-item cartbut lebutton"
     data-item-id="{{ page.id }}"
     data-item-name="{{ page.name }}"
@@ -83,6 +83,12 @@ layout: default
     data-item-image="{{ page.image }}">
     Adicionar ao carrinho   
 </button>
+{% endif %}
+{% if page.stock == "nao" %}
+<button id="my-button" class="nostock cartbut lebutton">
+    Sem Stock  
+</button>
+{% endif %}
 </div>
 </div>
 

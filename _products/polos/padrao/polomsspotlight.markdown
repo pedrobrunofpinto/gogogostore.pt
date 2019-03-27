@@ -16,4 +16,5 @@ color:
 discrip: polo padrao azul bolas pintas branco
 novo: true
 maisvendidos: true
+stock: sim
 ---

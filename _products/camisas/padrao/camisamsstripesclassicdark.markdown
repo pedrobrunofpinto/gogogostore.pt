@@ -15,4 +15,5 @@ color:
 discrip: camisa padrao riscas azul escuro branco
 novo: true
 maisvendidos: true
+stock: sim
 ---

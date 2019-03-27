@@ -16,4 +16,5 @@ color:
 discrip: polo padrao azul vermelho branco
 novo: true
 maisvendidos: true
+stock: sim
 ---

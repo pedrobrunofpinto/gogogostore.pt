@@ -16,4 +16,5 @@ color:
 discrip: tshirt t-shirt risca padrao branca preta vermelho
 novo: true
 maisvendidos: true
+stock: sim
 ---

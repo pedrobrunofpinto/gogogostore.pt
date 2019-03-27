@@ -15,4 +15,5 @@ color:
 discrip: tshirt t-shirt castanho cinzento
 novo: true
 maisvendidos: true
+stock: sim
 ---

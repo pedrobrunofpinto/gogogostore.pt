@@ -16,4 +16,5 @@ color:
 discrip: polo padrao flores azul havai surf verao branco
 novo: true
 maisvendidos: true
+stock: sim
 ---

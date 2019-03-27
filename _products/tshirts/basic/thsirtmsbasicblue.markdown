@@ -15,4 +15,5 @@ color:
 discrip: tshirt t-shirt azul
 novo: true
 maisvendidos: true
+stock: sim
 ---

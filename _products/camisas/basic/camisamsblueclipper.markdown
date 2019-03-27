@@ -15,4 +15,5 @@ color:
 discrip: camisa lisa azul ajustavel  
 novo: true
 maisvendidos: true
+stock: nao
 ---

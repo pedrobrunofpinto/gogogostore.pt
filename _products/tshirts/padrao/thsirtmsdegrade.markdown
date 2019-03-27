@@ -17,4 +17,5 @@ color:
 discrip: tshirt t-shirt degrade vermelha azul escuro padrao branca 
 novo: true
 maisvendidos: true
+stock: sim
 ---

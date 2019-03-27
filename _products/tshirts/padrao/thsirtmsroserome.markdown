@@ -16,4 +16,5 @@ color:
 discrip: tshirt t-shirt  padrao branca preta corrente rosa vermelho flor fotografia
 novo: true
 maisvendidos: true
+stock: sim
 ---

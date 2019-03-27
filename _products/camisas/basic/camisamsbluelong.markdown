@@ -15,4 +15,5 @@ color:
 discrip: camisa lisa azul escuro 
 novo: true
 maisvendidos: true
+stock: nao
 ---

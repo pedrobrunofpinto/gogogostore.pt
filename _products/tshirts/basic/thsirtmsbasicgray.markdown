@@ -15,4 +15,5 @@ color:
 discrip: tshirt t-shirt cinza cinzento
 novo: true
 maisvendidos: true
+stock: sim
 ---

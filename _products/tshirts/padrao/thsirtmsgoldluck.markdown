@@ -16,4 +16,5 @@ color:
 discrip: tshirt t-shirt dourado padrao branca preta amuleto sorte
 novo: true
 maisvendidos: true
+stock: sim
 ---

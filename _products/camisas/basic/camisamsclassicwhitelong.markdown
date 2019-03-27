@@ -15,4 +15,5 @@ color:
 discrip: camisa lisa branca branco 
 novo: true
 maisvendidos: true
+stock: sim
 ---
