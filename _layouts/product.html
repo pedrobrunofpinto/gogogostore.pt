@@ -11,8 +11,12 @@ layout: default
 </a> 
 <div class="lightbox-target" id="detail">
 <img class="pimg" src="{{ page.sec }}">
-<div  class="arrow arrow-left" href="#sap"></div>
-<div  class="arrow arrow-right" href="#mak"></div>
+    <a class="lightbox" href="#sap">
+<div  class="arrow arrow-left"></div>
+</a>
+    <a class="lightbox" href="#mak">
+<div  class="arrow arrow-right"></div>
+</a>
 <a class="lightbox-close" href="#"></a>
 </div>
 
@@ -22,8 +26,12 @@ layout: default
 </a> 
 <div class="lightbox-target" id="sap">
 <img class="pimg" src="{{ page.thir }}">
-<div  class="arrow arrow-left" href="#mak"></div>
-<div  class="arrow arrow-right" href="#detail"></div>
+    <a class="lightbox" href="#mak">
+<div  class="arrow arrow-left"></div>
+</a>
+    <a class="lightbox" href="#detail">
+<div  class="arrow arrow-right"></div>
+</a>
 <a class="lightbox-close" href="#"></a>
 </div>
 {% endif %}
@@ -33,8 +41,22 @@ layout: default
 <img class="sec" src="{{ page.image }}">
 </a> 
 <div class="lightbox-target" id="mak">
-<div  class="arrow arrow-left" href="#detail"></div>
-<div  class="arrow arrow-right" href="#sap"></div>
+    <a class="lightbox" href="#detail">
+<div  class="arrow arrow-left"></div>
+</a>
+{% if page.thir %}
+    <a class="lightbox" href="#sap">
+}
+<div  class="arrow arrow-right"></div>
+</a>
+{% endif %}
+{% if page.thir == null %}
+    <a class="lightbox" href="#detail">
+}
+<div  class="arrow arrow-right"></div>
+</a>
+{% endif %}
+
 <img class="pimg" src="{{ page.image }}">
 <a class="lightbox-close" href="#"></a>
 </div>
