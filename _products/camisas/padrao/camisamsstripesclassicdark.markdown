@@ -1,17 +1,16 @@
 ---
 layout: product
 id: 3
-name: Camisa MS Stripes Classic
-link: camisamsstripesclassic
+name: Camisa MS Stripes Classic Dark
+link: camisamsstripesclassicdark
 price: 21.90
 weight: 20
-image: /assets/images/produtos/18.jpg
-sec: /assets/images/produtos/19.jpg
-thir: 
+image: /assets/images/produtos/22.jpg
+sec: /assets/images/produtos/23.jpg
+thir: /assets/images/produtos/21.jpg
 att: padrao
 categoria: camisas
 color:
-    - Azul
     - Azul Escuro
 discrip: camisa padrao riscas azul escuro branco
 novo: true

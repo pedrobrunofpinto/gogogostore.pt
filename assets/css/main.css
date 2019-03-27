@@ -18,6 +18,16 @@ html{
   height: 100%;
 }
 
+
+.getpages {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+.showpages {
+  display: none;
+}
+
 .snip-header__total {
 	display: none;
 }
@@ -1532,14 +1542,7 @@ top: 120px;
   z-index: 500;
 }
 
-.getpages {
-  display: none;
-}
 
-.showpages{
-  display: flex;
-  justify-content: center;
-}
 
 .yeah {
   text-align: center;
@@ -1559,6 +1562,13 @@ top: 120px;
 
   #no {
     display: none;
+  }
+  .getpages {
+    display: none;
+  }
+
+  .showpages {
+    display: block;
   }
   .filters {
     display: none;
