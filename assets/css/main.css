@@ -776,6 +776,17 @@ input[type='radio']:hover{
   align-items: center;
   align-content: center;
 }
+.sortcontainer {
+  display: none;
+  color: white;
+  content: "";
+  height: 30px;
+  width: 80%;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 
 .prod {
   position: relative;
@@ -1521,6 +1532,15 @@ top: 120px;
   z-index: 500;
 }
 
+.getpages {
+  display: none;
+}
+
+.showpages{
+  display: flex;
+  justify-content: center;
+}
+
 .yeah {
   text-align: center;
   font-size: 9px;
@@ -1530,6 +1550,9 @@ top: 120px;
 .oofilter {
   display: none;
 }
+.oosort {
+  display: none;
+}
 
 
 @media only screen and (max-width: 1100px) {
@@ -1537,8 +1560,18 @@ top: 120px;
   #no {
     display: none;
   }
+  .filters {
+    display: none;
+  }
+  .mobfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .prodcontain {
-    margin-right: 10%;
+    margin-right: 12%;
   }
   .found {
     display: none;
@@ -1572,7 +1605,16 @@ top: 120px;
   fieldset {
     display: none;
   }
+
   .oofilter {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  }
+  .oosort {
   width: 100%;
   display: none;
   justify-content: center;
@@ -1589,6 +1631,10 @@ top: 120px;
   .restaurar {
   }
   .filtercontainer {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .sortcontainer {
     display: flex;
     margin-bottom: 10px;
   }

@@ -1,20 +1,22 @@
 ---
 layout: default
-nome: tshirts
 ---
 <div class="capscontain"><div class="caps"><h6 class="found"><a href="{{ site.url }}">Home</a><a href="{{ site.url }}{{ page.url }}">{{ page.url }}</a></h6></div></div>
-<div class="uplost"><h1 class="lost"> {{ page.nome }} </h1></div>
+<div class="uplost"><h1 class="lost"> T-shirts </h1></div>
 <main class="test">
   <div class="eve">
   
-    <div class="pagination pages"></div>
+    <div class="pagination pages getpages"></div>
   
 <div class="filters"><div class="titlefilter"><h3 class="order"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância</h3></div><div class="linkinside"><a class="filterlink" href="{{ site.url }}/filtros/tshirtscrescente/"><h3 class="upprice">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/tshirtsdecrescente/"><h3 class="upprice">Preço Alto - Baixo</h3></a></div></div>
 </div></div>
+
+
  <main class="lest">
   <div class="filtercontainer">
     <h4 class="filtername">Aplicar Filtros</h4>
   </div>
+ 
  <form class="filter" method="get">
   <fieldset id="oozer-filters">
       <h2 class="colecioes">Coleções</h2>
@@ -48,7 +50,6 @@ nome: tshirts
 
   </fieldset>
 
-
    <div class="oofilter">
       <h2 class="colecioes">Coleções</h2>
                   <label class="oozer-filters">
@@ -78,8 +79,19 @@ nome: tshirts
 
           <button href="{{ page.url }}" id="my-button" class="restaurar">Restaurar</button> 
 
-
   </div>
+
+
+<div class="mobfil">
+   <div class="sortcontainer">
+    <h4 class="filtername"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância</h3></div></h4>
+  </div>
+
+  <div class="oosort"><a class="filterlink" href="{{ site.url }}/filtros/tshirtscrescente/"><h3 class="oosort">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/tshirtsdecrescente/"><h3 class="oosort">Preço Alto - Baixo</h3></a></div></div>
+</div>
+
+
+
 </form>
 <ul class="list prodcontain" id="oozer-list">
  {% assign sorted = site.products %}
@@ -123,6 +135,9 @@ nome: tshirts
 </ul>
 </main>
 <div class="letop"><img id="toTop" class="top" src="/assets/images/top.png" alt=""></div>
+
+    <div class="pagination pages showpages"></div>
+
 
 </main>
 

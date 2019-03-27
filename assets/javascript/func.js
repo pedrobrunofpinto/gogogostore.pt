@@ -48,6 +48,9 @@ $( document ).ready(function() {
   $(".filtercontainer").click(function () {
     $(".oofilter").toggleClass("oofiltershow");
   });
+  $(".sortcontainer").click(function () {
+    $(".oosort").toggleClass("oofiltershow");
+  });
 
 
   $(".productimage").mouseover(function () {
