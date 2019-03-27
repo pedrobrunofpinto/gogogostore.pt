@@ -29,6 +29,7 @@ permalink: pretty
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   
 collections:
   products:
