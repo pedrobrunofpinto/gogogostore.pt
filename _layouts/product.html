@@ -2,7 +2,8 @@
 layout: default
 ---
 <div class="capscontain"><div class="caps"><h6 class="found"><a href="{{ site.url }}">Home</a><a href="{{ site.url }}{{ page.url }}">{{ page.url }}</a></h6><h1 class="lost"> {{ page.categoria }} </h1></div></div>
-<main class="test">
+<main class="teste1">
+<div class="globeproducts">
 <div class="productwindow">
 <div class="detailflex">
 
@@ -66,27 +67,29 @@ layout: default
 <div class="what">
     <h3 class="whatel inside priceget">Preço: {{ page.price }}0€</h3>
     <h3 class="whatel">Tamanho:</h3>
-<select class="inside inside" id="my-size">
+<div class="ff"><select class="inside inside" id="my-size">
         <option>---</option>
     <option>S</option>
     <option>M</option>
     <option>L</option>
     <option>XL</option>
 </select>
+</div>
     <h3 class="whatel inside">Cor:</h3>
-<select id="colors" class="inside">
+<div class="ff"><select id="colors" class="inside">
     <option>---</option>
     <option>{{ page.color[0] }}</option>
     
 </select>
 </div>
+</div>
 <h3 class="whatel inside">Quantidade:</h3>
-
 <div class="quantttt">
     <span class="minus">-</span>
 <input type='text' name='quantity' value='0' class='qty inside' id="my-quantity" />
     <span class="plus">+</span>
 </div>
+<div class="ff">
 {% if page.stock == "sim" %}
 <button id="my-button" class="snipcart-add-item cartbut lebutton"
     data-item-id="{{ page.id }}"
@@ -105,6 +108,7 @@ layout: default
     data-item-image="{{ page.image }}">
     Adicionar ao carrinho   
 </button>
+</div>
 {% endif %}
 {% if page.stock == "nao" %}
 <button id="my-button" class="nostock cartbut lebutton">
@@ -113,5 +117,5 @@ layout: default
 {% endif %}
 </div>
 </div>
-
+</div>
 
