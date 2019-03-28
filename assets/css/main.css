@@ -1600,10 +1600,10 @@ top: 120px;
 }
 @media screen and (min-width: 2000px) {
   .test{
-    margin: 0 480px 0 400px;
+    margin: 0 280px 0 300px;
   }
   .productimage {
-    width: 200%;
+    width: 150%;
   }
 }
 
