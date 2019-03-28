@@ -1598,14 +1598,20 @@ top: 120px;
   justify-content: center;
   width: 100%;
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 2000px) {
   .test{
     margin: 0 480px 0 400px;
+  }
+  .productimage {
+    width: 200%;
   }
 }
 
 
 @media only screen and (max-width: 1100px) {
+ .test{
+    margin: 0 0 0 0;
+  }
   .productwindow {
     align-content: center;
     justify-content: center;
