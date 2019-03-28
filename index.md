@@ -13,7 +13,7 @@ layout: default
       <a href="{{ site.url }}/tshirts"><div class="slide active">
       	<h1>1</h1>
       </div></a>
-      <div class="slide">
+<div class="slide">
         <h1>2</h1>
       </div>
     </div>

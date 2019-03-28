@@ -1141,16 +1141,11 @@ background-size:contain;
  }
 
 .slide:nth-child(2){
-  background-image:url(/assets/images/2.jpg);
+  background-image:url(/assets/images/second.jpg);
     background-repeat:no-repeat;
 background-size:contain;
 }
 
-.slide:nth-child(3){
-    background-image:url(/assets/images/1.jpg);
-  background-repeat:no-repeat;
-background-size:contain;
- }
 
  /* Slide */
 
