@@ -1530,17 +1530,22 @@ top: 120px;
   opacity: 1;
   z-index: 500;
   display: flex;
+  justify-content: space-around;
+}
+
+.sublistlist {
+  margin-left: 0 !important;
 }
 
 #sub {
   text-align: center;
   font-size: 9px;
-  margin-right: 20px;
+  margin-left: 0 !important;
 }
 
 .crash {
   background-color: black;
-   top: 210px;
+  top: 210px;
   opacity: 0;
   z-index: -500;
   display: flex;
@@ -1548,7 +1553,7 @@ top: 120px;
   border: 1px solid white;
   position: fixed;
   width: 100%;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   align-self: center;
   align-content: center;
