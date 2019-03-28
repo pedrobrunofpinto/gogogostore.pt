@@ -2,41 +2,95 @@
 layout: default
 ---
 <div class="capscontain"><div class="caps"><h6 class="found"><a href="{{ site.url }}">Home</a><a href="{{ site.url }}{{ page.url }}">{{ page.url }}</a></h6></div></div>
-<div class="uplost"><h1 class="lost"> {{ page.url | slugify }} </h1></div>
+<div class="uplost"><h1 class="lost"> T-shirts </h1></div>
 <main class="test">
   <div class="eve">
   
-    <div class="pagination pages"></div>
   
-<div class="filters"><div class="titlefilter"><h3 class="order"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Preço Baixo - Alto</h3></div><div class="linkinside"><a class="filterlink" href="{{ site.url }}/tshirts"><h3 class="upprice">Relevância</h3></a><a class="filterlink" href="{{ site.url }}/filtros/tshirtsdecrescente/"><h3 class="upprice">Preço Alto - Baixo</h3></a></div></div>
+<div class="filters"><div class="titlefilter"><h3 class="order"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância</h3></div><div class="linkinside"><a class="filterlink" href="{{ site.url }}/filtros/tshirtscrescente/"><h3 class="upprice">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/tshirtsdecrescente/"><h3 class="upprice">Preço Alto - Baixo</h3></a></div></div>
 </div></div>
+
+
  <main class="lest">
+  <div class="filtercontainer">
+    <h4 class="filtername">Aplicar Filtros</h4>
+  </div>
+ 
  <form class="filter" method="get">
   <fieldset id="oozer-filters">
       <h2 class="colecioes">Coleções</h2>
-          <label>
+                  <label class="oozer-filters">
 
       <input class="f" type="radio" name="oozer-filter" value="basic">
-      Basic</label>  
-          <label> <input type="radio" name="oozer-filter" value="padrao">
-      Padrão</label>
+      Basic</label>   <span class="checkmark"></span>
+          <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="padrao">
+      Padrão</label>  
+
             <h2 class="colecioes">Cores</h2>
-                <label> <input type="radio" name="oozer-filter" value="Preto">
-      Preto</label>
-                      <label> <input type="radio" name="oozer-filter" value="Branco">
-      Branco</label>
-                      <label> <input type="radio" name="oozer-filter" value="Cinzento">
-      Cinzento</label>
-                            <label> <input type="radio" name="oozer-filter" value="Castanho">
-      Castanho</label>
-                                  <label> <input type="radio" name="oozer-filter" value="Azul">
-      Azul</label>                              
+                <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Preto">
+      Preto</label> 
 
-          <button href="{{ page.url }}" class="restaurar">Restaurar</button> 
+                      <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Branco">
+      Branco</label>  <span class="checkmark"></span>
 
+                      <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Cinzento">
+      Cinzento</label>  <span class="checkmark"></span>
+
+                            <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Castanho">
+      Castanho</label> 
+
+                                  <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Azul">
+      Azul</label>  
+                         
+      
+
+          <button href="{{ page.url }}" id="my-button" class="restaurar">Restaurar</button> 
 
 
   </fieldset>
+
+   <div class="oofilter">
+      <h2 class="colecioes">Coleções</h2>
+                  <label class="oozer-filters">
+
+      <input class="f" type="radio" name="oozer-filter" value="basic">
+      Basic</label>   <span class="checkmark"></span>
+          <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="padrao">
+      Padrão</label>  
+
+            <h2 class="colecioes">Cores</h2>
+                <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Preto">
+      Preto</label> 
+
+                      <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Branco">
+      Branco</label>  <span class="checkmark"></span>
+
+                      <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Cinzento">
+      Cinzento</label>  <span class="checkmark"></span>
+
+                            <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Castanho">
+      Castanho</label> 
+
+                                  <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Azul">
+      Azul</label>  
+                         
+      
+
+          <button href="{{ page.url }}" id="my-button" class="restaurar">Restaurar</button> 
+
+  </div>
+
+
+<div class="mobfil">
+   <div class="sortcontainer">
+    <h4 class="filtername"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância</h3></div></h4>
+  </div>
+
+  <div class="oosort"><a class="filterlink" href="{{ site.url }}/filtros/tshirtscrescente/"><h3 class="oosort">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/tshirtsdecrescente/"><h3 class="oosort">Preço Alto - Baixo</h3></a></div></div>
+</div>
+
+
+
 </form>
 <ul class="list prodcontain" id="oozer-list">
  {% assign sorted = site.products | sort: "price" | reverse %}

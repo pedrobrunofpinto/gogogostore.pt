@@ -1620,6 +1620,9 @@ top: 120px;
         border: 1px solid black;
 
   }
+  .lightbox {
+    max-width: 50%;
+  }
   .lost {
     text-align: center;
     width: 100%;
@@ -1640,6 +1643,10 @@ top: 120px;
 
   .lightbox {
     display: none;
+  }
+  .a.lightbox-close {
+    display: block;
+    top: 95px;
   }
 
   .showpages {
