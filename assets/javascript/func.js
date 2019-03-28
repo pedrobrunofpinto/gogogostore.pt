@@ -1,3 +1,9 @@
+$( document ).ready(function() {
+  $('#colors').change(function() {
+    $('#my-button').data('item-custom3-value', $(this).val());
+});  
+
+
 $(document).ready(function() {
       $('.minus').click(function () {
         var $input = $(this).parent().find('input');
@@ -77,12 +83,6 @@ $( document ).ready(function() {
   });
 });
 
-$( document ).ready(function() {
-  $('#colors').change(function() {
-    $('#my-button').data('item-custom3-value', $(this).val());
-
-
-});  
 
 /*
  * We trigger the factory() function is different
