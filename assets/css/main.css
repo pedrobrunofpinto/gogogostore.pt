@@ -1591,6 +1591,9 @@ top: 120px;
     margin: 0;
     flex-direction: column;
   }
+  .let {
+    font-size: 15px;
+  }
   .globeproducts {
     display: flex;
     width: 100%;
