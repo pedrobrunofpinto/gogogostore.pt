@@ -1529,11 +1529,13 @@ top: 120px;
   top: 70px;
   opacity: 1;
   z-index: 500;
+  display: flex;
 }
 
 #sub {
   text-align: center;
   font-size: 9px;
+  margin-right: 20px;
 }
 
 .crash {
