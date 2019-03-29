@@ -13,6 +13,12 @@
        url('/assets/fonts/gfs-didot-v8-greek-regular.svg#GFSDidot') format('svg'); /* Legacy iOS */
 }
 
+.innerslide {
+  width: 100%;
+  content: "";
+  display: block;
+  opacity: 0;
+}
 
 html{
   height: 100%;
@@ -20,6 +26,16 @@ html{
 
 .yimagey {
   opacity: 0.7;
+}
+
+
+.oozer-filters {
+  text-align: center;
+}
+
+
+.oozer-filters:hover {
+  color: #D3D3D3;
 }
 
 .nostock {
@@ -64,6 +80,7 @@ html{
   width: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 100% !important
 }
 
 fieldset {
@@ -311,7 +328,6 @@ footer {
 .be {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 .let {
@@ -404,6 +420,10 @@ input[type=text]:focus {
   justify-content: center;
 }
 
+input[type=radio] {
+  display: none !important;
+}
+
 .like {
   margin-left: 20px;
 }
@@ -411,11 +431,11 @@ input[type=text]:focus {
 .containbig {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin: 50px 50px 50px 50px;
+  flex-wrap: wrap;
 }
 
 hr {
@@ -520,7 +540,6 @@ hr {
   align-items: center;
   margin-top: 20px;
   border-width: 100%;
-  width: 100%;
 }
 
 .submit {
@@ -1097,7 +1116,7 @@ button:hover {
   height: 20px;
   position:absolute;
   top:50%;
-  z-index:2;
+  z-index:1;
   border-top:3px solid #fff;
   border-right:3px solid #fff;
   cursor:pointer;
@@ -1597,6 +1616,8 @@ top: 120px;
   display: flex;
   justify-content: center;
   width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 @media screen and (min-width: 2000px) {
   .test{
@@ -1622,6 +1643,9 @@ top: 120px;
   .let {
     font-size: 15px;
   }
+
+
+
   .globeproducts {
     display: flex;
     width: 100%;
@@ -1727,7 +1751,10 @@ top: 120px;
   }
   fieldset {
     display: none;
+    text-align: center;
   }
+
+
 
   .oofilter {
   width: 100%;
@@ -1849,11 +1876,11 @@ top: 120px;
   .logo {
     width: 200px;
   }
+
   .productwindow {
     width: 80%;
     justify-content: space-around;
     align-items: center;
-    ali
   }
   #oozer-filters {
   width: 100%;
@@ -1861,6 +1888,8 @@ top: 120px;
   justify-content: center;
   text-align: center;
   }
+
+
 
 .filter {
   display: flex;
