@@ -9,14 +9,14 @@ layout: default
 <div class="wrapper">
   
   <div class="carousel">
-    <main class="inner">
-     <div class="slide active">
-       <a href="{{ site.url }}/tshirts"><div class="innerslide">1</div></a>
+    <div class="inner">
+      <a href="{{ site.url }}/tshirts"><div class="slide active">
+      	<h1>1</h1>
+      </div></a>
+<div class="slide">
+        <h1>2</h1>
       </div>
-  <div class="slide">
-       <a href="{{ site.url }}/camisolas"> <div class="innerslide">2</div></a>
-      </div>
-    </main>
+    </div>
     <div class="arrow arrow-left"></div>
     <div class="arrow arrow-right"></div>
   </div>
