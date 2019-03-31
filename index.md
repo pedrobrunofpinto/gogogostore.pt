@@ -10,19 +10,19 @@ layout: default
   
   <div class="carousel">
     <div class="inner">
-      <a href="{{ site.url }}/tshirts"><div class="slide active">
-      	<h1>1</h1>
-      </div></a>
-<div class="slide">
-        <h1>2</h1>
-      </div>
+<a href="{{ site.url }}/tshirts" class="slide active">
+      	<h1>2</h1>
+      </a>
+<a href="{{ site.url }}/camisas" class="slide">
+        <h1>3</h1>
+      </a>
     </div>
     <div class="arrow arrow-left"></div>
     <div class="arrow arrow-right"></div>
   </div>
 
 </div>
-
+<br>
 <div class="wrapu">
 <a href="{{ site.url }}/novo"><img class="banner2" src="/assets/images/novidade.jpg" alt="mens"></a><a href="{{ site.url }}/maisvendidos"><img class="banner3" src="/assets/images/maisvendidos.jpg" alt="mens"></a>
 </div>

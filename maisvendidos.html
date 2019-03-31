@@ -95,7 +95,7 @@ layout: default
 <ul class="list prodcontain" id="oozer-list">
 {% assign sorted = site.products %}
 {% for t in sorted %}
-  {% if t.categoria == "camisas" %}
+  {% if t.maisvendidos" %}
 {% if t.stock == "sim" %}
   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
   <div class="productplace" >
