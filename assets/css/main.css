@@ -409,6 +409,8 @@ text-align: center;
   font-size: 12px;
   margin-top: 10px;
   margin-bottom: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
 input[type=text]:focus {

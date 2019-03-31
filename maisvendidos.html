@@ -15,70 +15,8 @@ layout: default
   <div class="filtercontainer">
     <h4 class="filtername">Aplicar Filtros</h4>
   </div>
- 
- <form class="filter" method="get">
-  <fieldset id="oozer-filters">
-      <h2 class="colecioes">Coleções</h2>
-                  <label class="oozer-filters">
+ {% include oozefilters.html %}
 
-      <input class="f" type="radio" name="oozer-filter" value="basic">
-      Basic</label>   <span class="checkmark"></span>
-          <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="padrao">
-      Padrão</label>  
-
-            <h2 class="colecioes">Cores</h2>
-                <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Preto">
-      Preto</label> 
-
-                      <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Branco">
-      Branco</label>  <span class="checkmark"></span>
-
-                      <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Cinzento">
-      Cinzento</label>  <span class="checkmark"></span>
-
-                            <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Castanho">
-      Castanho</label> 
-
-                                  <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Azul">
-      Azul</label>  
-                         
-      
-
-          <button href="{{ page.url }}" id="my-button" class="restaurar">Restaurar</button> 
-
-
-  </fieldset>
-
-   <div class="oofilter">
-      <h2 class="colecioes">Coleções</h2>
-                  <label class="oozer-filters">
-
-      <input class="f" type="radio" name="oozer-filter" value="basic">
-      Basic</label>   <span class="checkmark"></span>
-          <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="padrao">
-      Padrão</label>  
-
-            <h2 class="colecioes">Cores</h2>
-                <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Preto">
-      Preto</label> 
-
-                      <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Branco">
-      Branco</label>  <span class="checkmark"></span>
-
-                      <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Cinzento">
-      Cinzento</label>  <span class="checkmark"></span>
-
-                            <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Castanho">
-      Castanho</label> 
-
-                                  <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Azul">
-      Azul</label>  
-                         
-      
-
-          <button href="{{ page.url }}" id="my-button" class="restaurar">Restaurar</button> 
-
-  </div>
 
 
 <div class="mobfil">
