@@ -1656,6 +1656,7 @@ top: 120px;
  .test{
     margin: 0 0 0 0;
   }
+
   .productwindow {
     align-content: center;
     justify-content: center;
@@ -1899,6 +1900,10 @@ top: 120px;
 @media only screen and (max-width: 600px) {
   .logo {
     width: 200px;
+  }
+  .third {
+    justify-content: center;
+    width: 100%;
   }
 
   .productwindow {
