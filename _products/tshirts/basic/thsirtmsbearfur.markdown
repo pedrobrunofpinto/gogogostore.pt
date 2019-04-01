@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: T-shirt MS Bear Fur
 link: thsirtmsbearfur
-price: 13.90
+price: 15.90
 weight: 500
 image: /assets/images/produtos3/8.2.jpg
 sec: /assets/images/produtos3/8.1.jpg

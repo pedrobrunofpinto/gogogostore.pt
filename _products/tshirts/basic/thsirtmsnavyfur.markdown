@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: T-shirt MS Navy Fur
 link: thsirtmsnavyfur
-price: 13.90
+price: 15.90
 weight: 500
 image: /assets/images/produtos3/7.jpg
 sec: /assets/images/produtos3/7.1.jpg
