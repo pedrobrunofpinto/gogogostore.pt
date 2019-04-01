@@ -13,6 +13,7 @@ categoria: tshirts
 color:
     - Preto
 discrip: tshirt t-shirt preto
+realdiscrip: T-shirt Basica Preta da Marca Moda Susam.
 novo: true
 maisvendidos: true
 stock: nao
