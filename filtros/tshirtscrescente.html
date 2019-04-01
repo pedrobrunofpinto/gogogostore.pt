@@ -34,7 +34,7 @@ layout: default
  {% assign sorted = site.products | sort: "price" %}
 {% for t in sorted %}
   {% if t.categoria == "tshirts" %}
-
+{% if t.stock == "sim" %}
   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
@@ -64,10 +64,38 @@ layout: default
 </div>
 </div>
 
+{% endif %}
+{% if t.stock == "nao" %}
+  <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
+  <div class="productplace" >
+<img class="productimage yimagey" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt="">
+    <div class="btn">
+      <button class="nostock thisbtn"
+    data-item-id="{{ t.id }}"
+    data-item-name="{{ t.name }}"
+    data-item-price="{{ t.price }}"
+    data-item-weight="{{ t.weight }}"
+    data-item-custom2-name="Tamanho"
+    data-item-custom2-options="S|M|L|XL"
+    data-item-custom2-required="true"
+    data-item-custom3-name="Cor"
+    data-item-custom3-options="{{ t.color[0] }}"
+    data-item-custom3-required="True"
+    data-item-quantity="1"
+    data-item-url="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"
+    data-item-description="{{ t.discrip }}"
+    data-item-image="{{ t.image }}">
+    Sem Stock  
+</button>
 
+            <h4 class="h4name" data-position="{{ t.price }}">{{ t.name }}</h4>
+      <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4>
+</li>
+
+</div>
+{% endif %}
 {% endif %}
 {% endfor %}
-
 
 </ul>
 </main>
