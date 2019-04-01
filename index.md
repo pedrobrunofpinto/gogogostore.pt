@@ -4,7 +4,7 @@
 
 layout: default
 ---
-<h1 style="display: none;">GOGOGO Store - Loja Online de Roupa Masculina</h1>
+<h1 style="z-index: -200; position: absolute;">GOGOGO Store - Loja Online de Roupa Masculina</h1>
 
 <div class="wrapper">
   
