@@ -12,12 +12,30 @@
        url('/assets/fonts/gfs-didot-v8-greek-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('/assets/fonts/gfs-didot-v8-greek-regular.svg#GFSDidot') format('svg'); /* Legacy iOS */
 }
+ @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .innerslide {
   width: 100%;
   content: "";
   display: block;
   opacity: 0;
+}
+
+.caseclose {
+  margin: 10px 20px 10px 20px;
+}
+
+.portesban {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.custotilte {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 html{
@@ -146,9 +164,9 @@ fieldset {
 * {
   margin: 0;
   padding: 0;
-  font-family: "GFS Didot";
+  font-family: 'Poppins', sans-serif;
   font-weight: 50 !important;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
 .error {
@@ -720,7 +738,6 @@ margin-top:20px;
   opacity: 1;
   border: 1px black solid;
   font-size: 10px;
-  margin-top:-30px;
 }
 
 .inside {

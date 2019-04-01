@@ -15,5 +15,5 @@ color:
 discrip: tshirt t-shirt preto
 novo: true
 maisvendidos: true
-stock: sim
+stock: nao
 ---
