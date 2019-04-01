@@ -5,9 +5,9 @@ name: Camisa MS Spots Black
 link: camisamsspotsblack
 price: 21.90
 weight: 500
-image: /assets/images/produtos/12.jpg
-sec: /assets/images/produtos/12.3.jpg
-thir: /assets/images/produtos/12.2.jpg
+image: /assets/images/produtos3/12.jpg
+sec: /assets/images/produtos3/12.3.jpg
+thir: /assets/images/produtos3/12.2.jpg
 att: padrao
 categoria: camisas
 color:

@@ -5,8 +5,8 @@ name: Polo MS Classico White
 link: polomsclassicowhite
 price: 21.90
 weight: 500
-image: /assets/images/produtos/13.3.jpg
-sec: /assets/images/produtos/13.1.jpg
+image: /assets/images/produtos3/13.3.jpg
+sec: /assets/images/produtos3/13.1.jpg
 thir: 
 att: padrao
 categoria: polos
