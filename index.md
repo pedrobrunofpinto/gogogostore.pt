@@ -11,10 +11,10 @@ layout: default
   <div class="carousel">
     <div class="inner">
 <a href="{{ site.url }}/tshirts" class="slide active">
-      	<h1>2</h1>
+      	<h2>2</h2>
       </a>
 <a href="{{ site.url }}/camisas" class="slide">
-        <h1>3</h1>
+        <h2>3</h2>
       </a>
     </div>
     <div class="arrow arrow-left"></div>
@@ -32,10 +32,10 @@ layout: default
   <div class="carousel1">
     <div class="inner">
       <div class="slide1 active">
-        <h1>1</h1>
+        <h2>1</h2>
       </div>
       <div class="slide1">
-        <h1>2</h1>
+        <h2>2</h2>
       </div>
     </div>
     <div class="arrow arrow-left"></div>
