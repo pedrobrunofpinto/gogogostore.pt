@@ -4,7 +4,7 @@ id: 3
 name: Polo MS Classico White
 link: polomsclassicowhite
 price: 21.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/13.3.jpg
 sec: /assets/images/produtos/13.1.jpg
 thir: 

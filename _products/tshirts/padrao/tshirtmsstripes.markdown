@@ -4,7 +4,7 @@ id: 3
 name: T-shirt MS Stripes
 link: tshirtmsstripes
 price: 15.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/60.jpg
 sec: /assets/images/produtos/62.jpg
 thir: /assets/images/produtos/55.jpg

@@ -4,7 +4,7 @@ id: 3
 name: T-shirt MS Gold Luck 
 link: thsirtmsgoldluck
 price: 15.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/93.jpg
 sec: /assets/images/produtos/95.jpg
 thir: /assets/images/produtos/98.jpg

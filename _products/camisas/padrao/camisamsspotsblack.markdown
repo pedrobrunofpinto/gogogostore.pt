@@ -4,7 +4,7 @@ id: 3
 name: Camisa MS Spots Black
 link: camisamsspotsblack
 price: 21.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/12.jpg
 sec: /assets/images/produtos/12.3.jpg
 thir: /assets/images/produtos/12.2.jpg

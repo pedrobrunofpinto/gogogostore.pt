@@ -4,7 +4,7 @@ id: 3
 name: Camisa MS Blue Clipper
 link: camisamsblueclipper
 price: 21.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/39.jpg
 sec: /assets/images/produtos/40.jpg
 thir: 

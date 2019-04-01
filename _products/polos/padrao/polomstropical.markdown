@@ -4,7 +4,7 @@ id: 3
 name: Polo MS Tropical
 link: polomstropical
 price: 21.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/51.jpg
 sec: /assets/images/produtos/54.jpg
 thir: /assets/images/produtos/49.jpg

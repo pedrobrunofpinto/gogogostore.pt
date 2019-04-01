@@ -4,7 +4,7 @@ id: 3
 name: T-shirt MS Basic Gray
 link: thsirtmsbasicgray
 price: 13.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/154.jpg
 sec: /assets/images/produtos/155.jpg
 thir:

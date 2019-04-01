@@ -4,7 +4,7 @@ id: 3
 name: T-shirt MS Black
 link: thsirtmsblack
 price: 13.90
-weight: 20
+weight: 500
 image: /assets/images/produtos3/3.1.jpg
 sec: /assets/images/produtos3/3.2.jpg
 thir:

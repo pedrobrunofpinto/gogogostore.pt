@@ -4,7 +4,7 @@ id: 3
 name: T-shirt MS Rose Back 
 link: thsirtmsroseback
 price: 15.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/131.jpg
 sec: /assets/images/produtos/129.jpg
 thir: /assets/images/produtos/134.jpg

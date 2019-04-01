@@ -4,7 +4,7 @@ id: 3
 name: T-shirt MS Gold Chain Flame 
 link: thsirtmsgoldchainflame
 price: 15.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/101.jpg
 sec: /assets/images/produtos/112.jpg
 thir: /assets/images/produtos/113.jpg

@@ -4,7 +4,7 @@ id: 3
 name: T-shirt MS Rose Rome 
 link: thsirtmsroserome
 price: 15.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/122.jpg
 sec: /assets/images/produtos/124.jpg
 thir: /assets/images/produtos/127.jpg

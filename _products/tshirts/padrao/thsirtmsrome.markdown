@@ -4,7 +4,7 @@ id: 3
 name: T-shirt MS Rome 
 link: thsirtmsrome
 price: 13.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/99.jpg
 sec: /assets/images/produtos/101.jpg
 thir: /assets/images/produtos/102.jpg

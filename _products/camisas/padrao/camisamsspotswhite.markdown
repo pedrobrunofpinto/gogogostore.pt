@@ -4,7 +4,7 @@ id: 3
 name: Camisa MS Spots White
 link: camisamsspotswhite
 price: 21.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/11.jpg
 sec: /assets/images/produtos/11.2.jpg
 thir: /assets/images/produtos/11.1.jpg

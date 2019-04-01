@@ -4,7 +4,7 @@ id: 3
 name: T-shirt MS Degradê 
 link: thsirtmsdegrade
 price: 15.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/140.jpg
 sec: /assets/images/produtos/142.jpg
 thir: /assets/images/produtos/137.jpg

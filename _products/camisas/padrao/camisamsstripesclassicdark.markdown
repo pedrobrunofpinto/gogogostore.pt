@@ -4,7 +4,7 @@ id: 3
 name: Camisa MS Stripes Classic Dark
 link: camisamsstripesclassicdark
 price: 21.90
-weight: 20
+weight: 500
 image: /assets/images/produtos/22.jpg
 sec: /assets/images/produtos/23.jpg
 thir: /assets/images/produtos/21.jpg
