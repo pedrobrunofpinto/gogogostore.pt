@@ -2,8 +2,8 @@
 layout: default
 sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-shirts, Camisas, Polos, Casacos e muito mais. Portes grátis para compras superiores a 40€. Encontre a roupa da moda que procura! 
 ---
-<h1 style="z-index: -200; position: absolute;">GOGOGO Store - Loja Online de Roupa Masculina</h1>
-
+<h1 style="z-index: -200; position: absolute; top: 0;">GOGOGO Store - Loja Online de Roupa Masculina</h1>
+<div class="superwarp">
 <div class="wrapper">
   
   <div class="carousel">
@@ -42,3 +42,4 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 </div>
 
+</div>
