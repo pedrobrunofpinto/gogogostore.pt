@@ -22,7 +22,7 @@
 }
 
 .superwarp {
-  margin: 0 20px 0 20px;
+  margin: 0px 20px 0 20px;
 }
 
 .caseclose {
@@ -283,11 +283,11 @@ select {
 }
 
 #bag {
-  fill: white;
+  fill: black;
 }
 
 .person {
-  fill: white;
+  fill: black;
   margin-right: 10px;
 }
 
@@ -316,7 +316,8 @@ header {
   background-color: white;
   top: 0;
   z-index: 5;
-  position: fixed;
+  position: ;
+  margin-bottom: -110px;
 }
 
 a {
@@ -679,6 +680,7 @@ nav {
     display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nolook {
