@@ -1205,11 +1205,13 @@ button:hover {
 .arrow-left{
   left:20px;
   transform:rotate(225deg);
+    z-index: 2;
 }
 
 .arrow-right{
   right:20px;
   transform:rotate(45deg);
+  z-index: 2;
 }
 
 
