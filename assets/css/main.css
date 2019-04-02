@@ -334,7 +334,7 @@ a:hover {
 footer {
   content: "";
   display: block;
-  background-color: black;
+  background-color: white;
   height: 100%;
   margin-top: -10px;
 }
@@ -355,7 +355,8 @@ footer {
 .marcscontain {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 20px 0 20px;
   margin-top: 20px;
 }
 
@@ -365,11 +366,14 @@ footer {
 }
 
 .let {
-  color: white;
+  color: black;
   font-size: 10px;
   font-family: "Crimson Text";
   text-transform: uppercase;
   letter-spacing: 2px;
+  justify-content: center;
+  text-align: center;
+  font-weight: 900 !important;
 }
 
 .it {
@@ -433,12 +437,12 @@ text-align: center;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: black;
+  color: gray;
   opacity: 1; /* Firefox */
   font-family: "Crimson Text";
   text-transform: uppercase;
   font-size: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .oozer-filters {
@@ -453,18 +457,34 @@ input[type=text]:focus {
     border-color:#333;
 }
 
+.firstpar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .textbot {
-  margin-bottom: -5px;
+  font-size: 0.875rem;
 }
 
 .newsletter {
   display: flex;
   flex-direction: row;
   width: 100%;
+  justify-content: center;
+}
+
+.fotimgbig {
+  width: 90px !important;
+  margin: 20px 0 10px 0 !important;
 }
 
 input[type=radio] {
   display: none !important;
+}
+
+input {
+  text-align: left;
 }
 
 .oozer-filters + label:before {
@@ -491,7 +511,6 @@ input[type=radio] {
 
 .containbig {
   display: flex;
-  align-items: center;
   justify-content: start;
   flex-direction: row;
   justify-content: space-between;
@@ -598,7 +617,6 @@ hr {
 .third {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   margin-top: 20px;
   border-width: 100%;
 }
@@ -611,7 +629,7 @@ hr {
     margin-top: 9px;
     font-size: 20px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     width: 100%;
     transition: all 300ms ease-in-out;
 }
@@ -625,6 +643,7 @@ hr {
   height: 35px;
   margin-top: 9px;
   color: black;
+  width: 300%;
 }
 
 .email::placeholder {
@@ -944,12 +963,11 @@ input[type='radio']:hover{
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: black;
 }
 
 .fotterimg {
-  width: 60px;
-  margin: 10px 10px 50px 10px;
+  width: 40px;
+  margin: 40px 10px 20px 10px;
   align-self: center
 }
 
@@ -1118,6 +1136,11 @@ button:hover {
 .slide.left{
   left:-100%;
   right:0;
+}
+
+.cash {
+  text-transform: uppercase;
+  margin-right: 10px;
 }
 
 .slide.right{
@@ -1444,11 +1467,13 @@ align-items: center;
 .arrow-left{
   left:20px;
   transform:rotate(225deg);
+   z-index: 2;
 }
 
 .arrow-right{
   right:20px;
   transform:rotate(45deg);
+   z-index: 2;
 }
 
 /**
@@ -1698,6 +1723,10 @@ top: 120px;
   text-align: center;
   margin-bottom: 10px;
 }
+
+.containbigii {
+  height: 180px;
+}
 @media screen and (min-width: 2000px) {
   .test{
     margin: 0 280px 0 300px;
@@ -1714,6 +1743,10 @@ top: 120px;
   }
   .marcscontain {
     flex-direction: column;
+  }
+
+  .containbigii {
+    height: 300px !important;
   }
 
   .productwindow {
@@ -1962,7 +1995,14 @@ top: 120px;
 
 @media only screen and (max-width: 600px) {
   .logo {
-    width: 200px;
+    width: 100px;
+  }
+
+  .cash{
+    display:none;
+  }
+  header {
+    height: 90px;
   }
 
   .third {
