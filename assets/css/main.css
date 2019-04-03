@@ -21,6 +21,10 @@
   opacity: 0;
 }
 
+.nlt {
+
+}
+
 .superwarp {
   margin: 0px 20px 0 20px;
 }
@@ -462,6 +466,7 @@ input[type=text]:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .textbot {
@@ -791,6 +796,7 @@ margin-top:20px;
   opacity: 1;
   border: 1px black solid;
   font-size: 10px;
+  margin-top: 100px;
 }
 
 .inside {
@@ -991,12 +997,11 @@ input[type='radio']:hover{
 
 #toTop {
     padding: 5px 3px;
-    background: #000;
-    color: #fff;
     position: fixed;
     bottom: 20px;
     left: 0;
     display: none;
+    width: 50px;
 }
 
 

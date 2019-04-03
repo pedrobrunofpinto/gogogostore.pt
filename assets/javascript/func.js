@@ -19,6 +19,10 @@ $(document).ready(function() {
         $input.change();
         return false;
       });
+      $("#toTop").click(function() {
+        $("html, body").animate({scrollTop: 0}, 1000);
+  });
+
     });
 
 $(document).ready(function() {
@@ -918,9 +922,9 @@ $(window).scroll(function() {
     }
 });
 
-$("#toTop").click(function() {
-    $("html, body").animate({scrollTop: 0}, 1000);
- });
+
+
+
 jQuery(document).ready(function(){
 // This button will increment the value
 $(".plus").click( function(e) {
