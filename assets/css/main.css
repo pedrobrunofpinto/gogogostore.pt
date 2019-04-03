@@ -1740,9 +1740,9 @@ top: 120px;
 
 .showpages {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   width: 100%;
-  text-align: center;
+  text-align: right;
   margin-bottom: 10px;
 }
 
@@ -1762,6 +1762,10 @@ top: 120px;
 @media only screen and (max-width: 1100px) {
  .test{
     margin: 0 0 0 0;
+  }
+
+  .ordertop {
+    margin-right: 0 !important;
   }
   .marcscontain {
     flex-direction: column;
@@ -2081,7 +2085,7 @@ top: 120px;
 }
 
 @media only screen and (max-width: 500px) {
-  .loo2 {
+  .setserach {
     display: none;
   }
     .fotterimg {
