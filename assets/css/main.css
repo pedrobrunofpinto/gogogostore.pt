@@ -467,6 +467,7 @@ input[type=text]:focus {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .textbot {
