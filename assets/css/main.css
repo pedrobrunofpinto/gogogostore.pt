@@ -2043,6 +2043,14 @@ margin-top: 5px;
     width: 100px;
   }
 
+  .theorder {
+    width: auto;
+  }
+
+  .place {
+    width: auto;
+  }
+
   .cash{
     display:none;
   }
