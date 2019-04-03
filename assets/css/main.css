@@ -137,7 +137,9 @@ fieldset {
   width: 100%;
 }
 
-
+.icons {
+  margin-right: 10px;
+}
 .pages li {
   font-size: 15px;
   background: black;
