@@ -21,10 +21,15 @@
   opacity: 0;
 }
 
-.nlt {
-
+.theorder  {
+  width: 100px;
 }
 
+.titlefilter {
+  display: flex;
+flex-direction: row-reverse;
+width: 100%;
+}
 .superwarp {
   margin: 0px 20px 0 20px;
 }
@@ -1964,6 +1969,14 @@ top: 120px;
   font-size: 12px;
 }
 
+
+.arrow2 {
+  width: 10px;
+height: 10px;
+margin-left: 5px;
+margin-top: 5px;
+}
+
 .ordertop {
   display: flex;
   margin-right: 50px;
@@ -1971,6 +1984,8 @@ top: 120px;
 
 .place {
   font-weight: 900 !important;
+  width: 200px;
+  display: flex;
 }
 
 .linkinside {
