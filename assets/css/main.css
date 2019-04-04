@@ -21,6 +21,15 @@
   opacity: 0;
 }
 
+.basic {
+  display: flex;
+  flex-direction: column;
+}
+
+.nobasic {
+  display: none;
+}
+
 .theorder  {
   width: 100px;
 }
@@ -93,7 +102,6 @@ overflow-x: hidden;
 
 
 .colecioes {
-  text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 16px;
@@ -464,6 +472,32 @@ text-align: center;
   font-size: 10px;
   text-align: left;
 }
+
+.minusarrow {
+  cursor: pointer;
+  z-index: 100;
+  width: 20px; 
+  align-items: center;
+  display: block;
+}
+
+.plusarrow {
+  cursor: pointer;
+  z-index: 100;
+  width: 20px;
+  align-items: center;
+  display: none;
+}
+
+.showplus {
+  display: block;
+}
+
+.hideminus {
+  display: none;
+}
+
+
 
 .oozer-filters {
   font-size: 12px;

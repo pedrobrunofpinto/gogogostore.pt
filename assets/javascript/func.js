@@ -46,6 +46,16 @@ $( document ).ready(function() {
   $(".productss").click(function () {
     $(".sublist").toggleClass("show");
   });
+  $(".minusarrow").click(function() {
+    $(".basic").toggleClass("nobasic")
+    $(".minusarrow").toggleClass("hideminus")
+    $(".plusarrow").toggleClass("showplus")
+  });
+  $(".plusarrow").click(function() {
+    $(".basic").toggleClass("nobasic")
+    $(".minusarrow").toggleClass("hideminus")
+    $(".plusarrow").toggleClass("showplus")
+  });
   $(".hamb").click(function () {
     $(".mobi").toggleClass("displaymobi");
   });
