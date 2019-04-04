@@ -21,6 +21,10 @@
   opacity: 0;
 }
 
+.snip-layout .snip-header__total {
+  background: none;
+}
+
 .basic {
   display: flex;
   flex-direction: column;
@@ -277,8 +281,9 @@ select {
   font-size: 15px;
   margin-left: 10px;
   letter-spacing: 2px;
-  font-family: "Helvetica" !important;
+  font-family: "Crimson Text" !important;
   margin-top: 5px;
+  text-transform: uppercase;
 }
 
 .productwindow {
@@ -1806,17 +1811,21 @@ top: 120px;
   .carousel{
     height: 50vh;
   }
+  .contactface {
+    font-size: 9px;
+  }
+
+  .portesban {
+    font-size: 9px;
+    margin-right: 0;
+    margin-top: 0;
+  }
 
 .slide:nth-child(1){
   background-image:url(/assets/images/1.jpg);
   background-repeat:no-repeat;
   background-size:auto 500px;
   background-position: center top;
- }
-
- .wrapu {
-  flex-wrap: wrap;
-  
  }
 
 .slide:nth-child(2){
