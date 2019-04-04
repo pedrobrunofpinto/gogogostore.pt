@@ -13,7 +13,7 @@ categoria: tshirts
 color:
     - Branco
     - Preto
-discrip: tshirt t-shirt  padrao branca preta corrente rosa vermelho flor fotografia
+discrip: tshirt rose padrao branca preta corrente rosa vermelho flor fotografia
 novo: true
 maisvendidos: true
 stock: nao
