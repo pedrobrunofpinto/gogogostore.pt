@@ -66,6 +66,21 @@ $( document ).ready(function() {
     $(".menuscores").toggleClass("hideminus")
     $(".maiscores").toggleClass("showplus")
   });
+  $(".menosestacoes").click(function() {
+    $(".estacoes").toggleClass("nobasic")
+    $(".menosestacoes").toggleClass("hideminus")
+    $(".maisestacoes").toggleClass("showplus")
+  });
+  $(".maiscores").click(function() {
+    $(".maiscoresdiv").toggleClass("nobasic")
+    $(".menuscores").toggleClass("hideminus")
+    $(".maiscores").toggleClass("showplus")
+  });
+    $(".maisestacoes").click(function() {
+    $(".estacoes").toggleClass("nobasic")
+    $(".menosestacoes").toggleClass("hideminus")
+    $(".maisestacoes").toggleClass("showplus")
+  });
   $(".hamb").click(function () {
     $(".mobi").toggleClass("displaymobi");
   });

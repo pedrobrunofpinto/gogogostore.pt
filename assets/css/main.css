@@ -35,6 +35,11 @@
   flex-direction: column;
 }
 
+.estacoes {
+  display: flex;
+  flex-direction: column;
+}
+
 .nobasic {
   display: none;
 }
@@ -492,6 +497,16 @@ text-align: center;
 }
 
 
+.menosestacoes {
+  cursor: pointer;
+  z-index: 100;
+  width: 20px; 
+  align-items: center;
+  display: block;
+}
+
+
+
 .imgsecondcontain {
   justify-content: space-around !important;
 }
@@ -505,6 +520,15 @@ text-align: center;
 }
 
 .maiscores {
+  cursor: pointer;
+  z-index: 100;
+  width: 20px; 
+  align-items: center;
+  display: none;
+}
+
+
+.maisestacoes {
   cursor: pointer;
   z-index: 100;
   width: 20px; 
