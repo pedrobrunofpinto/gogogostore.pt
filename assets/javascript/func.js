@@ -977,3 +977,4 @@ $(".minus").click( function(e) {
 });
 });
 
+Snipcart.execute('config', 'show_continue_shopping', true);
