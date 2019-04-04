@@ -491,6 +491,11 @@ text-align: center;
   display: block;
 }
 
+
+.imgsecondcontain {
+  justify-content: space-around !important;
+}
+
 .menuscores {
   cursor: pointer;
   z-index: 100;
