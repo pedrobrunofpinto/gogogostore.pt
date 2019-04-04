@@ -636,7 +636,6 @@ hr {
 
 .capscontain {
   margin: 20px 550px 20px 20px;
-  width: 100%;
 }
 
 #snip-header__total-label {
@@ -1812,6 +1811,9 @@ top: 120px;
   .showpages {
   text-align: center;
 }
+  .capscontain {
+    width: 100%;
+  }
   .lightbox-target:target img {
     max-width: 60%;
   }
