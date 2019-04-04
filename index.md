@@ -9,10 +9,10 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
   <div class="carousel">
     <div class="inner">
 <a href="{{ site.url }}/tshirts" class="slide active">
-      	<p>2</p>
+      	<p></p>
       </a>
 <a href="{{ site.url }}/camisas" class="slide">
-        <p>3</p>
+        <p style="font-size: 100px; color: white; text-shadow: 100;"></p>
       </a>
     </div>
     <div class="arrow arrow-left"></div>

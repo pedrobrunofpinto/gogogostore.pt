@@ -1803,6 +1803,29 @@ top: 120px;
  .test{
     margin: 0 0 0 0;
   }
+  .carousel{
+    height: 50vh;
+  }
+
+.slide:nth-child(1){
+  background-image:url(/assets/images/1.jpg);
+  background-repeat:no-repeat;
+  background-size:auto 500px;
+  background-position: center top;
+ }
+
+ .wrapu {
+  flex-wrap: wrap;
+  
+ }
+
+.slide:nth-child(2){
+  background-image:url(/assets/images/second.jpg);
+  background-repeat:no-repeat;
+  background-size:auto 500px;
+  background-position: center top;
+}
+
   .textbot {
     font-size: inherit !important;
   }
