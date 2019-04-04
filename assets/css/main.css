@@ -30,6 +30,11 @@
   flex-direction: column;
 }
 
+.maiscoresdiv {
+  display: flex;
+  flex-direction: column;
+}
+
 .nobasic {
   display: none;
 }
@@ -484,6 +489,22 @@ text-align: center;
   width: 20px; 
   align-items: center;
   display: block;
+}
+
+.menuscores {
+  cursor: pointer;
+  z-index: 100;
+  width: 20px; 
+  align-items: center;
+  display: block;
+}
+
+.maiscores {
+  cursor: pointer;
+  z-index: 100;
+  width: 20px; 
+  align-items: center;
+  display: none;
 }
 
 .plusarrow {

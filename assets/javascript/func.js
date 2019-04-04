@@ -56,6 +56,16 @@ $( document ).ready(function() {
     $(".minusarrow").toggleClass("hideminus")
     $(".plusarrow").toggleClass("showplus")
   });
+  $(".menuscores").click(function() {
+    $(".maiscoresdiv").toggleClass("nobasic")
+    $(".menuscores").toggleClass("hideminus")
+    $(".maiscores").toggleClass("showplus")
+  });
+  $(".maiscores").click(function() {
+    $(".maiscoresdiv").toggleClass("nobasic")
+    $(".menuscores").toggleClass("hideminus")
+    $(".maiscores").toggleClass("showplus")
+  });
   $(".hamb").click(function () {
     $(".mobi").toggleClass("displaymobi");
   });
