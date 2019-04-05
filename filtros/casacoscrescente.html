@@ -1,40 +1,42 @@
 ---
 layout: default
 ---
-
 <div class="capscontain"><div class="caps"><h6 class="found"><a href="{{ site.url }}">Home</a><a href="{{ site.url }}{{ page.url }}">{{ page.url }}</a></h6></div></div>
-<div class="uplost"><h1 class="lost">  </h1></div>
-  <div class="bannerimage"><img class="imagebanner" src="/assets/images/bannercasacos.jpg" alt="bannertshirts"></div>
+<div class="uplost"><img class="imagebanner" src="/assets/images/bannercasacos.jpg" alt="bannercamisas"></div>
 <main class="test">
   <div class="eve">
   
-<div class="filters"><div class="titlefilter"><div class="pagination pages showpages"></div><h3 class="order"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância<img class="arrow2" src="/assets/images/arrowdown.png" alt="arrowdown"></h3></div><div class="linkinside"><a class="filterlink" href="{{ site.url }}/filtros/casacoscrescente/"><h3 class="upprice">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/casacosdecrescente/"><h3 class="upprice">Preço Alto - Baixo</h3></a> </div></div>
+  
+<div class="filters"><div class="titlefilter"><div class="pagination pages showpages"></div><h3 class="order"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Preço Baixo - Alto<img class="arrow2" src="/assets/images/arrowdown.png" alt="arrowdown"></h3></div><div class="linkinside"><a class="filterlink" href="{{ site.url }}/casacos"><h3 class="upprice">Relevância</h3></a><a class="filterlink" href="{{ site.url }}/filtros/casacosdecrescente/"><h3 class="upprice">Preço Alto - Baixo</h3></a></div></div>
 </div></div>
+
+
 
 
  <main class="lest">
   <div class="filtercontainer">
     <h4 class="filtername">Aplicar Filtros</h4>
   </div>
-{% include oozefilters.html %}
+ {% include oozefilters.html %}
+
 
 <div class="mobfil">
    <div class="sortcontainer">
-    <h4 class="filtername"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância</h3></div></h4>
+    <h4 class="filtername"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Preço Baixo - Alto</h3></div></h4>
   </div>
 
-  <div class="oosort"><a class="filterlink" href="{{ site.url }}/filtros/tshirtscrescente/"><h3 class="oosort">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/tshirtsdecrescente/"><h3 class="oosort">Preço Alto - Baixo</h3></a></div></div>
+  <div class="oosort"><a class="filterlink" href="{{ site.url }}/camisas"><h3 class="oosort">Relevância</h3></a><a class="filterlink" href="{{ site.url }}/filtros/camisasdecrescente/"><h3 class="oosort">Preço Alto - Baixo</h3></a></div></div>
 </div>
 
 
 
 </form>
 <ul class="list prodcontain" id="oozer-list">
- {% assign sorted = site.products %}
+ {% assign sorted = site.products | sort: "price" %}
 {% for t in sorted %}
   {% if t.categoria == "casacos" %}
 {% if t.stock == "sim" %}
-  <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }} {{ t.discrip }}" class="prod">
+  <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
     <div class="btn">
@@ -95,7 +97,6 @@ layout: default
 {% endif %}
 {% endif %}
 {% endfor %}
-
 
 </ul>
 </main>
