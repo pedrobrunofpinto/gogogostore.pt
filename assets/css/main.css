@@ -519,6 +519,10 @@ text-align: center;
   display: block;
 }
 
+#snipcart-bill-me-later {
+  color: red;
+}
+
 .maiscores {
   cursor: pointer;
   z-index: 100;
