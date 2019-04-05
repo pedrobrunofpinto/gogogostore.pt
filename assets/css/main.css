@@ -1991,6 +1991,7 @@ flex-direction: column;
   .lost {
     text-align: center;
     width: 100%;
+    font-size: 15px;
   }
   .sec {
     width: 100%;
