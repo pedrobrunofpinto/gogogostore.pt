@@ -21,6 +21,10 @@
   opacity: 0;
 }
 
+.casacosimg {
+  width: 35% !important;
+}
+
 .snip-layout .snip-header__total {
   background: none;
 }

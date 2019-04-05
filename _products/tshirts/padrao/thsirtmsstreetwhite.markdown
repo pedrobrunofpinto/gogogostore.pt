@@ -5,9 +5,9 @@ name: T-shirt MS Street White
 link: thsirtmsstreetwhite
 price: 17.90
 weight: 500
-image: /assets/images/produtos4/tshirts/2.2.jpg
-sec: /assets/images/produtos4//tshirts/2.jpg
-thir: /assets/images/produtos4//tshirts/2.2.jpg
+image: /assets/images/feito/3.2.jpg
+sec: /assets/images/feito/3.2.jpg
+thir: 
 att: padrao
 categoria: tshirts
 color:

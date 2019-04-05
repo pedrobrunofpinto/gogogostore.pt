@@ -5,9 +5,9 @@ name: T-shirt MS Urban
 link: thsirtmsurban
 price: 17.90
 weight: 500
-image: /assets/images/produtos4/tshirts/3.2.jpg
-sec: /assets/images/produtos4//tshirts/3.jpg
-thir: /assets/images/produtos4//tshirts/3.1.jpg
+image: /assets/images/feito/1.2.jpg
+sec: /assets/images/feito/1.1.jpg
+thir: 
 att: padrao
 categoria: tshirts
 color:

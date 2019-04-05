@@ -5,8 +5,8 @@ name: T-shirt MS Sacred Black
 link: thsirtmssacredblack
 price: 17.90
 weight: 500
-image: /assets/images/produtos4/tshirts/6.2.jpg
-sec: /assets/images/produtos4/tshirts/6.1.jpg
+image: /assets/images/feito/6.2.jpg
+sec: /assets/images/feito/6.jpg
 thir: 
 att: padrao
 categoria: tshirts
