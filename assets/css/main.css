@@ -114,7 +114,8 @@ overflow-x: hidden;
 }
 
 #my-size {
-  width: 20%;
+  width: 60%;
+  border: black 0.5px solid;
 }
 
 
@@ -126,7 +127,8 @@ overflow-x: hidden;
 }
 
 #colors {
-    width: 20%;
+    width: 60%;
+    border: black 0.5px solid;
 }
 
 .colors {
@@ -1139,6 +1141,7 @@ input[type='radio']:hover{
   align-items: center;
   font-size: 9px;
   transition: all 300ms ease-out;
+  text-transform: uppercase;
 }
 
 #my-button:hover {
@@ -2176,12 +2179,16 @@ margin-top: 5px;
 
 .priceget {
   text-align: left;
-  font-size: 15px !important;
+  font-size: 20px !important;
   margin-top: 10px;
-  font-weight: 900 !important;
+  color: red;
+  font-weight: bold !important;
+  text-transform: uppercase;
 }
 
-
+.priceis {
+  display: flex;
+}
 
 .our {
   display: flex;
