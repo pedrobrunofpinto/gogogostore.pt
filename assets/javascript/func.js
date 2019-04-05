@@ -71,12 +71,7 @@ $( document ).ready(function() {
     $(".menosestacoes").toggleClass("hideminus")
     $(".maisestacoes").toggleClass("showplus")
   });
-  $(".maiscores").click(function() {
-    $(".maiscoresdiv").toggleClass("nobasic")
-    $(".menuscores").toggleClass("hideminus")
-    $(".maiscores").toggleClass("showplus")
-  });
-    $(".maisestacoes").click(function() {
+  $(".maisestacoes").click(function() {
     $(".estacoes").toggleClass("nobasic")
     $(".menosestacoes").toggleClass("hideminus")
     $(".maisestacoes").toggleClass("showplus")
@@ -116,9 +111,9 @@ $( document ).ready(function() {
     itemsPerPage: 12
   });
   $('#ckFilter').ckFilter({
-  	reset: true,
-  	multiple: false,
-  	animation: true,
+    reset: true,
+    multiple: false,
+    animation: true,
   });
 });
 
@@ -1004,14 +999,10 @@ $(".minus").click( function(e) {
 
 Snipcart.execute('config', 'show_continue_shopping', true);
 
-Snipcart.execute('bind', 'cart.opened', function() {
-  Snipcart.execute('unbind', 'cart.opened');
-  function test(){
-    $("#snipcart-bill-me-later").html("hello");
-  };
-  test();
+
+
+
+$(document).ajaxComplete(function(event, XMLHttpRequest, ajaxOptions) {
+  $("#snipcart-bill-me-later").html("hello");
 });
-
-
-
 
