@@ -1003,6 +1003,7 @@ Snipcart.execute('config', 'show_continue_shopping', true);
 
 
 $(document).ajaxComplete(function(event, XMLHttpRequest, ajaxOptions) {
-  $("#snipcart-bill-me-later").html("hello");
+  $("#snipcart-bill-me-later").html("Receber Referência");
+  $("#snipcart-bill-me-later").next().html("<img style='width: 50px;' src='/assets/images/mb.png'/>Pagar pelo Multibanco");
 });
 
