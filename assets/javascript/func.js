@@ -43,6 +43,7 @@ $(document).ready(function() {
 
 
 $( document ).ready(function() {
+  
   $(".productss").click(function () {
     $(".sublist").toggleClass("show");
   });
@@ -1007,8 +1008,11 @@ Snipcart.execute('config', 'show_continue_shopping', true);
 $(document).ajaxComplete(function(event, XMLHttpRequest, ajaxOptions) {
   $("#snipcart-bill-me-later").html("Receber Referência");
   $("#snipcart-bill-me-later").next().html("<img style='width: 50px;' src='/assets/images/mb.png'/>Pagar pelo Multibanco");
-  $("[for='snip-postalCode']").ajaxSuccss().html("Código Postal")
+  $("[for='snip-postalCode']").ajaxSuccess().html("Código Postal")
 });
+
+
+
 
 
 
