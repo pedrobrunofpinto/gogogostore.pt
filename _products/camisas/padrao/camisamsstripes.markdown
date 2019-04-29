@@ -5,8 +5,8 @@ name: Camisa MS Stripes
 link: camisamsstripes
 price: 21.90
 weight: 500
-image: /assets/images/produtos/12.jpg
-sec: /assets/images/produtos/13.jpg
+image: /assets/images/novas/1.1.jpg
+sec: /assets/images/produtos/12.jpg
 thir: /assets/images/produtos/16.jpg
 att: padrao
 categoria: camisas
