@@ -3,8 +3,10 @@ label: Product Page
 hide_body: true
 fields:
 - type: text
-  name: product
+  name: layout
   label: layout
+  hidden: true
+  default: product
 - type: number
   name: id
   label: id
@@ -38,6 +40,12 @@ fields:
 - type: list
   name: color
   label: color
+  config:
+    use_select: false
+    source:
+      type: simple
+      section: ''
+      path: ''
 - type: text
   name: discrip
   label: discrip
