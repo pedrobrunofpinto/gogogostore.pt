@@ -8,8 +8,8 @@ weight: 3
 image: ''
 sec: ''
 thir: ''
-att: 3
-categoria: 3
+att: padrao
+categoria: casacos
 color: []
 discrip: eee
 novo: true
