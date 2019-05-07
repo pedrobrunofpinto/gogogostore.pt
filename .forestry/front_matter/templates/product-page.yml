@@ -3,7 +3,7 @@ label: Product Page
 hide_body: true
 fields:
 - type: text
-  name: layout
+  name: product
   label: layout
 - type: number
   name: id
