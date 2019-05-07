@@ -58,5 +58,3 @@ fields:
 - type: text
   name: stock
   label: stock
-pages:
-- _products/casacos/padrao/333.md
