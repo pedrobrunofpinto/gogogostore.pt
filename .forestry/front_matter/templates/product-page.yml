@@ -9,52 +9,66 @@ fields:
   default: product
 - type: number
   name: id
-  label: id
+  label: Product ID
+  config:
+    required: true
 - type: text
   name: name
-  label: name
+  label: Product Name
+  config:
+    required: true
 - type: text
   name: link
-  label: link
+  label: Slug
+  config:
+    required: true
 - type: number
   name: price
-  label: price
+  label: Price
+  config:
+    required: true
 - type: number
   name: weight
-  label: weight
+  label: Weight
+  config:
+    required: true
 - type: file
   name: image
-  label: image
+  label: Display Image
 - type: file
   name: sec
-  label: sec
+  label: Second Image
 - type: file
   name: thir
-  label: thir
-- type: text
-  name: att
-  label: att
+  label: Third Image
 - type: text
   name: categoria
-  label: categoria
+  label: Category
+- type: text
+  name: att
+  label: Sub-category
 - type: list
   name: color
-  label: color
   config:
     use_select: false
     source:
       type: simple
       section: ''
       path: ''
+  label: Colores Variations
 - type: text
   name: discrip
-  label: discrip
+  label: Search Tags
+  description: 'Seperate by spaces (ex: black white rose)'
 - type: boolean
   name: novo
-  label: novo
+  label: Is it new?
 - type: boolean
   name: maisvendidos
-  label: maisvendidos
+  label: Is it a best seller?
 - type: text
   name: stock
-  label: stock
+  config:
+    required: true
+  label: Do you have stock?
+  description: Input "sim" or "nao".
