@@ -74,4 +74,4 @@ fields:
   label: Do you have stock?
   description: Input "sim" or "nao".
 pages:
-- _products/tshirts/Teste.md
+- _products/tshirts/Test.md
