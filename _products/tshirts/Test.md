@@ -17,6 +17,5 @@ discrip: ''
 novo: true
 maisvendidos: true
 stock: Sim
-published: false
 
 ---
