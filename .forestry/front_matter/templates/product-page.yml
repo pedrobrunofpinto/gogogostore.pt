@@ -1,0 +1,75 @@
+---
+label: Product Page
+hide_body: false
+display_field: name
+fields:
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: product
+- type: number
+  name: id
+  label: Product ID
+  config:
+    required: true
+- type: text
+  name: name
+  label: Product Name
+  config:
+    required: true
+- type: text
+  name: link
+  label: Slug
+  config:
+    required: true
+- type: number
+  name: price
+  label: Price
+  config:
+    required: true
+- type: number
+  name: weight
+  label: Weight
+  config:
+    required: true
+- type: file
+  name: image
+  label: Display Image
+- type: file
+  name: sec
+  label: Second Image
+- type: file
+  name: thir
+  label: Third Image
+- type: text
+  name: categoria
+  label: Category
+- type: text
+  name: att
+  label: Sub-category
+- type: list
+  name: color
+  config:
+    use_select: false
+    source:
+      type: simple
+      section: ''
+      path: ''
+  label: Colores Variations
+- type: text
+  name: discrip
+  label: Search Tags
+  description: 'Seperate by spaces (ex: black white rose)'
+- type: boolean
+  name: novo
+  label: Is it new?
+- type: boolean
+  name: maisvendidos
+  label: Is it a best seller?
+- type: text
+  name: stock
+  config:
+    required: true
+  label: Do you have stock?
+  description: Input "sim" or "nao".
