@@ -1867,10 +1867,7 @@ top: 120px;
  .test{
     margin: 0 0 0 0;
   }
-  .wrapper {
-    z-index: -10;
-    margin-bottom: -280px;
-  }
+
   .showpages {
   text-align: center;
 }
@@ -2210,9 +2207,7 @@ margin-top: 5px;
   .logo {
     width: 100px;
   }
-    .wrapper {
-    z-index: -10;
-  }
+s
   .fotimgbig {
     width: 40px !important;
   }
