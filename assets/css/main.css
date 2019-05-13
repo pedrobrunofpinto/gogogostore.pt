@@ -465,7 +465,7 @@ text-align: center;
 
 .minus, .plus{
       width:33px;
-      height:33px;
+      height:40px;
       background: black;
       padding:8px 3px 8px 5px;
       display: inline-block;
@@ -1859,12 +1859,15 @@ top: 120px;
 .containbigii {
   height: 180px;
 }
-@media screen and (min-width: 2000px) {
-  .test{
-    margin: 0 280px 0 250px;
+@media screen and (min-width: 1500px) {
+  .test {
+    margin: 0 240px 0 210px;
   }
-  .test1{
-    margin: 0 280px 0 300px;
+  .globeproducts {
+    margin: 0 240px 0 210px;
+  }
+  .superwarp{
+    margin: 0 240px 0 260px;
   }
 }
 
@@ -1887,7 +1890,7 @@ top: 120px;
     display: none;
   }
   .carousel{
-    height: 20vh;
+    height: 30vh;
   }
   .contactface {
     font-size: 9px;
