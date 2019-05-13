@@ -380,6 +380,12 @@ a {
 a:hover {
   color: #808080;
   opacity: 0.8;
+
+}
+
+img:hover {
+    cursor: pointer;
+
 }
 
 footer {
