@@ -1,6 +1,7 @@
 $( document ).ready(function() {
   $('#colors').change(function() {
     $('#my-button').data('item-custom3-value', $(this).val());
+  
 });  
 
 
