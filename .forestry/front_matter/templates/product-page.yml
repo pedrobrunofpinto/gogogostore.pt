@@ -73,3 +73,5 @@ fields:
     required: true
   label: Do you have stock?
   description: Input "sim" or "nao".
+pages:
+- _products/tshirts/basic/tshirtromebasic.md
