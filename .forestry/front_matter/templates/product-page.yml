@@ -74,6 +74,7 @@ fields:
   label: Do you have stock?
   description: Input "sim" or "nao".
 pages:
+- _products/tshirts/padrao/tshirtmsbeach.md
 - _products/tshirts/padrao/tshirtmsfullrose.md
 - _products/tshirts/basic/tshirtmstapes.md
 - _products/tshirts/basic/tshirtromebasic.md
