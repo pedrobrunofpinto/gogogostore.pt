@@ -11,7 +11,7 @@ thir: ''
 categoria: tshirts
 att: padrao
 color:
-- preto
+- Preto
 - Azul
 discrip: ms preto padrao
 novo: true
