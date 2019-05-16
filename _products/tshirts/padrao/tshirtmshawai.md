@@ -10,7 +10,8 @@ sec: "/assets/images/hawai1-1.jpg"
 thir: ''
 categoria: tshirts
 att: padrao
-color: []
+color:
+- Azul Escuro
 discrip: azul ss19 flores
 novo: true
 maisvendidos: true
