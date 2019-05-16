@@ -1,0 +1,22 @@
+---
+layout: product
+id: 6
+name: T-shirt MS Tricolor
+link: tshirtmstricolor
+price: '15.90'
+weight: 500
+image: "/assets/images/sides.jpg"
+sec: "/assets/images/sidesssss.jpg"
+thir: ''
+categoria: tshirts
+att: basic
+color:
+- Preto
+- Branco
+- Vermelho
+discrip: ms cores basico
+novo: true
+maisvendidos: true
+stock: sim
+
+---
