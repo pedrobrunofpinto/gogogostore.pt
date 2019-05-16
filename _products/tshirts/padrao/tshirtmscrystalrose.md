@@ -17,5 +17,6 @@ discrip: rosas padrao preto
 novo: true
 maisvendidos: true
 stock: sim
+new: true
 
 ---
