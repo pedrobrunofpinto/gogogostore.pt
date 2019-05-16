@@ -15,7 +15,7 @@ color:
 - Azul
 - Verde
 - Cinzento
-discrip: ss19 chuva inverno
+discrip: chuva inverno
 novo: true
 maisvendidos: true
 stock: sim
