@@ -2,12 +2,9 @@ $( document ).ready(function() {
   $('#colors').change(function() {
     $('#my-button').data('item-custom3-value', $(this).val());
 });  
-jQuery(document).ready(function() {
-    jQuery(".lazy").lazy({
-        effect: "fadeIn",
-        effectTime: 1500
-    });
-});
+
+
+
 
 
 $(document).ready(function() {
@@ -83,7 +80,6 @@ $( document ).ready(function() {
     $(".menosestacoes").toggleClass("hideminus")
     $(".maisestacoes").toggleClass("showplus")
   });
-  $("img[src*='data:image']").addClass("img-responsive");
   $(".hamb").click(function () {
     $(".mobi").toggleClass("displaymobi");
   });
