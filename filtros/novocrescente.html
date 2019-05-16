@@ -31,7 +31,7 @@ layout: default
 
 </form>
 <ul class="list prodcontain" id="oozer-list">
- {% assign sorted = site.products | sort: "price" %}
+ {% assign sorted = site.products | sort_by: "price" %}
 {% for t in sorted %}
   {% if t.novo %}
 {% if t.stock == "sim" %}

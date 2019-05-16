@@ -29,7 +29,7 @@ layout: default
 
 </form>
 <ul class="list prodcontain" id="oozer-list">
- {% assign sorted = site.products | sort: "price" | reverse %}
+ {% assign sorted = site.products | sort_by: "price" | reverse %}
 {% for t in sorted %}
   {% if t.categoria == "camisas" %}
 {% if t.stock == "sim" %}
