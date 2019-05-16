@@ -73,7 +73,11 @@ fields:
     required: true
   label: Do you have stock?
   description: Input "sim" or "nao".
+- name: new
+  type: boolean
+  label: Novidade
 pages:
+- _products/tshirts/padrao/tshirtmsbrazil.md
 - _products/tshirts/basic/tshirtmstricolor.md
 - _products/tshirts/padrao/tshirtmshawai.md
 - _products/tshirts/padrao/tshirtmsmoon.md
