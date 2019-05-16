@@ -7,7 +7,7 @@ price: 17.9
 weight: 500
 image: "/assets/images/hawai-1.jpg"
 sec: "/assets/images/hawai1-1.jpg"
-thir: ''
+thir: "/assets/images/g.jpg"
 categoria: tshirts
 att: padrao
 color:
