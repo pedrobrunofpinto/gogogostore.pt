@@ -17,5 +17,6 @@ discrip: ms preto padrao
 novo: true
 maisvendidos: true
 stock: sim
+new: true
 
 ---
