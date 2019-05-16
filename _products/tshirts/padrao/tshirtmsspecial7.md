@@ -19,5 +19,4 @@ novo: true
 maisvendidos: true
 stock: sim
 new: true
-
 ---
