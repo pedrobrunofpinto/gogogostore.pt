@@ -31,7 +31,7 @@ layout: default
 
 </form>
 <ul class="list prodcontain" id="oozer-list">
- {% assign sorted = site.products %}
+ {% assign sorted = site.products | sort: "date" %}
 {% for t in sorted reversed %}
   {% if t.categoria == "polos" %}
 {% if t.stock == "sim" %}
