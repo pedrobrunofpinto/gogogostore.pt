@@ -13,7 +13,7 @@ att: padrao
 color:
 - Preto
 - Azul
-discrip: ss19 riscas risca
+discrip: riscas risca
 novo: true
 maisvendidos: true
 stock: sim

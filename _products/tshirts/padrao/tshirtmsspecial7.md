@@ -14,7 +14,7 @@ color:
 - Vermelho
 - Branco
 - Preto
-discrip: ms ss19 ronaldo sete
+discrip: ms ronaldo sete
 novo: true
 maisvendidos: true
 stock: sim

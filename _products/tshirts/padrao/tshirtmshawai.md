@@ -12,7 +12,7 @@ categoria: tshirts
 att: padrao
 color:
 - Azul Escuro
-discrip: azul ss19 flores
+discrip: azul flores
 novo: true
 maisvendidos: true
 stock: sim
