@@ -7,7 +7,7 @@ price: '15.90'
 weight: 500
 image: "/assets/images/sides.jpg"
 sec: "/assets/images/sidesssss.jpg"
-thir: ''
+thir: "/assets/images/kkk.jpg"
 categoria: tshirts
 att: basic
 color:
