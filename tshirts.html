@@ -56,7 +56,7 @@ layout: default
     Adicionar ao carrinho   
 </button>
 
-            <h4 class="h4name" data-position="{{ t.price }}">{{ t.name }}</h4>
+            <h4 class="h4name" data-position="{{ t.price }}">{{ t.name }}</h4>{% if t.new %}<p style="color:red;">Novidade</p>{% endif %}
       <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4>
 </li>
 
