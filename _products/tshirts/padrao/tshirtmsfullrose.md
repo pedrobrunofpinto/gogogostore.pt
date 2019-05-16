@@ -17,5 +17,6 @@ discrip: vermelho rose preto
 novo: true
 maisvendidos: true
 stock: sim
+new: true
 
 ---
