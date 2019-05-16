@@ -1,6 +1,6 @@
 ---
 layout: product
-id: 6
+id: 2
 name: T-shirt MS Tricolor
 link: tshirtmstricolor
 price: '15.90'
