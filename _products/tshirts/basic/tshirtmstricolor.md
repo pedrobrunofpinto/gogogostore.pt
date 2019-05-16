@@ -18,5 +18,6 @@ discrip: ms cores basico
 novo: true
 maisvendidos: true
 stock: sim
+new: true
 
 ---

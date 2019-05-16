@@ -19,5 +19,6 @@ discrip: amarelo azul branco preto ms
 novo: true
 maisvendidos: true
 stock: sim
+new: true
 
 ---
