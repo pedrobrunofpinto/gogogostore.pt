@@ -77,6 +77,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/casacos/basic/casacomsbikerbasic.md
 - _products/tshirts/padrao/tshirtmsbrazil.md
 - _products/tshirts/basic/tshirtmstricolor.md
 - _products/tshirts/padrao/tshirtmshawai.md
