@@ -2045,9 +2045,6 @@ flex-direction: column;
     display: none;
   }
 
-  .lightbox {
-    display: none;
-  }
   .a.lightbox-close {
     display: block;
     top: 95px;
