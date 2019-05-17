@@ -3,20 +3,19 @@ layout: product
 id: 3
 name: T-shirt MS Special 7
 link: tshirtmsspecial7
-price: 17.9
+price: 19.9
 weight: 500
-image: "/assets/images/white.jpg"
+image: "/assets/images/red.jpg"
 sec: "/assets/images/redback.jpg"
-thir: "/assets/images/black.jpg"
+thir: ''
 categoria: tshirts
 att: padrao
 color:
 - Vermelho
-- Branco
-- Preto
 discrip: ms ronaldo sete
 novo: true
 maisvendidos: true
 stock: sim
 new: true
+
 ---
