@@ -6,7 +6,6 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 
 <h1 style="font-size: 1px;z-index: -200; position: absolute; top: 0;">GOGOGO Store - Loja Online de Roupa Masculina</h1>
-<div class="superwarp">
 <div class="wrapper">
   
   <div class="carousel">
@@ -24,6 +23,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 </div>
 <br>
+<div class="superwarp">
+
 <div class="wrapu">
 <a href="{{ site.url }}/novo"><img class="banner2" src="/assets/images/novidade.jpg" alt="mens"></a><a href="{{ site.url }}/maisvendidos"><img class="banner3" src="/assets/images/maisvendidos.jpg" alt="mens"></a>
 </div>
