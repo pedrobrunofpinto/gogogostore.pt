@@ -4,8 +4,14 @@ $( document ).ready(function() {
 });  
 
 
-
-
+$(document).ready(function() {
+  var $el = $("#my-element"),x = 5000,
+    originalColor = $el.css("background");
+    $el.css("background", "red");
+    setTimeout(function(){
+      $el.css("background", originalColor);
+    }, x);
+});
 
 $(document).ready(function() {
       $('.minus').click(function () {
