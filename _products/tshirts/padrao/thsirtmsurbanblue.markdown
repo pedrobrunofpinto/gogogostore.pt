@@ -13,8 +13,8 @@ categoria: tshirts
 color:
 - Azul
 discrip: preto riscas azul
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: nao
 
 ---

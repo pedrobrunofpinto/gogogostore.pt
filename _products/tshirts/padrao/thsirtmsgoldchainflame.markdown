@@ -14,8 +14,8 @@ color:
 - Preto
 - Branco
 discrip: tshirt t-shirt dourado padrao branca preta corrente correntes aço
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: nao
 
 ---
