@@ -3,7 +3,7 @@ layout: product
 id: 2
 name: T-shirt MS Tricolor
 link: tshirtmstricolor
-price: 15.9
+price: 17.9
 weight: 500
 image: "/assets/images/sides.jpg"
 sec: "/assets/images/sidesssss.jpg"
