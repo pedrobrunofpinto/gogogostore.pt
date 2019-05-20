@@ -1828,6 +1828,18 @@ top: 120px;
   transition: all 300ms ease-in-out;
 }
 
+.displayprod {
+    display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+
+  align-items: center;
+}
+
 .displaymobi {
   top: 70px;
   opacity: 1;
@@ -1923,7 +1935,7 @@ top: 120px;
 }
 .imgbottom {
   width: 100% !important;
-  margin: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
 }
   .custoscustos {
     margin: 0px 60px 0px 60px;
