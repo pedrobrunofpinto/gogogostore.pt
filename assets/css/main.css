@@ -607,7 +607,7 @@ header {
   z-index: 100;
   position: ;
   margin-bottom: -125px;
-  position: absolute;
+  position: relative;
 }
 
 a {
