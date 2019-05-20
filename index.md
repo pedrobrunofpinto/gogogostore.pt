@@ -59,8 +59,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <div class="bottomdiv" style="align-items:center;width:100%;display: flex;align-content: center;justify-content: center;flex-wrap: wrap;">
   <div class="containshirts" style="margin-right: 200px;">
   <div style="justify-content: center;display: flex;flex-direction: column;" class="besttshirts">
-<h1 style="text-transform: uppercase; text-align: center;">Nova Coleção SS19</h1>
-<button class="buttonlow" style="text-align: center; text-transform: uppercase;" onclick="location.href='{{ site.url }}/tshirts/'" type="button">Ver Coleção</button>
+<h1 style="text-transform: uppercase; text-align: center; font-size: 20px;">Nova Coleção SS19</h1>
+<button class="buttonlow submite" style="text-align: center; text-transform: uppercase; color:white; font-size: 15px;" onclick="location.href='{{ site.url }}/tshirts/'" type="button">Ver Coleção</button>
 </div>
 </div>
 <a href="{{ site.url }}/tshirts/"><img style="width:500px;" class="imgbottom" src="/assets/images/tshirtsbannerpic.jpg"></a>
