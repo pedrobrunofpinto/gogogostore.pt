@@ -74,7 +74,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 <a href="{{ site.url }}/tshirts/"><img style="width:500px;" class="imgbottom" src="/assets/images/tshirtsbannerpic.jpg"></a>
 </div>
-
 </div>
-
+{% include footer.html %}
+</div>
 
