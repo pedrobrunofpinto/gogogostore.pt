@@ -66,13 +66,13 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 </li>
 <div class="bottomdiv" style="align-items:center;width:100%;display: flex;align-content: center;justify-content: center;flex-wrap: wrap;">
-  <div class="containshirts" style="margin-right: 200px;">
+  <div class="containshirts" style="width:30%; position: absolute;z-index: 100;">
   <div style="justify-content: center;display: flex;flex-direction: column;" class="besttshirts">
-<h1 style="text-transform: uppercase; text-align: center; font-size: 20px;">Nova Coleção SS19</h1>
-<button class="buttonlow submite" style="text-align: center; text-transform: uppercase; color:white; font-size: 15px;" onclick="location.href='{{ site.url }}/tshirts/'" type="button">Ver Coleção</button>
+<h1 class="botomh1" style="text-transform: uppercase; text-align: center; font-size: 45px;color:white;">Nova Coleção SS19</h1>
+<button class="buttonlow submite" style="text-align: center; text-transform: uppercase; color:black; font-size: 15px;" onclick="location.href='{{ site.url }}/tshirts/'" type="button">Ver Coleção</button>
 </div>
 </div>
-<a href="{{ site.url }}/tshirts/"><img style="width:500px;" class="imgbottom" src="/assets/images/tshirtsbannerpic.jpg"></a>
+<a href="{{ site.url }}/tshirts/" style="display: flex;align-self: center;align-items: center;justify-content: center;"><img style="width:80%;" class="imgbottom" src="/assets/images/tshirtsbannerpic.jpg"></a>
 </div>
 </div>
 {% include footer.html %}
