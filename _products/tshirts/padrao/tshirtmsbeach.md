@@ -16,7 +16,7 @@ color:
 discrip: azul claro escuro ms
 novo: true
 maisvendidos: true
-stock: nao
+stock: sim
 new: true
 
 ---
