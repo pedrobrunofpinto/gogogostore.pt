@@ -30,6 +30,11 @@ html,body
     overflow-x: hidden; 
 }
 
+.mobilepop {
+  display: none;
+}
+
+
 
 .large-centered {
   display: flex;
@@ -41,6 +46,10 @@ html,body
 
 .popimage {
   width: 50%;
+}
+
+.popimage {
+  width: 100% !important;
 }
 
 .popcontain  {
@@ -69,13 +78,13 @@ html,body
     position: absolute;
     padding: 1.5px 7px;
     margin-left: -10px;
-    color: black;
+    color: white;
     -webkit-box-shadow: -4px -2px 6px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: -4px -2px 6px 0px rgba(0,0,0,0.1);
     top: 0;
     z-index: 200;
     top: 1px;
-    right: 0;
+    right: -100px;
 }
 
 .close-button:hover {
@@ -2158,6 +2167,14 @@ top: 120px;
     margin-left: 0;
   }
 
+    .popimage {
+    display: none;
+}
+
+.mobilepop {
+  display: block;
+}
+
   .buttonlow {
     margin-bottom: 20px;
   }
@@ -2516,6 +2533,8 @@ margin-top: 5px;
   .imagebanner {
     display: none;
   }
+
+
   .containshirts {
     margin-right: 0 !important;
   }

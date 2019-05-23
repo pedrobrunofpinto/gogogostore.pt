@@ -6,7 +6,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
  <div class="row pop-up">
         <div class="box small-6 large-centered">
             <a href="#" class="close-button">&#10006;</a>
-              <img class="popimage" style="width:140%; align-self:center;" src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/60308444_2222125511215631_2111516466581864448_o.jpg?_nc_cat=104&_nc_ht=scontent.fopo2-2.fna&oh=e0a785ab7dfcf1e9b7e3c9a04b9af018&oe=5D644C2B">    
+              <img class="popimage" style="width:140%; align-self:center;" src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/60308444_2222125511215631_2111516466581864448_o.jpg?_nc_cat=104&_nc_ht=scontent.fopo2-2.fna&oh=e0a785ab7dfcf1e9b7e3c9a04b9af018&oe=5D644C2B"> 
+              <img class="mobilepop" style="width:200%; align-self:center;" src="/assets/images/minipromo.jpg">     
         </div>
     </div>
 </div>
