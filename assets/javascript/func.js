@@ -13,6 +13,21 @@ $(document).ready(function() {
     }, x);
 });
 
+$( document ).ready(function() {
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 100) {
+      $('#toTop').fadeIn();
+    } else {
+      $('#toTop').fadeOut();
+    }
+  });
+});
+
+$(window).on( 'scroll', function() {
+  console.log( 'The scroll event fired!' );
+} );
+
 $(document).ready(function() {
       $('.minus').click(function () {
         var $input = $(this).parent().find('input');
@@ -114,13 +129,6 @@ $( document ).ready(function() {
   $('#my-size').change(function() {
     $('#my-button').data('item-custom2-value', $(this).val());
   });
-
-  $('#ckFilter').ckFilter({
-    reset: true,
-    multiple: false,
-    animation: true,
-  });
-});
 
 
 /*
@@ -949,13 +957,7 @@ $('.carousel1').Zippy(args);
 
 });
 
-$(window).scroll(function() {
-    if ($(this).scrollTop()) {
-        $('#toTop').fadeIn();
-    } else {
-        $('#toTop').fadeOut();
-    }
-});
+;
 
 
 
@@ -1028,9 +1030,5 @@ $(function() {
         $('#overlay').addClass('blur-out');
         e.stopPropagation();
     });
+  });
 });
-
-
-
-
-
