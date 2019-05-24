@@ -2159,6 +2159,19 @@ top: 120px;
 }
 
 
+@media only screen and (max-width: 1400px) {
+
+  .popimage {
+    display: none;
+}
+
+.mobilepop {
+  display: block;
+  width: 100% !important;
+}
+
+}
+
 @media only screen and (max-width: 1100px) {
  .test{
     margin: 0 0 0 0;
@@ -2167,12 +2180,9 @@ top: 120px;
     margin-left: 0;
   }
 
-    .popimage {
-    display: none;
-}
-
-.mobilepop {
+  .mobilepop {
   display: block;
+  width: 200% !important;
 }
 
   .buttonlow {
