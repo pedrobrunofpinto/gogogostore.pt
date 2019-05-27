@@ -113,6 +113,9 @@ $( document ).ready(function() {
   });
   $(".hamb").click(function () {
     $(".mobi").toggleClass("displaymobi");
+    if ($(".crash").hasClass("crashshow")) {
+      $(".crash").removeClass("crashshow");
+    }
   });
     $(".productsss").click(function () {
       $(".crash").toggleClass("crashshow");
