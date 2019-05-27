@@ -28,7 +28,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     width: 100%;
     display: flex;
     text-align: center;
-    align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">NEW COLLECTION</p><br><p style="
+    align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">NEW COLLECTION</p><br><p class="bottext" style="
     height: 100vh;
     position: absolute;
     top: 0;
@@ -47,7 +47,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     display: flex;
     text-align: center;
     align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">NEW COLLECTION</p>
-<p style="
+<p class="bottext" style="
     height: 100vh;
     position: absolute;
     top: 0;

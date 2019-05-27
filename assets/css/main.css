@@ -2211,7 +2211,10 @@ top: 120px;
   .lest {
     margin-left: 0;
   }
-
+  .bottext {
+    font-size: 25px !important;
+    top: -150px !important;
+  }
   .newcl {
     font-size: 15px !important;
     top: -200px !important;
