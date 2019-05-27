@@ -19,7 +19,6 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <div class="wrapper">
   <div class="carousel">
     <div class="inner">
-
 <a href="{{ site.url }}/tshirts" class="slide active"><p class="newcl" style="
     height: 100vh;
     position: absolute;
@@ -46,7 +45,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     width: 100%;
     display: flex;
     text-align: center;
-    align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">NEW COLLECTION</p>
+    align-items: center;font-size: 30px;justify-content: center;">NEW COLLECTION</p>
 <p class="bottext" style="
     height: 100vh;
     position: absolute;
@@ -55,14 +54,13 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     width: 100%;
     display: flex;
     text-align: center;
-    align-items: center;font-size: 60px;justify-content: center;text-shadow: 2px 2px black;">SHIRTS SS19</p> </a>
+    align-items: center;font-size: 60px;justify-content: center;">SHIRTS SS19</p></a>
     </div>
     <div class="arrow arrow-left"></div>
     <div class="arrow arrow-right"></div>
   </div>
 
 </div>
-<br>
 <h2 style="text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;">Últimas Novidades</h2>
 
 <div class="displayprod" style="width: 100%;flex-wrap: wrap;justify-content: center;">
