@@ -55,11 +55,29 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     display: flex;
     text-align: center;
     align-items: center;font-size: 60px;justify-content: center;">SHIRTS SS19</p></a>
+    <a href="{{ site.url }}/camisas" class="slide">
+  <p class="newcl" style="
+    height: 100vh;
+    position: absolute;
+    top: -50px;
+    color: white;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;font-size: 30px;justify-content: center;">NEW COLLECTION</p>
+<p class="bottext" style="
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;font-size: 60px;justify-content: center;">SUMMER VIBES</p></a>
     </div>
     <div class="arrow arrow-left"></div>
     <div class="arrow arrow-right"></div>
   </div>
-
 </div>
 <h2 style="text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;">Últimas Novidades</h2>
 

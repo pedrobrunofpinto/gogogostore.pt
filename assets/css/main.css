@@ -1701,6 +1701,13 @@ background-size:contain;
 background-size:contain;
 }
 
+.slide:nth-child(3){
+  background-image:url(/assets/images/slide3gogogo.jpg);
+  background-repeat:no-repeat;
+  background-size:auto 1000px;
+  background-position: center top;
+}
+
 .fotlink {
   display: flex;
   justify-content: center;
@@ -2284,6 +2291,13 @@ top: 120px;
 
 .slide:nth-child(2){
   background-image:url(/assets/images/slide2gogogo.jpg);
+  background-repeat:no-repeat;
+  background-size:auto 500px;
+  background-position: center top;
+}
+
+.slide:nth-child(3){
+  background-image:url(/assets/images/slide3gogogo.jpg);
   background-repeat:no-repeat;
   background-size:auto 500px;
   background-position: center top;
