@@ -77,13 +77,14 @@ html,body
     position: absolute;
     padding: 1.5px 7px;
     margin-left: -10px;
-    color: white;
+    color: black;
     -webkit-box-shadow: -4px -2px 6px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: -4px -2px 6px 0px rgba(0,0,0,0.1);
     top: 0;
     z-index: 200;
     top: 1px;
     right: -100px;
+    font-size: 30px;
 }
 
 .close-button:hover {
