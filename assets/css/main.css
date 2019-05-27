@@ -1495,7 +1495,7 @@ button:hover {
   position: relative;
   overflow: hidden;
   margin: 0 0 0 0 !important;
-  padding-top: 37%;
+  padding-top: 55%;
 }
 
 .inner{
@@ -1690,13 +1690,13 @@ button:hover {
 }
 
 .slide:nth-child(1){
-  background-image:url(/assets/images/1.jpg);
+  background-image:url(/assets/images/slidegogogo.jpg);
   background-repeat:no-repeat;
 background-size:contain;
  }
 
 .slide:nth-child(2){
-  background-image:url(/assets/images/second.jpg);
+  background-image:url(/assets/images/slide2gogogo.jpg);
     background-repeat:no-repeat;
 background-size:contain;
 }
@@ -2268,14 +2268,14 @@ top: 120px;
   }
 
 .slide:nth-child(1){
-  background-image:url(/assets/images/1.jpg);
+  background-image:url(/assets/images/slidegogogo.jpg);
   background-repeat:no-repeat;
   background-size:auto 500px;
   background-position: center top;
  }
 
 .slide:nth-child(2){
-  background-image:url(/assets/images/second.jpg);
+  background-image:url(/assets/images/slide2gogogo.jpg);
   background-repeat:no-repeat;
   background-size:auto 500px;
   background-position: center top;

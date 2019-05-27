@@ -17,15 +17,45 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 <h1 style="font-size: 1px;z-index: -200; position: absolute; top: 0;">GOGOGO Store - Loja Online de Roupa Masculina</h1>
 <div class="wrapper">
-  
   <div class="carousel">
     <div class="inner">
-<a href="{{ site.url }}/tshirts" class="slide active">
-      	<p></p>
-      </a>
+
+<a href="{{ site.url }}/tshirts" class="slide active"><p style="
+    height: 100vh;
+    position: absolute;
+    top: -50px;
+    color: white;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">NEW COLLECTION</p><br><p style="
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;font-size: 60px;justify-content: center;text-shadow: 2px 2px black;">T-SHIRTS SS19</p></a>
 <a href="{{ site.url }}/camisas" class="slide">
-        <p style="font-size: 100px; color: white; text-shadow: 100;"></p>
-      </a>
+  <p style="
+    height: 100vh;
+    position: absolute;
+    top: -50px;
+    color: white;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">NEW COLLECTION</p>
+<p style="
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;font-size: 60px;justify-content: center;text-shadow: 2px 2px black;">SHIRTS SS19</p> </a>
     </div>
     <div class="arrow arrow-left"></div>
     <div class="arrow arrow-right"></div>
