@@ -67,6 +67,14 @@ $(document).ready(function() {
     });
 });
 
+$(document).ready(function() {
+  $('.oozer-filters').click(function() {
+    $('.oozer-filters').dblclick();
+    $('.oozer-filters').dblclick();
+    $('.oozer-filters').dblclick();
+  });
+});
+
 
 $( document ).ready(function() {
 
