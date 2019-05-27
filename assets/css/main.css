@@ -1389,7 +1389,7 @@ input[type='radio']:hover{
     position: fixed;
     bottom: 20px;
     left: 0;
-    display: block;
+    display: none;
     width: 50px;
 
 }
