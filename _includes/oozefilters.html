@@ -23,7 +23,7 @@
                   <div class="estacoes">
             <label style="opacity: 0; height: 0;" class="oozer-filters"><input type="radio" name="oozer-filter" value="basic">Basic</label>
                 <label class="oozer-filters"> <input type="radio" name="oozer-filter" value="Preto">SS/19</label>   </div>
-          <button href="{{ page.url }}" id="my-button" class="restaurar">Restaurar</button> 
+          <button href="{{ site.url }}{{ page.url }}" id="my-button" class="restaurar">Restaurar</button> 
 
   </fieldset>
 </form>
@@ -46,6 +46,6 @@
                          
       
 
-          <button href="{{ page.url }}" id="my-button" class="restaurar">Restaurar</button> 
+          <button onclick="location.href = '{{ site.url }}{{ page.url }}';" id="my-button" class="restaurar">Restaurar</button> 
 
   </div>
