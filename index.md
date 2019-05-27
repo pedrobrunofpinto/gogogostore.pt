@@ -20,7 +20,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
   <div class="carousel">
     <div class="inner">
 
-<a href="{{ site.url }}/tshirts" class="slide active"><p style="
+<a href="{{ site.url }}/tshirts" class="slide active"><p class="newcl" style="
     height: 100vh;
     position: absolute;
     top: -50px;
@@ -38,7 +38,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     text-align: center;
     align-items: center;font-size: 60px;justify-content: center;text-shadow: 2px 2px black;">T-SHIRTS SS19</p></a>
 <a href="{{ site.url }}/camisas" class="slide">
-  <p style="
+  <p class="newcl" style="
     height: 100vh;
     position: absolute;
     top: -50px;

@@ -2212,6 +2212,11 @@ top: 120px;
     margin-left: 0;
   }
 
+  .newcl {
+    font-size: 15px !important;
+    top: -200px !important;
+  }
+
   .mobilepop {
   display: block;
   width: 200% !important;
