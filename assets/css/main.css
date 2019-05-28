@@ -2597,7 +2597,14 @@ margin-top: 5px;
   .imagebanner {
     display: none;
   }
-
+    .bottext {
+    font-size: 25px !important;
+    top: -90px !important;
+  }
+  .newcl {
+    font-size: 15px !important;
+    top: -140px !important;
+  }
 
   .containshirts {
     margin-right: 0 !important;
