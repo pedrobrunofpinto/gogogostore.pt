@@ -2608,21 +2608,21 @@ margin-top: 5px;
   .slide:nth-child(1){
   background-image:url(/assets/images/slidegogogo.jpg);
   background-repeat:no-repeat;
-  background-size:auto 200px;
+  background-size:auto 400px;
   background-position: center top;
  }
 
 .slide:nth-child(2){
   background-image:url(/assets/images/slide2gogogo.jpg);
   background-repeat:no-repeat;
-  background-size:auto 200px;
+  background-size:auto 400px;
   background-position: center top;
 }
 
 .slide:nth-child(3){
   background-image:url(/assets/images/slide3gogogo.jpg);
   background-repeat:no-repeat;
-  background-size:auto 200px;
+  background-size:auto 400px;
   background-position: center top;
 }
   .subcustotilte {
