@@ -7,7 +7,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
         <div class="box small-6 large-centered" style="display: flex;
         flex-direction: column;width: 100%;justify-content: center; height: 500px;background-color: white; border: 4px solid black;">
             <a href="#" class="close-button">&#10006;</a>
-        <h2 class="textbot" style="width:60%;font-size:35px; color: black;align-self: center;padding: 20px 20px 20px 20px;text-align: center;">MEDO DE FICAR DE FORA?</h2>        <h2 class="textbot" style="width:60%;font-size:15px; color: black;align-self: center;padding: 20px 20px 20px 20px;text-align: center;">Receba <bold>PORTES GRÁTIS</bold> em todas as compras ao subscrever!</h2>
+        <h2 class="textbot sete" style="width:60%;font-size:35px; color: black;align-self: center;padding: 20px 20px 20px 20px;text-align: center;">MEDO DE FICAR DE FORA?</h2>        <h2 class="textbot" style="width:60%;font-size:15px; color: black;align-self: center;padding: 20px 20px 20px 20px;text-align: center;">Receba <bold>PORTES GRÁTIS</bold> em todas as compras ao subscrever!</h2>
 <form class="newsletter" style="margin-bottom: 10px; margin-top: 10px;align-self: center;width:50%;display: flex;flex-direction: column;" method="POST" data-netlify="true" action="{{ page.url }}">
     <input class="placek" style="width:100%;text-align: center;" type="email" name="email" placeholder="Email">
     <input type="hidden" name="_after" value="{{ site.url }}">
