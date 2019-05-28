@@ -2599,11 +2599,14 @@ margin-top: 5px;
   }
     .bottext {
     font-size: 25px !important;
-    top: -30px !important;
+    top: -50px !important;
   }
   .newcl {
     font-size: 15px !important;
     top: -90px !important;
+  }
+  .subcustotilte {
+    font-size: 10px;
   }
 
   .containshirts {
