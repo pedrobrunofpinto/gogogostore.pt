@@ -91,13 +91,16 @@ layout: default
 
 <div class="quantttt">
     <h3 class="whatel inside">Qty: </h3>
-    <span class="minus">-</span>
+    <span class="minus" style="   -webkit-appearance: none;
+">-</span>
 <input type='text' name='quantity' value='0' class='qty inside' id="my-quantity" />
-    <span class="plus">+</span>
+    <span class="plus" style="   -webkit-appearance: none;
+">+</span>
 </div>
 <div class="ff">
 {% if page.stock == "sim" %}
-<button id="my-button" class="snipcart-add-item cartbut lebutton"
+<button style="   -webkit-appearance: none;
+" id="my-button" class="snipcart-add-item cartbut lebutton"
     data-item-id="{{ page.id }}"
     data-item-name="{{ page.name }}"
     data-item-price="{{ page.price }}"
@@ -118,7 +121,8 @@ layout: default
 </div>
 {% endif %}
 {% if page.stock == "nao" %}
-<button id="my-button" class="nostock cartbut lebutton">
+<button id="my-button" class="nostock cartbut lebutton" style="   -webkit-appearance: none;
+">
     Sem Stock  
 </button>
 {% endif %}
@@ -133,7 +137,8 @@ layout: default
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
     <div class="btn">
-      <button class="snipcart-add-item thisbtn"
+      <button style="   -webkit-appearance: none;
+" class="snipcart-add-item thisbtn"
     data-item-id="{{ t.id }}"
     data-item-name="{{ t.name }}"
     data-item-price="{{ t.price }}"
