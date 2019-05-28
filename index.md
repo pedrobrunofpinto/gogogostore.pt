@@ -13,7 +13,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     <input type="hidden" name="_after" value="{{ site.url }}">
     <input type="text" name="_honey" value="" style="display:none">
     <div class="like"><input onclick="window.location.href = '{{ site.url }}';" style="text-align: center;   -webkit-appearance: none;
-" class="certosoquenao" type="submit" action="{{ site.url }}" value="JUNTA-TE AO GANG!"></div>
+" class="certosoquenao" type="submit" action="index.html" value="JUNTA-TE AO GANG!"></div>
 </form>  
         </div>
     </div>
@@ -85,6 +85,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     <div class="arrow arrow-left"></div>
     <div class="arrow arrow-right"></div>
   </div>
+</div>
 </div>
 <h2 style="text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;">Últimas Novidades</h2>
 
