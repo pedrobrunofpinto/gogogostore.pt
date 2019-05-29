@@ -2645,6 +2645,9 @@ margin-top: 5px;
   .imagebanner {
     display: none;
   }
+    .carousel{
+    height: 50vh;
+  }
     .bottext {
     font-size: 25px !important;
     top: -50px !important;
