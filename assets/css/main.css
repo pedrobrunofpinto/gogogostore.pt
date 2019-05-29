@@ -1512,7 +1512,7 @@ button:hover {
 
 .wrapper{
   width:100%;
-  position:relative;
+  position:static;
   margin-top: -60px;
 }
 
