@@ -5,7 +5,7 @@ name: Polo MS French Style
 link: polomsfrenchstyle
 price: 21.9
 weight: 500
-image: "/assets/images/1-4.jpg"
+image: "/assets/images/75.jpg"
 sec: "/assets/images/1.2-2.jpg"
 thir: ''
 categoria: polos
