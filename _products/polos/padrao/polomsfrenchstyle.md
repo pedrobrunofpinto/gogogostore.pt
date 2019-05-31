@@ -6,13 +6,12 @@ link: polomsfrenchstyle
 price: 21.9
 weight: 500
 image: "/assets/images/1-4.jpg"
-sec: "/assets/images/1.1-1.jpg"
-thir: "/assets/images/1.2-1.jpg"
+sec: "/assets/images/1.2-2.jpg"
+thir: ''
 categoria: polos
 att: padrao
 color:
 - Branco
-- Amarelo
 discrip: branco ss19 amarelo
 novo: true
 maisvendidos: false
