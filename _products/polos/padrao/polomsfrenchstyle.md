@@ -8,7 +8,7 @@ weight: 500
 image: "/assets/images/1-4.jpg"
 sec: "/assets/images/1.1-1.jpg"
 thir: "/assets/images/1.2-1.jpg"
-categoria: polo
+categoria: polos
 att: padrao
 color:
 - Branco
@@ -17,6 +17,6 @@ discrip: branco ss19 amarelo
 novo: true
 maisvendidos: false
 stock: sim
-new: false
+new: true
 
 ---
