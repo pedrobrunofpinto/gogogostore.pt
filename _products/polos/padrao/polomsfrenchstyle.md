@@ -17,6 +17,6 @@ discrip: branco ss19 amarelo
 novo: true
 maisvendidos: false
 stock: sim
-new: true
+new: false
 
 ---
