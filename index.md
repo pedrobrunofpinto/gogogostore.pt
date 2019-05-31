@@ -26,7 +26,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <div class="wrapper">
   <div class="carousel">
     <div class="inner">
-<a href="{{ site.url }}/tshirts" class="slide active"><p class="newcl" style="
+<a href="{{ site.url }}/tshirts" class="slide active"><p class="newcl" style="font-family: 'Montserrat', sans-serif;
+  font-weight: thin !important;
     height: 100vh;
     position: absolute;
     top: -50px;
@@ -34,7 +35,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     width: 100%;
     display: flex;
     text-align: center;
-    align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">NEW COLLECTION</p><br><p class="bottext" style="
+    align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">NEW COLLECTION</p><br><p class="bottext" style="font-family: 'Playfair Display', serif;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -44,7 +45,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     text-align: center;
     align-items: center;font-size: 60px;justify-content: center;text-shadow: 2px 2px black;">T-SHIRTS SS19</p></a>
 <a href="{{ site.url }}/camisas" class="slide">
-  <p class="newcl" style="
+  <p class="newcl" style="font-family: 'Montserrat', sans-serif;
     height: 100vh;
     position: absolute;
     top: -50px;
@@ -53,7 +54,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     display: flex;
     text-align: center;
     align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">NEW COLLECTION</p>
-<p class="bottext" style="
+<p class="bottext" style="font-family: 'Playfair Display', serif;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -63,7 +64,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     text-align: center;
     align-items: center;font-size: 60px;justify-content: center;text-shadow: 2px 2px black;">SHIRTS SS19</p></a>
     <a href="{{ site.url }}/camisas" class="slide">
-  <p class="newcl" style="
+  <p class="newcl" style="font-family: 'Montserrat', sans-serif;
+  font-weight: thin !important;
     height: 100vh;
     position: absolute;
     top: -50px;
@@ -72,7 +74,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     display: flex;
     text-align: center;
     align-items: center;font-size: 30px;justify-content: center;">NEW COLLECTION</p>
-<p class="bottext" style="
+<p class="bottext" style="font-family: 'Playfair Display', serif;
     height: 100vh;
     position: absolute;
     top: 0;
