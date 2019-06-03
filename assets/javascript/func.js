@@ -1053,13 +1053,10 @@ $('#product-slider__nav').slick({
   arrows: false
 });
 
-$(".social-share").click(function() {
-  $(this).toggleClass("is-visible");
-});
+
 
 
 // ZOOM
-$('.zoom').zoom();
 
 // STYLE GRAB
 $('.zoom--grab').zoom({ on:'grab' });
