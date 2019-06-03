@@ -2440,6 +2440,14 @@ top: 120px;
   .sublist {
     display: none;
   }
+  #product-slider__main.object-fit--contain .slick-slide img {
+  object-fit: cover;
+  height: 400px;
+  width: 74%;
+}
+#product-slider__main .slick-slide {
+  height: 400px;
+}
 
   .sete{
     font-size: 30px !important;
