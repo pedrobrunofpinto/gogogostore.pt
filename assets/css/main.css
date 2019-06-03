@@ -171,7 +171,7 @@
 #product-slider__main.object-fit--contain .slick-slide img {
   object-fit: cover;
   height: 709px;
-  width: 85%;
+  width: 74%;
 }
 #product-slider__main .slick-slide {
   height: 709px;
@@ -2435,6 +2435,10 @@ top: 120px;
   }
   .lest {
     margin-left: 0;
+  }
+
+  .sublist {
+    display: none;
   }
 
   .sete{
