@@ -7,7 +7,7 @@ price: 17.9
 weight: 500
 image: "/assets/images/cristal.jpg"
 sec: "/assets/images/pretocrystak.jpg"
-thir: ''
+thir: 
 categoria: tshirts
 att: padrao
 color:

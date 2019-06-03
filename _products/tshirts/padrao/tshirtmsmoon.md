@@ -7,7 +7,7 @@ price: 17.9
 weight: 500
 image: "/assets/images/moon.jpg"
 sec: "/assets/images/bluemoon.jpg"
-thir: ''
+thir: 
 categoria: tshirts
 att: padrao
 color:

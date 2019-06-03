@@ -7,7 +7,7 @@ price: 17.9
 weight: 500
 image: "/assets/images/rosinha-1.jpg"
 sec: "/assets/images/brancopreto-1.jpg"
-thir: ''
+thir: 
 categoria: tshirts
 att: padrao
 color:

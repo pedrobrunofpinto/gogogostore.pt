@@ -7,7 +7,7 @@ price: 19.9
 weight: 500
 image: "/assets/images/red.jpg"
 sec: "/assets/images/redback.jpg"
-thir: ''
+thir: 
 categoria: tshirts
 att: padrao
 color:

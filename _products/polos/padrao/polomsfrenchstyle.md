@@ -7,7 +7,7 @@ price: 21.9
 weight: 500
 image: "/assets/images/75.jpg"
 sec: "/assets/images/1.2-2.jpg"
-thir: ''
+thir: 
 categoria: polos
 att: padrao
 color:
