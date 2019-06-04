@@ -2602,6 +2602,7 @@ flex-direction: column;
   }
   .quantttt {
     justify-content: center;
+    display: flex;
   }
   .inside {
     text-align: center !important;
@@ -2638,7 +2639,7 @@ flex-direction: column;
     width: 100%;
   }
   .productdetails {
-    width: 100%;
+    width: 80%;
   }
   #no {
     display: none;
@@ -2956,7 +2957,7 @@ s
     width: 200px;
   }
   .productdetails {
-    width: 100%;
+    width: 90%;
   }
 }
 
