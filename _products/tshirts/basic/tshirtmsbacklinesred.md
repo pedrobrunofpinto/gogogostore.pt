@@ -10,7 +10,7 @@ sec: "/assets/images/13.3.jpg"
 thir: "/assets/images/13.2.jpg"
 four: "/assets/images/13.jpg"
 categoria: tshirts
-att: padrao
+att: basic
 color:
 - Vermelho
 discrip: atras risca ss19
