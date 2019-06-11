@@ -3,7 +3,7 @@ layout: product
 id: 4
 name: Pólo MS Party
 link: polomsparty
-price: 17.9
+price: 21.9
 weight: 500
 image: "/assets/images/32.2.jpg"
 sec: "/assets/images/32.jpg"
