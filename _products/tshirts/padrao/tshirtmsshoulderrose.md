@@ -5,9 +5,9 @@ name: 'T-shirt MS Shoulder Rose '
 link: tshirtmsshoulderrose
 price: 17.9
 weight: 500
-image: "/assets/images/19.1-1.jpg"
-sec: "/assets/images/19.jpg"
-thir: "/assets/images/19.2.jpg"
+image: "/assets/images/14.1-1.jpg"
+sec: "/assets/images/14.2.jpg"
+thir: "/assets/images/14.jpg"
 categoria: tshirts
 att: padrao
 color:
@@ -17,6 +17,6 @@ novo: true
 maisvendidos: true
 stock: sim
 new: true
-four: "/assets/images/19.3.jpg"
+four: "/assets/images/14.3.jpg"
 
 ---
