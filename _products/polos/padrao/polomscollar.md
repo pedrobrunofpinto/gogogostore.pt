@@ -3,13 +3,13 @@ layout: product
 id: 3
 name: Pólo MS Collar
 link: polomscollar
-price: 17.9
+price: 21.9
 weight: 500
 image: "/assets/images/34.2.jpg"
 sec: "/assets/images/34.3.jpg"
 thir: "/assets/images/34.1.jpg"
 four: "/assets/images/34.jpg"
-categoria: polo
+categoria: polos
 att: padrao
 color:
 - Branco
