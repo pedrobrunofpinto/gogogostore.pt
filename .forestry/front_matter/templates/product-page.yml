@@ -42,6 +42,11 @@ fields:
 - type: file
   name: thir
   label: Third Image
+- name: four
+  type: file
+  config:
+    maxSize: 250
+  label: Fourth Image
 - type: text
   name: categoria
   label: Category
@@ -77,26 +82,36 @@ fields:
   type: boolean
   label: Novidade
 pages:
-- _products/tshirts/basic/tshirtromebasic.md
-- _products/tshirts/basic/tshirtmstapes.md
-- _products/tshirts/padrao/tshirtmsfullrose.md
-- _products/tshirts/padrao/tshirtmsbeach.md
-- _products/tshirts/padrao/tshirtmscrystalrose.md
-- _products/tshirts/padrao/tshirtmsmoon.md
-- _products/casacos/basic/casacomsbikerbasic.md
-- _products/tshirts/padrao/tshirtmsspecial7.md
-- _products/tshirts/padrao/tshirtmshawai.md
-- _products/tshirts/basic/tshirtmstricolor.md
-- _products/tshirts/padrao/tshirtmsbrazil.md
-- _products/casacos/basic/casacomsfullwinter.md
-- _products/tshirts/padrao/tshirtmsspecial7sport.md
-- _products/tshirts/padrao/tshirtmsaquamotion.md
-- _products/polos/padrao/polomsmoto.md
-- _products/tshirts/basic/tshirtmsbacklines.md
-- _products/tshirts/padrao/tshirtmscastlerose.md
-- _products/tshirts/padrao/tshirtmsarmorrose.md
-- _products/tshirts/padrao/tshirtmspalmtree.md
-- _products/tshirts/padrao/tshirtmsitalianstyle.md
+- _products/tshirts/padrao/tshirtmsfrenchstylered.md
+- _products/tshirts/padrao/tshirtmscaptainblack.md
+- _products/tshirts/padrao/tshirtmscaptainblue.md
+- _products/tshirts/padrao/tshirtmscaptain.md
+- _products/tshirts/padrao/tshirtmsallstarred.md
+- _products/tshirts/padrao/tshirtmsallstar.md
+- _products/tshirts/padrao/tshirtmsblackmatte.md
+- _products/tshirts/padrao/tshirtmshalfwhitematte.md
+- _products/tshirts/padrao/tshirtmshalfblackmatte.md
+- _products/tshirts/padrao/tshirtmsfrenchstyle.md
 - _products/polos/padrao/polomsfrenchstyle.md
-- _products/tshirts/padrao/tshirtmsshoulderrose.md
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
+- _products/tshirts/padrao/tshirtmsshoulderrose.md
+- _products/tshirts/padrao/tshirtmsitalianstyle.md
+- _products/tshirts/padrao/tshirtmscastlerose.md
+- _products/tshirts/padrao/tshirtmspalmtree.md
+- _products/tshirts/padrao/tshirtmsarmorrose.md
+- _products/tshirts/basic/tshirtmsbacklines.md
+- _products/polos/padrao/polomsmoto.md
+- _products/tshirts/padrao/tshirtmsaquamotion.md
+- _products/tshirts/padrao/tshirtmsspecial7sport.md
+- _products/casacos/basic/casacomsfullwinter.md
+- _products/tshirts/padrao/tshirtmsspecial7.md
+- _products/casacos/basic/casacomsbikerbasic.md
+- _products/tshirts/padrao/tshirtmsbrazil.md
+- _products/tshirts/basic/tshirtmstricolor.md
+- _products/tshirts/padrao/tshirtmshawai.md
+- _products/tshirts/padrao/tshirtmsmoon.md
+- _products/tshirts/padrao/tshirtmscrystalrose.md
+- _products/tshirts/padrao/tshirtmsbeach.md
+- _products/tshirts/padrao/tshirtmsfullrose.md
+- _products/tshirts/basic/tshirtmstapes.md
+- _products/tshirts/basic/tshirtromebasic.md
