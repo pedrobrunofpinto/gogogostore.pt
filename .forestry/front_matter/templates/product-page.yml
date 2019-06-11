@@ -82,6 +82,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/tshirts/padrao/tshirtmshalfblackmatte.md
 - _products/tshirts/padrao/tshirtmsfrenchstyle.md
 - _products/polos/padrao/polomsfrenchstyle.md
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
