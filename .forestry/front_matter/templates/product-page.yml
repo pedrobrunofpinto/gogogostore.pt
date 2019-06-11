@@ -82,6 +82,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/polos/padrao/polomspartywhite.md
 - _products/polos/padrao/polomsparty.md
 - _products/polos/padrao/polomscollarblack.md
 - _products/polos/padrao/polomscollar.md
