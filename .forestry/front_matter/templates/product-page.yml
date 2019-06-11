@@ -82,7 +82,6 @@ fields:
   type: boolean
   label: Novidade
 pages:
-- _products/tshirts/padrao/file.md
 - _products/polos/padrao/tshirtmstropicalwhite.md
 - _products/polos/padrao/polomstropical.md
 - _products/polos/padrao/polomspartywhite.md
@@ -108,7 +107,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/tshirts/basic/tshirtmsbacklines.md
 - _products/tshirts/padrao/tshirtmsaquamotion.md
-- _products/tshirts/padrao/tshirtmsspecial7sport.md
 - _products/casacos/basic/casacomsfullwinter.md
 - _products/tshirts/padrao/tshirtmsspecial7.md
 - _products/casacos/basic/casacomsbikerbasic.md
