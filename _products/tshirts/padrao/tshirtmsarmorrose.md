@@ -5,18 +5,18 @@ name: T-shirt MS Armor Rose
 link: tshirtmsarmorrose
 price: 17.9
 weight: 500
-image: "/assets/images/26.1.jpg"
-sec: "/assets/images/27.2.jpg"
-thir: "/assets/images/27.jpg"
+image: "/assets/images/19.1-2.jpg"
+sec: "/assets/images/19.2-1.jpg"
+thir: "/assets/images/19.3-1.jpg"
 categoria: tshirts
 att: padrao
 color:
 - Branco
-- Preto
 discrip: branco preto ss19
 novo: true
-maisvendidos: false
+maisvendidos: true
 stock: sim
 new: true
+four: "/assets/images/19-1.jpg"
 
 ---
