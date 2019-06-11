@@ -89,11 +89,11 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
   </div>
 </div>
 <h2 style="text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;">Últimas Novidades</h2>
-
-<div class="displayprod" style="width: 100%;flex-wrap: wrap;justify-content: center;">
-  {% for t in site.products limit:42 %}
+<div class="sliderx" id="sliderx">
+<div class="displayprod slidex" id="slidex" style="">
+  {% for t in site.products %}
   {% if t.new %}
-   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }} {{ t.discrip }}" class="prod">
+   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }} {{ t.discrip }}" class="prod item">
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
     <div class="btn">
@@ -121,6 +121,10 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 </div>
 </li>
+  </div>
+
+</div>
+
 <div class="bottomdiv" style="align-items:center;width:100%;display: flex;align-content: center;justify-content: center;flex-wrap: wrap;">
   <div class="containshirts" style=" position: absolute;z-index: 100;">
   <div style="justify-content: center;display: flex;flex-direction: column;" class="besttshirts">
@@ -129,7 +133,6 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 </div>
 <a href="{{ site.url }}/tshirts/" style="display: flex;align-self: center;align-items: center;justify-content: center;"><img style="width:80%;" class="imgbottom" src="/assets/images/tshirtsbannerpic.jpg"></a>
-</div>
 </div>
 {% include footer.html %}
 </div>
