@@ -15,7 +15,7 @@ color:
 discrip: branco ss19
 novo: true
 maisvendidos: true
-stock: sim
+stock: nao
 new: true
 four: "/assets/images/23-2.jpg"
 
