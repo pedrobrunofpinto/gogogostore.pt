@@ -82,6 +82,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/polos/padrao/tshirtmstropicalwhite.md
 - _products/polos/padrao/polomstropical.md
 - _products/polos/padrao/polomspartywhite.md
 - _products/polos/padrao/polomsparty.md
