@@ -82,6 +82,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/tshirts/padrao/tshirtmsfrenchblue.md
 - _products/tshirts/padrao/tshirtmsfrenchstyleyellow.md
 - _products/tshirts/basic/tshirtmsbacklinesblack.md
 - _products/tshirts/basic/tshirtmsbacklinesred.md
