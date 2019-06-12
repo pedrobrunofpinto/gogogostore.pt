@@ -120,8 +120,9 @@ layout: default
 </div>
 </div>
     <h1 style="display: flex;justify-content: center;margin-bottom: 25px;font-size: 15px;"> Também pode gostar de:</h1>
-<div class="displayprod" style="width: 100%;flex-wrap: wrap;justify-content: center;">
-{% assign posts = site.products] | sample:4 %}
+    <div class="sliderx" id="sliderx">
+<div class="displayprod slidex" id="slidex" style="">
+{% assign posts = site.products] | sample:25 %}
 {% for t in posts %}
    <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }} {{ t.discrip }}" class="prod">
   <div class="productplace" >
@@ -152,6 +153,8 @@ layout: default
 </div>
 </div>
 </li>
+</div>
+</div>
 </div>
 </main>
 
