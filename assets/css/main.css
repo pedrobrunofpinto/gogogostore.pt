@@ -2924,9 +2924,7 @@ margin-top: 5px;
   .imagebanner {
     display: none;
   }
-  .col {
-    pointer-events: none;
-  }
+
     .carousel{
     height: 50vh;
   }
