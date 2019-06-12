@@ -2525,7 +2525,9 @@ top: 120px;
     margin-left: 0;
   }
 
-  
+  .caps {
+    display: none;
+  }
 
   .sublist {
     display: none;
@@ -2591,7 +2593,6 @@ top: 120px;
   width: 100% !important;
 }
   .custoscustos {
-    margin: 0px 60px 0px 60px;
   }
   .capscontain {
     width: 100%;
@@ -2863,7 +2864,6 @@ margin-top: 5px;
 
 .ordertop {
   display: flex;
-  margin-right: 50px;
 }
 
 .place {
