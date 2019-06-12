@@ -1002,7 +1002,7 @@ text-align: center;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: gray;
+  color: black;
   opacity: 1; /* Firefox */
   font-family: "Crimson Text";
   text-transform: uppercase;
