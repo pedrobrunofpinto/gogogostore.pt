@@ -2528,11 +2528,11 @@ top: 120px;
   }
   #product-slider__main.object-fit--contain .slick-slide img {
   object-fit: cover;
-  height: 400px;
+  height: 550px;
   width: 74%;
 }
 #product-slider__main .slick-slide {
-  height: 400px;
+  height: 550px;
 }
 
   .sete{
