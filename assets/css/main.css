@@ -2371,6 +2371,10 @@ top:10px;
 transform:rotate(-45deg);
 }
 
+.slick-lightbox-close {
+  left: 10px;
+}
+
 /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
 
 .lightbox-target:target {
