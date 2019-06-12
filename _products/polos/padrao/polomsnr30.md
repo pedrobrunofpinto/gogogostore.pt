@@ -9,7 +9,7 @@ image: "/assets/images/30.2.jpg"
 sec: "/assets/images/30.3.jpg"
 thir: "/assets/images/30.1-1.jpg"
 four: "/assets/images/30-1.jpg"
-categoria: polo
+categoria: polos
 att: padrao
 color:
 - Branco
