@@ -1,8 +1,9 @@
 ---
 layout: indexpage
 sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-shirts, Camisas, Polos, Casacos e muito mais. Portes grátis para compras superiores a 40€. Encontre a roupa da moda que procura! 
+
+
 ---
-<meta http-equiv="refresh" content="0; url={{ site.url }}" />
 
 <div class="popcontain" style="width:100%;">
  <div class="row pop-up" style="width: 50%;">

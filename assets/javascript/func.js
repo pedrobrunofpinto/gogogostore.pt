@@ -1,5 +1,16 @@
 
-
+let urlParamsObject = new URLSearchParams(window.location.search)
+let urlParamsString = urlParamsObject.toString() // gives us url parameters in string format
+let keyword = urlParamsObject.get('keyword') // gives us value of 'keyword' param. 
+let thecode = urlParamsObject.get('thecode') // gives us value of 'location' param.
+let newvari = "/?"
+$(document).ready(function () {
+    $("a").attr("href", (n, old) => {
+        if (old.includes('www.gogogostore.pt'))
+            return old + newvari + '&source=' + keyword + '&aff_sub=' + thecode
+        else return old + '' + urlParamsString
+    });
+});
 
 $( document ).ready(function() {
   $('#colors').change(function() {
