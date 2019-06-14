@@ -2523,7 +2523,13 @@ top: 120px;
   }
   .lest {
     margin-left: 0;
+    margin-top: 80px;
   }
+
+
+.bannerimage {
+  display: none !important;
+}
 
   .caps {
     display: none;
