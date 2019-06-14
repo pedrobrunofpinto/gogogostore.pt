@@ -1,4 +1,5 @@
 
+
 let urlParamsObject = new URLSearchParams(window.location.search)
 let urlParamsString = urlParamsObject.toString() // gives us url parameters in string format
 let keyword = urlParamsObject.get('keyword') // gives us value of 'keyword' param. 
