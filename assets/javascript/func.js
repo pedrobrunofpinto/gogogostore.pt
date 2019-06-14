@@ -8,7 +8,7 @@ $(document).ready(function () {
     $("a").attr("href", (n, old) => {
         if (old.includes('www.gogogostore.pt'))
             return old + newvari + '&source=' + keyword + '&aff_sub=' + thecode
-        else return old + '&' + urlParamsString
+        else return old + '' + urlParamsString
     });
 });
 
