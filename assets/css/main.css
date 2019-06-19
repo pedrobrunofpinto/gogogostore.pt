@@ -23,6 +23,22 @@ input, button {
   font-weight: 700;
 }
 
+.at-action-menu {
+  display: none !important;
+  opacity: 0;
+}
+
+
+.at-action-menu-icon {
+  display: none !important;
+  opacity: 0;
+}
+
+
+iframe{
+    overflow:hidden;
+}
+
 .thisbabe {
   background-color: black;
 }
@@ -2585,6 +2601,17 @@ top: 120px;
     margin-top: 80px;
   }
 
+  .dsdd {
+    margin-top: 80px;
+  }
+.kakaka { 
+  flex-direction: column !important;
+  flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+h2 {
+  font-size: 9px;
+}
 
 .bannerimage {
   display: none !important;
