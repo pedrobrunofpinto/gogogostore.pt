@@ -111,10 +111,33 @@ layout: default
 </div>
 {% endif %}
 {% if page.stock == "nao" %}
-<button id="my-button" class="nostock cartbut lebutton" style="   -webkit-appearance: none;
+<button id="my-button" class="nostock cartbut lebutton" style="-webkit-appearance: none;
 ">
     Sem Stock  
 </button>
+</div>
+{% endif %}
+{% if page.stock == "saldo" %}
+<button style="-webkit-appearance: none;
+" id="my-button" class="snipcart-add-item cartbut lebutton"
+    data-item-id="{{ page.id }}"
+    data-item-name="{{ page.name }}"
+    data-item-price="{{ page.price }}"
+    data-item-weight="{{ page.weight }}"
+    data-item-custom2-name="Tamanho"
+    data-item-custom2-options="S|M|L|XL"
+    data-item-custom2-required="true"
+    data-item-custom3-name="Cor"
+    data-item-custom3-options="{{ page.color[0] }}|{{ page.color[1] }}|{{ page.color[2] }}"
+    data-item-custom3-required="True"
+    data-item-quantity="1"
+    data-item-url="{{ site.url }}/products/{{ page.categoria }}/{{ page.att }}/{{ page.link }}"
+    data-item-description=""
+    data-item-pull="{{ page.discrip }}"
+    data-item-image="{{ page.image }}">
+    Adicionar ao carrinho   
+</button>
+</div>
 {% endif %}
 </div>
 </div>

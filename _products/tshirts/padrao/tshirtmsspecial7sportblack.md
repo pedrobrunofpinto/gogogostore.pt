@@ -3,7 +3,7 @@ layout: product
 id: 6
 name: T-SHIRT MS SPECIAL 7 SPORT BLACK
 link: tshirtmsspecial7sportblack
-price: 17.9
+price: 12.5
 weight: 500
 image: "/assets/images/25.2-1.jpg"
 sec: "/assets/images/25.3-1.jpg"
@@ -16,7 +16,6 @@ color:
 discrip: ss19 caviada riscas
 novo: true
 maisvendidos: true
-stock: sim
-new: true
-
+stock: saldo
+newprice: 17.9
 ---

@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: T-shirt MS Navy Straight
 link: thsirtmsnavystraight
-price: 17.90
+price: 17.9
 weight: 500
 image: /assets/images/produtos6/4.jpg
 sec: /assets/images/produtos6/6.jpg

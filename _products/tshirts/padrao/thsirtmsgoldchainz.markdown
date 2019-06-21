@@ -3,7 +3,7 @@ layout: product
 id: "3"
 name: T-shirt MS Gold Chainz
 link: thsirtmsgoldchainz
-price: "15.9"
+price: "11.1"
 weight: "500"
 image: "/assets/images/produtos/84.jpg"
 sec: "/assets/images/produtos/86.jpg"
@@ -16,6 +16,7 @@ color:
 discrip: tshirt t-shirt dourado padrao branca preta corrente correntes aço
 novo: false
 maisvendidos: false
-stock: sim
+stock: saldo
+newprice: 15.9
 
 ---

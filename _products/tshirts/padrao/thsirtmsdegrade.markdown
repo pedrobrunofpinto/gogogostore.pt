@@ -3,7 +3,7 @@ layout: product
 id: "3"
 name: T-shirt MS Degradê
 link: thsirtmsdegrade
-price: "15.9"
+price: "11.1"
 weight: "500"
 image: "/assets/images/produtos/140.jpg"
 sec: "/assets/images/produtos/142.jpg"
@@ -17,6 +17,7 @@ color:
 discrip: tshirt t-shirt degrade vermelha azul escuro padrao branca
 novo: false
 maisvendidos: false
-stock: sim
+stock: saldo
+newprice: 15.9
 
 ---
