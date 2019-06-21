@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/tshirts/padrao/tshirtmsbars.md
 - _products/tshirts/padrao/tshirtmsspecial7sportwhite.md
 - _products/tshirts/padrao/tshirtmsspecial7sportblack.md
 - _products/polos/padrao/polomsnr30.md
