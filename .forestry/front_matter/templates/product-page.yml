@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/tshirts/padrao/tshirtmsbaltic.md
 - _products/tshirts/padrao/tshirtmsfullgoldarmor.md
 - _products/tshirts/padrao/tshirtmshalf.md
 - _products/tshirts/padrao/tshirtmsgoldrome.md
