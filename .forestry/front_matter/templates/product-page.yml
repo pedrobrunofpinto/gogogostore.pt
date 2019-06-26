@@ -28,6 +28,11 @@ fields:
   label: Price
   config:
     required: true
+- name: newprice
+  type: text
+  config:
+    required: false
+  label: Old Price
 - type: number
   name: weight
   label: Weight
@@ -82,6 +87,16 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/tshirts/padrao/tshirtmsbars2.md
+- _products/tshirts/padrao/tshirtmsromerosewhite.md
+- _products/tshirts/padrao/tshirtmsrelaxbars.md
+- _products/tshirts/padrao/tshirtmsbaltic.md
+- _products/tshirts/padrao/tshirtmsfullgoldarmor.md
+- _products/tshirts/padrao/tshirtmshalf.md
+- _products/tshirts/padrao/tshirtmsgoldrome.md
+- _products/tshirts/padrao/tshirtmsbarsline.md
+- _products/tshirts/padrao/tshirtmsbars.md
+- _products/tshirts/padrao/tshirtmsspecial7sportwhite.md
 - _products/tshirts/padrao/tshirtmsspecial7sportblack.md
 - _products/polos/padrao/polomsnr30.md
 - _products/polos/padrao/polomspartywhite.md
@@ -97,7 +112,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsfocusblack.md
 - _products/tshirts/padrao/tshirtmsfocusyellow.md
 - _products/tshirts/padrao/tshirtmsspecial7sportred.md
-- _products/tshirts/padrao/tshirtmsspecial7sportwhite.md
 - _products/polos/padrao/polomstropical.md
 - _products/polos/padrao/polomsparty.md
 - _products/polos/padrao/polomscollarblack.md
