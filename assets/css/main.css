@@ -23,6 +23,9 @@ input, button {
   font-weight: 700;
 }
 
+.caseclose {
+  margin-top: 100px !important;
+}
 .at-action-menu {
   display: none !important;
   opacity: 0;
