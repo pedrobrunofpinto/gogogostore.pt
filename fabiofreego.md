@@ -136,5 +136,15 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 <a href="{{ site.url }}/tshirts/" style="display: flex;align-self: center;align-items: center;justify-content: center;"><img style="width:80%;" class="imgbottom" src="/assets/images/tshirtsbannerpic.jpg"></a>
 </div>
+<div class="bigpicblack" style="align-content: center; align-items: center; background-image: url('/assets/images/newinback.jpg');width: 100%;" class="newin">
+    <h3 style="color: #b07f33; font-size: 50px; text-align: center; ">NEW IN</h3>
+        <h3 style="color: white; font-size: 35px; text-align: center; background-color: black;">BLACK MATTE</h3>
+        <div class="blackmattepics" style="display: flex; justify-content: space-between; margin: 30px 30px 30px 30px; flex-wrap: wrap;">
+    <a href="https://www.gogogostore.pt/products/tshirts/padrao/tshirtmshalfblackmatte/"><img class="blackpic" style="width: 300px;" src="https://d33wubrfki0l68.cloudfront.net/9e35b1307cd98dd588853e213f532e712bc6475b/edcda/assets/images/1.1.1-1.jpg"></a>
+    <a href="https://www.gogogostore.pt/products/tshirts/padrao/tshirtmshalfwhitematte/"><img class="blackpic" style="width: 300px;" src="https://d33wubrfki0l68.cloudfront.net/5a97e5198b886ceb2a48fe440e8793fde0d62c91/f2dd3/assets/images/1.2.1-1.jpg"></a>
+    <a href="https://www.gogogostore.pt/products/tshirts/padrao/tshirtmsblackmatte/"><img class="blackpic" style="width: 300px;" src="https://d33wubrfki0l68.cloudfront.net/32b3b71523d9cdea3dfd78bf25d737f63c43f1bf/4fbe7/assets/images/2.2.jpg"></a>
+    </div>
+    <button class="buttonlow submite" style="background-color: black; text-align: center; text-transform: uppercase; color:white; font-size: 15px;" onclick="location.href='{{ site.url }}/novo/'" type="button">Ver Novidades</button>
+</div>
 {% include footer.html %}
 </div>
