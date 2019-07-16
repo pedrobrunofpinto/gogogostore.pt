@@ -17,7 +17,7 @@ color:
 discrip: branco ss19 basico
 novo: false
 maisvendidos: false
-stock: sim
+stock: saldo
 new: false
 
 ---
