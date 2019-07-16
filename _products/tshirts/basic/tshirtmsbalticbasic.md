@@ -18,6 +18,6 @@ discrip: branco ss19 basico
 novo: false
 maisvendidos: false
 stock: sim
-new: true
+new: false
 
 ---
