@@ -88,10 +88,10 @@ fields:
   label: Novidade
 pages:
 - _products/tshirts/padrao/tshirtmsbars2.md
+- _products/tshirts/padrao/tshirtmsfullgoldarmor.md
+- _products/tshirts/padrao/tshirtmsbaltic.md
 - _products/tshirts/padrao/tshirtmsromerosewhite.md
 - _products/tshirts/padrao/tshirtmsrelaxbars.md
-- _products/tshirts/padrao/tshirtmsbaltic.md
-- _products/tshirts/padrao/tshirtmsfullgoldarmor.md
 - _products/tshirts/padrao/tshirtmshalf.md
 - _products/tshirts/padrao/tshirtmsgoldrome.md
 - _products/tshirts/padrao/tshirtmsbarsline.md
