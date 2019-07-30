@@ -3,7 +3,7 @@ layout: product
 id: 1
 name: T-shirt MS All Star
 link: tshirtmsallstar
-price: 17.9
+price: 12.5
 weight: 500
 image: "/assets/images/3.1.1.jpg"
 sec: "/assets/images/3.3.jpg"
@@ -16,7 +16,8 @@ color:
 discrip: estrelas mangas ss19
 novo: true
 maisvendidos: true
-stock: sim
+stock: saldo
 new: true
+newprice: '17,9'
 
 ---
