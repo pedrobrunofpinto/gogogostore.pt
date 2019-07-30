@@ -1,13 +1,13 @@
 ---
 layout: product
-id: "3"
+id: 3
 name: T-shirt MS Red Fur
 link: thsirtmsredfur
-price: "15.9"
-weight: "500"
+price: 12.5
+weight: 500
 image: "/assets/images/produtos3/5.1.jpg"
 sec: "/assets/images/produtos3/5.2.jpg"
-thir: 
+thir: ''
 att: basic
 categoria: tshirts
 color:
@@ -15,6 +15,9 @@ color:
 discrip: tshirt t-shirt vermelho
 novo: false
 maisvendidos: false
-stock: sim
+stock: saldo
+newprice: '15,9'
+four: ''
+new: false
 
 ---
