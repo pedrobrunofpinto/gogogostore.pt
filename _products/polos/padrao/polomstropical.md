@@ -15,7 +15,8 @@ color: []
 discrip: ss19 flores verao
 novo: true
 maisvendidos: true
-stock: sim
+stock: nao
 new: true
+newprice: ''
 
 ---
