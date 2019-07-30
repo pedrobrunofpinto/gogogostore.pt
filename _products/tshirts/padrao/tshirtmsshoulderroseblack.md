@@ -3,7 +3,7 @@ layout: product
 id: 7
 name: T-shirt MS Shoulder Rose Black
 link: tshirtmsshoulderroseblack
-price: 17.9
+price: 12.5
 weight: 500
 image: "/assets/images/15.2.jpg"
 sec: "/assets/images/18.2-1.jpg"
@@ -15,7 +15,8 @@ color: []
 discrip: rosas flores ss19
 novo: true
 maisvendidos: true
-stock: sim
+stock: saldo
 new: true
+newprice: '17,9'
 
 ---
