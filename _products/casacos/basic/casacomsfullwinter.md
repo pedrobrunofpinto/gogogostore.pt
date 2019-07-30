@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Casaco MS Full Winter
 link: casacomsfullwinter
-price: 24.9
+price: 17.5
 weight: 500
 image: "/assets/images/casaco fixe.jpg"
 sec: "/assets/images/casaquinho.jpg"
@@ -18,7 +18,9 @@ color:
 discrip: chuva inverno
 novo: true
 maisvendidos: true
-stock: sim
+stock: saldo
 new: true
+newprice: '24,9'
+four: ''
 
 ---

@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/casacos/basic/casacomsbikerbasic.md
 - _products/camisas/padrao/camisamsstripesclassicdark.markdown
 - _products/camisas/padrao/camisamsstripesclassic.markdown
 - _products/camisas/padrao/camisamsstripes.markdown
@@ -165,7 +166,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsaquamotion.md
 - _products/casacos/basic/casacomsfullwinter.md
 - _products/tshirts/padrao/tshirtmsspecial7.md
-- _products/casacos/basic/casacomsbikerbasic.md
 - _products/tshirts/padrao/tshirtmsbrazil.md
 - _products/tshirts/basic/tshirtmstricolor.md
 - _products/tshirts/padrao/tshirtmshawai.md
