@@ -1,10 +1,10 @@
 ---
 layout: product
-id: "3"
+id: 3
 name: T-shirt MS Ocean Straight
 link: thsirtmsoceanstraight
-price: "17.9"
-weight: "500"
+price: 12.5
+weight: 500
 image: "/assets/images/produtos6/16.jpg"
 sec: "/assets/images/produtos6/17.jpg"
 thir: "/assets/images/produtos6/18.jpg"
@@ -15,6 +15,9 @@ color:
 discrip: claro basic ocean
 novo: false
 maisvendidos: true
-stock: sim
+stock: saldo
+newprice: '17,9'
+four: ''
+new: false
 
 ---
