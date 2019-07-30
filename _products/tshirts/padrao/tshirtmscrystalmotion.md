@@ -3,7 +3,7 @@ layout: product
 id: 7
 name: T-shirt MS Crystal Motion
 link: tshirtmscrystalmotion
-price: 17.9
+price: 12.5
 weight: 500
 image: "/assets/images/15.1.jpg"
 sec: "/assets/images/16.1.jpg"
@@ -17,7 +17,9 @@ color:
 discrip: ss19 laranja azul
 novo: true
 maisvendidos: false
-stock: sim
+stock: saldo
 new: true
+newprice: '17,9'
+four: ''
 
 ---
