@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/tshirts/basic/tshirtmstapes.md
 - _products/tshirts/padrao/thsirtmsrosestripe.markdown
 - _products/tshirts/basic/tshirtmsbalticbasic.md
 - _products/tshirts/padrao/tshirtmsbars2.md
@@ -146,4 +147,3 @@ pages:
 - _products/tshirts/padrao/tshirtmscrystalrose.md
 - _products/tshirts/padrao/tshirtmsbeach.md
 - _products/tshirts/padrao/tshirtmsfullrose.md
-- _products/tshirts/basic/tshirtmstapes.md
