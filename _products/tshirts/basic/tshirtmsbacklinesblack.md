@@ -3,7 +3,7 @@ layout: product
 id: 5
 name: T-shirt MS Backlines Black
 link: tshirtmsbacklinesblack
-price: 17.9
+price: 12.5
 weight: 500
 image: "/assets/images/11.1-1.jpg"
 sec: "/assets/images/11.3.jpg"
@@ -16,7 +16,8 @@ color:
 discrip: atras ss19 linhas
 novo: true
 maisvendidos: true
-stock: sim
+stock: saldo
 new: true
+newprice: "17.9"
 
 ---
