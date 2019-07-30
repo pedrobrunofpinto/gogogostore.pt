@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/tshirts/padrao/tshirtmsfrenchstylered.md
 - _products/tshirts/padrao/tshirtmsfocus.md
 - _products/tshirts/padrao/tshirtmscaptain.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
@@ -155,7 +156,6 @@ pages:
 - _products/polos/padrao/polomsparty.md
 - _products/polos/padrao/polomscollarblack.md
 - _products/polos/padrao/polomscollar.md
-- _products/tshirts/padrao/tshirtmsfrenchstylered.md
 - _products/tshirts/padrao/tshirtmscaptainblue.md
 - _products/tshirts/padrao/tshirtmsallstarred.md
 - _products/tshirts/padrao/tshirtmsallstar.md
