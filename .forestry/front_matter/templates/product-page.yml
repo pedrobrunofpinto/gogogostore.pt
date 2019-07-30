@@ -87,6 +87,8 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/casacos/padrao/casacomsrain.markdown
+- _products/camisas/padrao/camisamsstripes.markdown
 - _products/tshirts/padrao/tshirtmsfrenchstylered.md
 - _products/tshirts/padrao/tshirtmsfocus.md
 - _products/tshirts/padrao/tshirtmscaptain.md
@@ -96,12 +98,10 @@ pages:
 - _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/casacos/padrao/casacomsurbanred.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
-- _products/casacos/padrao/casacomsrain.markdown
 - _products/casacos/padrao/casacomsjungle.markdown
 - _products/casacos/basic/casacomsbikerbasic.md
 - _products/camisas/padrao/camisamsstripesclassicdark.markdown
 - _products/camisas/padrao/camisamsstripesclassic.markdown
-- _products/camisas/padrao/camisamsstripes.markdown
 - _products/camisas/padrao/camisamsspotswhite.markdown
 - _products/camisas/padrao/camisamsspotsblack.markdown
 - _products/polos/padrao/tshirtmstropicalwhite.md
