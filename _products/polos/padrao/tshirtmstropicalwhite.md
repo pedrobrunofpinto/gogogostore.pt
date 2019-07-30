@@ -3,7 +3,7 @@ layout: product
 id: 8
 name: Pólo MS Tropical White
 link: tshirtmstropicalwhite
-price: 21.9
+price: 15.3
 weight: 500
 image: "/assets/images/28.2-1.jpg"
 sec: "/assets/images/28.3.jpg"
@@ -16,7 +16,8 @@ color:
 discrip: flores verao ss19
 novo: true
 maisvendidos: true
-stock: sim
+stock: saldo
 new: true
+newprice: '21,9'
 
 ---
