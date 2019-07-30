@@ -3,7 +3,7 @@ layout: product
 id: 4
 name: Pólo MS Party
 link: polomsparty
-price: 21.9
+price: 15.3
 weight: 500
 image: "/assets/images/32.2.jpg"
 sec: "/assets/images/32.jpg"
@@ -16,7 +16,8 @@ color:
 discrip: ss19 bolas cores
 novo: true
 maisvendidos: true
-stock: sim
+stock: saldo
 new: true
+newprice: '21,9'
 
 ---
