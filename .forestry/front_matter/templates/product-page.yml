@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/polos/padrao/polomsclassico.markdown
 - _products/tshirts/basic/tshirtmswhitestraight.markdown
 - _products/tshirts/basic/tshirtmsrubystraight.markdown
 - _products/tshirts/basic/tshirtmsblackstraight.markdown
