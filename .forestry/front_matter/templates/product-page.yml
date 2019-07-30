@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/polos/padrao/polomstropical.md
 - _products/polos/padrao/polomspartywhite.md
 - _products/polos/padrao/polomsclassicowhite.markdown
 - _products/polos/padrao/polomsclassico.markdown
@@ -136,7 +137,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsfocusblack.md
 - _products/tshirts/padrao/tshirtmsfocusyellow.md
 - _products/tshirts/padrao/tshirtmsspecial7sportred.md
-- _products/polos/padrao/polomstropical.md
 - _products/polos/padrao/polomsparty.md
 - _products/polos/padrao/polomscollarblack.md
 - _products/polos/padrao/polomscollar.md

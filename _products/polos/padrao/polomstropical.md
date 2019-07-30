@@ -3,7 +3,7 @@ layout: product
 id: 66
 name: Pólo MS Tropical
 link: polomstropical
-price: 21.9
+price: 15.3
 weight: 500
 image: "/assets/images/29.2-2.jpg"
 sec: "/assets/images/29-1.jpg"
@@ -17,6 +17,6 @@ novo: true
 maisvendidos: true
 stock: nao
 new: true
-newprice: ''
+newprice: '21,9'
 
 ---
