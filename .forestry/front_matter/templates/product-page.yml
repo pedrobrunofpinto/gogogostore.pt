@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/tshirts/padrao/tshirtmsfocus.md
 - _products/tshirts/padrao/tshirtmscaptain.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
 - _products/tshirts/padrao/tshirtmscaptainblack.md
@@ -141,7 +142,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsspecial7sportwhite.md
 - _products/tshirts/padrao/tshirtmsspecial7sportblack.md
 - _products/polos/padrao/polomsnr30.md
-- _products/tshirts/padrao/tshirtmsfocus.md
 - _products/tshirts/padrao/tshirtmsfrenchblue.md
 - _products/tshirts/padrao/tshirtmsfrenchstyleyellow.md
 - _products/tshirts/basic/tshirtmsbacklinesblack.md
