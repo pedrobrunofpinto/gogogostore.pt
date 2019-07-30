@@ -3,7 +3,7 @@ layout: product
 id: 8
 name: Pólo MS Party White
 link: polomspartywhite
-price: 21.9
+price: 15.3
 weight: 500
 image: "/assets/images/31.jpg"
 sec: "/assets/images/31.1-1.jpg"
@@ -16,7 +16,8 @@ color:
 discrip: pintas bolas ss19
 novo: true
 maisvendidos: true
-stock: sim
+stock: saldo
 new: true
+newprice: '21,9'
 
 ---
