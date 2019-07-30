@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Pólo MS Collar
 link: polomscollar
-price: 21.9
+price: 15.3
 weight: 500
 image: "/assets/images/34.2.jpg"
 sec: "/assets/images/34.3.jpg"
@@ -16,7 +16,8 @@ color:
 discrip: pintas bolas ss19
 novo: true
 maisvendidos: true
-stock: sim
+stock: saldo
 new: true
+newprice: '21,9'
 
 ---
