@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/casacos/padrao/casacomsurbanred.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
@@ -166,7 +167,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsshoulderrose.md
 - _products/tshirts/padrao/tshirtmsitalianstyle.md
 - _products/tshirts/padrao/tshirtmscastlerose.md
-- _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/tshirts/basic/tshirtmsbacklines.md
 - _products/tshirts/padrao/tshirtmsaquamotion.md
 - _products/casacos/basic/casacomsfullwinter.md
