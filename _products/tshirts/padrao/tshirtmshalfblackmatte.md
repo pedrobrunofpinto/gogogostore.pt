@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: T-shirt MS Half Black Matte
 link: tshirtmshalfblackmatte
-price: 17.9
+price: 12.5
 weight: 500
 image: "/assets/images/1.1.4-1.jpg"
 sec: "/assets/images/1.1.2.jpg"
@@ -16,7 +16,8 @@ color:
 discrip: ss19 dourado basico
 novo: true
 maisvendidos: true
-stock: sim
+stock: saldo
 new: true
+newprice: '17,9'
 
 ---
