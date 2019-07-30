@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/casacos/padrao/casacomsurbanred.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
 - _products/casacos/padrao/casacomsrain.markdown
