@@ -87,6 +87,8 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/camisas/padrao/camisamsstripesclassicdark.markdown
+- _products/camisas/padrao/camisamsstripesclassic.markdown
 - _products/camisas/padrao/camisamsstripes.markdown
 - _products/camisas/padrao/camisamsspotswhite.markdown
 - _products/camisas/padrao/camisamsspotsblack.markdown

@@ -1,13 +1,13 @@
 ---
 layout: product
-id: "3"
+id: 3
 name: Camisa MS Stripes Classic
 link: camisamsstripesclassic
-price: "21.9"
-weight: "500"
+price: 15.3
+weight: 500
 image: "/assets/images/produtos/18.jpg"
 sec: "/assets/images/produtos/19.jpg"
-thir: 
+thir: ''
 att: padrao
 categoria: camisas
 color:
@@ -16,6 +16,9 @@ color:
 discrip: camisa padrao riscas azul escuro branco
 novo: true
 maisvendidos: true
-stock: nao
+stock: saldo
+newprice: '21,9'
+four: ''
+new: false
 
 ---
