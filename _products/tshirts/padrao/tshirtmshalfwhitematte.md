@@ -3,7 +3,7 @@ layout: product
 id: 1
 name: T-shirt MS Half White Matte
 link: tshirtmshalfwhitematte
-price: 17.9
+price: 12.5
 weight: 500
 image: "/assets/images/1.2.4.jpg"
 sec: "/assets/images/1.2.2.jpg"
@@ -16,7 +16,8 @@ color:
 discrip: ss19 basico mangas
 novo: true
 maisvendidos: true
-stock: sim
+stock: saldo
 new: true
+newprice: '17,9'
 
 ---
