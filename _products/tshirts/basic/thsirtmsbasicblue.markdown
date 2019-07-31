@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: T-shirt MS Basic Blue
 link: thsirtmsbasicblue
-price: '9.80'
+price: 9.8
 weight: 500
 image: "/assets/images/produtos/145.jpg"
 sec: "/assets/images/produtos/148.jpg"
