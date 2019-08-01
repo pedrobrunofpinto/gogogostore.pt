@@ -87,6 +87,7 @@ fields:
   type: boolean
   label: Novidade
 pages:
+- _products/polos/padrao/polomsclassicowhite.markdown
 - _products/polos/padrao/tshirtmstropicalwhite.md
 - _products/tshirts/padrao/tshirtmsbars2.md
 - _products/tshirts/padrao/tshirtmsbaltic.md
@@ -121,7 +122,6 @@ pages:
 - _products/casacos/padrao/casacomsrain.markdown
 - _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
-- _products/polos/padrao/polomsclassicowhite.markdown
 - _products/camisas/padrao/camisamsstripesclassicdark.markdown
 - _products/camisas/padrao/camisamsstripesclassic.markdown
 - _products/tshirts/basic/tshirtmswhitestraight.markdown
