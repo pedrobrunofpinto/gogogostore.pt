@@ -2816,6 +2816,7 @@ flex-direction: column;
   #my-size {
     width: 100%;
     border: 1px solid black;
+    background-color: white;
   }
   #colors {
     width: 100%;
