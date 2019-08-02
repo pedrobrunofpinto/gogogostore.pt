@@ -1071,6 +1071,9 @@ $('#product-slider__main').slickLightbox({
 });
 
 
+
+
+
 Snipcart.execute('config', 'show_continue_shopping', true);
 
 
@@ -1084,7 +1087,6 @@ $(document).ajaxComplete(function(event, XMLHttpRequest, ajaxOptions) {
 $(document).ajaxStop(function(event, XMLHttpRequest, ajaxOptions) {
   $("[for='snip-postalCode']").html("Código Postal")
 });
-
 
 
 

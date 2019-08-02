@@ -23,6 +23,11 @@ input, button {
   font-weight: 700;
 }
 
+
+.snip-layout .snip-product__description {
+  display: block;
+}
+
 .caseclose {
   margin-top: 100px !important;
 }
