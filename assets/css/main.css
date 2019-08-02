@@ -32,6 +32,10 @@ input, button {
 }
 
 
+.uuu {
+  display: none !important;
+}
+
 .at-action-menu-icon {
   display: none !important;
   opacity: 0;
@@ -2598,6 +2602,10 @@ top: 120px;
   .blackmattepics {
     justify-content: center !important;
   }
+
+.uuu {
+  display: flex !important;
+}
   .bigpicblack {
   }
 
