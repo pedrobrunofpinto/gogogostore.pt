@@ -2077,7 +2077,7 @@ button:hover {
 }
 
 .slide:nth-child(1){
-  background-image:url(/assets/images/saldos.jpg);
+  background-image:url(/assets/images/saldosbanner.jpg);
   background-repeat:no-repeat;
 background-size:contain;
  }
@@ -2728,7 +2728,7 @@ h2 {
   }
 
 .slide:nth-child(1){
-  background-image:url(/assets/images/saldos.jpg);
+  background-image:url(/assets/images/saldosbanner.jpg);
   background-repeat:no-repeat;
   background-size:auto 500px;
   background-position: center top;
