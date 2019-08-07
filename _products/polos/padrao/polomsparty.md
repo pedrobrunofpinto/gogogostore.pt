@@ -16,7 +16,7 @@ color:
 discrip: ss19 bolas cores
 novo: true
 maisvendidos: true
-stock: saldo
+stock: nao
 new: true
 newprice: '21,9'
 
