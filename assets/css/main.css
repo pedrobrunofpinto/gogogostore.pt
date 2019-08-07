@@ -771,6 +771,12 @@ fieldset {
         text-align: center;
 }
 
+.h2price {
+  font-weight: 900 !important;
+  font-size: 15px !important;
+        text-align: center;
+}
+
 .mert select {
 background: none !important;
     background-position: none;
@@ -1699,7 +1705,7 @@ li {
   width: 100%;
   align-items: center;
   align-content: center;
-  margin-left: 100px;
+  margin-left: 200px;
 }
 
 .lest {
