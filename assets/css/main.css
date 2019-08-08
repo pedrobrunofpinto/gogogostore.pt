@@ -2650,6 +2650,7 @@ top: 120px;
     margin: -80px 240px 0 260px;
   }
 
+
 }
 
 
@@ -2671,6 +2672,12 @@ top: 120px;
   .blackmattepics {
     justify-content: center !important;
   }
+
+    .maiscoresdiv {
+    width: 100% !important;
+  }
+
+
 
 .uuu {
   display: flex !important;
@@ -2908,6 +2915,11 @@ flex-direction: column;
   }
   .productdetails {
     width: 80%;
+    display: none;
+  }
+
+  .colectiondis {
+    display: flex !important;
   }
   #no {
     display: none;
