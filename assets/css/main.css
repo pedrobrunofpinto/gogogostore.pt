@@ -23,6 +23,10 @@ input, button {
   font-weight: 700;
 }
 
+.flextest {
+  background-color: white;
+}
+
 
 .snip-layout .snip-product__description {
   display: none;
@@ -380,6 +384,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
+    background-color: #F0F0F0;
 }
 
 .mobilepop {
@@ -1383,7 +1388,7 @@ hr {
 
 
 .submit {
-    padding:4px 15px; 
+    padding:6px 15px !important; 
     background: white; 
     border:0 none;
     cursor:pointer;
