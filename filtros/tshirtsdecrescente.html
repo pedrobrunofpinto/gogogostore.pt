@@ -31,9 +31,11 @@ layout: default
 </form>
 <ul class="list prodcontain" id="oozer-list">
  {% assign sorted = site.products | sort_by: "price" | reverse %}
-{% for t in sorted %}
+{% for t in sorted reverse %}
   {% if t.categoria == "tshirts" %}
 {% if t.stock == "sim" %}
+
+
   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
