@@ -15,29 +15,28 @@ layout: default
   <div class="filtercontainer">
     <h4 class="filtername">Aplicar Filtros</h4>
   </div>
- {% include oozefilters.html %}
-
-
+{% include oozefilters.html %}
 
 <div class="mobfil">
    <div class="sortcontainer">
-    <h4 class="filtername"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Preço Baixo - Alto</h3></div></h4>
+    <h4 class="filtername"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância</h3></div></h4>
   </div>
 
-  <div class="oosort"><a class="filterlink" href="{{ site.url }}/tshirts"><h3 class="oosort">Relevância</h3></a><a class="filterlink" href="{{ site.url }}/filtros/tshirtsdecrescente/"><h3 class="oosort">Preço Alto - Baixo</h3></a></div></div>
+  <div class="oosort"><a class="filterlink" href="{{ site.url }}/filtros/tshirtscrescente/"><h3 class="oosort">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/tshirtsdecrescente/"><h3 class="oosort">Preço Alto - Baixo</h3></a></div></div>
 </div>
 
 
 
 </form>
 <ul class="list prodcontain" id="oozer-list">
- {% assign sorted = site.products | sort_by: "price" %}
-{% for t in sorted %}
+ {% assign sorted = site.products | sort: "price" %}
+{% for t in sorted reversed %}
   {% if t.categoria == "tshirts" %}
 {% if t.stock == "sim" %}
   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
+
     <div class="btn">
       <button class="snipcart-add-item thisbtn"
     data-item-id="{{ t.id }}"
@@ -57,7 +56,7 @@ layout: default
     Adicionar ao carrinho   
 </button>
 
-            <h4 class="h4name" data-position="{{ t.price }}">{{ t.name }}</h4>
+      <h4 class="h4name" data-position="{{ t.price }}">{{ t.name }}</h4>
       <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4>
 </li>
 
@@ -94,12 +93,48 @@ layout: default
 
 </div>
 {% endif %}
+{% if t.stock == "saldo" %}
+  <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
+  <div class="productplace" >
+  <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img  style="width:96%; border: 5px solid red;" class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
+    <div class="btn">
+      <button style="background-color: red; color: white;" class="snipcart-add-item thisbtn"
+    data-item-id="{{ t.id }}"
+    data-item-name="{{ t.name }}"
+    data-item-price="{{ t.price }}"
+    data-item-weight="{{ t.weight }}"
+    data-item-custom2-name="Tamanho"
+    data-item-custom2-options="S|M|L|XL"
+    data-item-custom2-required="true"
+    data-item-custom3-name="Cor"
+    data-item-custom3-options="{{ t.color[0] }}"
+    data-item-custom3-required="True"
+    data-item-quantity="1"
+    data-item-url="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"
+    data-item-description="{{ t.discrip }}"
+    data-item-image="{{ t.image }}">
+    Adicionar ao carrinho   
+</button>
+
+            <h4 class="h4name" style="display: flex;justify-content: space-around;"data-position="{{ t.price }}">{{ t.name }}{% if t.new %}<p style="color:red;font-size: 9px;">New</p>{% endif %}{% if t.newprice %}<p style="color:red;font-size: 9px;">Saldo</p>{% endif %}</h4>
+      <h4 class="h4price" data-position="{{ t.price }}" style="display: flex; justify-content: space-around; flex-direction: row-reverse;">Preço:{{ t.price }}0€{% if t.newprice %}<p><div style="align-items: center;align-self: center;align-content: center;  width:100%;display:flex;color:black; font-size: 9px">antes <p style="text-decoration: line-through;font-size: 12px;">{{ t.newprice }}0€</p></div></p>{% endif %}</h4>
+</li>
+
+</div>
+</div>
+
+{% endif %}
 {% endif %}
 {% endfor %}
 
 </ul>
 </main>
+<!-- Return to Top -->
 <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+
+<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+
 
     <div class="pagination pages showpages"></div>
 
