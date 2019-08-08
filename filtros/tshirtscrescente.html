@@ -29,8 +29,8 @@ layout: default
 
 </form>
 <ul class="list prodcontain" id="oozer-list">
- {% assign sorted = site.products | sort: "price" %}
-{% for t in sorted reversed %}
+ {% assign sorted = site.products | sort_by: "price" %}
+{% for t in sorted %}
   {% if t.categoria == "tshirts" %}
 {% if t.stock == "sim" %}
   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
