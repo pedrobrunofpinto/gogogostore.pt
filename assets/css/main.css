@@ -938,7 +938,7 @@ select {
 .productwindow {
   display: flex;
   justify-content: space-between;
-  margin: 50px 100px 20px 100px;
+margin: 0 30px 0;
   flex-wrap: wrap;
   flex-shrink: 0;
   flex-direction: row;
@@ -2642,7 +2642,9 @@ top: 120px;
     margin: 0 240px 0 210px;
   }
   .globeproducts {
-    margin: 0 240px 0 210px;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
   }
   .superwarp{
     margin: -80px 240px 0 260px;
