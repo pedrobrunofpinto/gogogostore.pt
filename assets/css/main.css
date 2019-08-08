@@ -2921,6 +2921,10 @@ flex-direction: column;
   .colectiondis {
     display: flex !important;
   }
+
+  .maiscoresdiv {
+    display: flex;
+  }
   #no {
     display: none;
   }
