@@ -64,7 +64,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     width: 100%;
     display: flex;
     text-align: center;
-    align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">NEW COLLECTION</p>
+    align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;"></p>
 <p class="bottext" style="font-family: 'Playfair Display', serif;
     height: 100vh;
     position: absolute;
@@ -73,7 +73,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     width: 100%;
     display: flex;
     text-align: center;
-    align-items: center;font-size: 60px;justify-content: center;text-shadow: 2px 2px black;">SHIRTS SS19</p></a>
+    align-items: center;font-size: 60px;justify-content: center;text-shadow: 2px 2px black;"></p></a>
     <a href="{{ site.url }}/camisas" class="slide">
   <p class="newcl" style="font-family: 'Montserrat', sans-serif;
   font-weight: thin !important;
@@ -84,7 +84,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     width: 100%;
     display: flex;
     text-align: center;
-    align-items: center;font-size: 30px;justify-content: center;">NEW COLLECTION</p>
+    align-items: center;font-size: 30px;justify-content: center;"></p>
 <p class="bottext" style="font-family: 'Playfair Display', serif;
     height: 100vh;
     position: absolute;
@@ -93,7 +93,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     width: 100%;
     display: flex;
     text-align: center;
-    align-items: center;font-size: 60px;justify-content: center;">SUMMER VIBES</p></a>
+    align-items: center;font-size: 60px;justify-content: center;"></p></a>
     </div>
     <div class="arrow arrow-left"></div>
     <div class="arrow arrow-right"></div>
