@@ -27,6 +27,7 @@ input, button {
   display: none !important;
 }
 
+
 #slider{
   width:100%;
 display: block;
@@ -2756,6 +2757,10 @@ top: 120px;
     width: 100% !important;
   }
 
+.textflow {
+  font-size: 7px !important;
+}
+
 
 
 .uuu {
@@ -3184,23 +3189,23 @@ margin-top: 5px;
     display: none;
   }
   .slide:nth-child(1){
-  background-image:url(/assets/images/primeiramo.jpg);
+  background-image:url(/assets/images/primeiramo.jpg) !important;
   background-repeat:no-repeat;
-  background-size:auto 400px;
+  background-size:auto 100px;
   background-position: center top;
  }
 
 .slide:nth-child(2){
-  background-image:url(/assets/images/terceiramo.jpg);
+  background-image:url(/assets/images/lalala.jpg) !important;
   background-repeat:no-repeat;
-  background-size:auto 400px;
+  background-size:auto 100px;
   background-position: center top;
 }
 
 .slide:nth-child(3){
-  background-image:url(/assets/images/segundamo.jpg);
+  background-image:url(/assets/images/segundamo.jpg) !important;
   background-repeat:no-repeat;
-  background-size:auto 400px;
+  background-size:auto 100px;
   background-position: center top;
 }
 
