@@ -23,6 +23,10 @@ input, button {
   font-weight: 700;
 }
 
+.slick-arrow {
+  display: none !important;
+}
+
 #slider{
   width:100%;
 display: block;
@@ -2873,26 +2877,6 @@ h2 {
     margin-top: 0;
   }
 
-.slide:nth-child(1){
-  background-image:url(/assets/images/primeira.jpg);
-  background-repeat:no-repeat;
-  background-size:auto 500px;
-  background-position: center top;
- }
-
-.slide:nth-child(2){
-  background-image:url(/assets/images/segunda.jpg);
-  background-repeat:no-repeat;
-  background-size:auto 500px;
-  background-position: center top;
-}
-
-.slide:nth-child(3){
-  background-image:url(/assets/images/terceira.jpg);
-  background-repeat:no-repeat;
-  background-size:auto 500px;
-  background-position: center top;
-}
 
 
   .fotimgbig {
@@ -3199,6 +3183,27 @@ margin-top: 5px;
   .imagebanner {
     display: none;
   }
+  .slide:nth-child(1){
+  background-image:url(/assets/images/primeiramo.jpg);
+  background-repeat:no-repeat;
+  background-size:auto 400px;
+  background-position: center top;
+ }
+
+.slide:nth-child(2){
+  background-image:url(/assets/images/terceiramo.jpg);
+  background-repeat:no-repeat;
+  background-size:auto 400px;
+  background-position: center top;
+}
+
+.slide:nth-child(3){
+  background-image:url(/assets/images/segundamo.jpg);
+  background-repeat:no-repeat;
+  background-size:auto 400px;
+  background-position: center top;
+}
+
 
     .carousel{
     height: 50vh;
