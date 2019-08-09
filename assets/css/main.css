@@ -3200,21 +3200,21 @@ margin-top: 5px;
     top: -90px !important;
   }
   .slide:nth-child(1){
-  background-image:url(/assets/images/slidegogogo.jpg);
+  background-image:url(/assets/images/primeira.jpg);
   background-repeat:no-repeat;
   background-size:auto 400px;
   background-position: center top;
  }
 
 .slide:nth-child(2){
-  background-image:url(/assets/images/slide2gogogo.jpg);
+  background-image:url(/assets/images/segunda.jpg);
   background-repeat:no-repeat;
   background-size:auto 400px;
   background-position: center top;
 }
 
 .slide:nth-child(3){
-  background-image:url(/assets/images/slide3gogogo.jpg);
+  background-image:url(/assets/images/terceira.jpg);
   background-repeat:no-repeat;
   background-size:auto 400px;
   background-position: center top;
