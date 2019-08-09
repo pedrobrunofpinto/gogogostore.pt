@@ -27,8 +27,14 @@ input, button {
   width:100%;
 display: block;
     z-index: 100;
-    margin-top: 50px;
+    margin-top: 34px;
+    background-color: #d1ba7b !important;
 }
+
+.slick-slider {
+  margin-bottom: 0 !important;
+}
+
 h3{
   padding: 0;
   margin: 0;
@@ -47,6 +53,10 @@ h3{
 /* Corrections */
 .slick-track {
   height: 100%;
+  align-items: center;
+    align-content: center;
+    margin-top: 8px;
+    display: flex;
 }
 .slick-slide {
   position: relative;
@@ -1615,8 +1625,8 @@ nav {
 
 .logo {
   width: 200px;
-  margin: 20px 0 0 20px;
-}
+    margin: 20px 0 0 40%;
+  }
 
 
 .productss {
@@ -1993,7 +2003,7 @@ button:hover {
   position: relative;
   overflow: hidden;
   margin: 0 0 0 0 !important;
-  padding-top: 55%;
+  padding-top: 38%;
 }
 
 .inner{
@@ -2033,8 +2043,8 @@ button:hover {
 .slide.active,
 .slide.left,
 .slide.right{
-  z-index: 2;
-  opacity: 1;
+  z-index: 2 !important;
+  opacity: 1 !important;
 }
 
 /**
@@ -2191,19 +2201,21 @@ button:hover {
 .slide:nth-child(1){
   background-image:url(/assets/images/primeira.jpg);
   background-repeat:no-repeat;
-background-size:contain;
+  background-size:auto 40%;
+  background-position: center top;
  }
 
 .slide:nth-child(2){
   background-image:url(/assets/images/segunda.jpg);
-    background-repeat:no-repeat;
-background-size:contain;
+  background-repeat:no-repeat;
+  background-size:auto 40%;
+  background-position: center top;
 }
 
 .slide:nth-child(3){
   background-image:url(/assets/images/terceira.jpg);
   background-repeat:no-repeat;
-  background-size:auto 1000px;
+  background-size:auto 40%;
   background-position: center top;
 }
 
@@ -3234,6 +3246,7 @@ margin-top: 5px;
   }
   .logo {
     width: 100px;
+        margin: 20px 0 0 0% !important;
   }
 s
   .fotimgbig {
