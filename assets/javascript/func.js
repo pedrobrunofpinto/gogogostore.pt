@@ -15,7 +15,17 @@ $(document).ready(function() {
     }, x);
 });
 
-
+$(document).ready(function(){
+  $('#slider').slick({
+      draggable: true,
+      autoplay: true, /* this is the new line */
+      autoplaySpeed: 2000,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      touchThreshold: 1000,
+  });
+});
 
 
 // ===== Scroll to Top ==== 

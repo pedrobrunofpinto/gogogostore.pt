@@ -21,7 +21,18 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 
 <div id="overlay" class="cover blur-in">
-
+    <div id="slider" style="display: block;">
+  <div>
+    <h6 style="font-size: 15px;">PORTES GRÁTIS ACIMA 40€!</h6> 
+  </div>
+  <div>
+    <h6 style="font-size: 15px;">SEGUE-NOS NO <a href="https://www.instagram.com/gogogostore/"> INSTAGRAM!</a></h6>
+  </div>
+  <div>
+    <h6 style="font-size: 15px;">INSCREVE-TE NA NOSSA NEWSLETTER E RECEBE 15%!</h6>  
+  </div>
+                
+</div> 
 <h1 style="font-size: 1px;z-index: -200; position: absolute; top: 0;">GOGOGO Store - Loja Online de Roupa Masculina</h1>
 <div class="wrapper">
   <div class="carousel">
