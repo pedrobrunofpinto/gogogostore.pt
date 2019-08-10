@@ -90,6 +90,9 @@ fields:
   type: boolean
   label: inicial
 pages:
+- _products/tshirts/padrao/tshirtmsblackmatte.md
+- _products/polos/padrao/polomsnr30.md
+- _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/tshirts/padrao/tshirtmscaptainblue.md
 - _products/tshirts/padrao/tshirtmsitalianstyle.md
 - _products/tshirts/padrao/tshirtmsfrenchstyle.md
@@ -134,7 +137,6 @@ pages:
 - _products/tshirts/padrao/tshirtmscaptainblack.md
 - _products/tshirts/padrao/tshirtmsfrenchstylered.md
 - _products/tshirts/padrao/tshirtmsfocus.md
-- _products/polos/padrao/polomsnr30.md
 - _products/tshirts/padrao/tshirtmsspecial7sportblack.md
 - _products/tshirts/padrao/tshirtmsbarsline.md
 - _products/tshirts/padrao/tshirtmsfullgoldarmor.md
@@ -154,14 +156,12 @@ pages:
 - _products/tshirts/padrao/tshirtmsfocusyellow.md
 - _products/polos/padrao/polomstropical.md
 - _products/tshirts/padrao/tshirtmscastlerose.md
-- _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/tshirts/padrao/tshirtmsmoon.md
 - _products/tshirts/padrao/tshirtmsfullrose.md
 - _products/tshirts/basic/tshirtmstapes.md
 - _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/tshirts/basic/thsirtmsredfur.markdown
 - _products/camisas/padrao/camisamsstripes.markdown
-- _products/tshirts/padrao/tshirtmsblackmatte.md
 - _products/casacos/padrao/casacomsjungle.markdown
 - _products/camisas/padrao/camisamsspotswhite.markdown
 - _products/camisas/padrao/camisamsspotsblack.markdown
