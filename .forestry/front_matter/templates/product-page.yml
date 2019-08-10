@@ -86,6 +86,9 @@ fields:
 - name: new
   type: boolean
   label: Novidade
+- name: inicial
+  type: boolean
+  label: inicial
 pages:
 - _products/bonesecaps/bonemsbrown.md
 - _products/polos/padrao/polomsparty.md
