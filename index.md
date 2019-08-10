@@ -38,7 +38,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <div class="wrapper">
   <div class="carousel">
     <div class="inner">
-<a href="{{ site.url }}/saldos" class="slide active"><button>TEST</button></a>
+<a href="{{ site.url }}/saldos" class="slide active"><div></div></a>
 <a href="{{ site.url }}/camisas" class="slide">
   <p class="newcl" style="font-family: 'Montserrat', sans-serif;
     height: 100vh;
