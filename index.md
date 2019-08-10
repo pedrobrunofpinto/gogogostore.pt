@@ -88,8 +88,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <a href=""><img style="width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg"></a>
 </div>
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;">TOP CHOICES</h2>
-<div style="    justify-content: center;
-    display: flex;" class="sliderx" id="sliderx">
+<div style="    justify-content: center; display: flex;" class="sliderx" id="sliderx">
 <div class="displayprod slidex" id="slidex" style="">
   {% for t in site.products %}
   {% if t.inicial %}

@@ -804,7 +804,7 @@ overflow-x: hidden;
 }
 
 .snip-header__total {
-	display: none;
+  display: none;
 }
 
 #my-size {
@@ -2753,6 +2753,10 @@ top: 120px;
   .superwarp{
     margin: -80px 240px 0 260px;
   }
+
+
+}
+
 
 
 
