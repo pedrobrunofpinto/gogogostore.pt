@@ -96,7 +96,7 @@ $( document ).ready(function() {
     $(".sublist").toggleClass("show");
   });
   $(".minusarrow").click(function() {
-    $(".basic").toggleClass("nobasic1")
+    $(".basic").toggleClass("nobasic")
     $(".minusarrow").toggleClass("hideminus")
     $(".plusarrow").toggleClass("showplus")
   });
@@ -104,16 +104,6 @@ $( document ).ready(function() {
     $(".basic").toggleClass("nobasic")
     $(".minusarrow").toggleClass("hideminus")
     $(".plusarrow").toggleClass("showplus")
-  });
-    $(".minusarrow").click(function() {
-    $(".basic").toggleClass("nobasic")
-    $(".minusarrow").toggleClass("hideminus1")
-    $(".plusarrow").toggleClass("showplus1")
-  });
-  $(".plusarrow").click(function() {
-    $(".basic").toggleClass("nobasic")
-    $(".minusarrow").toggleClass("hideminus1")
-    $(".plusarrow").toggleClass("showplus1")
   });
   $(".menuscores").click(function() {
     $(".maiscoresdiv").toggleClass("nobasic")
@@ -125,6 +115,25 @@ $( document ).ready(function() {
     $(".menuscores").toggleClass("hideminus")
     $(".maiscores").toggleClass("showplus")
   });
+
+
+
+
+  $(".menuscores1").click(function() {
+    $(".maiscoresdiv1").toggleClass("nobasic1")
+    $(".menuscores1").toggleClass("hideminus")
+    $(".maiscores1").toggleClass("showplus")
+  });
+  $(".maiscores1").click(function() {
+    $(".maiscoresdiv1").toggleClass("nobasic1")
+    $(".menuscores1").toggleClass("hideminus")
+    $(".maiscores1").toggleClass("showplus")
+  });
+
+
+
+
+
   $(".menosestacoes").click(function() {
     $(".estacoes").toggleClass("nobasic")
     $(".menosestacoes").toggleClass("hideminus")

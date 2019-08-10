@@ -102,6 +102,7 @@ h3{
 
 .flextest {
   background-color: white;
+  height: 650px;
 }
 
 
@@ -714,9 +715,12 @@ html,body
 }
 
 .basic {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
 }
+
+
+
 
 .maiscoresdiv {
   display: flex;
@@ -729,7 +733,11 @@ html,body
 }
 
 .nobasic {
-  display: none;
+  display: none !important;
+}
+
+.nobasic1 {
+  display: none !important;
 }
 
 .theorder  {
@@ -1242,6 +1250,14 @@ text-align: center;
   display: block;
 }
 
+.menuscores1 {
+  cursor: pointer;
+  width: 20px; 
+  align-items: center;
+  display: block;
+}
+
+
 .maiscores {
   cursor: pointer;
   z-index: 100;
@@ -1250,6 +1266,13 @@ text-align: center;
   display: none;
 }
 
+.maiscores1 {
+  cursor: pointer;
+  z-index: 100;
+  width: 20px; 
+  align-items: center;
+  display: none;
+}
 
 .maisestacoes {
   cursor: pointer;
@@ -2758,7 +2781,9 @@ left: 0;
   .blackmattepics {
     justify-content: center !important;
   }
-
+.dat {
+  display: flex;
+}
   .themiddle {
     flex-wrap: wrap;
   }
