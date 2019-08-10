@@ -18,5 +18,6 @@ stock: saldo
 new: true
 four: "/assets/images/8.2.jpg"
 newprice: '17,9'
+inicial: true
 
 ---
