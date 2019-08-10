@@ -7,7 +7,7 @@ price: 6.9
 newprice: ''
 weight: 500
 image: "/assets/images/1.2-3.jpg"
-sec: '/assets/images/1.2-3.jpg'
+sec: "/assets/images/1.2-3.jpg"
 thir: ''
 four: ''
 categoria: bonesecaps
@@ -15,7 +15,7 @@ att: ''
 color:
 - Castanho
 discrip: boné ss19 cap
-novo: true
+novo: false
 maisvendidos: false
 stock: sim
 new: true
