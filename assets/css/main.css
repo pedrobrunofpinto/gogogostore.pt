@@ -2762,11 +2762,14 @@ top: 120px;
   }
 
   #slider {
-    margin-top: 
     margin-top: 10px !important;
   }
 
 .textflow {
+  font-size: 10px !important;
+}
+
+.howmutch {
   font-size: 10px !important;
 }
 .carousel{
