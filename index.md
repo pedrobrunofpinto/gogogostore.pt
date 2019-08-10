@@ -87,11 +87,11 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <a href=""><img style="width: 100%; height: ;" src="/assets/images/trash.jpg"></a>
 <a href=""><img style="width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg"></a>
 </div>
-<h2 style=" display: none; text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;">Últimas Novidades</h2>
-<div style="display: none;" class="sliderx" id="sliderx">
+<h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;">Últimas Novidades</h2>
+<div style="" class="sliderx" id="sliderx">
 <div class="displayprod slidex" id="slidex" style="">
   {% for t in site.products %}
-  {% if t.new %}
+  {% if t.inicial %}
    <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }} {{ t.discrip }}" class="prod item">
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
@@ -124,15 +124,6 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 
 
-<div class="bottomdiv" style="align-items:center;width:100%;display: flex;align-content: center;justify-content: center;flex-wrap: wrap;">
-  <div class="containshirts" style=" position: absolute;z-index: 100;">
-  <div style="justify-content: center;display: flex;flex-direction: column;" class="besttshirts">
-<h1 class="botomh1" style="text-transform: uppercase; text-align: center; font-size: 45px;color:white;">Nova Coleção SS19</h1>
-<button class="buttonlow submite" style="text-align: center; text-transform: uppercase; color:black; font-size: 15px;" onclick="location.href='{{ site.url }}/tshirts/'" type="button">Ver Coleção</button>
-</div>
-</div>
-<a href="{{ site.url }}/tshirts/" style="display: flex;align-self: center;align-items: center;justify-content: center;"><img style="width:80%;" class="imgbottom" src="/assets/images/tshirtsbannerpic.jpg"></a>
-</div>
 <div class="bigpicblack" style="align-content: center; align-items: center; background-image: url('/assets/images/newinback.jpg');width: 100%;" class="newin">
     <h3 style="color: #b07f33; font-size: 50px; text-align: center; ">NEW IN</h3>
         <h3 style="color: white; font-size: 35px; text-align: center; background-color: black;">BLACK MATTE</h3>
