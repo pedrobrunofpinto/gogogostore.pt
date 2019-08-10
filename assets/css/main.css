@@ -233,8 +233,7 @@ iframe{
 
 .sliderx .slidex {
   display: flex;
-  position: absolute;
-  left: 0;
+justify-content: center;
   transition: 0.3s left ease-in-out;
 }
 
@@ -2745,6 +2744,13 @@ top: 120px;
   width: 100% !important;
 }
 
+.sliderx .slidex {
+  display: flex;
+position: absolute;
+left: 0;
+  transition: 0.3s left ease-in-out;
+}
+
 }
 
 @media only screen and (max-width: 1100px) {
@@ -2804,7 +2810,7 @@ top: 120px;
     justify-content: center !important;
 }
 h2 {
-  font-size: 9px;
+  font-size: 16px;
 }
 
 .bannerimage {
