@@ -38,24 +38,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <div class="wrapper">
   <div class="carousel">
     <div class="inner">
-<a href="{{ site.url }}/saldos" class="slide active"><p class="newcl" style="font-family: 'Montserrat', sans-serif;
-  font-weight: thin !important;
-    height: 100vh;
-    position: absolute;
-    top: -50px;
-    color: white;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;"></p><br><p class="bottext" style="font-family: 'Playfair Display', serif;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    color: white;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    align-items: center;font-size: 60px;justify-content: center;text-shadow: 2px 2px black;"></p></a>
+<a href="{{ site.url }}/saldos" class="slide active"><button>TEST</button></a>
 <a href="{{ site.url }}/camisas" class="slide">
   <p class="newcl" style="font-family: 'Montserrat', sans-serif;
     height: 100vh;
@@ -101,8 +84,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
   </div>
 </div>
 <div class="themiddle" style="display: flex; width: 100%;">
-<a href=""><img style="width: 100%; height: 50vh;" src="/assets/images/trash.jpg"></a>
-<a href=""><img style="width: 100%; height: 50vh;" src="/assets/images/fotobaixosegundamo.jpg"></a>
+<a href=""><img style="width: 100%; height: ;" src="/assets/images/trash.jpg"></a>
+<a href=""><img style="width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg"></a>
 </div>
 <h2 style=" display: none; text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;">Últimas Novidades</h2>
 <div style="display: none;" class="sliderx" id="sliderx">
