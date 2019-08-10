@@ -180,6 +180,7 @@ $( document ).ready(function() {
     $('#my-button').data('item-custom2-value', $(this).val());
   });
 
+
 /*
  * We trigger the factory() function is different
  * ways to support modular JavaScript libraries. See
@@ -1130,7 +1131,6 @@ $( document ).ready(function() {
     });
   });
 });
-
 
 
 
