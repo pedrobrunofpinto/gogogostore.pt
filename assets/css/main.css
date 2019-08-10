@@ -102,7 +102,6 @@ h3{
 
 .flextest {
   background-color: white;
-  height: 650px;
 }
 
 
@@ -2783,6 +2782,12 @@ left: 0;
   }
 .dat {
   display: flex;
+}
+
+
+.flextest {
+    height: 650px;
+
 }
   .themiddle {
     flex-wrap: wrap;
