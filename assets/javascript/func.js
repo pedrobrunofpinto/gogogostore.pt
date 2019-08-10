@@ -96,7 +96,7 @@ $( document ).ready(function() {
     $(".sublist").toggleClass("show");
   });
   $(".minusarrow").click(function() {
-    $(".basic").toggleClass("nobasic")
+    $(".basic").toggleClass("nobasic1")
     $(".minusarrow").toggleClass("hideminus")
     $(".plusarrow").toggleClass("showplus")
   });
@@ -104,6 +104,16 @@ $( document ).ready(function() {
     $(".basic").toggleClass("nobasic")
     $(".minusarrow").toggleClass("hideminus")
     $(".plusarrow").toggleClass("showplus")
+  });
+    $(".minusarrow").click(function() {
+    $(".basic").toggleClass("nobasic")
+    $(".minusarrow").toggleClass("hideminus1")
+    $(".plusarrow").toggleClass("showplus1")
+  });
+  $(".plusarrow").click(function() {
+    $(".basic").toggleClass("nobasic")
+    $(".minusarrow").toggleClass("hideminus1")
+    $(".plusarrow").toggleClass("showplus1")
   });
   $(".menuscores").click(function() {
     $(".maiscoresdiv").toggleClass("nobasic")
