@@ -19,5 +19,6 @@ maisvendidos: true
 stock: saldo
 new: true
 newprice: '17,9'
+inicial: true
 
 ---
