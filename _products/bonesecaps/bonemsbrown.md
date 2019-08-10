@@ -15,7 +15,7 @@ att: ''
 color:
 - Castanho
 discrip: boné ss19 cap
-novo: false
+novo: true
 maisvendidos: false
 stock: sim
 new: true
