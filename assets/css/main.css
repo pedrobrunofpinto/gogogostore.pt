@@ -2703,6 +2703,11 @@ top: 120px;
   text-align: center;
 }
 
+
+.botmob {
+  display: none;
+}
+
 .crash {
   background-color: black;
   top: 210px;
@@ -2800,6 +2805,14 @@ left: 0;
   }
 .dat {
   display: flex;
+}
+
+.botdis {
+  display: none;
+}
+
+.botmob {
+  display: block !important;
 }
 
 
