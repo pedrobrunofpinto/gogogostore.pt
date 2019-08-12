@@ -4,7 +4,6 @@ id: 4
 name: Boné MS Brown
 link: bonemsbrown
 price: 6.9
-newprice: ''
 weight: 500
 image: "/assets/images/27.1-1-1.jpg"
 sec: "/assets/images/27.1-1-1.jpg"
