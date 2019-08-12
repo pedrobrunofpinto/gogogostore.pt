@@ -135,6 +135,21 @@ $( document ).ready(function() {
 
 
 
+  $(".menuscores2").click(function() {
+    $(".maiscoresdiv2").toggleClass("nobasic1")
+    $(".menuscores2").toggleClass("hideminus")
+    $(".maiscores2").toggleClass("showplus")
+  });
+  $(".maiscores2").click(function() {
+    $(".maiscoresdiv2").toggleClass("nobasic1")
+    $(".menuscores2").toggleClass("hideminus")
+    $(".maiscores2").toggleClass("showplus")
+  });
+
+
+
+
+
 
   $(".menosestacoes").click(function() {
     $(".estacoes").toggleClass("nobasic")
