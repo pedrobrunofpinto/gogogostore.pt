@@ -92,8 +92,20 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
   </div>
 </div>
 <div class="themiddle" style="display: flex; width: 100%;">
-<a href="{{ site.url }}/camisas"><img style="width: 100%; height: ;" src="/assets/images/trash.jpg"></a>
-<a href="{{ site.url }}/tshirts"><img style="width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg"></a>
+<a style="" href="{{ site.url }}/fatosdetreino">
+  <div style="display: flex; position: relative;">
+  <img style="width: 100%; height: ;" src="/assets/images/trash.jpg">
+  <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/fatosdetreino/'">Shop Now</button>
+  </div>
+</div>
+</a>
+<a href="{{ site.url }}/tshirts">
+  <div style="display: flex; position: relative;">
+  <img style="width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg">
+ <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/tshirts/'">Shop Now</button>
+  </div>
+</div>
+</a>
 </div>
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;">TOP CHOICES</h2>
 <div style="    justify-content: center; display: flex;" class="sliderx" id="sliderx">

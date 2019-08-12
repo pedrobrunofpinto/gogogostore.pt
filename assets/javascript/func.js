@@ -28,7 +28,7 @@ $(document).ready(function(){
 });
 
 
-// ===== Scroll to Top ==== 
+// ===== Scroll to Top =Ffi=== 
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
         $('#return-to-top').fadeIn(200);    // Fade in the arrow
@@ -42,9 +42,11 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
-$(window).on( 'scroll', function() {
-  console.log( 'The scroll event fired!' );
-} );
+ $(window).scroll(function() {   
+   if($(window).scrollTop() + $(window).height() == $(document).height()) {
+    console.log("hellp");
+   }
+});
 
 $(document).ready(function() {
       $('.minus').click(function () {
@@ -1099,8 +1101,6 @@ $('#product-slider__main').slickLightbox({
   src: 'src',
   lazy: true
 });
-
-
 
 
 
