@@ -6,8 +6,8 @@ link: bonemsbrown
 price: 6.9
 newprice: ''
 weight: 500
-image: "/assets/images/1.2-3.jpg"
-sec: "/assets/images/1.2-3.jpg"
+image: "/assets/images/27.1-1-1.jpg"
+sec: "/assets/images/27.1-1-1.jpg"
 thir: ''
 four: ''
 categoria: bonesecaps
@@ -19,5 +19,6 @@ novo: true
 maisvendidos: false
 stock: sim
 new: true
+inicial: false
 
 ---

@@ -90,13 +90,13 @@ fields:
   type: boolean
   label: inicial
 pages:
+- _products/bonesecaps/bonemsbrown.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
 - _products/polos/padrao/polomsnr30.md
 - _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/tshirts/padrao/tshirtmscaptainblue.md
 - _products/tshirts/padrao/tshirtmsitalianstyle.md
 - _products/tshirts/padrao/tshirtmsfrenchstyle.md
-- _products/bonesecaps/bonemsbrown.md
 - _products/polos/padrao/polomsparty.md
 - _products/polos/padrao/polomscollar.md
 - _products/tshirts/padrao/tshirtmscrystalrose.md
