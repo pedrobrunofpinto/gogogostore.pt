@@ -1600,7 +1600,7 @@ nav {
     display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .nolook {
@@ -1654,7 +1654,7 @@ nav {
 
 .logo {
   width: 200px;
-    margin: 20px 0 0 40%;
+    margin: 20px 0 0 5%;
   }
 
 
@@ -2068,6 +2068,17 @@ button:hover {
   left:0;
   opacity: 0;
 }
+
+.slidek{
+  width: 100%;
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  height: 0 !important;
+  opacity: 0;
+}
+
 
 .slide.active,
 .slide.left,
@@ -3327,7 +3338,7 @@ margin-top: 5px;
   }
   .logo {
     width: 100px;
-        margin: 20px 0 0 0% !important;
+        margin: 20px 0 0 5% !important;
   }
 s
   .fotimgbig {
