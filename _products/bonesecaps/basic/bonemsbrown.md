@@ -10,7 +10,7 @@ sec: "/assets/images/27.1-1-1.jpg"
 thir: ''
 four: ''
 categoria: bonesecaps
-att: ''
+att: basic
 color:
 - Castanho
 discrip: boné ss19 cap
@@ -19,5 +19,6 @@ maisvendidos: false
 stock: sim
 new: true
 inicial: false
+newprice: ''
 
 ---
