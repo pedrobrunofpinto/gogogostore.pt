@@ -84,8 +84,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
   </div>
 </div>
 <div class="themiddle" style="display: flex; width: 100%;">
-<a href=""><img style="width: 100%; height: ;" src="/assets/images/trash.jpg"></a>
-<a href=""><img style="width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg"></a>
+<a href="{{ site.url }}/camisas"><img style="width: 100%; height: ;" src="/assets/images/trash.jpg"></a>
+<a href="{{ site.url }}/tshirts"><img style="width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg"></a>
 </div>
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;">TOP CHOICES</h2>
 <div style="    justify-content: center; display: flex;" class="sliderx" id="sliderx">
