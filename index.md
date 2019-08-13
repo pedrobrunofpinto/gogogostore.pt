@@ -87,8 +87,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     text-align: center;
     align-items: center;font-size: 60px;justify-content: center;"></p></a>
     </div>
-    <div class="arrow arrow-left"></div>
-    <div class="arrow arrow-right"></div>
+
   </div>
 </div>
 <div class="themiddle" style="display: flex; width: 100%;">
@@ -197,9 +196,14 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </li>
 </div>
 </div>
+
+<div style="display: none; justify-content: space-between; ">
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
 ">FOLLOW US ON INSTAGRAM</h2>
 
+<h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
+">GOGOGO LIFESTYLE</h2>
+</div>
 
 {% include footer.html %}
 </div>

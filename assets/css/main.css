@@ -2192,11 +2192,10 @@ button:hover {
 .indicators{
   width:100%;
   position: absolute;
-  bottom:0;
-  z-index: 4;
+    top: 70px !important;
+      z-index: 4;
   padding:0;
   text-align: center;
-  display: none;
 }
 
 .indicators li{
@@ -2204,16 +2203,16 @@ button:hover {
   height: 13px;
   display: inline-block;
   margin: 5px;
-  background: #fff;
+  background: white !important;
   list-style-type: none;
   border-radius: 50%;
   cursor:pointer;
   transition:background 0.3s ease-out;
 }
 
-.indicators li.active{background:#909090}
+.indicators li.active{background:#d1ba7b !important;}
 
-.indicators li:hover{background-color:#909090}
+.indicators li:hover{background-color:#d1ba7b !important;}
 
 /**
  * ==========================
