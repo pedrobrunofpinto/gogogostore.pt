@@ -36,9 +36,10 @@ left: 0;
 </style>
 
 </style>
-<div class="capscontain"><div class="caps"><h6 class="found"><a href="{{ site.url }}">Home</a><a href="{{ site.url }}{{ page.url }}">{{ page.url }}</a></h6><h1 class="lost"> {{ page.name }} </h1></div></div>
+<div class="capscontain"><div class="caps"><h6 class="found"><a style="margin-left: 10px;" href="{{ site.url }}">Home</a><a href="{{ site.url }}{{ page.url }}">{{ page.url }}</a></h6><h1 class="lost"> {{ page.name }} </h1>
+</div></div>
 <main class="teste1">
-    <div class="flextest" style="display: flex; flex-direction: column;">
+    <div class="flextest" style="padding-bottom: 40px !important; display: flex; flex-direction: column;">
 <div class="globeproducts" style="display: flex;flex-wrap: wrap;">
 <div class="productwindow">
     <div class="topprodd" style="display:flex !important;">
@@ -90,9 +91,9 @@ left: 0;
 <h3 class="inside" style="font-size: 30px;">{{ page.name }}</h3>
 <div class="what">
 {% if page.stock == "saldo" %}
-<h4 style=" color: #d1ba7b;">SALDO</h4>{% endif %}
-  <div class="priceiss" style="flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style=" display: inline; text-decoration: line-through; color: #d1ba7b;">{% if page.stock == "saldo" %}
-{{ page.newprice }}0€{% endif %}</h5>{{ page.price }}0€</h3></div> 
+<h4 style="font-size: 35px; color: #d1ba7b;">SALDO</h4>{% endif %}
+  <div class="priceiss" style=" flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style="font-size: 25px; display: inline; text-decoration: line-through; color: #d1ba7b;">{% if page.stock == "saldo" %}
+{{ page.newprice }}0€{% endif %}</h5><h3 style="font-size: 30px;">{{ page.price }}0€</h3></div> 
 
 <div class="ff"><select class="inside inside" id="my-size">
         <option>Tamanho</option>
@@ -178,7 +179,6 @@ left: 0;
 </div>
 {% endif %}
   <div class="colectiondis" style="background-color: #f1f1f1; display: flex; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Descrição</h2><img class="menuscores2" style="" src="/assets/images/minus.png" alt=""><img class="maiscores2" style="display: none;"   src="/assets/images/plusarrow.png" alt=""></div>
-            <hr class=""> 
                   <div class="maiscoresdiv2" style="width: 500px;">
           <ul style="     margin: 20px; list-style-type: circle;
 }
@@ -201,7 +201,6 @@ left: 0;
 ">50% algodão 50% poliéster</li><ul></div>
 
   <div class="colectiondis" style="background-color: #f1f1f1; display: flex; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Envios e Condições</h2><img class="menuscores" src="/assets/images/plusarrow.png" alt=""><img class="maiscores" style="" style="" src="/assets/images/minus.png" alt=""></div>
-            <hr class=""> 
                   <div class="maiscoresdiv nobasic" style="width: 500px;">
            Todas as encomendas superiores a 40€ possuem portes grátis.
 O método de envio utilizado é o CTT Expresso, pelo que cada encomenda chega ao seu destino 2 a 3 dias após pagamento, não incluindo feriados e fins de semana.
