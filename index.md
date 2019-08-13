@@ -197,7 +197,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 </div>
 
-<div style="padding: 0 20px 0 20px; justify-content: space-between; display: flex;">
+<div style="padding: 0 20px 0 20px; justify-content: space-between; display: none;">
 
 <div style="display: flex; width: 100%">
   <div style="flex-direction: column; display: flex; width: 100%">
