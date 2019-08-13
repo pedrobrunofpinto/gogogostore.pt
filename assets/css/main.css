@@ -1436,6 +1436,16 @@ display: none;
 margin-left: 10px !important; 
 }
 
+
+.instsapic {
+    transition: transform .2s;
+
+}
+
+.instsapic:hover {
+transform: scale(1.5); 
+}
+
 .uplost {
   width: 100%;
   text-align: center;

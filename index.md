@@ -93,14 +93,14 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <div class="themiddle" style="display: flex; width: 100%;">
 <a style="" href="{{ site.url }}/fatosdetreino">
   <div style="display: flex; position: relative;">
-  <img style="width: 100%; height: ;" src="/assets/images/trash.jpg">
+  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/trash.jpg">
   <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/fatosdetreino/'">Shop Now</button>
   </div>
 </div>
 </a>
 <a href="{{ site.url }}/tshirts">
   <div style="display: flex; position: relative;">
-  <img style="width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg">
+  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg">
  <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/tshirts/'">Shop Now</button>
   </div>
 </div>
@@ -146,7 +146,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 <a class="botdis" href="">
     <div style="display: flex; position: relative;">
-  <img style="width: 100%;" src="/assets/images/olaomeunomearnaldo.jpg">
+  <img style="align-self: center; width: 100%;" src="/assets/images/olaomeunomearnaldo.jpg">
    <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: flex-start; margin: 0 0 20px 60px;" onclick="location.href='{{ site.url }}/tshirts/'">Shop Collection</button>
   </div>
 </div>
@@ -197,10 +197,37 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 </div>
 
-<div style="display: none; justify-content: space-between; ">
+<div style="display: none; padding: 0 20px 0 20px; justify-content: space-between; ">
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
 ">FOLLOW US ON INSTAGRAM</h2>
+<div style="display: flex;">
 
+<div style="  position: relative;  overflow: hidden; width: 400px; height: 400px;" >
+  <a  href="https://www.instagram.com/p/Bz8I1xElxx9/"><img class="instsapic" style="width: 100%;" src="assets/images/chamine.jpg"></a>
+</div>
+
+<div style="display: flex; flex-direction: column;">
+
+<div style=" margin: 0 2px 2px 2px; position: relative; overflow: hidden; width: 97px; height: 98px;" >
+  <a  href="https://www.instagram.com/p/ByFU_RwHLeA/"><img class="instsapic" style="width: 100%;" src="assets/images/italiaaaa.jpg"></a>
+</div>
+
+
+<div style=" margin: 2px; position: relative; overflow: hidden; width: 97px; height: 98px;" >
+  <a  href="https://www.instagram.com/p/BzsRtLBnrEV/"><img class="instsapic" style="width: 100%;" src="assets/images/tulio.jpg"></a>
+</div>
+
+<div style=" margin: 2px; position: relative; overflow: hidden; width: 97px; height: 98px;" >
+  <a  href="https://www.instagram.com/p/BzsRtLBnrEV/"><img class="instsapic" style="width: 100%;" src="assets/images/tulio.jpg"></a>
+</div>
+
+<div style=" margin: 2px; position: relative; overflow: hidden; width: 97px; height: 94px;" >
+  <a  href="https://www.instagram.com/p/BzsRtLBnrEV/"><img class="instsapic" style="width: 100%;" src="assets/images/tulio.jpg"></a>
+</div>
+
+</div>
+
+</div>
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
 ">GOGOGO LIFESTYLE</h2>
 </div>
