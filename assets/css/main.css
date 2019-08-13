@@ -954,7 +954,7 @@ background: none !important;
 * {
   margin: 0;
   padding: 0;
-    font-family: 'Ropa Sans', sans-serif !important;
+    font-family: 'Ropa Sans', sans-serif;
   font-weight: 50 !important;
   letter-spacing: 2px;
 }
@@ -1173,6 +1173,10 @@ footer {
   font-weight: 900 !important;
 }
 
+.bith {
+  display: none;
+}
+
 .it {
   letter-spacing: 2px;
   color: white;
@@ -1207,7 +1211,7 @@ text-align: center;
       width:33px;
       height:40px;
       background: black;
-      padding:8px 3px 8px 5px;
+      padding:8px 3px 8px 5px !important;
       display: inline-block;
       vertical-align: middle;
       text-align: center;
@@ -2827,6 +2831,10 @@ left: 0;
     justify-content: center !important;
   }
 .dat {
+  display: flex;
+}
+
+.bith {
   display: flex;
 }
 

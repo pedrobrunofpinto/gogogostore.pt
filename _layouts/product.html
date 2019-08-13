@@ -81,16 +81,18 @@ left: 0;
 
     </div>
 
+
     </div>
 </div>
 </div>
 </div>
 <div class="productdetails">
-
 <h3 class="inside">{{ page.name }}</h3>
 <div class="what">
-{% if page.newprice %}<h4 style="background-color: red; color: white;">SALDO</h4>{% endif %}
-  <div class="priceiss" style="flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style=" display: inline; text-decoration: line-through; color: red;">{% if page.newprice %}{{ page.newprice }}0€{% endif %}</h5>{{ page.price }}0€</h3></div> 
+{% if page.stock == "saldo" %}
+<h4 style="background-color: red; color: white;">SALDO</h4>{% endif %}
+  <div class="priceiss" style="flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style=" display: inline; text-decoration: line-through; color: red;">{% if page.stock == "saldo" %}
+{{ page.newprice }}0€{% endif %}</h5>{{ page.price }}0€</h3></div> 
 
 <div class="ff"><select class="inside inside" id="my-size">
         <option>Tamanho</option>
@@ -174,10 +176,12 @@ left: 0;
     Adicionar ao carrinho   
 </button>
 </div>
+{% endif %}
   <div class="colectiondis" style="background-color: #f1f1f1; display: flex; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Descrição</h2><img class="menuscores2" style="" src="/assets/images/minus.png" alt=""><img class="maiscores2" style="display: none;"   src="/assets/images/plusarrow.png" alt=""></div>
             <hr class=""> 
                   <div class="maiscoresdiv2" style="width: 500px;">
           <ul style="     margin: 20px; list-style-type: circle;
+}
 ">
 <li style="  list-style-type: circle;
 ">Tecido de toque suave</li>
@@ -204,16 +208,47 @@ O método de envio utilizado é o CTT Expresso, pelo que cada encomenda chega ao
 Os portes da sua encomenda são calculados automáticamente através do nosso site, pelo que são dependêntes do peso da sua encomenda. Não são aceites trocas de artigos com mais de 30 dias, sem etiqueta ou danificados.</div>
       
 </div>
-{% endif %}
  
 
 </div>
 </div>
+
+
+
+
 <div class="" style="background-color: white;">
     <h3 class="inside nomob" style="font-size: 35px; text-align: left !important;">{{ page.name }}</h3>
     {% if page.newprice %}<h4 class="nomob" style="color: red;">SALDO</h4>{% endif %}
   <div class="priceis nomob" style="flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style=" display: inline; text-decoration: line-through; color: red;">{% if page.newprice %}{{ page.newprice }}0€{% endif %}</h5>{{ page.price }}0€</h3></div> 
 <div style=" display: flex;justify-content: center; margin-top: 30px; flex-direction: column;">
+
+
+
+ <div class="colectiondis bith" style="background-color: #f1f1f1; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Descrição</h2><img class="menuscores2" style="" src="/assets/images/minus.png" alt=""><img class="maiscores2" style="display: none;"   src="/assets/images/plusarrow.png" alt=""></div>
+            <hr class=""> 
+                  <div class="maiscoresdiv2 bith" style="width: 500px;">
+          <ul style="     margin: 20px; list-style-type: circle;
+}
+">
+<li style="  list-style-type: circle;
+">Tecido de toque suave</li>
+<li style="  list-style-type: circle;
+">Tripulação pescoço</li>
+<li style="  list-style-type: circle;
+">Logotipo bordado de MS</li>
+<li style="  list-style-type: circle;
+">Manga curta</li>
+<li style="  list-style-type: circle;
+">Bainha curva</li>
+<li style="  list-style-type: circle;
+">Máquina de lavar modo delicado</li>
+<li style="  list-style-type: circle;
+">50% algodão 50% poliéster</li><ul></div>
+
+
+
+
+
 <div class="colectiondis dat" style=" background-color: #f1f1f1; display: none; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 20px 0px;"><h2 class="colecioes">Envios e Condições</h2><img class="menuscores1" style="" src="/assets/images/plusarrow.png" alt=""><img class="maiscores1" style="" style="" src="/assets/images/minus.png" alt="">            <hr class=""> 
 </div>
                   <div class="maiscoresdiv1 nobasic1 dat" style=" margin-bottom: 100px; width: 500px;">
