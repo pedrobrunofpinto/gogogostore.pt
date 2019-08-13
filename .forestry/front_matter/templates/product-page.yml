@@ -90,6 +90,7 @@ fields:
   type: boolean
   label: inicial
 pages:
+- _products/bonesecaps/basic/bonemsorangebasic.md
 - _products/bonesecaps/basic/bonemsyellowbasic.md
 - _products/bonesecaps/basic/bonemsbasicpurple.md
 - _products/bonesecaps/basic/bonemsbluebasic.md
