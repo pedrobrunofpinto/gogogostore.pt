@@ -1,19 +1,20 @@
 ---
 layout: product
-id: 3
-name: Camisa MS Blue Clipper
-link: camisamsblueclipper
-price: 21.90
-weight: 500
-image: /assets/images/produtos/39.jpg
-sec: /assets/images/produtos/40.jpg
+id: "3"
+name: Chapéu MS Brown Basic
+link: chapeumsbrownbasic
+price: "6.9"
+weight: "500"
+image: "/assets/images/produtos/1.2-3.jpg"
+sec: "/assets/images/produtos/1.2-3.jpg"
 thir: 
 att: basic
 categoria: bonesecaps
 color:
-    - Azul
-discrip: camisa lisa azul ajustavel  
+- Castanho
+discrip: cat ms acessorio
 novo: true
-maisvendidos: true
+maisvendidos: false
 stock: sim
+
 ---
