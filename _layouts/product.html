@@ -52,12 +52,12 @@ left: 0;
       <div class="zoom">
         <img class="lazyload" data-src="{{ page.sec }}" alt="" />
       </div>
-{% if page.thir %}
+{% if page.thir != "" %}
       <div class="zoom">
         <img class="lazyload" data-src="{{ page.thir }}" alt="" />
       </div>
 {% endif %}
-{% if page.four %}
+{% if page.four != "" %}
       <div class="zoom">
         <img class="lazyload" data-src="{{ page.four }}" alt="" />
       </div>
@@ -70,11 +70,11 @@ left: 0;
         <img class="lazyload" data-src="{{ page.image }}" alt="" />
 
         <img class="lazyload" data-src="{{ page.sec }}" alt="" />
-{% if page.thir %}
+{% if page.thir != "" %}
 
         <img class="lazyload" data-src="{{ page.thir }}" alt="" />
 {% endif %}
-{% if page.four %}
+{% if page.four != "" %}
 
         <img class="lazyload" data-src="{{ page.four }}" alt="" />
 {% endif %}
@@ -87,7 +87,7 @@ left: 0;
 </div>
 </div>
 <div class="productdetails">
-<h3 class="inside">{{ page.name }}</h3>
+<h3 class="inside" style="font-size: 30px;">{{ page.name }}</h3>
 <div class="what">
 {% if page.stock == "saldo" %}
 <h4 style="background-color: red; color: white;">SALDO</h4>{% endif %}
