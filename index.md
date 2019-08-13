@@ -154,7 +154,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 <a class="botmob" href="">
     <div style="display: flex; position: relative;">
-  <img style="width: 100%;" src="/assets/images/olaomeunomearnaldomo.jpg">
+  <img style="align-self: center; width: 100%;" src="/assets/images/olaomeunomearnaldomo.jpg">
    <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: flex-start; margin: 0 0 20px 60px;" onclick="location.href='{{ site.url }}/tshirts/'">Shop Collection</button>
   </div>
 </div>
@@ -199,11 +199,12 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 <div style="padding: 0 20px 0 20px; justify-content: space-between; display: none;">
 
-<div style="display: flex; width: 100%">
-  <div style="flex-direction: column; display: flex; width: 100%">
-
-<h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
+<div style="display: flex; width: 100%; flex-direction: column;">
+  <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
 ">FOLLOW US ON INSTAGRAM</h2>
+  <div style="display: flex; width: 100%">
+
+
 <div style="  position: relative;  overflow: hidden; width: 400px; height: 400px;" >
   <a  href="https://www.instagram.com/p/Bz8I1xElxx9/"><img class="instsapic" style="width: 100%;" src="assets/images/chamine.jpg"></a>
 </div>
@@ -246,8 +247,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 </div>
 </div>
-</div>
-</div>
+
 
 
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
