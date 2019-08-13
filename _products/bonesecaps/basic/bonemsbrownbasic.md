@@ -7,7 +7,7 @@ price: 6.9
 newprice: ''
 weight: 200
 image: "/assets/images/1.2-4.jpg"
-sec: ''
+sec: "/assets/images/1.2-5.jpg"
 thir: ''
 four: ''
 categoria: bonesecaps
