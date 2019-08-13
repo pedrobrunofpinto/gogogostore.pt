@@ -6,7 +6,7 @@ fields:
 - type: text
   name: layout
   label: layout
-  hidden: true
+  hidden: false
   default: product
 - type: number
   name: id
@@ -90,7 +90,6 @@ fields:
   type: boolean
   label: inicial
 pages:
-- _products/bonesecaps/bonemsbrown.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
 - _products/polos/padrao/polomsnr30.md
 - _products/tshirts/padrao/tshirtmsarmorrose.md
