@@ -17,5 +17,8 @@ discrip: ss19 caviada riscas
 novo: true
 maisvendidos: true
 stock: saldo
-newprice: 17.9
+newprice: "17.9"
+new: false
+inicial: true
+
 ---
