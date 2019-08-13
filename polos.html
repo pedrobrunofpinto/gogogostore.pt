@@ -96,9 +96,9 @@ layout: default
 {% if t.stock == "saldo" %}
   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
   <div class="productplace" >
-  <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img  style="width:96%; border: 5px solid red;" class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
+  <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img  style="width:96%; border: 5px solid #d1ba7b;" class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
     <div class="btn">
-      <button style="background-color: red; color: white;" class="snipcart-add-item thisbtn"
+      <button style="background-color: #d1ba7b; color: white;" class="snipcart-add-item thisbtn"
     data-item-id="{{ t.id }}"
     data-item-name="{{ t.name }}"
     data-item-price="{{ t.price }}"

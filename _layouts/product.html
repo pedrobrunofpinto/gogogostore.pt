@@ -90,8 +90,8 @@ left: 0;
 <h3 class="inside" style="font-size: 30px;">{{ page.name }}</h3>
 <div class="what">
 {% if page.stock == "saldo" %}
-<h4 style="background-color: red; color: white;">SALDO</h4>{% endif %}
-  <div class="priceiss" style="flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style=" display: inline; text-decoration: line-through; color: red;">{% if page.stock == "saldo" %}
+<h4 style=" color: #d1ba7b;">SALDO</h4>{% endif %}
+  <div class="priceiss" style="flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style=" display: inline; text-decoration: line-through; color: #d1ba7b;">{% if page.stock == "saldo" %}
 {{ page.newprice }}0€{% endif %}</h5>{{ page.price }}0€</h3></div> 
 
 <div class="ff"><select class="inside inside" id="my-size">
@@ -218,14 +218,14 @@ Os portes da sua encomenda são calculados automáticamente através do nosso si
 
 <div class="" style="background-color: white;">
     <h3 class="inside nomob" style="font-size: 35px; text-align: left !important;">{{ page.name }}</h3>
-    {% if page.stock == "saldo" %}<h4 class="nomob" style="color: red;">SALDO</h4>{% endif %}
-  <div class="priceis nomob" style="flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style=" display: inline; text-decoration: line-through; color: red;">{% if page.stock == "saldo" %}{{ page.newprice }}0€{% endif %}</h5>{{ page.price }}0€</h3></div> 
+    {% if page.stock == "saldo" %}<h4 class="nomob" style="font-size: 35px; color: #d1ba7b;">SALDO</h4>{% endif %}
+  <div class="priceis nomob" style="flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style="font-size: 25px; display: inline; text-decoration: line-through; color: #d1ba7b;">{% if page.stock == "saldo" %}{{ page.newprice }}0€{% endif %}</h5><h3 style="font-size: 30px;">{{ page.price }}0€</h3></div> 
 <div style=" display: flex;justify-content: center; margin-top: 30px; flex-direction: column;">
 
 
-
+<div style="display: flex; flex-direction: column; margin: 0 20px 0 20px;">
  <div class="colectiondis bith" style="background-color: #f1f1f1; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Descrição</h2><img class="menuscores2" style="" src="/assets/images/minus.png" alt=""><img class="maiscores2" style="display: none;"   src="/assets/images/plusarrow.png" alt=""></div>
-            <hr class=""> 
+          
                   <div class="maiscoresdiv2 bith" style="width: 500px;">
           <ul style="     margin: 20px; list-style-type: circle;
 }
@@ -249,8 +249,8 @@ Os portes da sua encomenda são calculados automáticamente através do nosso si
 
 
 
-<div class="colectiondis dat" style=" background-color: #f1f1f1; display: none; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 20px 0px;"><h2 class="colecioes">Envios e Condições</h2><img class="menuscores1" style="" src="/assets/images/plusarrow.png" alt=""><img class="maiscores1" style="" style="" src="/assets/images/minus.png" alt="">            <hr class=""> 
-</div>
+<div class="colectiondis dat" style=" background-color: #f1f1f1; display: none; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 20px 0px;"><h2 class="colecioes">Envios e Condições</h2><img class="menuscores1" style="" src="/assets/images/plusarrow.png" alt=""><img class="maiscores1" style="" style="" src="/assets/images/minus.png" alt="">           
+</div> 
                   <div class="maiscoresdiv1 nobasic1 dat" style=" margin-bottom: 100px; width: 500px;">
            Todas as encomendas superiores a 40€ possuem portes grátis.
 O método de envio utilizado é o CTT Expresso, pelo que cada encomenda chega ao seu destino 2 a 3 dias após pagamento, não incluindo feriados e fins de semana.
@@ -258,7 +258,7 @@ Os portes da sua encomenda são calculados automáticamente através do nosso si
 </div>
 </div>
 
-
+</div>
 
 
     <h1 style="display: flex;justify-content: center;margin-bottom: 25px;font-size: 15px;"> Também pode gostar de:</h1>
@@ -288,7 +288,7 @@ Os portes da sua encomenda são calculados automáticamente através do nosso si
     data-item-image="{{ t.image }}">
     Adicionar ao carrinho   
 </button>
-<h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}{% if t.new %}<p style="color:red;font-size: 9px;">New</p></h4>{% else %}</h4>
+<h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}{% if t.new %}<p style="color:#d1ba7b;font-size: 9px;">New</p></h4>{% else %}</h4>
 {% endif %}
       <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4>
   {% endfor %}
