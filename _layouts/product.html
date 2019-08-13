@@ -218,8 +218,8 @@ Os portes da sua encomenda são calculados automáticamente através do nosso si
 
 <div class="" style="background-color: white;">
     <h3 class="inside nomob" style="font-size: 35px; text-align: left !important;">{{ page.name }}</h3>
-    {% if page.newprice %}<h4 class="nomob" style="color: red;">SALDO</h4>{% endif %}
-  <div class="priceis nomob" style="flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style=" display: inline; text-decoration: line-through; color: red;">{% if page.newprice %}{{ page.newprice }}0€{% endif %}</h5>{{ page.price }}0€</h3></div> 
+    {% if page.stock == "saldo" %}<h4 class="nomob" style="color: red;">SALDO</h4>{% endif %}
+  <div class="priceis nomob" style="flex-direction: column-reverse;"><br><h3 class="whatel inside priceget"><h5 style=" display: inline; text-decoration: line-through; color: red;">{% if page.stock == "saldo" %}{{ page.newprice }}0€{% endif %}</h5>{{ page.price }}0€</h3></div> 
 <div style=" display: flex;justify-content: center; margin-top: 30px; flex-direction: column;">
 
 
