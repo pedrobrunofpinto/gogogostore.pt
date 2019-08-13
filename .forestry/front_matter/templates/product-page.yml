@@ -90,6 +90,9 @@ fields:
   type: boolean
   label: inicial
 pages:
+- _products/tshirts/padrao/tshirtmsspecial7sportblack.md
+- _products/tshirts/padrao/tshirtmsarmorroseblack.md
+- _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/bonesecaps/basic/bonemsorangebasic.md
 - _products/bonesecaps/basic/bonemsyellowbasic.md
 - _products/bonesecaps/basic/bonemsbasicpurple.md
@@ -98,7 +101,6 @@ pages:
 - _products/bonesecaps/basic/bonemsbrownbasic.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
 - _products/polos/padrao/polomsnr30.md
-- _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/tshirts/padrao/tshirtmscaptainblue.md
 - _products/tshirts/padrao/tshirtmsitalianstyle.md
 - _products/tshirts/padrao/tshirtmsfrenchstyle.md
@@ -109,7 +111,6 @@ pages:
 - _products/polos/padrao/polomscollarblack.md
 - _products/tshirts/padrao/tshirtmsspecial7sportred.md
 - _products/tshirts/padrao/tshirtmsfocusblack.md
-- _products/tshirts/padrao/tshirtmsarmorroseblack.md
 - _products/tshirts/basic/tshirtmsbacklinesblack.md
 - _products/tshirts/padrao/tshirtmsfrenchblue.md
 - _products/tshirts/padrao/tshirtmsbars.md
@@ -142,7 +143,6 @@ pages:
 - _products/tshirts/padrao/tshirtmscaptainblack.md
 - _products/tshirts/padrao/tshirtmsfrenchstylered.md
 - _products/tshirts/padrao/tshirtmsfocus.md
-- _products/tshirts/padrao/tshirtmsspecial7sportblack.md
 - _products/tshirts/padrao/tshirtmsbarsline.md
 - _products/tshirts/padrao/tshirtmsfullgoldarmor.md
 - _products/tshirts/padrao/tshirtmsbaltic.md

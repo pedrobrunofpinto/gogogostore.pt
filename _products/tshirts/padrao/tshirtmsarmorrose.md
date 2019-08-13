@@ -15,10 +15,10 @@ color:
 discrip: branco preto ss19
 novo: true
 maisvendidos: true
-stock: saldo
+stock: nao
 new: true
 four: "/assets/images/19-1.jpg"
 newprice: '17,9'
-inicial: true
+inicial: false
 
 ---
