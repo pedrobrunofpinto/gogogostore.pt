@@ -197,37 +197,59 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 </div>
 
-<div style="display: none; padding: 0 20px 0 20px; justify-content: space-between; ">
+<div style="padding: 0 20px 0 20px; justify-content: space-between; display: flex;">
+
+<div style="display: flex; width: 100%">
+  <div style="flex-direction: column; display: flex; width: 100%">
+
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
 ">FOLLOW US ON INSTAGRAM</h2>
-<div style="display: flex;">
-
 <div style="  position: relative;  overflow: hidden; width: 400px; height: 400px;" >
   <a  href="https://www.instagram.com/p/Bz8I1xElxx9/"><img class="instsapic" style="width: 100%;" src="assets/images/chamine.jpg"></a>
 </div>
 
 <div style="display: flex; flex-direction: column;">
 
-<div style=" margin: 0 2px 2px 2px; position: relative; overflow: hidden; width: 97px; height: 98px;" >
+<div style=" margin: 0 2px 2px 2px; position: relative; overflow: hidden; width: 197px; height: 198px;" >
   <a  href="https://www.instagram.com/p/ByFU_RwHLeA/"><img class="instsapic" style="width: 100%;" src="assets/images/italiaaaa.jpg"></a>
 </div>
 
 
-<div style=" margin: 2px; position: relative; overflow: hidden; width: 97px; height: 98px;" >
+<div style=" margin: 2px; position: relative; overflow: hidden; width: 197px; height: 198px;" >
+  <a  href="https://www.instagram.com/p/ByIH38on-qr/"><img class="instsapic" style="width: 100%;" src="assets/images/polix.jpg"></a>
+</div>
+
+
+</div>
+
+
+<div class="nothing" style="display: flex; flex-direction: column;">
+
+
+<div style="display: flex;">
+
+<div style=" margin: 2px; position: relative; overflow: hidden; width: 197px; height: 198px;" >
+  <a  href="https://www.instagram.com/p/BxujlFhnr6n/"><img class="instsapic" style="width: 100%;" src="assets/images/fred.jpg"></a>
+</div>
+
+<div style=" margin: 2px; position: relative; overflow: hidden; width: 197px; height: 198px;" >
   <a  href="https://www.instagram.com/p/BzsRtLBnrEV/"><img class="instsapic" style="width: 100%;" src="assets/images/tulio.jpg"></a>
-</div>
-
-<div style=" margin: 2px; position: relative; overflow: hidden; width: 97px; height: 98px;" >
-  <a  href="https://www.instagram.com/p/BzsRtLBnrEV/"><img class="instsapic" style="width: 100%;" src="assets/images/tulio.jpg"></a>
-</div>
-
-<div style=" margin: 2px; position: relative; overflow: hidden; width: 97px; height: 94px;" >
-  <a  href="https://www.instagram.com/p/BzsRtLBnrEV/"><img class="instsapic" style="width: 100%;" src="assets/images/tulio.jpg"></a>
-</div>
 
 </div>
+</div>
+
+<div style="  position: relative;  overflow: hidden; width: 400px; height: 400px;" >
+  <a  href="https://www.instagram.com/p/Bz8I1xElxx9/"><img class="instsapic" style="width: 100%;" src="assets/images/chamine.jpg"></a>
+</div>
+
 
 </div>
+</div>
+</div>
+</div>
+</div>
+
+
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
 ">GOGOGO LIFESTYLE</h2>
 </div>
