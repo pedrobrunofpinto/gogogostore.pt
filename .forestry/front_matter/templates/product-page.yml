@@ -90,6 +90,7 @@ fields:
   type: boolean
   label: inicial
 pages:
+- _products/tshirts/padrao/tshirtmsarmorroseblack.md
 - _products/calcoes/basic/calcoesmscaptainblack.md
 - _products/calcoes/basic/calcoesmsstripegray.md
 - _products/calcoes/basic/calcoesmsstripeblack.md
@@ -97,7 +98,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsvicecity.md
 - _products/tshirts/padrao/tshirtmsshoulderrose.md
 - _products/tshirts/padrao/tshirtmsspecial7sportblack.md
-- _products/tshirts/padrao/tshirtmsarmorroseblack.md
 - _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/bonesecaps/basic/bonemsorangebasic.md
 - _products/bonesecaps/basic/bonemsyellowbasic.md
