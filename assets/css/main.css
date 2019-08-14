@@ -2219,6 +2219,7 @@ button:hover {
       z-index: 4;
   padding:0;
   text-align: center;
+  height: 10px;
 }
 
 .indicators li{
