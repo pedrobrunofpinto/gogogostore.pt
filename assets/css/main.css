@@ -881,6 +881,8 @@ fieldset {
   font-size: 8px !important;
   margin-bottom: 5px !important;
   margin-top: 10px;
+  
+    text-align: center;
 }
 
 .h4price {
