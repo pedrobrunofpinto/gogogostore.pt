@@ -155,7 +155,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <a class="botmob" href="">
     <div style="display: flex; position: relative;">
   <img style="align-self: center; width: 100%;" src="/assets/images/olaomeunomearnaldomo.jpg">
-   <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: flex-start; margin: 0 0 20px 60px;" onclick="location.href='{{ site.url }}/tshirts/'">Shop Collection</button>
+   <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="another submite" style="align-self: flex-start; margin: 0 0 20px 60px;" onclick="location.href='{{ site.url }}/tshirts/'">Shop Collection</button>
   </div>
 </div>
 </a>
