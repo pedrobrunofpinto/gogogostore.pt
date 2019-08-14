@@ -2850,6 +2850,10 @@ left: 0;
   display: flex;
 }
 
+.instagrammobile {
+  display: flex !important;
+}
+
 
 .instagramdesk {
   display: none !important;

@@ -320,6 +320,46 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 </div>
 </div>
+</div>
+
+<div class="instagrammobile" style="display: none;">
+<div class="" style="   background-color: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    width: 100%; display: flex;  flex-direction: column;">
+
+
+  <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
+">FOLLOW US ON INSTAGRAM</h2>
+
+
+<div style=" flex-direction: column; position: relative; flex-shrink: 0; overflow: hidden;width: 100%;" >
+  <a  href="https://www.instagram.com/p/Bz8I1xElxx9/"><img class="instsapic" style="width: 100%;" src="assets/images/chamine.jpg"></a>
+</div>
+
+<div style="display: flex;">
+
+<div style=" margin: 2px 0 2px 2px; position: relative;  overflow: hidden; width: 100%;" >
+  <a  href="https://www.instagram.com/p/ByIH38on-qr/"><img class="instsapic" style="width: 100%;" src="assets/images/polix.jpg"></a>
+</div>
+
+
+<div style=" margin: 2px 0 2px 2px; position: relative;  overflow: hidden; width: 120%;" >
+  <a  href="https://www.instagram.com/p/BzsRtLBnrEV/"><img class="instsapic" style="width: 100%;" src="assets/images/tulio.jpg"></a>
+</div>
+
+
+
+</div>
+
+
+<div style="  position: relative;  overflow: hidden; width: 100%;" >
+  <a  href="https://www.instagram.com/p/By0CBMyndwE/"><img class="instsapic" style="width: 100%;" src="assets/images/roseblack.jpg"></a>
+</div>
+
+
+</div>
+
 
 
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;  display: none;   font-family: 'Ropa Sans', sans-serif !important;
