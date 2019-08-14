@@ -339,12 +339,12 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 <div style="display: flex;">
 
-<div style=" margin: 2px 0 2px 2px; position: relative;  overflow: hidden; width: 100%;" >
+<div style=" position: relative;  overflow: hidden; width: 100%;" >
   <a  href="https://www.instagram.com/p/ByIH38on-qr/"><img class="instsapic" style="width: 100%;" src="assets/images/polix.jpg"></a>
 </div>
 
 
-<div style=" margin: 2px 0 2px 2px; position: relative;  overflow: hidden; width: 120%;" >
+<div style="  position: relative;  overflow: hidden; width: 120%;" >
   <a  href="https://www.instagram.com/p/BzsRtLBnrEV/"><img class="instsapic" style="width: 100%;" src="assets/images/tulio.jpg"></a>
 </div>
 

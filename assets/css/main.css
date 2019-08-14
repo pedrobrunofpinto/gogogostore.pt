@@ -2846,6 +2846,11 @@ left: 0;
   .blackmattepics {
     justify-content: center !important;
   }
+
+.submit {
+  padding: 3px 15px !important;
+}
+
 .dat {
   display: flex;
 }
