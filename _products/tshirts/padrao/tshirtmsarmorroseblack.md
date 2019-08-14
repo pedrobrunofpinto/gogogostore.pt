@@ -16,7 +16,7 @@ color:
 discrip: rosa corpo ss19
 novo: true
 maisvendidos: true
-stock: nao
+stock: sim
 new: true
 newprice: '17,9'
 inicial: false
