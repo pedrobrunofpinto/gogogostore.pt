@@ -146,7 +146,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 <a class="botdis" href="{{ site.url }}/calcoes/" style="width: 100%;">
     <div style="display: flex; position: relative;">
-  <img style="align-self: center; width: 100%;" src="/assets/images/olaomeunomearnaldo.jpg">
+  <img onclick="location.href='{{ site.url }}/calcoes/'" style="align-self: center; width: 100%;" src="/assets/images/olaomeunomearnaldo.jpg">
    <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><a href="{{ site.url }}/calcoes/"><button class="submite mobks" style="align-self: flex-start; margin: 0 0 20px 60px;" onclick="location.href='{{ site.url }}/calcoes/'">Shop Collection</button></a>
   </div>
 </div>
@@ -154,7 +154,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 <a class="botmob" href="{{ site.url }}/calcoes/" style="width: 100%;">
     <div style="display: flex; position: relative;">
-  <img style="align-self: center; width: 100%;" src="/assets/images/olaomeunomearnaldomo.jpg">
+  <img onclick="location.href='{{ site.url }}/calcoes/'" style="align-self: center; width: 100%;" src="/assets/images/olaomeunomearnaldomo.jpg">
    <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><a href="{{ site.url }}/calcoes/" style="display: flex;
     justify-content: center;"><button class="another submite" style="align-self: flex-start; margin: 0 0 20px 60px;" onclick="location.href='{{ site.url }}/calcoes/'">Shop Collection</button></a>
   </div>

@@ -960,6 +960,11 @@ background: none !important;
   z-index: -1;
 }
 
+
+.secuiui {
+  margin-left: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -2316,13 +2321,13 @@ button:hover {
 .fotlink {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 
  /* Slide */
 
 .howmutch {
-  text-align: center;
   color: black;
   width: 100%;
   background-color: white;
@@ -2331,8 +2336,7 @@ button:hover {
   font-family: "Crimson Text";
   letter-spacing: 3px;
 display: flex;
-justify-content: center;
-align-items: center;
+
 }
 
 
@@ -2855,6 +2859,24 @@ left: 0;
 @media only screen and (max-width: 1100px) {
 
   .blackmattepics {
+    justify-content: center !important;
+  }
+
+
+  .getgetget {
+    justify-content: center;
+  }
+
+.secuiui {
+  margin-left: 0 !important;
+}
+
+  .howmutch {
+    justify-content: center !important;
+  }
+
+
+  .notgot {
     justify-content: center !important;
   }
 
