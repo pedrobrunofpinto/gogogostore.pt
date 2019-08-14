@@ -846,6 +846,7 @@ overflow-x: hidden;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 16px;
+      padding: 0 20px 0 20px;
 }
 
 #colors {
@@ -2865,6 +2866,7 @@ left: 0;
 
   .getgetget {
     justify-content: center;
+        flex-direction: column;
   }
 
 .secuiui {
