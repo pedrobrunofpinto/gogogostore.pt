@@ -2880,6 +2880,7 @@ left: 0;
 
   .notgot {
     justify-content: center !important;
+        flex-direction: column;
   }
 
   .mobks {
