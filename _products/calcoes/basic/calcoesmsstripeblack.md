@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Calções MS Stripe Black
 link: calcoesmsstripeblack
-price: 15.9
+price: 12.5
 newprice: ''
 weight: 500
 image: "/assets/images/1.1-2.jpg"
