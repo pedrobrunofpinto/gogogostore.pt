@@ -133,7 +133,6 @@ pages:
 - _products/tshirts/basic/thsirtmsnavyfur.markdown
 - _products/tshirts/basic/thsirtmsblack.markdown
 - _products/tshirts/basic/tshirtmswhitestraight.markdown
-- _products/camisas/padrao/camisamsstripesclassic.markdown
 - _products/camisas/padrao/camisamsstripesclassicdark.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
 - _products/casacos/padrao/casacomsrain.markdown
@@ -170,8 +169,6 @@ pages:
 - _products/tshirts/basic/thsirtmsredfur.markdown
 - _products/camisas/padrao/camisamsstripes.markdown
 - _products/casacos/padrao/casacomsjungle.markdown
-- _products/camisas/padrao/camisamsspotswhite.markdown
-- _products/camisas/padrao/camisamsspotsblack.markdown
 - _products/tshirts/basic/tshirtmsblackstraight.markdown
 - _products/tshirts/basic/thsirtmsredstraight.markdown
 - _products/tshirts/basic/thsirtmsoceanstraight.markdown
