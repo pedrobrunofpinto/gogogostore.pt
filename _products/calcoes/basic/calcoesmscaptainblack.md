@@ -19,6 +19,6 @@ novo: true
 maisvendidos: false
 stock: sim
 new: false
-inicial: true
+inicial: false
 
 ---
