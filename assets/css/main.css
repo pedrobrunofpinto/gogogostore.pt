@@ -31,6 +31,14 @@ input, button {
 }
 
 
+  .another {
+    margin: 0 !important;
+    align-self: center !important;
+    display: none;
+  }
+
+
+
   .minus, .plus{
       width:33px;
       height:34px;
@@ -2847,10 +2855,15 @@ left: 0;
     justify-content: center !important;
   }
 
+  .mobks {
+    display: none !important;
+  }
+
 
   .another {
     margin: 0 !important;
     align-self: center !important;
+    display: block !important;
   }
 
 .submit {
