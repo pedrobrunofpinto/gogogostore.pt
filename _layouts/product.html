@@ -36,8 +36,17 @@ left: 0;
 </style>
 
 </style>
-<div class="capscontain"><div class="caps"><h6 class="found"><a style="margin-left: 10px;" href="{{ site.url }}">Home</a><a href="{{ site.url }}{{ page.url }}">{{ page.url }}</a></h6><h1 class="lost"> {{ page.name }} </h1>
-</div></div>
+<div class="capscontain">
+  <div class="caps">
+    <div class="found" >
+      <a style="margin-left: 10px; z-index: 1000" href="{{ site.url }}">Home</a>
+      <div>></div>
+      <a style="z-index: 1000" href="{{ site.url }}/{{ page.categoria }}">{{ page.categoria }}</a>
+            <div>></div>
+      <a style="z-index: 1000" href="{{ site.url }}/{{ page.url }}">{{ page.link }}</a>
+    </div>
+</div>
+</div>
 <main class="teste1">
     <div class="flextest" style="padding-bottom: 40px !important; display: flex; flex-direction: column;">
 <div class="globeproducts" style="display: flex;flex-wrap: wrap;">
