@@ -881,7 +881,7 @@ fieldset {
   font-size: 8px !important;
   margin-bottom: 5px !important;
   margin-top: 10px;
-  
+
     text-align: center;
 }
 
@@ -3527,9 +3527,7 @@ s
 }
 
 @media only screen and (max-width: 500px) {
-  .setserach {
-    display: none;
-  }
+
     .fotterimg {
     width: 40px;
   }
