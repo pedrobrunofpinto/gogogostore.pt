@@ -90,6 +90,8 @@ fields:
   type: boolean
   label: inicial
 pages:
+- _products/tshirts/padrao/tshirtmsshoulderrose.md
+- _products/tshirts/padrao/tshirtmsvicecity.md
 - _products/tshirts/padrao/tshirtmsspecial7sportblack.md
 - _products/tshirts/padrao/tshirtmsarmorroseblack.md
 - _products/tshirts/padrao/tshirtmsarmorrose.md
@@ -131,7 +133,6 @@ pages:
 - _products/tshirts/basic/thsirtmsnavyfur.markdown
 - _products/tshirts/basic/thsirtmsblack.markdown
 - _products/tshirts/basic/tshirtmswhitestraight.markdown
-- _products/camisas/padrao/camisamsstripesclassic.markdown
 - _products/camisas/padrao/camisamsstripesclassicdark.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
 - _products/casacos/padrao/casacomsrain.markdown
@@ -168,8 +169,6 @@ pages:
 - _products/tshirts/basic/thsirtmsredfur.markdown
 - _products/camisas/padrao/camisamsstripes.markdown
 - _products/casacos/padrao/casacomsjungle.markdown
-- _products/camisas/padrao/camisamsspotswhite.markdown
-- _products/camisas/padrao/camisamsspotsblack.markdown
 - _products/tshirts/basic/tshirtmsblackstraight.markdown
 - _products/tshirts/basic/thsirtmsredstraight.markdown
 - _products/tshirts/basic/thsirtmsoceanstraight.markdown
@@ -182,6 +181,5 @@ pages:
 - _products/tshirts/padrao/tshirtmsspecial7sportwhite.md
 - _products/polos/padrao/polomsfrenchstyle.md
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
-- _products/tshirts/padrao/tshirtmsshoulderrose.md
 - _products/tshirts/basic/tshirtmsbacklines.md
 - _products/tshirts/padrao/tshirtmsaquamotion.md

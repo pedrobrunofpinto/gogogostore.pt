@@ -15,9 +15,10 @@ color:
 discrip: ss19 preto branco rosa flor
 novo: true
 maisvendidos: true
-stock: saldo
+stock: nao
 new: true
 four: "/assets/images/14.3.jpg"
 newprice: '17,9'
+inicial: false
 
 ---
