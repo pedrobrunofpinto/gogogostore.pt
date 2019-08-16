@@ -39,17 +39,18 @@ left: 0;
 <div class="capscontain">
   <div class="caps">
     <div class="found" >
-      <a style="margin-left: 10px; z-index: 1000" href="{{ site.url }}">Home</a>
-      <div>></div>
-      <a style="z-index: 1000" href="{{ site.url }}/{{ page.categoria }}">{{ page.categoria }}</a>
-            <div>></div>
-      <a style="z-index: 1000" href="{{ site.url }}/{{ page.url }}">{{ page.link }}</a>
+      <a class="upmess" style="margin-left: 10px; z-index: 1000" href="{{ site.url }}">Home</a>
+      <div class="upmess">></div>
+      <a class="upmess" style="z-index: 1000" href="{{ site.url }}/{{ page.categoria }}">{{ page.categoria }}</a>
+            <div class="upmess" >></div>
+      <a class="upmess" style="z-index: 1000" href="{{ site.url }}/{{ page.url }}">{{ page.link }}</a>
     </div>
 </div>
 </div>
 <main class="teste1">
     <div class="flextest" style="padding-bottom: 40px !important; display: flex; flex-direction: column;">
-<div class="globeproducts" style="display: flex;flex-wrap: wrap;">
+<div class="globeproducts" style="display: flex !important;flex-wrap: wrap;    justify-content: space-around;
+">
 <div class="productwindow">
     <div class="topprodd" style="display:flex !important;">
 <div id="product-slider" class="has-social-share">
@@ -103,7 +104,7 @@ left: 0;
 </div>
 </div>
 </div>
-<div class="productdetails">
+<div class="productdetails" style="margin-top: 70px;">
 <h3 class="inside" style="font-size: 30px;">{{ page.name }}</h3>
 <div class="what">
 {% if page.stock == "saldo" %}
@@ -194,29 +195,29 @@ left: 0;
 </button>
 </div>
 {% endif %}
-  <div class="colectiondis" style="background-color: #f1f1f1; display: flex; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Descrição</h2><img class="menuscores2" style="" src="/assets/images/minus.png" alt=""><img class="maiscores2" style="display: none;"   src="/assets/images/plusarrow.png" alt=""></div>
+  <div class="colectiondis" style="background-color: #f1f1f1; display: flex; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Descrição</h2><img class="menuscores2" style="    margin: 0 20px 0 0;" src="/assets/images/minus.png" alt=""><img class="maiscores2" style="display: none;    margin: 0 20px 0 0;"   src="/assets/images/plusarrow.png" alt=""></div>
                   <div class="maiscoresdiv2" style="width: 500px;">
           <ul style="     margin: 20px; list-style-type: circle;
 }
 ">
-<li style="  list-style-type: circle;
+<li style=" text-transform: none; list-style-type: circle;
 ">Tecido de toque suave</li>
-<li style="  list-style-type: circle;
+<li style=" text-transform: none; list-style-type: circle;
 ">Tripulação pescoço</li>
-<li style="  list-style-type: circle;
+<li style="text-transform: none;  list-style-type: circle;
 ">T-shirt padrão</li>
-<li style="  list-style-type: circle;
+<li style=" text-transform: none; list-style-type: circle;
 ">Logotipo bordado de MS</li>
-<li style="  list-style-type: circle;
+<li style="text-transform: none;  list-style-type: circle;
 ">Manga curta</li>
-<li style="  list-style-type: circle;
+<li style=" text-transform: none; list-style-type: circle;
 ">Bainha curva</li>
-<li style="  list-style-type: circle;
+<li style="text-transform: none;  list-style-type: circle;
 ">Máquina de lavar modo delicado</li>
-<li style="  list-style-type: circle;
+<li style=" text-transform: none; list-style-type: circle;
 ">50% algodão 50% poliéster</li><ul></div>
 
-  <div class="colectiondis" style="background-color: #f1f1f1; display: flex; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Envios e Condições</h2><img class="menuscores" src="/assets/images/plusarrow.png" alt=""><img class="maiscores" style="" style="" src="/assets/images/minus.png" alt=""></div>
+  <div class="colectiondis" style="background-color: #f1f1f1; display: flex; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Envios e Condições</h2><img class="menuscores" style="    margin: 0 20px 0 0;" src="/assets/images/plusarrow.png" alt=""><img class="maiscores" style="    margin: 0 20px 0 0;" style="" src="/assets/images/minus.png" alt=""></div>
                   <div class="maiscoresdiv nobasic" style="width: 500px;">
            Todas as encomendas superiores a 40€ possuem portes grátis.
 O método de envio utilizado é o CTT Expresso, pelo que cada encomenda chega ao seu destino 2 a 3 dias após pagamento, não incluindo feriados e fins de semana.
@@ -239,32 +240,33 @@ Os portes da sua encomenda são calculados automáticamente através do nosso si
 
 
 <div style="display: flex; flex-direction: column; margin: 0 20px 0 20px;">
- <div class="colectiondis bith" style="background-color: #f1f1f1; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Descrição</h2><img class="menuscores2" style="" src="/assets/images/minus.png" alt=""><img class="maiscores2" style="display: none;"   src="/assets/images/plusarrow.png" alt=""></div>
+ <div class="colectiondis bith" style="background-color: #f1f1f1; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 0 0px;"><h2  class="colecioes">Descrição</h2><img class="menuscores2" style="    margin: 0 20px 0 0;" src="/assets/images/minus.png" alt=""><img class="maiscores2" style="    margin: 0 20px 0 0;display: none;"   src="/assets/images/plusarrow.png" alt=""></div>
           
                   <div class="maiscoresdiv2 bith" style="width: 500px;">
           <ul style="     margin: 20px; list-style-type: circle;
 }
 ">
-<li style="  list-style-type: circle;
+<li style="    text-transform: none;
+list-style-type: circle;
 ">Tecido de toque suave</li>
-<li style="  list-style-type: circle;
+<li style=" text-transform: none; list-style-type: circle;
 ">Tripulação pescoço</li>
-<li style="  list-style-type: circle;
+<li style=" text-transform: none; list-style-type: circle;
 ">Logotipo bordado de MS</li>
-<li style="  list-style-type: circle;
+<li style=" text-transform: none; list-style-type: circle;
 ">Manga curta</li>
-<li style="  list-style-type: circle;
+<li style=" text-transform: none; list-style-type: circle;
 ">Bainha curva</li>
-<li style="  list-style-type: circle;
+<li style="  text-transform: none; list-style-type: circle;
 ">Máquina de lavar modo delicado</li>
-<li style="  list-style-type: circle;
+<li style=" text-transform: none; list-style-type: circle;
 ">50% algodão 50% poliéster</li><ul></div>
 
 
 
 
 
-<div class="colectiondis dat" style=" background-color: #f1f1f1; display: none; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 20px 0px;"><h2 class="colecioes">Envios e Condições</h2><img class="menuscores1" style="" src="/assets/images/plusarrow.png" alt=""><img class="maiscores1" style="" style="" src="/assets/images/minus.png" alt="">           
+<div class="colectiondis dat" style=" background-color: #f1f1f1; display: none; justify-content: space-between; width: 100%; align-items: center; margin: 10px 0px 20px 0px;"><h2 class="colecioes">Envios e Condições</h2><img class="menuscores1" style="    margin: 0 20px 0 0;" src="/assets/images/plusarrow.png" alt=""><img class="maiscores1" style="" style="    margin: 0 20px 0 0;" src="/assets/images/minus.png" alt="">           
 </div> 
                   <div class="maiscoresdiv1 nobasic1 dat" style=" margin-bottom: 100px; width: 500px;">
            Todas as encomendas superiores a 40€ possuem portes grátis.

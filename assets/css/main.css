@@ -36,26 +36,23 @@ input, button {
     align-self: center !important;
     display: none;
   }
-
-
-
   .minus, .plus{
       width:33px;
       height:34px;
-      background: black;
-      padding:1px 3px 8px 5px !important;
+      background: white;
+      padding:10px 3px 8px 5px;
       display: inline-block;
       vertical-align: middle;
       text-align: center;
-      color: white;
+      color: black;
       cursor: pointer;
       font-size: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
       font-weight: bold !important;
+      border: 1px solid #f1f1f1;
     }
-
 
 #slider{
   width:100%;
@@ -1213,7 +1210,7 @@ input[type=text] {
 #my-quantity {
   font-family: "Crimson Text";
 font-size: 30px;
-border: 2px solid black !important;
+border: 1px solid #f1f1f1 !important;
 width: 10%;
 text-align: center;
 }
@@ -1222,23 +1219,23 @@ text-align: center;
   display: flex;
 }
 
-.minus, .plus{
+  .minus, .plus{
       width:33px;
-      height:40px;
-      background: black;
-      padding:8px 3px 8px 5px !important;
+      height:34px;
+      background: white;
+      padding:10px 3px 8px 5px;
       display: inline-block;
       vertical-align: middle;
       text-align: center;
-      color: white;
+      color: black;
       cursor: pointer;
       font-size: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
       font-weight: bold !important;
+      border: 1px solid #f1f1f1;
     }
-
 .thisbtn {
   position: absolute;
   bottom: 0;
@@ -2032,14 +2029,14 @@ input[type='radio']:hover{
 
 
 #my-button {
-  background-color: black;
-  color: white;
+  background-color: #f1f1f1;
+  color: black;
   border: none;
   padding: 0;
   font: inherit;
   cursor: pointer;
   flex-shrink: 0;
-  width: 60%;
+  width: 30%;
   outline: inherit;
   display: flex;
   justify-content: center;
@@ -2744,8 +2741,8 @@ top: 120px;
 
 .displaymobi {
   opacity: 1;
-  z-index: 500;
-  display: flex;
+    z-index: 10000;
+      display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   position: fixed;
@@ -3068,18 +3065,19 @@ h2 {
   .minus, .plus{
       width:33px;
       height:34px;
-      background: black;
-      padding:8px 3px 8px 5px;
+      background: white;
+      padding:10px 3px 8px 5px;
       display: inline-block;
       vertical-align: middle;
       text-align: center;
-      color: white;
+      color: black;
       cursor: pointer;
       font-size: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
       font-weight: bold !important;
+      border: 1px solid #f1f1f1;
     }
   .showpages {
   text-align: center;
@@ -3160,7 +3158,6 @@ flex-direction: column;
   .globeproducts {
     display: flex;
     width: 100%;
-    justify-content: center;
   }
   .quantttt {
     justify-content: center;
