@@ -166,7 +166,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <div style="    justify-content: center; display: flex;" class="sliderx" id="sliderx">
 <div class="displayprod slidex" id="slidex" style="">
   {% for t in site.products %}
-  {% if t.categoria == "bonesecaps" %}
+  {% if t.inicialhat %}
    <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }} {{ t.discrip }}" class="prod item">
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
