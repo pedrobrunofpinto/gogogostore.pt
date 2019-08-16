@@ -90,6 +90,8 @@ fields:
   type: boolean
   label: inicial
 pages:
+- _products/bonesecaps/basic/bonemsbasicpurple.md
+- _products/bonesecaps/basic/bonemsorangebasic.md
 - _products/bonesecaps/basic/bonemsgreenbasic.md
 - _products/bonesecaps/basic/bonemsbrownbasic.md
 - _products/bonesecaps/basic/bonemsbluebasic.md
@@ -103,9 +105,7 @@ pages:
 - _products/tshirts/padrao/tshirtmsshoulderrose.md
 - _products/tshirts/padrao/tshirtmsspecial7sportblack.md
 - _products/tshirts/padrao/tshirtmsarmorrose.md
-- _products/bonesecaps/basic/bonemsorangebasic.md
 - _products/bonesecaps/basic/bonemsyellowbasic.md
-- _products/bonesecaps/basic/bonemsbasicpurple.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
 - _products/polos/padrao/polomsnr30.md
 - _products/tshirts/padrao/tshirtmscaptainblue.md
