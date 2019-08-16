@@ -1,20 +1,20 @@
 ---
 layout: product
-id: 5
-name: Boné MS Gray Basic
-link: chapeumsgraybasic
+id: 4
+name: Boné MS Black and Yellow Basic
+link: chapeumsblackyellowbasic
 price: 6.9
 newprice: ''
 weight: 200
-image: "/assets/images/9-2.jpg"
-sec: "/assets/images/9-2.jpg"
+image: "/assets/images/11-2.jpg"
+sec: "/assets/images/11-2.jpg"
 thir: ''
 four: ''
 categoria: bonesecaps
 att: basic
 color:
-- Cinzento
-discrip: desporto treino verao
+- Preto
+discrip: desporto verao treino
 novo: true
 maisvendidos: false
 stock: sim

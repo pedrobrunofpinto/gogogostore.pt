@@ -1,7 +1,7 @@
 ---
 layout: product
 id: 3
-name: Chapéu MS Black Basic
+name: Boné MS Black Basic
 link: chapeumsblackbasic
 price: 6.9
 newprice: ''
