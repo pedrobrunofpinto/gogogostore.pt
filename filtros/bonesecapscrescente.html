@@ -1,8 +1,7 @@
 ---
 layout: default
-categoria: tshirts
+categoria: bonesecaps
 ---
-
 <div class="capscontain">
   <div class="caps">
     <div class="found" >
@@ -12,14 +11,12 @@ categoria: tshirts
     </div>
 </div>
 </div>
-
-
-<div class="uplost"><h1 class="lost">  </h1></div>
-  <div class="bannerimage"><img class="imagebanner" src="/assets/images/banner{{ page.categoria }}.jpg" alt="banner{{ page.categoria }}"></div>
+<div class="uplost"><img class="imagebanner" src="/assets/images/{{ page.categoria }}.jpg" alt="banner{{ page.categoria }}"></div>
 <main class="test">
   <div class="eve">
   
-<div class="filters"><div class="titlefilter"><div class="pagination pages showpages"></div><h3 class="order"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância<img class="arrow2" src="/assets/images/arrowdown.png" alt="arrowdown"></h3></div><div class="linkinside"><a class="filterlink" href="{{ site.url }}/filtros/{{ page.categoria }}crescente/"><h3 class="upprice">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/{{ page.categoria }}decrescente/"><h3 class="upprice">Preço Alto - Baixo</h3></a> </div></div>
+  
+<div class="filters"><div class="titlefilter"><div class="pagination pages showpages"></div><h3 class="order"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Preço Alto - Baixo<img class="arrow2" src="/assets/images/arrowdown.png" alt="arrowdown"></h3></div><div class="linkinside"><a class="filterlink" href="{{ site.url }}/filtros/{{ page.categoria }}crescente/"><h3 class="upprice">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/{{ page.categoria }}"><h3 class="upprice">Relevância</h3></a></div></div>
 </div></div>
 
 
@@ -27,22 +24,23 @@ categoria: tshirts
   <div class="filtercontainer">
     <h4 class="filtername">Aplicar Filtros</h4>
   </div>
-{% include oozefilters.html %}
+ {% include oozefilters.html %}
+
 
 <div class="mobfil">
    <div class="sortcontainer">
-    <h4 class="filtername"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância</h3></div></h4>
+    <h4 class="filtername"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Preço Alto - Baixo</h3></div></h4>
   </div>
 
-  <div class="oosort"><a class="filterlink" href="{{ site.url }}/filtros/{{ page.categoria }}crescente/"><h3 class="oosort">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/{{ page.categoria }}decrescente/"><h3 class="oosort">Preço Alto - Baixo</h3></a></div></div>
+  <div class="oosort"><a class="filterlink" href="{{ site.url }}/filtros/{{ page.categoria }}crescente/"><h3 class="oosort">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/{{ page.categoria }}"><h3 class="oosort">Relevância</h3></a></div></div>
 </div>
 
 
 
 </form>
 <ul class="list prodcontain" id="oozer-list">
- {% assign sorted = site.products | sort: "date" %}
-{% for t in sorted reversed %}
+ {% assign sorted = site.products | sort_by: "price" | reverse %}
+{% for t in sorted %}
   {% if t.categoria == page.categoria %}
 {% if t.stock == "sim" %}
   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
@@ -108,9 +106,9 @@ categoria: tshirts
 {% if t.stock == "saldo" %}
   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
   <div class="productplace" >
-  <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img  style="width:96%; border: 5px solid #d1ba7b;" class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
+  <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img  style="width:96%; border: 5px solid red;" class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
     <div class="btn">
-      <button style="background-color: #d1ba7b; color: white;" class="snipcart-add-item thisbtn"
+      <button style="background-color: red; color: white;" class="snipcart-add-item thisbtn"
     data-item-id="{{ t.id }}"
     data-item-name="{{ t.name }}"
     data-item-price="{{ t.price }}"
