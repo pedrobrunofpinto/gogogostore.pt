@@ -34,6 +34,8 @@ plugins:
 collections:
   products:
     output: true
+  blog:
+    output: true
 
 future: true
 # Exclude from processing.

@@ -1,0 +1,27 @@
+---
+layout: default
+categoria: blog
+---
+</style>
+<div class="capscontain">
+  <div class="caps">
+    <div class="found" >
+      <a class="upmess" style="margin-left: 10px; z-index: 1000" href="{{ site.url }}">Home</a>
+      <div class="upmess">></div>
+      <a class="upmess" style="z-index: 1000" href="{{ site.url }}/{{ page.categoria }}">{{ page.categoria }}</a>
+    </div>
+</div>
+</div>
+
+<h1 style="text-align: center; margin-top: 20px; ">OS NOSSOS POSTS</h1>
+
+  <div class="" style="margin-top: 20px;display: flex; flex-wrap: wrap; justify-content: space-around;">
+
+{% for t in site.blog %}
+
+<a style="width: 50%;" href="{{ site.url }}/{{ page.categoria }}/{{ t.link }}">
+  	<img style="width: 100%;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
+</a>
+
+{% endfor %}
+  </div>

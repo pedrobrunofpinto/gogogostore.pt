@@ -200,9 +200,9 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 
 
-<div class="instagramdesk" style="width: 100%; justify-content: space-between; display: flex;">
+<div class="instagramdesk" style=" flex-wrap: wrap; width: 100%; justify-content: space-between; display: flex;">
 
-<div style="   background-color: #f1f1f1;
+<div style="   background-color: white;
     justify-content: center;
     align-items: center;
     width: 100%; display: flex;  flex-direction: column;">
@@ -244,20 +244,22 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 
 
-
 <div style="display: flex; flex-direction: column;">
 
-<div style=" margin: 0 2px 2px 2px; position: relative; overflow: hidden; width: 197px; height: 198px;" >
+<div style=" margin: 0 2px 2px 2px; position: relative; overflow: hidden;   width: auto;
+  height: auto; max-width: 197px; max-height: 198px;" >
   <a  href="https://www.instagram.com/p/ByFU_RwHLeA/"><img class="instsapic" style="width: 100%;" src="assets/images/italiaaaa.jpg"></a>
 </div>
 
 
-<div style=" margin: 2px; position: relative; overflow: hidden; width: 197px; height: 198px;" >
+<div style=" margin: 2px; position: relative; overflow: hidden;   width: auto;
+  height: auto; max-width: 197px; max-height: 198px;" >
   <a  href="https://www.instagram.com/p/ByIH38on-qr/"><img class="instsapic" style="width: 100%;" src="assets/images/polix.jpg"></a>
 </div>
 
 
-<div style=" margin: 2px 0 2px 2px; position: relative;  overflow: hidden; width: 197px; height: 198px;" >
+<div style=" margin: 2px 0 2px 2px; position: relative;  overflow: hidden;  width: auto;
+  height: auto;  max-width: 197px; max-height: 198px;" >
   <a  href="https://www.instagram.com/p/BykOInEH38p/"><img class="instsapic" style="width: 100%;" src="assets/images/motasmotas.jpg"></a>
 </div>
 
@@ -270,17 +272,20 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 <div style="display: flex;">
 
-<div style=" margin: 0 2px 2px 2px;  position: relative; overflow: hidden; width: 197px; height: 198px;" >
+<div style=" margin: 0 2px 2px 2px;  position: relative; overflow: hidden;   width: auto;
+  height: auto;  max-width: 197px; max-height: 198px;" >
   <a  href="https://www.instagram.com/p/BxujlFhnr6n/"><img class="instsapic" style="width: 100%;" src="assets/images/fred.jpg"></a>
 </div>
 
-<div style="  margin: 0 2px 2px 2px;  position: relative; overflow: hidden; width: 197px; height: 198px;" >
+<div style="  margin: 0 2px 2px 2px;  position: relative; overflow: hidden;   width: auto;
+  height: auto; max-width: 197px; max-height: 198px;" >
   <a  href="https://www.instagram.com/p/BzsRtLBnrEV/"><img class="instsapic" style="width: 100%;" src="assets/images/tulio.jpg"></a>
 
 </div>
 </div>
 
-<div style="  position: relative;  overflow: hidden; width: 400px; height: 400px;" >
+<div style="  position: relative;  overflow: hidden;  width: auto;
+  height: auto; max-width: 400px; max-height: 400px;" >
   <a  href="https://www.instagram.com/p/By0CBMyndwE/"><img class="instsapic" style="width: 100%;" src="assets/images/roseblack.jpg"></a>
 </div>
 
@@ -289,7 +294,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 <div style="display: flex;">
 
-<div style="  margin: 0 2px 2px 2px;  position: relative; overflow: hidden; width: 197px; height: 198px;" >
+<div style="  margin: 0 2px 2px 2px;  position: relative; overflow: hidden;   width: auto;
+  height: auto; max-width: 197px; max-height: 198px;" >
   <a  href="https://www.instagram.com/p/Bz0c_e7Fatn/"><img class="instsapic" style="width: 100%;" src="assets/images/closeup.jpg"></a>
 </div>
 
@@ -299,16 +305,19 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 
 
-<div style="  margin: 0 2px 2px 2px;  position: relative; overflow: hidden; width: 197px; height: 198px;" >
+<div style="  margin: 0 2px 2px 2px;  position: relative; overflow: hidden;   width: auto;
+  height: auto; max-width: 197px; max-height: 198px;" >
   <a  href="https://www.instagram.com/p/Bz-6qkelrLY/"><img class="instsapic" style="width: 100%;" src="assets/images/casino.jpg"></a>
 </div>
 
 
-<div style="  margin: 0 2px 2px 2px;  position: relative; overflow: hidden; width: 197px; height: 198px;" >
+<div style="  margin: 0 2px 2px 2px;  position: relative; overflow: hidden;  width: auto;
+  height: auto; max-width: 197px; max-height: 198px;" >
   <a  href="https://www.instagram.com/p/B0TYTw2lNqn/"><img class="instsapic" style="width: 100%;" src="assets/images/reil.jpg"></a>
 </div>
 
-<div style="  margin: 0 2px 2px 2px;  position: relative; overflow: hidden; width: 197px; height: 198px;" >
+<div style="  margin: 0 2px 2px 2px;  position: relative; overflow: hidden;  width: auto;
+  height: auto; max-width: 197px; max-height: 198px;" >
   <a  href="https://www.instagram.com/p/ByVIfsnHVc7/"><img class="instsapic" style="width: 100%;" src="assets/images/beststar.jpg"></a>
 </div>
 
@@ -318,12 +327,29 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 </div>
 
+</div>
+</div>
+<div style="    padding: 100px; width: 100%;   flex-direction: column; display: flex; background-color: white;">
+<h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;  display: block;   font-family: 'Ropa Sans', sans-serif !important;
+">GOGOGO LIFESTYLE</h2>
 
+
+
+<div style="display: flex; flex-wrap: wrap;">
+ {% assign posts = site.blog] | sample:4 %}
+
+{% for t in posts %}
+
+<a style="width: 50%;" href="{{ site.url }}/blog/{{ t.link }}">
+  <img style="width: 100%;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
+</a>
+
+{% endfor %}
 </div>
 </div>
 </div>
 
-<div class="instagrammobile" style="display: none;">
+<div class="instagrammobile" style="flex-wrap: wrap; display: none;">
 <div class="" style="   background-color: #f1f1f1;
     justify-content: center;
     align-items: center;
@@ -361,13 +387,28 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 </div>
 
-
-
-<h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;  display: none;   font-family: 'Ropa Sans', sans-serif !important;
+<div style="      flex-direction: column;  padding: 100px; width: 100%;   flex-direction: column; display: flex; background-color: white;">
+<h2 style="  text-align: center;text-transform: uppercase;  display: block;   font-family: 'Ropa Sans', sans-serif !important;
 ">GOGOGO LIFESTYLE</h2>
+
+
+
+<div style="display: flex; flex-wrap: wrap;">
+ {% assign posts = site.blog] | sample:2 %}
+
+{% for t in posts %}
+
+<a style="width: 100%;" href="{{ site.url }}/blog/{{ t.link }}">
+  <img style="width: 100%;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
+</a>
+
+{% endfor %}
+</div>
+</div>
 </div>
 
-<div style="background-color: #f1f1f1; width: 100%; height: 20px;" ></div>
+
+<div style="background-color: white; width: 100%; height: 20px;" ></div>
 
 
 {% include footer.html %}
