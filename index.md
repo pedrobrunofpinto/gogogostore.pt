@@ -387,7 +387,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 
 </div>
 
-<div style="      flex-direction: column;  padding: 50px; width: 100%;   flex-direction: column; display: flex; background-color: white;">
+<div style="      flex-direction: column;  padding: 35px; width: 100%;   flex-direction: column; display: flex; background-color: white;">
 <h2 style="  text-align: center;text-transform: uppercase;margin: 0px 0 20px 0;  display: block;   font-family: 'Ropa Sans', sans-serif !important;
 ">GOGOGO LIFESTYLE</h2>
 
