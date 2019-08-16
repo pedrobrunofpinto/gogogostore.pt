@@ -1467,6 +1467,12 @@ transform: scale(1.5);
   text-align: center;
 }
 
+
+.upmess {
+  color: gray;
+  margin-left: 6px;
+}
+
 .found {
   color:black;
   text-transform: uppercase;
@@ -1481,6 +1487,7 @@ transform: scale(1.5);
     display: flex;
     align-items: center;
     border-bottom: 1px solid lightgray;
+    background-color: #f1f1f1;
 }
 
 .caps {
@@ -3011,7 +3018,7 @@ h2 {
 }
 
   .caps {
-    display: none;
+    display: flex;
   }
 
   .sublist {
@@ -3233,7 +3240,7 @@ flex-direction: column;
     align-items: center;
   }
   .found {
-    display: none;
+    display: flex;
   }
   .thep {
     display: none;
