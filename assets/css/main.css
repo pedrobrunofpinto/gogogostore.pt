@@ -1418,6 +1418,9 @@ input {
   justify-content: space-between;
   margin: 15px 50px 25px 50px;
   flex-wrap: wrap;
+      align-items: center;
+    align-content: center;
+    align-self: center;
 }
 
 hr {
