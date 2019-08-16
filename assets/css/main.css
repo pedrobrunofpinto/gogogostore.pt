@@ -1498,7 +1498,7 @@ transform: scale(1.5);
 }
 
 .capscontain {
-  margin-top: 60px;
+  margin-top: 45px;
 }
 
 #snip-header__total-label {
@@ -2870,6 +2870,9 @@ left: 0;
     justify-content: center !important;
   }
 
+.prod {
+      margin-right: 0 !important;
+}
 
   .getgetget {
     justify-content: center;
