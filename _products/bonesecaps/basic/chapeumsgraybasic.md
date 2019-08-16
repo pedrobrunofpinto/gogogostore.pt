@@ -1,24 +1,24 @@
 ---
 layout: product
-id: 3
-name: Boné MS Brown Basic
-link: bonemsbrownbasic
+id: 5
+name: Boné MS Gray Basic
+link: chapeumsgraybasic
 price: 6.9
 newprice: ''
 weight: 200
-image: "/assets/images/27.1-1-2.jpg"
-sec: "/assets/images/27.1-1-2.jpg"
+image: "/assets/images/9-2.jpg"
+sec: "/assets/images/9-2.jpg"
 thir: ''
 four: ''
 categoria: bonesecaps
 att: basic
 color:
-- Castanho
-discrip: acessorio cap ms
+- Cinzento
+discrip: desporto treino verao
 novo: true
 maisvendidos: false
 stock: sim
-new: false
+new: true
 inicial: false
 inicialhat: false
 
