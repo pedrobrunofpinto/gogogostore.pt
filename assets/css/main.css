@@ -1827,6 +1827,10 @@ li {
   text-transform: uppercase;
 }
 
+.snip-layout {
+      z-index: 20000 !important;
+}
+
 .snip-layout .snip-footer {
   display: none;
 }
