@@ -1125,6 +1125,7 @@ header {
   position: ;
   margin-bottom: -125px;
   position: fixed;
+  z-index: 10000;
 }
 
 a {
