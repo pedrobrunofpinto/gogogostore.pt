@@ -6,8 +6,8 @@ link: bonemsyellowbasic
 price: 6.9
 newprice: ''
 weight: 200
-image: "/assets/images/6.1-1.jpg"
-sec: "/assets/images/6.1-1.jpg"
+image: "/assets/images/6-2.jpg"
+sec: "/assets/images/6-2.jpg"
 thir: ''
 four: ''
 categoria: bonesecaps
