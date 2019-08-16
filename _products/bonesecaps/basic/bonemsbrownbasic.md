@@ -6,8 +6,8 @@ link: bonemsbrownbasic
 price: 6.9
 newprice: ''
 weight: 200
-image: "/assets/images/1.2-4.jpg"
-sec: "/assets/images/1.2-5.jpg"
+image: "/assets/images/27.1-1-2.jpg"
+sec: "/assets/images/27.1-1-2.jpg"
 thir: ''
 four: ''
 categoria: bonesecaps
