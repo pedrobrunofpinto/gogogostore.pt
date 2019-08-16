@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/bonesecaps/basic/capmsredbasic.md
 - _products/bonesecaps/basic/bonemsbrownbasic.md
 - _products/bonesecaps/basic/bonemsbasicpurple.md
 - _products/bonesecaps/basic/bonemsgreenbasic.md
