@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: T-shirt MS Special 7
 link: tshirtmsspecial7
-price: 14
+price: 14.0
 weight: 500
 image: "/assets/images/red.jpg"
 sec: "/assets/images/redback.jpg"
@@ -19,5 +19,7 @@ stock: saldo
 new: true
 newprice: '19,9'
 four: ''
+inicial: false
+inicialhat: false
 
 ---
