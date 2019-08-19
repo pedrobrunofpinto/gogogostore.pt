@@ -10,8 +10,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
             <a href="#" class="close-button">&#10006;</a>
         <h2 class="textbot sete" style="width:60%;font-size:35px; color: black;align-self: center;padding: 20px 20px 20px 20px;text-align: center;">MEDO DE FICAR DE FORA?</h2>
         <h2 class="textbot" style="width:60%;font-size:15px; color: black;align-self: center;padding: 20px 20px 20px 20px;text-align: center;">Receba <bold>15% de DESCONTO</bold> em todas as compras ao subscrever!</h2>
-<form class="newsletter" style="margin-bottom: 10px; margin-top: 10px;align-self: center;width:50%;display: flex;flex-direction: column;" method="POST" data-netlify="true" action="{{ site.url }}">
-    <input class="placek" style="width:100%;text-align: center;" type="email" name="email" placeholder="Email">
+<form class="newsletter" style="margin-bottom: 10px; margin-top: 10px;align-self: center;width:50%;display: flex;flex-direction: column;" method="POST" data-netlify="true" action="/" name="message" type="hidden">
+    <input class="placek" style="width:100%;text-align: center;" type="email" name="message" placeholder="Email">
     <input type="hidden" name="_after" value="{{ site.url }}">
     <input type="text" name="_honey" value="" style="display:none">
     <div class="like"><input  style="text-align: center;-webkit-appearance: none;" class="certosoquenao" type="submit" name="form-name" value="JUNTA-TE AO GANG!"></div>
