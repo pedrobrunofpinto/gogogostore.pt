@@ -30,6 +30,22 @@ input, button {
   display: block !important;
 }
 
+.snip-layout .snip-loader--bar:before {
+  background-color: #d1ba7b !important;
+}
+
+
+.snip-layout .snip-quantity-trigger__btn:hover {
+  background-color: #d1ba7b !important;
+}
+
+.snip-layout .snip-product__remove {
+  color: #d1ba7b !important;
+}
+.snip-ico--close {
+  display: none !important
+}
+
 
 [data-for="company"] {
   display: none;
