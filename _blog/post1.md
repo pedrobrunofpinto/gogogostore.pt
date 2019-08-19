@@ -1,9 +1,17 @@
 ---
 layout: news
-id: 3
-name: Boné MS Purple Basic
 link: post1
-titulo: post11
+titulo: Bem Vindo
+resumo: Criamos um blog, onde podes acompanhar a GOGOGO LIFESTYLE!
 categoria: blog
 img: /assets/images/post11.jpg
+dia: 19/08/19
 ---
+
+
+
+Podes a partir de hoje seguir as nossas novidades neste blog.
+<br>
+Iremos publicar dicas, descontos e até códigos exclsivos promocionais da nossa loja!
+<br>
+Vais querer ficar de for?

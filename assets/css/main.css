@@ -2933,6 +2933,10 @@ left: 0;
     justify-content: center !important;
   }
 
+  .coisf {
+    height: 300px;
+  }
+
 .prod {
       margin-right: 0 !important;
 }
