@@ -429,7 +429,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     align-items: center;" class="">
       <a href="{{ site.url }}/blog/{{ t.link }}"><h2 class="" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
                  <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.dia }}</h3></a>
-           <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.resumo }}</h3></a>
+           <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="text-align: center; color: gray;">{{ t.resumo }}</h3></a>
     </div>
     <div style="display: flex; justify-content: center;">
     <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite " style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
