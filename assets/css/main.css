@@ -30,6 +30,10 @@ input, button {
   display: block !important;
 }
 
+.snip-product__thumbnail {
+  display: block !important;
+}
+
 .snip-layout .snip-loader--bar:before {
   background-color: #d1ba7b !important;
 }
