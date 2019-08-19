@@ -11,8 +11,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
         <h2 class="textbot sete" style="width:60%;font-size:35px; color: black;align-self: center;padding: 20px 20px 20px 20px;text-align: center;">MEDO DE FICAR DE FORA?</h2>
         <h2 class="textbot" style="width:60%;font-size:15px; color: black;align-self: center;padding: 20px 20px 20px 20px;text-align: center;">Receba <bold>15% de DESCONTO</bold> em todas as compras ao subscrever!</h2>
 <form action="/obrigado" class="newsletter" style="margin-bottom: 10px; margin-top: 10px;align-self: center;width:50%;display: flex;flex-direction: column;" name="contact" method="POST" data-netlify="true">
-    <input class="placek" style="width:100%;text-align: center;" type="email" name="contact" placeholder="Email">
-    <input  style="text-align: center;-webkit-appearance: none;" class="certosoquenao" type="submit" name="contact" value="JUNTA-TE AO GANG!">
+    <input class="placek" style="width:100%;text-align: center;" type="email" name="email" placeholder="Email">
+    <input  style="text-align: center;-webkit-appearance: none;" class="certosoquenao" type="submit" name="submit" value="JUNTA-TE AO GANG!">
 </form>  
         </div>
     </div>
