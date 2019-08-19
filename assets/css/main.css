@@ -26,6 +26,10 @@ input, button {
   font-weight: 700;
 }
 
+.snipcart-main-content {
+  z-index: 9000;
+}
+
 .snip-layout .snip-header__continue {
   display: block !important;
 }
