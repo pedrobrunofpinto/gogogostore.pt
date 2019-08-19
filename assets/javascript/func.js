@@ -196,6 +196,9 @@ $( document ).ready(function() {
   $('#my-size').change(function() {
     $('#my-button').data('item-custom2-value', $(this).val());
   });
+  $('#thissize').change(function() {
+    $('#abuto').data('item-custom8-value', $(this).val());
+  });
 
 
 /*

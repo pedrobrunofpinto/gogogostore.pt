@@ -319,7 +319,7 @@ Os portes da sua encomenda são calculados automáticamente através do nosso si
 <div class="sabado">
 <div style="background-color: white; height: 70px; display: flex; align-items: center;">      <h2 class="h2price" data-position="{{ t.price }}">Preço:<br>{{ page.price }}0€</h2></div>
 <div class="mert">
-<select class="inside inside" id="my-size" style="margin-right: 20px; width: 150px; height: 70px;">
+<select class="inside inside" id="thissize" style="margin-right: 20px; width: 150px; height: 70px;">
             <option>Tamanho?</option>
     <option>S</option>
     <option>M</option>
@@ -328,14 +328,14 @@ Os portes da sua encomenda são calculados automáticamente através do nosso si
 </select>
 </div>
 <button style="     font-size: 13px;  margin-right: 20px; -webkit-appearance: none; margin-top: 0; width: 180px; height: 80px;
-" id="my-button" class="snipcart-add-item cartbut lebutton"
+" id="abuto" class="snipcart-add-item cartbut lebutton"
     data-item-id="{{ page.id }}"
     data-item-name="{{ page.name }}"
     data-item-price="{{ page.price }}"
     data-item-weight="{{ page.weight }}"
-    data-item-custom2-name="Tamanho"
-    data-item-custom2-options="S|M|L|XL"
-    data-item-custom2-required="true"
+    data-item-custom8-name="Tamanho"
+    data-item-custom8-options="S|M|L|XL"
+    data-item-custom8-required="true"
     data-item-custom3-name="Cor"
     data-item-custom3-options="{{ page.color[0] }}|{{ page.color[1] }}|{{ page.color[2] }}"
     data-item-custom3-required="True"
