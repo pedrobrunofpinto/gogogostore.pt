@@ -129,7 +129,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     data-item-custom3-required="True"
     data-item-quantity="1"
     data-item-url="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"
-    data-item-description="{{ t.discrip }}"
+    data-item-description="{{ t.gene }}"
     data-item-image="{{ t.image }}">
     Adicionar ao carrinho   
 </button>
@@ -184,7 +184,7 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     data-item-custom3-required="True"
     data-item-quantity="1"
     data-item-url="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"
-    data-item-description="{{ t.discrip }}"
+    data-item-description="{{ t.gene }}"
     data-item-image="{{ t.image }}">
     Adicionar ao carrinho   
 </button>

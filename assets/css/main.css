@@ -165,7 +165,7 @@ h3{
 
 
 .snip-layout .snip-product__description {
-  display: none;
+  display: block;
 }
 
 .caseclose {
@@ -1124,7 +1124,7 @@ margin: 0 30px 0;
 }
 
 .snip-product__description {
-  display: none;
+  display: block;
 }
 
 #bag {
