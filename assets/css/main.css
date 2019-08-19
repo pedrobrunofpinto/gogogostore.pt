@@ -30,6 +30,11 @@ input, button {
   display: block !important;
 }
 
+
+[data-for="company"] {
+  display: none;
+} 
+
 .slick-arrow {
   display: none !important;
 }
