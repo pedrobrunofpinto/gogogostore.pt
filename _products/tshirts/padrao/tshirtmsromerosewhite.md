@@ -17,7 +17,9 @@ color:
 discrip: rosa flor saldo
 novo: false
 maisvendidos: false
-stock: saldo
+stock: nao
 new: false
+inicial: false
+inicialhat: false
 
 ---
