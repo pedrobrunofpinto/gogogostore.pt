@@ -26,6 +26,11 @@ input, button {
   font-weight: 700;
 }
 
+
+.fb_dialog {
+  z-index: 1000 !important;
+}
+
 .snipcart-main-content {
   z-index: 9000;
 }
