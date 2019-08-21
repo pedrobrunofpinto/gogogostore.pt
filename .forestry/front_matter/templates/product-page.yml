@@ -93,6 +93,16 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/bonesecaps/basic/capmsblueandred.md
+- _products/bonesecaps/basic/capmswhitebasic.md
+- _products/bonesecaps/basic/capmsbluebasic.md
+- _products/bonesecaps/basic/capmsblackandwhite.md
+- _products/bonesecaps/basic/capmsblackbasic.md
+- _products/bonesecaps/basic/capmsblackandyellowbasic.md
+- _products/bonesecaps/basic/bonemsredbasic.md
+- _products/bonesecaps/basic/bonemstrooplight.md
+- _products/bonesecaps/basic/bonemstroopdark.md
+- _products/tshirts/padrao/tshirtmsromerosewhite.md
 - _products/calcoes/basic/calcoesmsbluebeach.md
 - _products/calcoes/basic/calcoesmssportbranco.md
 - _products/tshirts/padrao/tshirtmsspecial7.md
@@ -133,7 +143,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsbars.md
 - _products/tshirts/padrao/tshirtmsgoldrome.md
 - _products/tshirts/padrao/tshirtmsrelaxbars.md
-- _products/tshirts/padrao/tshirtmsromerosewhite.md
 - _products/casacos/padrao/casacomsurbanred.markdown
 - _products/tshirts/padrao/tshirtmscaptain.md
 - _products/tshirts/padrao/thsirtmsrosestripe.markdown
