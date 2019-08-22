@@ -1,0 +1,25 @@
+---
+layout: product
+id: 2
+name: T-shirt MS Full Gold Armor White
+link: tshirtmsfullgoldarmorwhite
+price: 12.5
+newprice: "17.9"
+weight: 500
+image: "/assets/images/bb.jpg"
+sec: "/assets/images/bb.jpg"
+thir: ''
+four: ''
+categoria: tshirts
+att: basic
+color:
+- Branco
+discrip: dourado mangas detalhe
+novo: false
+maisvendidos: false
+stock: saldo
+new: false
+inicial: false
+inicialhat: false
+
+---
