@@ -93,7 +93,6 @@ fields:
   type: boolean
   label: inicialhat
 pages:
-- _products/tshirts/padrao/tshirtmsfullgoldarmor-1.md
 - _products/tshirts/padrao/tshirtmsallstar.md
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
 - _products/tshirts/basic/tshirtmscrystalmotiondark.md
