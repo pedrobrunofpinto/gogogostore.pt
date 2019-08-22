@@ -16,9 +16,11 @@ color:
 discrip: rosas padrao preto
 novo: true
 maisvendidos: true
-stock: saldo
+stock: nao
 new: true
 newprice: '17,9'
 four: ''
+inicial: false
+inicialhat: false
 
 ---
