@@ -39,7 +39,7 @@ layout: default
 <ul class="list prodcontain" id="oozer-list">
  {% assign sorted = site.products | sort: "date" %}
 {% for t in sorted reversed %}
-  {% if t.categoria == "tshirts" %}
+  {% if t.categoria %}
 {% if t.stock == "saldo" %}
   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
   <div class="productplace" >
