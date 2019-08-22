@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/padrao/tshirtmsallstar.md
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
 - _products/tshirts/basic/tshirtmscrystalmotiondark.md
 - _products/tshirts/basic/tshirtmscrystalmotionorange.md
@@ -139,7 +140,6 @@ pages:
 - _products/polos/padrao/polomsparty.md
 - _products/polos/padrao/polomscollar.md
 - _products/tshirts/padrao/tshirtmscrystalrose.md
-- _products/tshirts/padrao/tshirtmsallstar.md
 - _products/polos/padrao/polomscollarblack.md
 - _products/tshirts/padrao/tshirtmsspecial7sportred.md
 - _products/tshirts/padrao/tshirtmsfocusblack.md
