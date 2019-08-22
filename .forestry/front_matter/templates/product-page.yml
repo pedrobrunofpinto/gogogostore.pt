@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/casacos/padrao/casacomsurbanred.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
 - _products/casacos/padrao/casacomsrain.markdown
@@ -196,7 +197,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsmoon.md
 - _products/tshirts/padrao/tshirtmsfullrose.md
 - _products/tshirts/basic/tshirtmstapes.md
-- _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/tshirts/basic/thsirtmsredfur.markdown
 - _products/tshirts/basic/tshirtmsblackstraight.markdown
 - _products/tshirts/basic/thsirtmsredstraight.markdown
