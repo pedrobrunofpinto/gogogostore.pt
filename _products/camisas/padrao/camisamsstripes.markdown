@@ -12,7 +12,6 @@ att: padrao
 categoria: camisas
 color:
 - Azul
-- Branco
 discrip: camisa padrao riscas azul vermelho branco
 novo: true
 maisvendidos: true
