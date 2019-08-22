@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Casaco MS Rain
 link: casacomsrain
-price: 17.5
+price: 24.9
 weight: 500
 image: "/assets/images/feito/feito2/5.jpg"
 sec: "/assets/images/feito/feito2/5.2.jpg"
@@ -15,9 +15,11 @@ color:
 discrip: preto casaco chuva
 novo: true
 maisvendidos: true
-stock: saldo
-newprice: '24,9'
+stock: sim
+newprice: ''
 new: false
 four: ''
+inicial: false
+inicialhat: false
 
 ---

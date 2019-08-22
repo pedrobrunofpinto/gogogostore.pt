@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Casaco MS Urban Red
 link: casacomsurbanred
-price: 17.9
+price: 24.9
 weight: 500
 image: "/assets/images/feito/8.2.jpg"
 sec: "/assets/images/feito/8.jpg"
@@ -15,9 +15,11 @@ color:
 discrip: vermelho casaco chuva
 novo: true
 maisvendidos: true
-stock: saldo
-newprice: '24,9'
+stock: sim
+newprice: ''
 four: ''
 new: false
+inicial: false
+inicialhat: false
 
 ---

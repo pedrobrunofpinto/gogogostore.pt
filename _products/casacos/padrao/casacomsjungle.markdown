@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Casaco MS Jungle
 link: casacomsjungle
-price: 17.5
+price: 24.9
 weight: 500
 image: "/assets/images/feito/feito2/1.jpg"
 sec: "/assets/images/feito/feito2/3.jpg"
@@ -15,9 +15,11 @@ color:
 discrip: preto casaco tropa
 novo: true
 maisvendidos: true
-stock: saldo
-newprice: '24,9'
+stock: sim
+newprice: ''
 four: ''
 new: false
+inicial: false
+inicialhat: false
 
 ---

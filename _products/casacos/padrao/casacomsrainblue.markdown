@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Casaco MS Rain Blue
 link: casacomsrainblue
-price: 17.5
+price: 24.9
 weight: 500
 image: "/assets/images/feito/feito2/4.jpg"
 sec: "/assets/images/feito/feito2/4.2.jpg"
@@ -15,9 +15,11 @@ color:
 discrip: azul casaco chuva
 novo: true
 maisvendidos: true
-stock: saldo
-newprice: '24,9'
+stock: sim
+newprice: ''
 four: ''
 new: false
+inicial: false
+inicialhat: false
 
 ---
