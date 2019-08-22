@@ -7,8 +7,8 @@ price: 12.5
 newprice: "17.9"
 weight: 500
 image: "/assets/images/16-1.jpg"
-sec: "/assets/images/17-1.jpg"
-thir: "/assets/images/18-3.jpg"
+sec: "/assets/images/back.jpg"
+thir: ''
 four: ''
 categoria: tshirts
 att: padrao
@@ -20,5 +20,7 @@ novo: false
 maisvendidos: false
 stock: saldo
 new: false
+inicial: false
+inicialhat: false
 
 ---
