@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/padrao/tshirtmsmoon.md
 - _products/tshirts/padrao/tshirtmoonblue.md
 - _products/tshirts/padrao/tshirtmsrelaxbarsgray.md
 - _products/casacos/padrao/casacomsrain.markdown
@@ -195,7 +196,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsfocusyellow.md
 - _products/polos/padrao/polomstropical.md
 - _products/tshirts/padrao/tshirtmscastlerose.md
-- _products/tshirts/padrao/tshirtmsmoon.md
 - _products/tshirts/padrao/tshirtmsfullrose.md
 - _products/tshirts/basic/tshirtmstapes.md
 - _products/tshirts/basic/thsirtmsredfur.markdown
