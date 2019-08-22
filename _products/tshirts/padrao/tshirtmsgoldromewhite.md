@@ -1,7 +1,7 @@
 ---
 layout: product
 id: 3
-name: T-shirt MS Gold Rome
+name: T-shirt MS Gold Rome White
 link: tshirtmsgoldromewhite
 price: 12.5
 newprice: "17.9"
