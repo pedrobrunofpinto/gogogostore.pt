@@ -6,8 +6,8 @@ link: tshirtmscrystalmotion
 price: 12.5
 weight: 500
 image: "/assets/images/15.1.jpg"
-sec: "/assets/images/16.1.jpg"
-thir: "/assets/images/17.1.jpg"
+sec: "/assets/images/7777.jpg"
+thir: ''
 categoria: tshirts
 att: padrao
 color:
@@ -21,5 +21,7 @@ stock: saldo
 new: true
 newprice: '17,9'
 four: ''
+inicial: false
+inicialhat: false
 
 ---
