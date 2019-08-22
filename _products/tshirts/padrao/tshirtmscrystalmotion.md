@@ -11,8 +11,6 @@ thir: ''
 categoria: tshirts
 att: padrao
 color:
-- Laranja
-- Azul Escuro
 - Azul Claro
 discrip: ss19 laranja azul
 novo: true
