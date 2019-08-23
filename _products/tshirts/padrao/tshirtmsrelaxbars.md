@@ -8,17 +8,18 @@ newprice: "17.9"
 weight: 500
 image: "/assets/images/23-3.jpg"
 sec: "/assets/images/24-1.jpg"
-thir: "/assets/images/25-2.jpg"
-four: "/assets/images/26-2.jpg"
+thir: "/assets/images/back-1.jpg"
+four: ''
 categoria: tshirts
 att: padrao
 color:
-- Cinzento Escuro
 - Cinzento Claro
 discrip: saldos riscas basico
 novo: false
 maisvendidos: false
 stock: saldo
 new: false
+inicial: false
+inicialhat: false
 
 ---
