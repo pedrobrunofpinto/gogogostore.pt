@@ -17,7 +17,7 @@ color:
 discrip: riscas basico preto
 novo: false
 maisvendidos: false
-stock: saldo
+stock: nao
 new: false
 inicial: false
 inicialhat: false
