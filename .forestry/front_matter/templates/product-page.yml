@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/padrao/tshirtmsbarslinegrey.md
 - _products/tshirts/padrao/tshirtmyellowsbaltic.md
 - _products/tshirts/padrao/tshirtmslightbluebaltic.md
 - _products/tshirts/padrao/tshirtmspinkbaltic.md
@@ -104,7 +105,6 @@ pages:
 - _products/tshirts/padrao/thsirtmsgoldflake.markdown
 - _products/tshirts/padrao/tshirtmsgoldluckblack.md
 - _products/tshirts/padrao/thsirtmsgoldflames.markdown
-- _products/tshirts/padrao/tshirtmsbarslinegrey.md
 - _products/tshirts/padrao/tshirtmscastlerose.md
 - _products/tshirts/padrao/tshirtmsbarsline.md
 - _products/tshirts/padrao/tshirtmsgoldromewhite.md
