@@ -3,7 +3,7 @@ layout: product
 id: 43
 name: 'Camisa MS Stripes White '
 link: camisastripeswhite
-price: 15.3
+price: 14.5
 newprice: '21,9'
 weight: 500
 image: "/assets/images/whiteshirt.jpg"

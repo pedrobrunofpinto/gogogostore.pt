@@ -93,6 +93,8 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/camisas/padrao/camisastripeswhite.md
+- _products/camisas/padrao/camisamsstripesclassicdark.markdown
 - _products/camisas/padrao/camisamsstripes.markdown
 - _products/tshirts/padrao/tshirtmsgoldflakeblack.md
 - _products/tshirts/padrao/thsirtmsgoldflake.markdown
@@ -122,7 +124,6 @@ pages:
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
 - _products/tshirts/basic/tshirtmscrystalmotiondark.md
 - _products/tshirts/basic/tshirtmscrystalmotionorange.md
-- _products/camisas/padrao/camisastripeswhite.md
 - _products/bonesecaps/basic/capmsblackandyellowbasic.md
 - _products/bonesecaps/basic/bonemstroopdark.md
 - _products/bonesecaps/basic/capmsblackandwhite.md
@@ -182,7 +183,6 @@ pages:
 - _products/tshirts/basic/thsirtmsnavyfur.markdown
 - _products/tshirts/basic/thsirtmsblack.markdown
 - _products/tshirts/basic/tshirtmswhitestraight.markdown
-- _products/camisas/padrao/camisamsstripesclassicdark.markdown
 - _products/tshirts/basic/tshirtmstricolor.md
 - _products/tshirts/padrao/tshirtmsallstarred.md
 - _products/tshirts/padrao/tshirtmscaptainblack.md
