@@ -7,7 +7,7 @@ price: 12.5
 newprice: '17,9'
 weight: 500
 image: "/assets/images/umgajo.jpg"
-sec: ''
+sec: "/assets/images/umgajo.jpg"
 thir: ''
 four: ''
 categoria: tshirts
