@@ -14,9 +14,11 @@ color: []
 discrip: ss19 preto rosa
 novo: true
 maisvendidos: true
-stock: saldo
+stock: nao
 new: true
 four: ''
 newprice: '17,9'
+inicial: false
+inicialhat: false
 
 ---

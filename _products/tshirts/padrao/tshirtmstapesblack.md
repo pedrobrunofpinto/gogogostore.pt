@@ -1,21 +1,20 @@
 ---
 layout: product
-id: 6
-name: T-shirt MS Full Gold Armor
-link: tshirtmsfullgoldarmor
+id: 3
+name: T-shirt MS Tapes Black
+link: tshirtmstapesblack
 price: 12.5
-newprice: "17.9"
+newprice: '17,9'
 weight: 500
-image: "/assets/images/16-1.jpg"
-sec: "/assets/images/back.jpg"
+image: "/assets/images/umgajo.jpg"
+sec: "/assets/images/umgajo.jpg"
 thir: ''
 four: ''
 categoria: tshirts
 att: padrao
 color:
 - Preto
-- Branco
-discrip: saldo dourado mangas
+discrip: riscas fitas branco
 novo: false
 maisvendidos: false
 stock: saldo

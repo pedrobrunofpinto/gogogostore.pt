@@ -6,21 +6,20 @@ link: tshirtmstapes
 price: 12.5
 weight: 500
 image: "/assets/images/2.5-452x709.jpg"
-sec: "/assets/images/preto.jpg"
-thir: "/assets/images/azul-1.jpg"
+sec: "/assets/images/tapebbbbbbbb.jpg"
+thir: ''
 categoria: tshirts
 att: basic
 color:
-- Amarelo
-- Preto
-- Azul Escuro
 - Branco
 discrip: amarelo azul branco preto ms
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: saldo
-new: true
+new: false
 newprice: '17,9'
 four: ''
+inicial: false
+inicialhat: false
 
 ---

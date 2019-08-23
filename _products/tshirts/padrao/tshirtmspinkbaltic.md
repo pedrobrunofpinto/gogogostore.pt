@@ -1,20 +1,20 @@
 ---
 layout: product
-id: 8
-name: T-shirt MS Baltic
-link: tshirtmsbaltic
+id: 7
+name: T-shirt MS Pink Baltic
+link: tshirtmspinkbaltic
 price: 12.5
 newprice: "17.9"
 weight: 500
-image: "/assets/images/19-2.jpg"
-sec: "/assets/images/balticazul.jpg"
+image: "/assets/images/pinkbaltic.jpg"
+sec: "/assets/images/pinkbaltic.jpg"
 thir: ''
 four: ''
 categoria: tshirts
 att: padrao
 color:
-- Azul
-discrip: basico uma saldos
+- Rosa
+discrip: rosa corpo ss19
 novo: false
 maisvendidos: false
 stock: saldo

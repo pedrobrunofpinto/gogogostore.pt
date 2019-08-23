@@ -1,20 +1,20 @@
 ---
 layout: product
-id: 8
-name: T-shirt MS Baltic
-link: tshirtmsbaltic
+id: 3
+name: T-shirt MS Light Blue Baltic
+link: tshirtmslightbluebaltic
 price: 12.5
 newprice: "17.9"
 weight: 500
-image: "/assets/images/19-2.jpg"
-sec: "/assets/images/balticazul.jpg"
+image: "/assets/images/balticazullllll.jpg"
+sec: "/assets/images/balticazullllll.jpg"
 thir: ''
 four: ''
 categoria: tshirts
 att: padrao
 color:
 - Azul
-discrip: basico uma saldos
+discrip: simples verde cor
 novo: false
 maisvendidos: false
 stock: saldo

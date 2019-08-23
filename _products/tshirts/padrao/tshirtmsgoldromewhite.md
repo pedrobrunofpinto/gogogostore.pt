@@ -1,23 +1,23 @@
 ---
 layout: product
-id: 6
-name: T-shirt MS Rome Rose White
-link: tshirtmsromerosewhite
+id: 3
+name: T-shirt MS Gold Rome White
+link: tshirtmsgoldromewhite
 price: 12.5
 newprice: "17.9"
 weight: 500
-image: "/assets/images/32-1.jpg"
-sec: "/assets/images/33-2.jpg"
+image: "/assets/images/white3333.jpg"
+sec: "/assets/images/white2222.jpg"
 thir: ''
 four: ''
 categoria: tshirts
 att: padrao
 color:
 - Branco
-discrip: rosa flor saldo
+discrip: dourado detalhe riscas
 novo: false
 maisvendidos: false
-stock: nao
+stock: saldo
 new: false
 inicial: false
 inicialhat: false

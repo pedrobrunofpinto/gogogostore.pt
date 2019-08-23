@@ -1,20 +1,20 @@
 ---
 layout: product
 id: 3
-name: T-shirt MS Crystal Motion Dark
-link: tshirtmscrystalmotiondark
+name: T-shirt MS Tricolor Red
+link: tshirtmstricolorred
 price: 12.5
 newprice: '17,9'
 weight: 500
-image: "/assets/images/66.jpg"
-sec: "/assets/images/66.jpg"
+image: "/assets/images/sidesssss-1.jpg"
+sec: "/assets/images/sidesssss-1.jpg"
 thir: ''
 four: ''
 categoria: tshirts
-att: basic
+att: padrao
 color:
-- Azul
-discrip: degrade cores 3
+- Vermelho
+discrip: branco tres preto
 novo: false
 maisvendidos: false
 stock: saldo
