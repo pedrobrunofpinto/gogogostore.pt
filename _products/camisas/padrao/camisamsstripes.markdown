@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Camisa MS Stripes Blue
 link: camisamsstripes
-price: 15.3
+price: 14.5
 weight: 500
 image: "/assets/images/novas/1.1.jpg"
 sec: "/assets/images/camisaazul.jpg"
