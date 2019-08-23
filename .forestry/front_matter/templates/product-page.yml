@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/basic/tshirtmsorange.md
 - _products/tshirts/basic/tshirtmsyellow.md
 - _products/tshirts/basic/tshirtmsred.md
 - _products/tshirts/basic/tshirtmsblue.md
