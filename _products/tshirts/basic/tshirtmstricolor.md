@@ -6,20 +6,20 @@ link: tshirtmstricolor
 price: 12.5
 weight: 500
 image: "/assets/images/sides.jpg"
-sec: "/assets/images/sidesssss.jpg"
-thir: "/assets/images/kkk.jpg"
+sec: "/assets/images/sides-1.jpg"
+thir: ''
 categoria: tshirts
 att: basic
 color:
 - Preto
-- Branco
-- Vermelho
 discrip: ms cores basico
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: saldo
-new: true
+new: false
 newprice: '17,9'
 four: ''
+inicial: false
+inicialhat: false
 
 ---
