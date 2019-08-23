@@ -16,9 +16,11 @@ color:
 discrip: riscas risca
 novo: true
 maisvendidos: true
-stock: saldo
+stock: nao
 new: true
 newprice: '17,9'
 four: ''
+inicial: false
+inicialhat: false
 
 ---
