@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/basic/thsirtmsnavyfur.markdown
 - _products/tshirts/basic/tshirtmsbacklines.md
 - _products/tshirts/basic/tshirtmstapes.md
 - _products/tshirts/padrao/tshirtmstapesblack.md
@@ -179,7 +180,6 @@ pages:
 - _products/tshirts/basic/thsirtmsbluefur.markdown
 - _products/tshirts/basic/thsirtmsbrownfur.markdown
 - _products/tshirts/basic/tshirtmsrubystraight.markdown
-- _products/tshirts/basic/thsirtmsnavyfur.markdown
 - _products/tshirts/basic/thsirtmsblack.markdown
 - _products/tshirts/padrao/tshirtmsallstarred.md
 - _products/tshirts/padrao/tshirtmscaptainblack.md
