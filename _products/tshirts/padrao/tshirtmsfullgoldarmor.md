@@ -18,7 +18,7 @@ color:
 discrip: saldo dourado mangas
 novo: false
 maisvendidos: false
-stock: saldo
+stock: nao
 new: false
 inicial: false
 inicialhat: false
