@@ -15,9 +15,11 @@ color:
 discrip: ss19 vermelho branco
 novo: true
 maisvendidos: false
-stock: saldo
+stock: nao
 new: true
 four: "/assets/images/12.jpg"
 newprice: "17.9"
+inicial: false
+inicialhat: false
 
 ---
