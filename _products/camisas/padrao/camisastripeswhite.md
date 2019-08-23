@@ -4,7 +4,7 @@ id: 43
 name: 'Camisa MS Stripes White '
 link: camisastripeswhite
 price: 14.5
-newprice: '21,9'
+newprice: '24,2'
 weight: 500
 image: "/assets/images/whiteshirt.jpg"
 sec: "/assets/images/whiteshirt2.jpg"
