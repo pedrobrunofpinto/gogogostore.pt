@@ -6,7 +6,7 @@ link: tshirtmsbarsline
 price: 12.5
 newprice: "17.9"
 weight: 500
-image: "/assets/images/5-1.jpg"
+image: "/assets/images/whiteline.jpg"
 sec: "/assets/images/6-1.jpg"
 thir: "/assets/images/7-1.jpg"
 four: ''
@@ -20,5 +20,7 @@ novo: false
 maisvendidos: false
 stock: saldo
 new: false
+inicial: false
+inicialhat: false
 
 ---
