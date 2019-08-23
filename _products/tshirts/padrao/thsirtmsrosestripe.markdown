@@ -7,7 +7,7 @@ price: 11.1
 weight: 500
 image: "/assets/images/Image-5.jpg"
 sec: "/assets/images/produtos/119.jpg"
-thir: "/assets/images/produtos/120.jpg"
+thir: ''
 att: padrao
 categoria: tshirts
 color:
@@ -20,5 +20,7 @@ stock: saldo
 newprice: "15.9"
 four: ''
 new: false
+inicial: false
+inicialhat: false
 
 ---
