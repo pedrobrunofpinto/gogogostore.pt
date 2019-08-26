@@ -3049,7 +3049,6 @@ left: 0;
   position: relative;
   overflow: hidden;
   margin: 0 0 0 0 !important;
-  padding-top: 11% !important;
 }
 
 @keyframes slideInFromLeft {
@@ -3527,6 +3526,7 @@ margin-top: 5px;
 
     .carousel{
     height: 50vh;
+        padding: 0 0 60px 0;
   }
     .bottext {
     font-size: 25px !important;
