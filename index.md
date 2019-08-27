@@ -131,8 +131,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     data-item-image="{{ t.image }}">
     Adicionar ao carrinho   
 </button>
-<h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}<p style="color:red;font-size: 9px;">New</p></h4>
-      <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4>
+<h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}<p style="color:#d1ba7b !important;font-size: 9px;">Saldo</p></h4>
+     <div style="display: flex; justify-content: space-evenly;"><h4 style="text-decoration: line-through;font-size: 12px;" class="h4price">Antes{{ t.newprice }}0€</h4> <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4></div>
   {% endif %}
   {% endfor %}
 </div>
