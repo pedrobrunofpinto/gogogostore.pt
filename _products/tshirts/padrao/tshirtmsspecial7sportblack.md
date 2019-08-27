@@ -1,7 +1,7 @@
 ---
 layout: product
 id: 6
-name: T-SHIRT MS SPECIAL 7 SPORT BLACK
+name: T-SHIRT MS SPECIAL BLACK
 link: tshirtmsspecial7sportblack
 price: 12.5
 weight: 500
@@ -20,5 +20,6 @@ stock: saldo
 newprice: "17.9"
 new: false
 inicial: true
+inicialhat: false
 
 ---
