@@ -11,7 +11,6 @@ thir: "/assets/images/casacoverde.jpg"
 categoria: casacos
 att: basic
 color:
-- Vermelho
 - Azul
 - Verde
 - Cinzento
