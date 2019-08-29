@@ -13,8 +13,8 @@ categoria: casacos
 color:
 - preto
 discrip: preto casaco tropa
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: sim
 newprice: ''
 four: ''

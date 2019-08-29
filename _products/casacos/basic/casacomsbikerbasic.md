@@ -13,10 +13,10 @@ att: basic
 color:
 - Preto
 discrip: casaco pele ss19
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: sim
-new: true
+new: false
 newprice: ''
 four: ''
 inicial: false

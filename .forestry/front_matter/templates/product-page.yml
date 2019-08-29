@@ -93,6 +93,11 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/casacos/basic/casacomsbikerbasic.md
+- _products/casacos/padrao/casacomsurbanred.markdown
+- _products/casacos/padrao/casacomsrainblue.markdown
+- _products/casacos/padrao/casacomsrain.markdown
+- _products/casacos/padrao/casacomsjungle.markdown
 - _products/tshirts/padrao/tshirtmsargentina.md
 - _products/tshirts/padrao/tshirtmsvicecity.md
 - _products/casacos/basic/casacomsfullwinter.md
@@ -135,12 +140,7 @@ pages:
 - _products/tshirts/padrao/tshirtmsbarsline.md
 - _products/tshirts/padrao/tshirtmsgoldromewhite.md
 - _products/tshirts/padrao/tshirtmsrelaxbarsgray.md
-- _products/casacos/padrao/casacomsrain.markdown
 - _products/casacos/padrao/casacomsurbanyellow.markdown
-- _products/casacos/padrao/casacomsurbanred.markdown
-- _products/casacos/padrao/casacomsrainblue.markdown
-- _products/casacos/padrao/casacomsjungle.markdown
-- _products/casacos/basic/casacomsbikerbasic.md
 - _products/tshirts/padrao/tshirtmsfullgoldarmorwhite.md
 - _products/tshirts/padrao/tshirtmsallstar.md
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
