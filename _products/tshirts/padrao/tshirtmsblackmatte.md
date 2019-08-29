@@ -16,9 +16,10 @@ color:
 discrip: ss19 dourado mangas
 novo: true
 maisvendidos: true
-stock: saldo
+stock: nao
 new: true
 newprice: '17,9'
 inicial: true
+inicialhat: false
 
 ---
