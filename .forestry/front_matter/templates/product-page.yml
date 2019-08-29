@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/padrao/tshirtmsitalianstyle.md
 - _products/tshirts/padrao/tshirtmsitalianstyleblack.md
 - _products/tshirts/padrao/tshirtmsshoulderrose.md
 - _products/tshirts/padrao/tshirtmsshoulderroseblack.md
@@ -195,7 +196,6 @@ pages:
 - _products/calcoes/basic/calcoesbluebasic.md
 - _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/tshirts/padrao/tshirtmscaptainblue.md
-- _products/tshirts/padrao/tshirtmsitalianstyle.md
 - _products/tshirts/padrao/tshirtmsfrenchstyle.md
 - _products/tshirts/padrao/tshirtmsfocusblack.md
 - _products/tshirts/basic/tshirtmsbacklinesblack.md
