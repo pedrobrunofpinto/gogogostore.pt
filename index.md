@@ -1,7 +1,9 @@
 ---
 layout: indexpage
-sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-shirts, Camisas, Polos, Casacos e muito mais. Portes grátis para compras superiores a 40€. Encontre a roupa da moda que procura! 
-
+title: 
+description: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-shirts, Camisas, Polos, Casacos e muito mais. Portes grátis para compras superiores a 40€. Encontre a roupa da moda que procura! 
+image: /assets/images/primeira.jpg
+lang: pt
 ---
 <div class="popcontain" style="width:100%;">
  <div class="row pop-up" style="width: 50%;">
