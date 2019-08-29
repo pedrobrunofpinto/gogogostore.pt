@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/padrao/tshirtmscastlerose.md
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
 - _products/tshirts/padrao/tshirtmsaquamotion.md
 - _products/tshirts/padrao/thsirtmsgoldluck.markdown
@@ -156,7 +157,6 @@ pages:
 - _products/tshirts/padrao/thsirtmsgoldflake.markdown
 - _products/tshirts/padrao/tshirtmsgoldluckblack.md
 - _products/tshirts/padrao/thsirtmsgoldflames.markdown
-- _products/tshirts/padrao/tshirtmscastlerose.md
 - _products/tshirts/padrao/tshirtmsbarsline.md
 - _products/tshirts/padrao/tshirtmsgoldromewhite.md
 - _products/tshirts/padrao/tshirtmsrelaxbarsgray.md
