@@ -14,7 +14,7 @@ att: padrao
 color:
 - Preto
 discrip: ss19 caviada riscas
-novo: true
+novo: false
 maisvendidos: true
 stock: saldo
 newprice: "17.9"

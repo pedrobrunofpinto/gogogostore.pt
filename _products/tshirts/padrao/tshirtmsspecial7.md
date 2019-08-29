@@ -13,10 +13,10 @@ att: padrao
 color:
 - Vermelho
 discrip: ms ronaldo sete
-novo: true
+novo: false
 maisvendidos: true
 stock: saldo
-new: true
+new: false
 newprice: '19,9'
 four: ''
 inicial: false

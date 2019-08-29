@@ -14,9 +14,12 @@ att: padrao
 color:
 - Vermelho
 discrip: desporto ss19 caviada
-novo: true
+novo: false
 maisvendidos: true
 stock: saldo
-newprice: 17.9
+newprice: "17.9"
+new: false
+inicial: false
+inicialhat: false
 
 ---
