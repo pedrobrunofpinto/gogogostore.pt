@@ -26,6 +26,9 @@ input, button {
   font-weight: 700;
 }
 
+[name~=f3a6b34bb58f3fc] {
+  display: none;
+}
 
 .fb_dialog {
   z-index: 1000 !important;
