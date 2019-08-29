@@ -13,8 +13,8 @@ categoria: casacos
 color:
 - Preto
 discrip: preto casaco chuva
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: sim
 newprice: ''
 new: false

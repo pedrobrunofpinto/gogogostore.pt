@@ -13,12 +13,13 @@ att: padrao
 color:
 - Branco
 discrip: ss19 preto branco rosa flor
-novo: true
+novo: false
 maisvendidos: true
 stock: nao
-new: true
+new: false
 four: "/assets/images/14.3.jpg"
 newprice: '17,9'
 inicial: false
+inicialhat: false
 
 ---

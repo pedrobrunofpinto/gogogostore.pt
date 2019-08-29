@@ -13,8 +13,8 @@ categoria: casacos
 color:
 - Vermelho
 discrip: vermelho casaco chuva
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: sim
 newprice: ''
 four: ''

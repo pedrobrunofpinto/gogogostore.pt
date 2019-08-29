@@ -6,9 +6,9 @@ link: tshirtmsvicecity
 price: 17.9
 newprice: ''
 weight: 500
-image: "/assets/images/rosa1.jpg"
-sec: "/assets/images/rosa2.jpg"
-thir: ''
+image: "/assets/images/vice1.jpg"
+sec: "/assets/images/vice2.jpg"
+thir: "/assets/images/vice3.jpg"
 four: ''
 categoria: tshirts
 att: padrao
@@ -20,5 +20,6 @@ maisvendidos: true
 stock: sim
 new: true
 inicial: false
+inicialhat: false
 
 ---

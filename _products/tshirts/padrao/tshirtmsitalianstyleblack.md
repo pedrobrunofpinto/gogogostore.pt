@@ -13,10 +13,12 @@ categoria: tshirts
 att: padrao
 color: []
 discrip: italiano ss19 mangas
-novo: true
+novo: false
 maisvendidos: true
 stock: saldo
-new: true
+new: false
 newprice: '17,9'
+inicial: false
+inicialhat: false
 
 ---

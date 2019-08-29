@@ -13,8 +13,8 @@ categoria: casacos
 color:
 - Azul
 discrip: azul casaco chuva
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: sim
 newprice: ''
 four: ''

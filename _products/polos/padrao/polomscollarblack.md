@@ -14,10 +14,12 @@ att: padrao
 color:
 - Preto
 discrip: ss19 bolas pintas
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: nao
-new: true
+new: false
 newprice: '21,9'
+inicial: false
+inicialhat: false
 
 ---

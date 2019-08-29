@@ -13,12 +13,13 @@ att: padrao
 color:
 - Branco
 discrip: branco ss19 italiano
-novo: true
+novo: false
 maisvendidos: true
 stock: saldo
-new: true
+new: false
 four: "/assets/images/17.jpg"
 newprice: '17,9'
 inicial: true
+inicialhat: false
 
 ---

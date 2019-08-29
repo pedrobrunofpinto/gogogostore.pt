@@ -14,10 +14,12 @@ att: padrao
 color:
 - Branco
 discrip: pintas bolas ss19
-novo: true
+novo: false
 maisvendidos: true
 stock: nao
-new: true
+new: false
 newprice: '21,9'
+inicial: false
+inicialhat: false
 
 ---

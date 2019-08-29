@@ -14,11 +14,12 @@ att: padrao
 color:
 - Branco
 discrip: ss19 moto colarinho
-novo: true
+novo: false
 maisvendidos: true
 stock: saldo
-new: true
+new: false
 newprice: '21,9'
 inicial: true
+inicialhat: false
 
 ---

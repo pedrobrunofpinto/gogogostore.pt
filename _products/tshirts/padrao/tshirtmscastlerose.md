@@ -12,10 +12,10 @@ categoria: tshirts
 att: padrao
 color: []
 discrip: ss19 preto rosa
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: nao
-new: true
+new: false
 four: ''
 newprice: '17,9'
 inicial: false
