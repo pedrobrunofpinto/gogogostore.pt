@@ -93,6 +93,10 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/sweats/padrao/tshirtmsblackmatte.md
+- _products/tshirts/padrao/tshirtmsplayer.md
+- _products/tshirts/padrao/tshirtmspixel.md
+- _products/tshirts/padrao/tshirtgreekred.md
 - _products/bonesecaps/basic/capmsblackbasic.md
 - _products/tshirts/padrao/tshirtmsitalianstyle.md
 - _products/tshirts/padrao/tshirtmsitalianstyleblack.md
@@ -103,14 +107,11 @@ pages:
 - _products/tshirts/padrao/tshirtmsaquamotion.md
 - _products/tshirts/padrao/thsirtmsgoldluck.markdown
 - _products/tshirts/padrao/tshirtmsstreetblue.md
-- _products/tshirts/padrao/tshirtmsplayer.md
 - _products/tshirts/padrao/tshirtmsspecial7sportblack.md
 - _products/tshirts/padrao/tshirtmsspecial7sportred.md
 - _products/tshirts/padrao/tshirtmsspecial7.md
 - _products/tshirts/padrao/tshirtmsspecial7sportwhite.md
-- _products/tshirts/padrao/tshirtmspixel.md
 - _products/tshirts/padrao/tshirtmseagle.md
-- _products/tshirts/padrao/tshirtgreekred.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
 - _products/polos/padrao/polomstropical.md
 - _products/polos/padrao/polomsparty.md

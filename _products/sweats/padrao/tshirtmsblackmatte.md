@@ -1,24 +1,26 @@
 ---
 layout: product
 id: 2
-name: T-shirt MS Black Matte
-link: tshirtmsblackmatte
-price: 12.5
+name: Sweat Robin Red
+link: sweatrobinred
+price: 24.9
 weight: 500
-image: "/assets/images/2-5.jpg"
-sec: "/assets/images/2.3-2.jpg"
-thir: "/assets/images/2.2.jpg"
-four: "/assets/images/2.1.jpg"
+
+image: "/assets/images/DLH-7007.1.jpg"
+sec: "/assets/images/DLH-7007.2.jpg"
+thir: ''
+four: ''
 categoria: sweats
 att: padrao
 color:
-- Preto
-discrip: ss19 dourado mangas
+- Vermelho
+discrip: frio inverno cinzento
 novo: true
-maisvendidos: true
-stock: saldo
+maisvendidos: false
+stock: sim
 new: true
-newprice: '17,9'
-inicial: true
+newprice: ''
+inicial: false
+inicialhat: false
 
 ---
