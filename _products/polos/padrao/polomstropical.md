@@ -13,10 +13,12 @@ categoria: polos
 att: padrao
 color: []
 discrip: ss19 flores verao
-novo: true
+novo: false
 maisvendidos: true
 stock: nao
-new: true
+new: false
 newprice: '21,9'
+inicial: false
+inicialhat: false
 
 ---

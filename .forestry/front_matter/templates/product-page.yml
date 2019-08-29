@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/polos/padrao/polomstropical.md
 - _products/polos/padrao/polomsparty.md
 - _products/polos/padrao/polomsnr30.md
 - _products/polos/padrao/polomscollarblack.md
@@ -207,7 +208,6 @@ pages:
 - _products/polos/padrao/tshirtmstropicalwhite.md
 - _products/tshirts/basic/tshirtmsbacklinesred.md
 - _products/tshirts/padrao/tshirtmsfocusyellow.md
-- _products/polos/padrao/polomstropical.md
 - _products/tshirts/basic/thsirtmsredfur.markdown
 - _products/tshirts/basic/thsirtmsredstraight.markdown
 - _products/tshirts/basic/thsirtmsoceanstraight.markdown
