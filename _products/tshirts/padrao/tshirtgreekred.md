@@ -6,10 +6,10 @@ link: tshirtgreekred
 price: 12.5
 newprice: "17.9"
 weight: 500
-image: ''
-sec: "/assets/images/greek2.jpg"
-thir: "/assets/images/greekred.jpg"
-four: "/assets/images/greek4.jpg"
+image: "/assets/images/greek2.jpg"
+sec: "/assets/images/greekred.jpg"
+thir: "/assets/images/greek4.jpg"
+four: ''
 categoria: tshirts
 att: padrao
 color:
