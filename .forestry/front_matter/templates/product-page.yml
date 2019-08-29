@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/padrao/tshirtmsvicecity.md
 - _products/casacos/basic/casacomsfullwinter.md
 - _products/tshirts/padrao/tshirtmsspecial7sportblack.md
 - _products/casacos/padrao/casacomsurbanblue.md
@@ -171,7 +172,6 @@ pages:
 - _products/calcoes/basic/calcoesmsstripegray.md
 - _products/calcoes/basic/calcoesmsstripeblack.md
 - _products/calcoes/basic/calcoesbluebasic.md
-- _products/tshirts/padrao/tshirtmsvicecity.md
 - _products/tshirts/padrao/tshirtmsshoulderrose.md
 - _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
