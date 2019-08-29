@@ -6,9 +6,9 @@ link: tshirtmsvicecity
 price: 17.9
 newprice: ''
 weight: 500
-image: "/assets/images/vice1.jpf"
-sec: "/assets/images/vice2.jpf"
-thir: "/assets/images/vice3.jpf"
+image: "/assets/images/vice1.jpg"
+sec: "/assets/images/vice2.jpg"
+thir: "/assets/images/vice3.jpg"
 four: ''
 categoria: tshirts
 att: padrao
