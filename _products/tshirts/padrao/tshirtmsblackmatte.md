@@ -14,10 +14,10 @@ att: padrao
 color:
 - Preto
 discrip: ss19 dourado mangas
-novo: true
+novo: false
 maisvendidos: true
 stock: nao
-new: true
+new: false
 newprice: '17,9'
 inicial: true
 inicialhat: false
