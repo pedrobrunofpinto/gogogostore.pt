@@ -14,10 +14,12 @@ att: padrao
 color:
 - Azul
 discrip: ss19 bolas cores
-novo: true
+novo: false
 maisvendidos: true
 stock: nao
-new: true
+new: false
 newprice: '21,9'
+inicial: false
+inicialhat: false
 
 ---

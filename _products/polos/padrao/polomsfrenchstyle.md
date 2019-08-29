@@ -13,11 +13,13 @@ att: padrao
 color:
 - Branco
 discrip: branco ss19 amarelo
-novo: true
+novo: false
 maisvendidos: false
 stock: saldo
-new: true
+new: false
 newprice: '21,9'
 four: ''
+inicial: false
+inicialhat: false
 
 ---
