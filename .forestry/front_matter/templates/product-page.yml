@@ -93,6 +93,9 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/padrao/tshirtmsallstar.md
+- _products/tshirts/padrao/tshirtmsfrenchblue.md
+- _products/casacos/basic/casacomsfullwinter.md
 - _products/casacos/basic/casacomsbikerbasic.md
 - _products/casacos/padrao/casacomsurbanred.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
@@ -100,7 +103,6 @@ pages:
 - _products/casacos/padrao/casacomsjungle.markdown
 - _products/tshirts/padrao/tshirtmsargentina.md
 - _products/tshirts/padrao/tshirtmsvicecity.md
-- _products/casacos/basic/casacomsfullwinter.md
 - _products/tshirts/padrao/tshirtmsspecial7sportblack.md
 - _products/casacos/padrao/casacomsurbanblue.md
 - _products/tshirts/basic/tshirtmsgreen.md
@@ -142,7 +144,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsrelaxbarsgray.md
 - _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/tshirts/padrao/tshirtmsfullgoldarmorwhite.md
-- _products/tshirts/padrao/tshirtmsallstar.md
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
 - _products/tshirts/basic/tshirtmscrystalmotionorange.md
 - _products/bonesecaps/basic/capmsblackandyellowbasic.md
@@ -186,7 +187,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsspecial7sportred.md
 - _products/tshirts/padrao/tshirtmsfocusblack.md
 - _products/tshirts/basic/tshirtmsbacklinesblack.md
-- _products/tshirts/padrao/tshirtmsfrenchblue.md
 - _products/tshirts/padrao/tshirtmscaptain.md
 - _products/tshirts/basic/thsirtmsbrownstraight.markdown
 - _products/tshirts/basic/thsirtmsskystraight.markdown

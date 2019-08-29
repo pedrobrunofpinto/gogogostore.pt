@@ -14,10 +14,10 @@ att: padrao
 color:
 - Branco
 discrip: estrelas mangas ss19
-novo: true
+novo: false
 maisvendidos: true
 stock: nao
-new: true
+new: false
 newprice: '17,9'
 inicial: false
 inicialhat: false

@@ -14,10 +14,12 @@ att: padrao
 color:
 - Azul
 discrip: letras ss19 ms
-novo: true
+novo: false
 maisvendidos: true
 stock: saldo
-new: true
+new: false
 newprice: '17,9'
+inicial: false
+inicialhat: false
 
 ---
