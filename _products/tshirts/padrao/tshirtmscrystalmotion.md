@@ -13,10 +13,10 @@ att: padrao
 color:
 - Azul Claro
 discrip: ss19 laranja azul
-novo: true
+novo: false
 maisvendidos: false
 stock: saldo
-new: true
+new: false
 newprice: '17,9'
 four: ''
 inicial: false

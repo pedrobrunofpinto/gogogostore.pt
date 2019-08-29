@@ -15,11 +15,13 @@ color:
 - Verde
 - Azul Escuro
 discrip: azul ss19 verde
-novo: true
+novo: false
 maisvendidos: false
 stock: saldo
 new: true
 newprice: '17,9'
 four: ''
+inicial: false
+inicialhat: false
 
 ---
