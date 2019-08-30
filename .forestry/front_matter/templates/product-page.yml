@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/casacos/padrao/casacodanceblue.md
 - _products/casacos/padrao/casacodancered.md
 - _products/tshirts/padrao/tshirtmsfrenchstylered.md
 - _products/tshirts/padrao/tshirtmsfrenchstyle.md
