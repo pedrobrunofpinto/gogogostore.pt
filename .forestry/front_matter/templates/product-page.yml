@@ -93,6 +93,7 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/padrao/tshirtmsfrenchstyleyellow.md
 - _products/casacos/padrao/casacodanceorange.md
 - _products/casacos/padrao/casacorobinorange.md
 - _products/casacos/padrao/casacorobinblue.md
@@ -215,7 +216,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsfrenchstylered.md
 - _products/tshirts/padrao/tshirtmsfocus.md
 - _products/tshirts/padrao/tshirtmshalfblackmatte.md
-- _products/tshirts/padrao/tshirtmsfrenchstyleyellow.md
 - _products/tshirts/padrao/tshirtmshalfwhitematte.md
 - _products/polos/padrao/polomspartywhite.md
 - _products/polos/padrao/tshirtmstropicalwhite.md
