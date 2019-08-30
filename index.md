@@ -91,23 +91,23 @@ lang: pt
   </div>
 </div>
 <div class="themiddle" style="display: flex; width: 100%;">
-<a style="" href="{{ site.url }}/fatosdetreino">
+<a style="" href="{{ site.url }}/sweats">
   <div style="display: flex; position: relative;">
-  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/trash.jpg">
-  <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/fatosdetreino/'">Shop Now</button>
+  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/sweatsbonitas.jpg">
+  <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/sweats/'">Shop Now</button>
   </div>
 </div>
 </a>
-<a href="{{ site.url }}/tshirts">
+<a href="{{ site.url }}/casacos">
   <div style="display: flex; position: relative;">
-  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg">
- <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/tshirts/'">Shop Now</button>
+  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/casacoslindos.jpg">
+ <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/casacos/'">Shop Now</button>
   </div>
 </div>
 </a>
 </div>
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
-">TOP CHOICES</h2>
+">TOP T-SHIRTS</h2>
 <div style="    justify-content: center; display: flex;" class="sliderx" id="sliderx">
 <div class="displayprod slidex" id="slidex" style="">
   {% for t in site.products %}
@@ -142,6 +142,8 @@ lang: pt
 </li>
 </div>
 </div>
+<div style="display: flex; justify-content: center;align-items: center; height: 70px;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/tshirts/'">VER TODAS AS TSHIRTS</button></div>
+
 
 
 <a class="botdis" onclick="location.href='{{ site.url }}/calcoes/'" style="z-index: 2; width: 100%;">
