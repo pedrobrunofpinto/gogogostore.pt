@@ -13,10 +13,10 @@ att: basic
 color:
 - Branco
 discrip: ss19 vermelho branco
-novo: true
+novo: false
 maisvendidos: false
 stock: nao
-new: true
+new: false
 four: "/assets/images/12.jpg"
 newprice: "17.9"
 inicial: false

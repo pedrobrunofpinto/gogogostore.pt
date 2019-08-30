@@ -92,7 +92,19 @@ fields:
 - name: inicialhat
   type: boolean
   label: inicialhat
+- name: discription
+  type: text
+  config:
+    required: false
+  label: discription
 pages:
+- _products/tshirts/basic/tshirtmsbalticbasic.md
+- _products/tshirts/basic/tshirtmsbacklinesred.md
+- _products/tshirts/basic/tshirtmsbacklinesblack.md
+- _products/tshirts/basic/tshirtmsbacklines.md
+- _products/tshirts/basic/tshirtmsrosestripewhite.md
+- _products/tshirts/basic/tshirtmscrystalmotionorange.md
+- _products/tshirts/basic/tshirtmsyellow.md
 - _products/sweats/padrao/sweatallstar.md
 - _products/sweats/padrao/sweatsportred.md
 - _products/sweats/padrao/sweatsportorange.md
@@ -154,11 +166,9 @@ pages:
 - _products/tshirts/basic/tshirtmscyan.md
 - _products/tshirts/basic/tshirtmsbrown.md
 - _products/tshirts/basic/tshirtmsorange.md
-- _products/tshirts/basic/tshirtmsyellow.md
 - _products/tshirts/basic/tshirtmsred.md
 - _products/tshirts/basic/tshirtmsblue.md
 - _products/tshirts/padrao/thsirtmsrosestripe.markdown
-- _products/tshirts/basic/tshirtmsrosestripewhite.md
 - _products/tshirts/basic/thsirtmsnavyfur.markdown
 - _products/tshirts/basic/thsirtmsbluefur.markdown
 - _products/tshirts/basic/tshirtmstapesgreen.md
@@ -167,7 +177,6 @@ pages:
 - _products/camisas/padrao/camisamsstripes.markdown
 - _products/tshirts/padrao/tshirtmstapesblack.md
 - _products/tshirts/basic/thsirtmsbearfur.markdown
-- _products/tshirts/basic/tshirtmsbacklines.md
 - _products/tshirts/basic/tshirtmstapes.md
 - _products/tshirts/padrao/tshirtmstricolorred.md
 - _products/tshirts/padrao/tshirtmstricolorwhite.md
@@ -186,7 +195,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsrelaxbarsgray.md
 - _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/tshirts/padrao/tshirtmsfullgoldarmorwhite.md
-- _products/tshirts/basic/tshirtmscrystalmotionorange.md
 - _products/bonesecaps/basic/capmsblackandyellowbasic.md
 - _products/bonesecaps/basic/bonemstroopdark.md
 - _products/bonesecaps/basic/capmsblackandwhite.md
@@ -216,7 +224,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/tshirts/padrao/tshirtmscaptainblue.md
 - _products/tshirts/padrao/tshirtmsfocusblack.md
-- _products/tshirts/basic/tshirtmsbacklinesblack.md
 - _products/tshirts/padrao/tshirtmscaptain.md
 - _products/tshirts/basic/thsirtmsbrownfur.markdown
 - _products/tshirts/basic/thsirtmsblack.markdown
@@ -225,9 +232,7 @@ pages:
 - _products/tshirts/padrao/tshirtmsfocus.md
 - _products/polos/padrao/polomspartywhite.md
 - _products/polos/padrao/tshirtmstropicalwhite.md
-- _products/tshirts/basic/tshirtmsbacklinesred.md
 - _products/tshirts/padrao/tshirtmsfocusyellow.md
 - _products/tshirts/basic/thsirtmsredfur.markdown
 - _products/tshirts/basic/thsirtmsoceanstraight.markdown
 - _products/tshirts/basic/thsirtmsbasicbrown.markdown
-- _products/tshirts/basic/tshirtmsbalticbasic.md
