@@ -1,21 +1,22 @@
 ---
 layout: product
 id: 3
-name: Sweat Sport
-link: sweatsportorange
+name: Sweat NYC Handsome
+link: sweatnychandsome
 price: 24.9
 newprice: ''
 weight: 500
-image: "/assets/images/DLH-7027.1.jpg"
-sec: "/assets/images/DLH-7027.2.JPG"
-thir: "/assets/images/DLH-7027.3.jpg"
-four: "/assets/images/DLH-7027.4.jpg"
+image: "/assets/images/DLH-7053.2.jpg"
+sec: "/assets/images/DLH-7053.jpg"
+thir: "/assets/images/DLH-7053.10.jpg"
+four: ''
 categoria: sweats
 att: padrao
 color:
-- Vermelho
-- Laranja
-discrip: cinzento ss19 inverno
+- Azul Escuro
+- Azul
+- Castanho
+discrip: inverno letras frio
 novo: true
 maisvendidos: false
 stock: sim
