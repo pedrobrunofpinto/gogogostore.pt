@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/sweats/padrao/sweatnewtaxi.md
 - _products/sweats/padrao/sweatnycbelongs.md
 - _products/sweats/padrao/sweatnychandsome.md
 - _products/sweats/padrao/sweatsportorange.md
