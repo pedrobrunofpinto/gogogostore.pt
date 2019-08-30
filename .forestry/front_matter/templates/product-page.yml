@@ -98,6 +98,9 @@ fields:
     required: false
   label: discription
 pages:
+- _products/tshirts/basic/tshirtmsbacklines.md
+- _products/tshirts/basic/tshirtmsrosestripewhite.md
+- _products/tshirts/basic/tshirtmscrystalmotionorange.md
 - _products/tshirts/basic/tshirtmsyellow.md
 - _products/sweats/padrao/sweatallstar.md
 - _products/sweats/padrao/sweatsportred.md
@@ -163,7 +166,6 @@ pages:
 - _products/tshirts/basic/tshirtmsred.md
 - _products/tshirts/basic/tshirtmsblue.md
 - _products/tshirts/padrao/thsirtmsrosestripe.markdown
-- _products/tshirts/basic/tshirtmsrosestripewhite.md
 - _products/tshirts/basic/thsirtmsnavyfur.markdown
 - _products/tshirts/basic/thsirtmsbluefur.markdown
 - _products/tshirts/basic/tshirtmstapesgreen.md
@@ -172,7 +174,6 @@ pages:
 - _products/camisas/padrao/camisamsstripes.markdown
 - _products/tshirts/padrao/tshirtmstapesblack.md
 - _products/tshirts/basic/thsirtmsbearfur.markdown
-- _products/tshirts/basic/tshirtmsbacklines.md
 - _products/tshirts/basic/tshirtmstapes.md
 - _products/tshirts/padrao/tshirtmstricolorred.md
 - _products/tshirts/padrao/tshirtmstricolorwhite.md
@@ -191,7 +192,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsrelaxbarsgray.md
 - _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/tshirts/padrao/tshirtmsfullgoldarmorwhite.md
-- _products/tshirts/basic/tshirtmscrystalmotionorange.md
 - _products/bonesecaps/basic/capmsblackandyellowbasic.md
 - _products/bonesecaps/basic/bonemstroopdark.md
 - _products/bonesecaps/basic/capmsblackandwhite.md
