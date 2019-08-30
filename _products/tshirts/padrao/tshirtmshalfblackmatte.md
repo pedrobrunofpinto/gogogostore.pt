@@ -14,10 +14,12 @@ att: padrao
 color:
 - Preto
 discrip: ss19 dourado basico
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: saldo
-new: true
+new: false
 newprice: '17,9'
+inicial: false
+inicialhat: false
 
 ---

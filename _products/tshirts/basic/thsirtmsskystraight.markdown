@@ -13,11 +13,13 @@ categoria: tshirts
 color:
 - Azul
 discrip: claro basic sky
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: saldo
 newprice: '17,9'
 four: ''
 new: false
+inicial: false
+inicialhat: false
 
 ---

@@ -12,12 +12,13 @@ categoria: tshirts
 att: padrao
 color: []
 discrip: branco ss19
-novo: true
+novo: false
 maisvendidos: true
 stock: saldo
-new: true
+new: false
 four: "/assets/images/8.2.jpg"
 newprice: '17,9'
 inicial: true
+inicialhat: false
 
 ---
