@@ -26,9 +26,7 @@ input, button {
   font-weight: 700;
 }
 
-.fb_invisible_flow {
-  display: none;
-}
+
 
 .fb_dialog {
   z-index: 1000 !important;
