@@ -93,6 +93,9 @@ fields:
   type: boolean
   label: inicialhat
 pages:
+- _products/tshirts/basic/tshirtmsrubystraight.markdown
+- _products/tshirts/basic/thsirtmsredstraight.markdown
+- _products/tshirts/basic/thsirtmsbrownstraight.markdown
 - _products/tshirts/basic/thsirtmsbluestraight.markdown
 - _products/tshirts/basic/thsirtmsskystraight.markdown
 - _products/casacos/padrao/casacodanceblue.md
@@ -211,9 +214,7 @@ pages:
 - _products/tshirts/padrao/tshirtmsfocusblack.md
 - _products/tshirts/basic/tshirtmsbacklinesblack.md
 - _products/tshirts/padrao/tshirtmscaptain.md
-- _products/tshirts/basic/thsirtmsbrownstraight.markdown
 - _products/tshirts/basic/thsirtmsbrownfur.markdown
-- _products/tshirts/basic/tshirtmsrubystraight.markdown
 - _products/tshirts/basic/thsirtmsblack.markdown
 - _products/tshirts/padrao/tshirtmsallstarred.md
 - _products/tshirts/padrao/tshirtmscaptainblack.md
@@ -225,7 +226,6 @@ pages:
 - _products/tshirts/basic/tshirtmsbacklinesred.md
 - _products/tshirts/padrao/tshirtmsfocusyellow.md
 - _products/tshirts/basic/thsirtmsredfur.markdown
-- _products/tshirts/basic/thsirtmsredstraight.markdown
 - _products/tshirts/basic/thsirtmsoceanstraight.markdown
 - _products/tshirts/basic/thsirtmsbasicbrown.markdown
 - _products/tshirts/basic/tshirtmsbalticbasic.md

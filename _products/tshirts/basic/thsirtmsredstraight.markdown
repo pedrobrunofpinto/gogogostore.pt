@@ -13,11 +13,13 @@ categoria: tshirts
 color:
 - Vermelho
 discrip: claro basic vermelho
-novo: true
+novo: false
 maisvendidos: true
 stock: saldo
 newprice: '17,9'
 four: ''
 new: false
+inicial: false
+inicialhat: false
 
 ---
