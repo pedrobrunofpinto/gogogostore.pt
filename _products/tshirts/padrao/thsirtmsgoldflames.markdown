@@ -14,7 +14,7 @@ color:
 - Preto
 - Branco
 discrip: tshirt t-shirt dourado padrao branca preta fogo
-novo: true
+novo: false
 maisvendidos: true
 stock: saldo
 newprice: "15.9"
