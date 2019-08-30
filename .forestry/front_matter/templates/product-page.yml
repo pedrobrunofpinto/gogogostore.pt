@@ -93,8 +93,9 @@ fields:
   type: boolean
   label: inicialhat
 pages:
-- _products/tshirts/padrao/thsirtmsgoldflames.markdown
 - _products/sweats/padrao/sweatsportred.md
+- _products/sweats/padrao/sweatsportorange.md
+- _products/tshirts/padrao/thsirtmsgoldflames.markdown
 - _products/tshirts/padrao/tshirtmshalfblackmatte.md
 - _products/tshirts/padrao/tshirtmshalfwhitematte.md
 - _products/tshirts/basic/tshirtmsrubystraight.markdown
@@ -111,7 +112,6 @@ pages:
 - _products/casacos/padrao/casacorobinorange.md
 - _products/casacos/padrao/casacorobinblue.md
 - _products/casacos/padrao/casacorobinred.md
-- _products/sweats/padrao/sweatsportorange.md
 - _products/tshirts/padrao/tshirtmsplayer.md
 - _products/tshirts/padrao/tshirtmspixel.md
 - _products/tshirts/padrao/tshirtgreekred.md
