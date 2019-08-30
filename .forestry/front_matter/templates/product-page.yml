@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/bonesecaps/basic/capmswhitebasic.md
 - _products/bonesecaps/basic/chapeumsblackbasic.md
 - _products/sweats/padrao/sweatnychandsome.md
 - _products/sweats/padrao/sweatnewtaxi.md
@@ -205,7 +206,6 @@ pages:
 - _products/bonesecaps/basic/bonemsredbasic.md
 - _products/bonesecaps/basic/capmsblueandred.md
 - _products/bonesecaps/basic/bonemsgreenbasic.md
-- _products/bonesecaps/basic/capmswhitebasic.md
 - _products/bonesecaps/basic/bonemstrooplight.md
 - _products/bonesecaps/basic/bonemsbluebasic.md
 - _products/bonesecaps/basic/capmsblackbasic.md
