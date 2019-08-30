@@ -1,6 +1,6 @@
 ---
 layout: indexpage
-title: 
+title: GOGOGO Store
 description: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-shirts, Camisas, Polos, Casacos e muito mais. Portes grátis para compras superiores a 40€. Encontre a roupa da moda que procura! 
 image: /assets/images/primeira.jpg
 lang: pt
