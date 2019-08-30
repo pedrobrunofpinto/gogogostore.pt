@@ -20,5 +20,16 @@ maisvendidos: false
 stock: sim
 new: true
 inicial: false
+discription: '<li style=" text-transform: none; list-style-type: circle;
+">Tecido de toque suave</li>
 
+<li style="text-transform: none;  list-style-type: circle;
+">Calções padrão</li>
+<li style=" text-transform: none; list-style-type: circle;
+">Logotipo bordado de MS</li>
+
+<li style=" text-transform: none; list-style-type: circle;
+">Bainha curva</li>
+<li style="text-transform: none;  list-style-type: circle;
+">Máquina de lavar modo delicado</li>'
 ---

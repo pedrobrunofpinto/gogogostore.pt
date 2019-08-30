@@ -21,5 +21,14 @@ stock: sim
 new: true
 inicial: false
 inicialhat: false
+discription: '<li style=" text-transform: none; list-style-type: circle;
+">Tecido de toque suave</li>
+
+<li style="text-transform: none;  list-style-type: circle;
+">Casaco padrão</li>
+
+
+<li style="text-transform: none;  list-style-type: circle;
+">Máquina de lavar modo delicado</li>'
 
 ---

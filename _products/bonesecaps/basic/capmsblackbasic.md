@@ -21,5 +21,13 @@ stock: nao
 new: true
 inicial: false
 inicialhat: false
+discription: '
+<li style="text-transform: none;  list-style-type: circle;
+">Boné padrão</li>
+<li style=" text-transform: none; list-style-type: circle;
+">Logotipo bordado de MS</li>
 
+
+<li style="text-transform: none;  list-style-type: circle;
+">Máquina de lavar modo delicado</li>'
 ---

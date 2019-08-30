@@ -20,5 +20,17 @@ new: false
 newprice: '21,9'
 inicial: false
 inicialhat: false
+discription: '<li style=" text-transform: none; list-style-type: circle;
+">Tecido de toque suave</li>
 
+<li style="text-transform: none;  list-style-type: circle;
+">Pólo padrão</li>
+<li style=" text-transform: none; list-style-type: circle;
+">Logotipo bordado de MS</li>
+<li style="text-transform: none;  list-style-type: circle;
+">Manga curta</li>
+<li style=" text-transform: none; list-style-type: circle;
+">Bainha curva</li>
+<li style="text-transform: none;  list-style-type: circle;
+">Máquina de lavar modo delicado</li>'
 ---
