@@ -6,9 +6,9 @@ link: sweatallstar
 price: 24.9
 newprice: ''
 weight: 500
-image: "/assets/images/DLH-7037.jpg"
+image: "/assets/images/DLH-7037.1.jpg"
 sec: "/assets/images/DLH-7037.3.jpg"
-thir: "/assets/images/DLH-7037.1.jpg"
+thir: "/assets/images/DLH-7037.jpg"
 four: ''
 categoria: sweats
 att: padrao
