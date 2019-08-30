@@ -93,7 +93,6 @@ fields:
   type: boolean
   label: inicialhat
 pages:
-- _products/sweats/padrao/tshirtmsblackmatte.md
 - _products/tshirts/padrao/tshirtmsplayer.md
 - _products/tshirts/padrao/tshirtmspixel.md
 - _products/tshirts/padrao/tshirtgreekred.md
