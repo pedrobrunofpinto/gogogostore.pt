@@ -14,10 +14,12 @@ att: padrao
 color:
 - Vermelho
 discrip: letras tres ss19
-novo: true
-maisvendidos: true
+novo: false
+maisvendidos: false
 stock: saldo
-new: true
+new: false
 newprice: '17,9'
+inicial: false
+inicialhat: false
 
 ---
