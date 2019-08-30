@@ -98,6 +98,9 @@ fields:
     required: false
   label: discription
 pages:
+- _products/tshirts/basic/tshirtmsbalticbasic.md
+- _products/tshirts/basic/tshirtmsbacklinesred.md
+- _products/tshirts/basic/tshirtmsbacklinesblack.md
 - _products/tshirts/basic/tshirtmsbacklines.md
 - _products/tshirts/basic/tshirtmsrosestripewhite.md
 - _products/tshirts/basic/tshirtmscrystalmotionorange.md
@@ -221,7 +224,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsarmorrose.md
 - _products/tshirts/padrao/tshirtmscaptainblue.md
 - _products/tshirts/padrao/tshirtmsfocusblack.md
-- _products/tshirts/basic/tshirtmsbacklinesblack.md
 - _products/tshirts/padrao/tshirtmscaptain.md
 - _products/tshirts/basic/thsirtmsbrownfur.markdown
 - _products/tshirts/basic/thsirtmsblack.markdown
@@ -230,9 +232,7 @@ pages:
 - _products/tshirts/padrao/tshirtmsfocus.md
 - _products/polos/padrao/polomspartywhite.md
 - _products/polos/padrao/tshirtmstropicalwhite.md
-- _products/tshirts/basic/tshirtmsbacklinesred.md
 - _products/tshirts/padrao/tshirtmsfocusyellow.md
 - _products/tshirts/basic/thsirtmsredfur.markdown
 - _products/tshirts/basic/thsirtmsoceanstraight.markdown
 - _products/tshirts/basic/thsirtmsbasicbrown.markdown
-- _products/tshirts/basic/tshirtmsbalticbasic.md
