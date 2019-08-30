@@ -155,6 +155,11 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 </label>
 </div>
     </form>
+    <nav style="display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin-top: 20px;">
     <li id="sub"><a href="{{ site.url }}/novo/" style="color: white;">NOVO</li></a>
     <li id="sub"><a href="{{ site.url }}/maisvendidos" style="color: white;">MAIS VENDIDOS</li></a>
             <li class="lili"> <a class="lili" href="{{ site.url }}/tshirts/">TSHIRTS</li></a>
@@ -167,9 +172,15 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
     <li id="sub"><a href="{{ site.url }}/saldos" style="color: red;">SALDOS</li></a>
         <li id="sub" style="color: red; opacity: 0;">SALDOS</li>
         <li id="sub" style="color: red; opacity: 0;">SALDOS</li>
-
-
+</nav>
   </ul>
+
+<nav style="display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin-top: 20px;">
+  
       <ul id="sublist" class="crash">
         <li class="sublistlist"> <a href="{{ site.url }}/tshirts/" class="yeah">T-shirts</li></a>
         <li class="sublistlist"> <a href="{{ site.url }}/polos/" class="yeah">Polos</li></a>
@@ -178,8 +189,8 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
                 <li class="sublistlist"> <a href="{{ site.url }}/casacos/" class="yeah">Casacos</li></a>
 
                                 <li class="sublistlist"> <a href="{{ site.url }}/bonesecaps/" class="yeah">Bonés e Caps</li></a>
-
 </ul>
+</nav>
 <div style="display: flex; flex-direction: column;">
 	{% include header.html %}
 

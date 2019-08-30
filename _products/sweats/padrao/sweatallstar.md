@@ -2,6 +2,7 @@
 layout: product
 id: 3
 name: Sweat All Star
+title: Sweat All Star
 link: sweatallstar
 price: 24.9
 newprice: ''
@@ -32,5 +33,8 @@ discription: '<li style=" text-transform: none; list-style-type: circle;
 
 <li style="text-transform: none;  list-style-type: circle;
 ">Máquina de lavar modo delicado</li>'
+
+
+lang: pt
 
 ---
