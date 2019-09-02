@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/tshirts/padrao/tshirtmsstreetwhite.md
 - _products/sweats/padrao/sweatallstar.md
 - _products/sweats/padrao/sweatdextar.md
 - _products/bonesecaps/basic/capmsbluebasic.md
