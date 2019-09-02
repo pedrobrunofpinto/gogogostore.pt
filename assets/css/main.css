@@ -2938,6 +2938,10 @@ left: 0;
 
 @media only screen and (max-width: 1100px) {
 
+  .uyt {
+    width: 100% !important;
+  }
+
   .blackmattepics {
     justify-content: center !important;
   }

@@ -5,6 +5,7 @@ titulo: Bem Vindo
 resumo: Criamos um blog, onde podes acompanhar a GOGOGO LIFESTYLE!
 categoria: blog
 img: /assets/images/post11.jpg
+imgshort: /assets/images/thisisapost.jpg
 dia: 19/08/19
 ---
 
