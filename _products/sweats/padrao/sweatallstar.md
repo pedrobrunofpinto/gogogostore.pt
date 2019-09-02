@@ -4,7 +4,7 @@ id: 3
 name: Sweat All Star
 title: Sweat All Star
 link: sweatallstar
-price: 24.9
+price: 19.9
 newprice: ''
 weight: 500
 image: "/assets/images/DLH-7037.1.jpg"
@@ -24,17 +24,11 @@ stock: sim
 new: true
 inicial: false
 inicialhat: false
-discription: '<li style=" text-transform: none; list-style-type: circle;
-">Tecido de toque suave</li>
+discription: |-
+  <li style=" text-transform: none; list-style-type: circle; ">Tecido de toque suave</li>
+  <li style="text-transform: none;  list-style-type: circle; ">Sweat padrão</li>
 
-<li style="text-transform: none;  list-style-type: circle;
-">Sweat padrão</li>
-
-
-<li style="text-transform: none;  list-style-type: circle;
-">Máquina de lavar modo delicado</li>'
-
-
+  <li style="text-transform: none;  list-style-type: circle; ">Máquina de lavar modo delicado</li>
 lang: pt
 
 ---

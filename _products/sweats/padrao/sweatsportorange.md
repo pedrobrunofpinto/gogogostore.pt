@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: Sweat Sport
 link: sweatsportorange
-price: 24.9
+price: 19.9
 newprice: ''
 weight: 500
 image: "/assets/images/DLH-7027.1.jpg"

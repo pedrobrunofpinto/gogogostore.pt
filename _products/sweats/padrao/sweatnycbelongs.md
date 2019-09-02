@@ -3,7 +3,7 @@ layout: product
 id: 7
 name: Sweat NYC Belongs
 link: sweatnycbelongs
-price: 24.9
+price: 19.9
 newprice: ''
 weight: 500
 image: "/assets/images/DLH-7062.1-1.jpg"

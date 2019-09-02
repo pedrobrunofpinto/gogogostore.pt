@@ -3,7 +3,7 @@ layout: product
 id: 4
 name: Sweat New Taxi
 link: sweatnewtaxi
-price: 24.9
+price: 19.9
 newprice: ''
 weight: 500
 image: "/assets/images/LN-8323-1.jpg"
