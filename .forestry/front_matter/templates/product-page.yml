@@ -98,13 +98,13 @@ fields:
     required: false
   label: discription
 pages:
+- _products/sweats/padrao/sweatdextar.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
 - _products/sweats/padrao/sweatsportorange.md
 - _products/sweats/padrao/sweatnychandsome.md
 - _products/sweats/padrao/sweatnycbelongs.md
 - _products/sweats/padrao/sweatnewtaxi.md
 - _products/sweats/padrao/sweatallstar.md
-- _products/sweats/padrao/sweatdextar.md
 - _products/casacos/padrao/casacodanceblue.md
 - _products/tshirts/padrao/tshirtmsstreetwhite.md
 - _products/bonesecaps/basic/capmsbluebasic.md
