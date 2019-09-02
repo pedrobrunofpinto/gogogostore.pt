@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/casacos/padrao/casacodanceblue.md
 - _products/tshirts/padrao/tshirtmsstreetwhite.md
 - _products/sweats/padrao/sweatallstar.md
 - _products/sweats/padrao/sweatdextar.md
@@ -223,7 +224,6 @@ pages:
 - _products/casacos/basic/casacomsbikerbasic.md
 - _products/casacos/basic/casacomsfullwinter.md
 - _products/casacos/padrao/casacomsjungle.markdown
-- _products/casacos/padrao/casacodanceblue.md
 - _products/casacos/padrao/casacomsurbanred.markdown
 - _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
