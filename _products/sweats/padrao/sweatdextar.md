@@ -3,7 +3,7 @@ layout: product
 id: 3
 name: 'Sweat Dexter '
 link: sweatdextar
-price: 24.9
+price: 27.9
 newprice: ''
 weight: 500
 image: "/assets/images/GG3909.1.jpg"
