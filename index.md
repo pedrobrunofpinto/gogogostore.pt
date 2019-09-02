@@ -139,7 +139,7 @@ lang: pt
 
       {% elsif t.stock != 'saldo' %}
 
- <h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}</h4>
+ <h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}<p style="color:#d1ba7b !important;font-size: 9px;">NOVO</p></h4>
 
        {% endif %}
 
