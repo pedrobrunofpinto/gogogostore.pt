@@ -98,12 +98,13 @@ fields:
     required: false
   label: discription
 pages:
+- _products/sweats/padrao/sweatallstar.md
+- _products/sweats/padrao/sweatdextar.md
 - _products/bonesecaps/basic/capmsbluebasic.md
 - _products/bonesecaps/basic/capmswhitebasic.md
 - _products/bonesecaps/basic/chapeumsblackbasic.md
 - _products/sweats/padrao/sweatnychandsome.md
 - _products/sweats/padrao/sweatnewtaxi.md
-- _products/sweats/padrao/sweatdextar.md
 - _products/casacos/padrao/casaconasaspecial.md
 - _products/sweats/padrao/sweatnycbelongs.md
 - _products/sweats/padrao/sweatsportorange.md
@@ -192,7 +193,6 @@ pages:
 - _products/tshirts/padrao/tshirtmstapesblack.md
 - _products/tshirts/padrao/tshirtmsstreetblue.md
 - _products/tshirts/padrao/thsirtmsgoldluck.markdown
-- _products/sweats/padrao/sweatallstar.md
 - _products/camisas/padrao/camisastripeswhite.md
 - _products/camisas/padrao/camisamsstripes.markdown
 - _products/camisas/padrao/camisamsstripesclassicdark.markdown
