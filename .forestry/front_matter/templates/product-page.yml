@@ -98,11 +98,12 @@ fields:
     required: false
   label: discription
 pages:
+- _products/sweats/padrao/sweatnycbelongs.md
+- _products/tshirts/padrao/tshirtmsfrenchstyle.md
+- _products/sweats/padrao/sweatnychandsome.md
+- _products/sweats/padrao/sweatsportorange.md
 - _products/sweats/padrao/sweatdextar.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
-- _products/sweats/padrao/sweatsportorange.md
-- _products/sweats/padrao/sweatnychandsome.md
-- _products/sweats/padrao/sweatnycbelongs.md
 - _products/sweats/padrao/sweatnewtaxi.md
 - _products/sweats/padrao/sweatallstar.md
 - _products/casacos/padrao/casacodanceblue.md
@@ -149,7 +150,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsfullgoldarmorwhite.md
 - _products/tshirts/padrao/tshirtmsbarslinegrey.md
 - _products/tshirts/padrao/tshirtmsshoulderroseblack.md
-- _products/tshirts/padrao/tshirtmsfrenchstyle.md
 - _products/tshirts/padrao/tshirtmshalfblackmatte.md
 - _products/tshirts/padrao/tshirtmscaptainblue.md
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
