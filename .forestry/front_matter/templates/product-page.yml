@@ -98,12 +98,15 @@ fields:
     required: false
   label: discription
 pages:
+- _products/casacos/padrao/casacodanceblue.md
+- _products/tshirts/padrao/tshirtmsstreetwhite.md
+- _products/sweats/padrao/sweatallstar.md
+- _products/sweats/padrao/sweatdextar.md
 - _products/bonesecaps/basic/capmsbluebasic.md
 - _products/bonesecaps/basic/capmswhitebasic.md
 - _products/bonesecaps/basic/chapeumsblackbasic.md
 - _products/sweats/padrao/sweatnychandsome.md
 - _products/sweats/padrao/sweatnewtaxi.md
-- _products/sweats/padrao/sweatdextar.md
 - _products/casacos/padrao/casaconasaspecial.md
 - _products/sweats/padrao/sweatnycbelongs.md
 - _products/sweats/padrao/sweatsportorange.md
@@ -192,7 +195,6 @@ pages:
 - _products/tshirts/padrao/tshirtmstapesblack.md
 - _products/tshirts/padrao/tshirtmsstreetblue.md
 - _products/tshirts/padrao/thsirtmsgoldluck.markdown
-- _products/sweats/padrao/sweatallstar.md
 - _products/camisas/padrao/camisastripeswhite.md
 - _products/camisas/padrao/camisamsstripes.markdown
 - _products/camisas/padrao/camisamsstripesclassicdark.markdown
@@ -222,7 +224,6 @@ pages:
 - _products/casacos/basic/casacomsbikerbasic.md
 - _products/casacos/basic/casacomsfullwinter.md
 - _products/casacos/padrao/casacomsjungle.markdown
-- _products/casacos/padrao/casacodanceblue.md
 - _products/casacos/padrao/casacomsurbanred.markdown
 - _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
