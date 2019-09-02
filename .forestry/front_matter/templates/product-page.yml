@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/tshirts/padrao/tshirtmsblackmatte.md
 - _products/sweats/padrao/sweatsportorange.md
 - _products/sweats/padrao/sweatnychandsome.md
 - _products/sweats/padrao/sweatnycbelongs.md
@@ -190,7 +191,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsfrenchstylered.md
 - _products/tshirts/padrao/thsirtmsgoldflake.markdown
 - _products/tshirts/padrao/tshirtmsfocusyellow.md
-- _products/tshirts/padrao/tshirtmsblackmatte.md
 - _products/tshirts/padrao/tshirtmspinkbaltic.md
 - _products/tshirts/padrao/tshirtmstapesblack.md
 - _products/tshirts/padrao/tshirtmsstreetblue.md
