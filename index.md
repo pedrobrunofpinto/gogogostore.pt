@@ -107,7 +107,7 @@ lang: pt
 </a>
 </div>
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
-">TOP T-SHIRTS</h2>
+">TOP PRODUCTS</h2>
 <div style="    justify-content: center; display: flex;" class="sliderx" id="sliderx">
 <div class="displayprod slidex" id="slidex" style="">
   {% for t in site.products %}
