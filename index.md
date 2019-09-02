@@ -116,7 +116,7 @@ lang: pt
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
     <div class="btn">
-      <button class="snipcart-add-item thisbtn"
+      <button style=" {% if t.stock == 'saldo' %}background-color: #d1ba7b;{% endif %} " class="snipcart-add-item thisbtn"
     data-item-id="{{ t.id }}"
     data-item-name="{{ t.name }}"
     data-item-price="{{ t.price }}"
@@ -133,8 +133,11 @@ lang: pt
     data-item-image="{{ t.image }}">
     Adicionar ao carrinho   
 </button>
+{% if t.stock == 'saldo' %}
 <h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}<p style="color:#d1ba7b !important;font-size: 9px;">Saldo</p></h4>
-     <div style="display: flex; justify-content: space-evenly;"><h4 style="text-decoration: line-through;font-size: 12px;" class="h4price">Antes{{ t.newprice }}0€</h4> <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4></div>
+     <div style="display: flex; justify-content: space-evenly;"><h4 style="text-decoration: line-through;font-size: 12px;" class="h4price">Antes{{ t.newprice }}0€</h4>
+       {% endif %}
+ <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4></div>
   {% endif %}
   {% endfor %}
 </div>
