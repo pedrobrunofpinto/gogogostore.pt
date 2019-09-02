@@ -3507,6 +3507,14 @@ margin-top: 5px;
   .imagebanner {
     display: none;
   }
+
+  .mobtestdrive {
+    margin-top: 70px !important;
+  }
+
+  .dayday {
+    margin-top: 0 !important;
+  }
   .slide:nth-child(1){
   background-image:url(/assets/images/primeiramo.jpg) !important;
   background-repeat:no-repeat;

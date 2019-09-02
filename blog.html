@@ -12,16 +12,18 @@ categoria: blog
     </div>
 </div>
 </div>
+</div>
 
 <h1 style="text-align: center; margin-top: 20px; ">OS NOSSOS POSTS</h1>
-<div style="position: relative;" class="coisf">
+<div style="position: ;" class="">
 
-<div style="display: flex; flex-wrap: wrap;     justify-content: center;     height: 600px;">
+<div class="gold" style="display: flex; flex-wrap: wrap;     justify-content: center;     height: ;">
  {% assign posts = site.blog] | sample:2 %}
 
 {% for t in posts %}
+  <div style="display: flex; flex-direction: column; height: 100vh;">
 
-<a class="uyt" style="width: 50%;" href="{{ site.url }}/blog/{{ t.link }}">
+<a class="uyt" style="width: 100%; margin-top: 100px; opacity: 0.5;" href="{{ site.url }}/blog/{{ t.link }}">
   <img style="width: 100%;" class="" src="{{ t.imgshort }}" alt="{{ t.titulo }}">
 </a>
 <div style="position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 90px;">
@@ -31,14 +33,20 @@ categoria: blog
     justify-content: center;
     align-items: center;" class="">
       <a href="{{ site.url }}/blog/{{ t.link }}"><h2 class="" style="text-transform: uppercase; color: black;">{{ t.titulo }}</h2></a>
-                       <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.dia }}</h3></a>
+                       <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: black;">{{ t.dia }}</h3></a>
 
-           <a style="" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="text-align: center; color: gray;">{{ t.resumo }}</h3></a>
+           <a style="" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="text-align: center; color: black;">{{ t.resumo }}</h3></a>
     </div>
     <div style="display: flex; justify-content: center;">
     <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite " style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
   </div>
+  </div>
+  </div>
+  </div>
+
 {% endfor %}
+</div>
+</div>
 </div>
 
 </div>

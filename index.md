@@ -343,11 +343,12 @@ lang: pt
  {% assign posts = site.blog] | sample:2 %}
 
 {% for t in posts %}
-
-<a style="width: 50%;" href="{{ site.url }}/blog/{{ t.link }}">
-  <img style="width: 100%;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
+<div style="display: flex;">
+  <div style="display: flex;">
+<a style="width: 50%;flex:1;" href="{{ site.url }}/blog/{{ t.link }}">
+  <img style="width: 100%;  flex:1;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
 </a>
-<div style="position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 20px;">
+<div style="    width: 50%; position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 20px;">
     <div style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -359,7 +360,12 @@ lang: pt
     <div style="display: flex; justify-content: center;">
     <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite mobks" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
   </div>
+</div>
+</div>
+
 {% endfor %}
+</div>
+
 </div>
 </div>
 </div>
@@ -419,24 +425,29 @@ lang: pt
  {% assign posts = site.blog] | sample:2 %}
 
 {% for t in posts %}
-
-<a style="width: 100%;" href="{{ site.url }}/blog/{{ t.link }}">
+<div style="display: flex; flex-direction: column;">
+  <div style="display: flex;  flex-direction: column;">
+  <a style="width: 100%;" href="{{ site.url }}/blog/{{ t.link }}">
   <img style="width: 100%;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
 </a>
-<div style="position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 40px;">
-    <div style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 40px;
+<div  style="position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 40px;">
+    <div class="mobtestdrive" style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;" class="">
-      <a href="{{ site.url }}/blog/{{ t.link }}"><h2 class="" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
-                 <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.dia }}</h3></a>
-           <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="text-align: center; color: gray;">{{ t.resumo }}</h3></a>
+    align-items: center;" >
+      <a  href="{{ site.url }}/blog/{{ t.link }}"><h2 class="dayday" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
+                 <a class="dayday" style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.dia }}</h3></a>
+           <a class="dayday" style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="text-align: center; color: gray;">{{ t.resumo }}</h3></a>
     </div>
     <div style="display: flex; justify-content: center;">
     <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite " style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
   </div>
+</div>
+</div>
+
 {% endfor %}
+
 </div>
 </div>
 </div>
@@ -446,7 +457,7 @@ lang: pt
 </div>
 
 </div>
-
+</div>
 
 <div style="background-color: white; width: 100%; height: 20px;" ></div>
 
