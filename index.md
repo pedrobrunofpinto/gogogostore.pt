@@ -110,8 +110,10 @@ lang: pt
 ">TOP PRODUCTS</h2>
 <div style="    justify-content: center; display: flex;" class="sliderx" id="sliderx">
 <div class="displayprod slidex" id="slidex" style="">
-  {% for t in site.products %}
+    {% assign sortedPosts = site.products %}
+  {% for t in sortedPosts %}
   {% if t.inicial %}
+
    <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }} {{ t.discrip }}" class="prod item">
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>

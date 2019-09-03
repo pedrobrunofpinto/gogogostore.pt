@@ -1,6 +1,7 @@
 ---
 layout: product
-id: 3
+author: b
+id: 1
 name: 'Sweat Dexter '
 link: sweatdextar
 price: 27.9

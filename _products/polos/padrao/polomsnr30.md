@@ -1,8 +1,10 @@
 ---
 layout: product
-id: 2
+author: a
 name: Pólo MS Nr.30
 link: polomsnr30
+id: 1
+
 price: 15.3
 weight: 500
 image: "/assets/images/30.2.jpg"

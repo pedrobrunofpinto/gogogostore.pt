@@ -1,7 +1,9 @@
 ---
 layout: product
-id: 4
+author: c
 name: Sweat New Taxi
+id: 1
+
 link: sweatnewtaxi
 price: 19.9
 newprice: ''

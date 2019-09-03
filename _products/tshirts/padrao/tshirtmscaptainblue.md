@@ -1,8 +1,10 @@
 ---
 layout: product
-id: 3
+author: d
 name: T-shirt MS Captain Blue
 link: tshirtmscaptainblue
+id: 1
+
 price: 12.5
 weight: 500
 image: "/assets/images/5.1-1.jpg"
