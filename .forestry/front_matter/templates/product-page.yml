@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/casacos/padrao/casacomixer.md
 - _products/sweats/padrao/sweatdextar.md
 - _products/sweats/padrao/sweatnewtaxi.md
 - _products/polos/padrao/polomsnr30.md
