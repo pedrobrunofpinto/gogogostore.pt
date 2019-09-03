@@ -10,7 +10,7 @@ image: "/assets/images/KK-6002.3.jpg"
 sec: "/assets/images/KK-6002.6.jpg"
 thir: "/assets/images/KK-6002.7.jpg"
 four: ''
-categoria: tshirts
+categoria: casacos
 att: padrao
 color:
 - Cinzento
@@ -24,7 +24,7 @@ new: true
 inicial: false
 inicialhat: false
 discription: '<li style=" text-transform: none; list-style-type: circle; ">Tecido
-  de toque suave</li><li style="text-transform: none;  list-style-type: circle; ">Sweat
+  de toque suave</li><li style="text-transform: none;  list-style-type: circle; ">Casaco
   padrão</li><li style="text-transform: none;  list-style-type: circle; ">Máquina
   de lavar modo delicado</li>'
 
