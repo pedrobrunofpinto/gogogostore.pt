@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/casacos/padrao/casaconasaspecial.md
 - _products/casacos/padrao/casacorobinred.md
 - _products/casacos/padrao/casacomixer.md
 - _products/sweats/padrao/sweatdextar.md
@@ -115,7 +116,6 @@ pages:
 - _products/bonesecaps/basic/capmsbluebasic.md
 - _products/bonesecaps/basic/capmswhitebasic.md
 - _products/bonesecaps/basic/chapeumsblackbasic.md
-- _products/casacos/padrao/casaconasaspecial.md
 - _products/polos/padrao/polomspartywhite.md
 - _products/polos/padrao/tshirtmstropicalwhite.md
 - _products/polos/padrao/polomsparty.md

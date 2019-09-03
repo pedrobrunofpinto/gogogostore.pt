@@ -3,7 +3,7 @@ layout: product
 id: 2
 name: Casaco Nasa Special
 link: casaconasaspecial
-price: 29.9
+price: 27.9
 newprice: ''
 weight: 500
 image: "/assets/images/KK-6001.1.jpg"
