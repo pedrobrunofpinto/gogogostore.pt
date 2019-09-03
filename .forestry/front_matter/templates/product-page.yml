@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/casacos/padrao/casacorobinred.md
 - _products/casacos/padrao/casacomixer.md
 - _products/sweats/padrao/sweatdextar.md
 - _products/sweats/padrao/sweatnewtaxi.md
@@ -228,9 +229,6 @@ pages:
 - _products/casacos/padrao/casacomsurbanyellow.markdown
 - _products/casacos/padrao/casacomsrainblue.markdown
 - _products/casacos/padrao/casacomsrain.markdown
-- _products/casacos/padrao/casacorobinblue.md
-- _products/casacos/padrao/casacorobinorange.md
-- _products/casacos/padrao/casacorobinred.md
 - _products/casacos/padrao/casacodancered.md
 - _products/casacos/padrao/casacodanceorange.md
 - _products/casacos/padrao/casacomsurbanblue.md
