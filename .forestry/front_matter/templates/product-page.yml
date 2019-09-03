@@ -98,13 +98,15 @@ fields:
     required: false
   label: discription
 pages:
+- _products/sweats/padrao/sweatdextar.md
+- _products/sweats/padrao/sweatnewtaxi.md
+- _products/polos/padrao/polomsnr30.md
+- _products/tshirts/padrao/tshirtmscaptainblue.md
 - _products/sweats/padrao/sweatnycbelongs.md
 - _products/tshirts/padrao/tshirtmsfrenchstyle.md
 - _products/sweats/padrao/sweatnychandsome.md
 - _products/sweats/padrao/sweatsportorange.md
-- _products/sweats/padrao/sweatdextar.md
 - _products/tshirts/padrao/tshirtmsblackmatte.md
-- _products/sweats/padrao/sweatnewtaxi.md
 - _products/sweats/padrao/sweatallstar.md
 - _products/casacos/padrao/casacodanceblue.md
 - _products/tshirts/padrao/tshirtmsstreetwhite.md
@@ -114,7 +116,6 @@ pages:
 - _products/casacos/padrao/casaconasaspecial.md
 - _products/polos/padrao/polomspartywhite.md
 - _products/polos/padrao/tshirtmstropicalwhite.md
-- _products/polos/padrao/polomsnr30.md
 - _products/polos/padrao/polomsparty.md
 - _products/polos/padrao/polomscollar.md
 - _products/polos/padrao/polomstropical.md
@@ -126,7 +127,6 @@ pages:
 - _products/tshirts/basic/thsirtmsbrownfur.markdown
 - _products/tshirts/basic/thsirtmsblack.markdown
 - _products/tshirts/basic/tshirtmstricolor.md
-- _products/tshirts/basic/thsirtmsoceanstraight.markdown
 - _products/tshirts/basic/tshirtmscyan.md
 - _products/tshirts/basic/tshirtmsrubystraight.markdown
 - _products/tshirts/basic/tshirtmsblue.md
@@ -151,7 +151,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsbarslinegrey.md
 - _products/tshirts/padrao/tshirtmsshoulderroseblack.md
 - _products/tshirts/padrao/tshirtmshalfblackmatte.md
-- _products/tshirts/padrao/tshirtmscaptainblue.md
 - _products/tshirts/padrao/tshirtmscrystalmotion.md
 - _products/tshirts/padrao/tshirtmshalfwhitematte.md
 - _products/tshirts/padrao/tshirtmsspecial7.md
