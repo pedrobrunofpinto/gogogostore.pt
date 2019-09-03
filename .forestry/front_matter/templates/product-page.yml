@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/sweats/padrao/sweatnewyork.md
 - _products/casacos/padrao/casaconasaspecial.md
 - _products/casacos/padrao/casacorobinred.md
 - _products/casacos/padrao/casacomixer.md
