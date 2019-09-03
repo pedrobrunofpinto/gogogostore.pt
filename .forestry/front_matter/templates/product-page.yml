@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/sweats/padrao/sweatthreesimplerules.md
 - _products/casacos/padrao/casaconasaburgler.md
 - _products/casacos/padrao/casacoburglar.md
 - _products/sweats/padrao/sweatimpired.md
