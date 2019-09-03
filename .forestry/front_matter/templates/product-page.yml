@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/tshirts/padrao/tshirtmsstreetblue.md
 - _products/casacos/padrao/casaconasaburgler.md
 - _products/sweats/padrao/sweatsquadseven.md
 - _products/sweats/padrao/sweatthreesimplerules.md
@@ -199,7 +200,6 @@ pages:
 - _products/tshirts/padrao/tshirtmsfocusyellow.md
 - _products/tshirts/padrao/tshirtmspinkbaltic.md
 - _products/tshirts/padrao/tshirtmstapesblack.md
-- _products/tshirts/padrao/tshirtmsstreetblue.md
 - _products/tshirts/padrao/thsirtmsgoldluck.markdown
 - _products/camisas/padrao/camisastripeswhite.md
 - _products/camisas/padrao/camisamsstripes.markdown
