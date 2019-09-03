@@ -1,7 +1,7 @@
 ---
 layout: product
 id: 4
-name: Sweat Future IO
+name: Casaco Future IO
 link: sweatfutureio
 price: 27.9
 newprice: ''
@@ -10,7 +10,7 @@ image: "/assets/images/KK-6009.1.jpg"
 sec: "/assets/images/KK-6009.jpg"
 thir: "/assets/images/KK-6009.4.jpg"
 four: ''
-categoria: sweats
+categoria: casacos
 att: padrao
 color:
 - Cinzento
