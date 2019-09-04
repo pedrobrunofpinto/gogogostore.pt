@@ -5,7 +5,7 @@ description: Loja Online de Roupa Masculina. Compre em Portugal Continental e Il
 image: /assets/images/primeira.jpg
 lang: pt
 ---
-<div class="popcontain" style="width:100%;">
+<div class="popcontain" style="display: none; width:100%;">
  <div class="row pop-up" style="width: 50%;">
         <div class="box small-6 large-centered" style="display: flex;
         flex-direction: column;width: 100%;justify-content: center; height: 500px;background-color: white; border: 4px solid black;">
@@ -413,7 +413,7 @@ lang: pt
 </div>
 </div>
     <div style="display: flex; justify-content: center;">
-    <a href="{{ site.url }}/blog" style="z-index: 3;"><button class="submite mobks blogbtn" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog'">VER BLOG</button></a>
+    <a href="{{ site.url }}/blog" style="z-index: 3;"><button class="submite mobks " style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog'">VER BLOG</button></a>
   </div>
 </div>
 
