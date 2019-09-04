@@ -352,25 +352,56 @@ lang: pt
 <div style="position: relative;">
 
 <div style="display: flex; flex-wrap: wrap;     justify-content: center;">
- {% assign posts = site.blog] | sample:2 %}
+ {% assign posts = site.blog %}
 
-{% for t in posts %}
+{% for t in posts limit: 2 | reverse  %}
 <div style="display: flex;">
   <div style="display: flex;">
 <a style="width: 50%;flex:1;" href="{{ site.url }}/blog/{{ t.link }}">
   <img style="width: 100%;  flex:1;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
 </a>
 <div style="    width: 50%; position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 20px;">
-    <div style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 20px;
+  <div style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;" class="">
-      <a href="{{ site.url }}/blog/{{ t.link }}"><h2 class="" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
-           <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.resumo }}</h3></a>
-    </div>
-    <div style="display: flex; justify-content: center;">
-    <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite mobks" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
+  <a href="{{ site.url }}/blog/{{ t.link }}"><h2 class="" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
+ <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.resumo }}</h3></a>
+</div>
+<div style="display: flex; justify-content: center;">
+ <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite mobks" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
+  </div>
+</div>
+</div>
+
+{% endfor %}
+</div>
+
+</div>
+</div>
+</div>
+<div style="position: relative;">
+
+<div style="display: flex; flex-wrap: wrap;     justify-content: center;">
+ {% assign posts = site.blog %}
+
+{% for t in posts limit: 2 | reverse | offset: 2 %}
+<div style="display: flex;">
+  <div style="display: flex;">
+<a style="width: 50%;flex:1;" href="{{ site.url }}/blog/{{ t.link }}">
+  <img style="width: 100%;  flex:1;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
+</a>
+<div style="    width: 50%; position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 20px;">
+   <div style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;" class="">
+   <a href="{{ site.url }}/blog/{{ t.link }}"><h2 class="" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
+   <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.resumo }}</h3></a>  </div>
+   <div style="display: flex; justify-content: center;">
+  <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite mobks" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
   </div>
 </div>
 </div>
@@ -382,11 +413,14 @@ lang: pt
 </div>
 </div>
     <div style="display: flex; justify-content: center;">
-    <a href="{{ site.url }}/blog" style="z-index: 3;"><button class="submite mobks" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog'">VER BLOG</button></a>
+    <a href="{{ site.url }}/blog" style="z-index: 3;"><button class="submite mobks blogbtn" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog'">VER BLOG</button></a>
   </div>
 </div>
 
 </div>
+
+
+
 
 <div class="instagrammobile" style="flex-wrap: wrap; display: none;">
 <div class="" style="   background-color: #f1f1f1;

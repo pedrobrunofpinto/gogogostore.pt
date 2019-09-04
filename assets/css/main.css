@@ -2942,6 +2942,10 @@ left: 0;
     width: 100% !important;
   }
 
+  .blogbtn {
+    margin-top: 20px;
+  }
+
   .blackmattepics {
     justify-content: center !important;
   }

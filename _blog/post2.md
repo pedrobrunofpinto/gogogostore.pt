@@ -2,7 +2,7 @@
 layout: news
 link: post2
 titulo: Chegaram as Sweats!
-resumo: Criamos um blog, onde podes acompanhar a GOGOGO LIFESTYLE!
+resumo: As Sweats chegaram á GOGOGO Store!
 categoria: blog
 img: /assets/images/sweatspost.jpg
 imgshort: /assets/images/sweatspostmini.jpg
