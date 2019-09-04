@@ -498,7 +498,7 @@ lang: pt
 </div>
 </div>
     <div style="display: flex; justify-content: center;     margin-top: 40px;">
-    <a href="{{ site.url }}/blog" style="z-index: 3;"><button class="submite " style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog'">VER BLOG</button></a>
+    <a href="{{ site.url }}/blog" style="z-index: 3;"><button class="submite " style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog">VER BLOG</button></a>
   </div>
 </div>
 
