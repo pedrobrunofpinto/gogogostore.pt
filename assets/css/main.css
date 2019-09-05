@@ -32,6 +32,10 @@ input, button {
   z-index: 1000 !important;
 }
 
+.return-to-top {
+  z-index: 2000;
+}
+
 .snipcart-main-content {
   z-index: 9000;
 }
