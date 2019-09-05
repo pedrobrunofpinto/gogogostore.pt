@@ -27,6 +27,10 @@ input, button {
 }
 
 
+#fb-root {
+  display: none !important;
+}
+
 
 .fb_dialog {
   z-index: 1000 !important;
