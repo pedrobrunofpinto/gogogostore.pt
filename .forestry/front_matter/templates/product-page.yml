@@ -98,17 +98,17 @@ fields:
     required: false
   label: discription
 pages:
+- _products/sweats/padrao/sweatimpired.md
+- _products/sweats/padrao/sweatsquadseven.md
+- _products/sweats/padrao/sweatthreesimplerules.md
+- _products/sweats/padrao/sweatnewyork.md
+- _products/casacos/padrao/casacomixer.md
+- _products/casacos/padrao/casaconasaspecial.md
+- _products/casacos/padrao/casacorobinred.md
 - _products/casacos/padrao/sweatfutureio.md
 - _products/tshirts/padrao/tshirtmsstreetblue.md
 - _products/casacos/padrao/casaconasaburgler.md
-- _products/sweats/padrao/sweatsquadseven.md
-- _products/sweats/padrao/sweatthreesimplerules.md
 - _products/casacos/padrao/casacoburglar.md
-- _products/sweats/padrao/sweatimpired.md
-- _products/sweats/padrao/sweatnewyork.md
-- _products/casacos/padrao/casaconasaspecial.md
-- _products/casacos/padrao/casacorobinred.md
-- _products/casacos/padrao/casacomixer.md
 - _products/sweats/padrao/sweatdextar.md
 - _products/sweats/padrao/sweatnewtaxi.md
 - _products/polos/padrao/polomsnr30.md
