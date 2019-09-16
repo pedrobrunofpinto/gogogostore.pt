@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/fatosdetreino/fatodetreinodot.md
 - _products/fatosdetreino/fatodetreinoshadow.md
 - _products/fatosdetreino/fatodetreinoretro.md
 - _products/fatosdetreino/fatodetreinodragondeluxe.md
