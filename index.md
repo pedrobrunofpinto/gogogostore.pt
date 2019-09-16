@@ -91,17 +91,17 @@ lang: pt
   </div>
 </div>
 <div class="themiddle" style="display: flex; width: 100%;">
-<a style="" href="{{ site.url }}/sweats">
+<a style="" href="{{ site.url }}/fatosdetreino">
   <div style="display: flex; position: relative;">
-  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/sweatsbonitas.jpg">
-  <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/sweats/'">Shop Now</button>
+  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/trash.jpg">
+  <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/fatosdetreino/'">Shop Now</button>
   </div>
 </div>
 </a>
-<a href="{{ site.url }}/casacos">
+<a href="{{ site.url }}/tshirts">
   <div style="display: flex; position: relative;">
-  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/casacoslindos.jpg">
- <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/casacos/'">Shop Now</button>
+  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg">
+ <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/tshirts/'">Shop Now</button>
   </div>
 </div>
 </a>
@@ -213,6 +213,27 @@ lang: pt
 </div>
 
 
+
+<div class="themiddle" style="display: flex; width: 100%;">
+<a style="" href="{{ site.url }}/sweats">
+  <div style="display: flex; position: relative;">
+  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/sweatsbonitas.jpg">
+  <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/sweats/'">Shop Now</button>
+  </div>
+</div>
+</a>
+<a href="{{ site.url }}/casacos">
+  <div style="display: flex; position: relative;">
+  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/casacoslindos.jpg">
+ <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;">
+  <button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/casacos/'">Shop Now</button>
+  </div>
+
+</div>
+
+</a>
+</div>
+<div>
 
 <div class="instagramdesk" style=" flex-wrap: wrap; width: 100%; justify-content: space-between; display: flex;">
 
@@ -503,6 +524,8 @@ lang: pt
 </div>
 
 </div>
+</div>
+
 </div>
 
 <div style="background-color: white; width: 100%; height: 20px;" ></div>

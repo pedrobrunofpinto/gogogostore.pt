@@ -1,9 +1,11 @@
 ---
 layout: indexpage
-sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-shirts, Camisas, Polos, Casacos e muito mais. Portes grátis para compras superiores a 40€. Encontre a roupa da moda que procura! 
-
+title: GOGOGO Store
+description: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-shirts, Camisas, Polos, Casacos e muito mais. Portes grátis para compras superiores a 40€. Encontre a roupa da moda que procura! 
+image: /assets/images/primeira.jpg
+lang: pt
 ---
-<div class="popcontain" style="width:100%;">
+<div class="popcontain" style="display: none; width:100%;">
  <div class="row pop-up" style="width: 50%;">
         <div class="box small-6 large-centered" style="display: flex;
         flex-direction: column;width: 100%;justify-content: center; height: 500px;background-color: white; border: 4px solid black;">
@@ -89,14 +91,14 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
   </div>
 </div>
 <div class="themiddle" style="display: flex; width: 100%;">
-<a style="" href="{{ site.url }}/fatosdetreino">
+<a style="" href="{{ site.url }}/sweats">
   <div style="display: flex; position: relative;">
   <img style="align-self: center; width: 100%; height: ;" src="/assets/images/trash.jpg">
   <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/fatosdetreino/'">Shop Now</button>
   </div>
 </div>
 </a>
-<a href="{{ site.url }}/tshirts">
+<a href="{{ site.url }}/casacos">
   <div style="display: flex; position: relative;">
   <img style="align-self: center; width: 100%; height: ;" src="/assets/images/fotobaixosegundamo.jpg">
  <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/tshirts/'">Shop Now</button>
@@ -105,16 +107,18 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </a>
 </div>
 <h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
-">TOP CHOICES</h2>
+">TOP PRODUCTS</h2>
 <div style="    justify-content: center; display: flex;" class="sliderx" id="sliderx">
 <div class="displayprod slidex" id="slidex" style="">
-  {% for t in site.products %}
+    {% assign sortedPosts = site.products %}
+  {% for t in sortedPosts %}
   {% if t.inicial %}
+
    <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }} {{ t.discrip }}" class="prod item">
   <div class="productplace" >
   <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
     <div class="btn">
-      <button class="snipcart-add-item thisbtn"
+      <button style=" {% if t.stock == 'saldo' %}background-color: #d1ba7b;{% endif %} " class="snipcart-add-item thisbtn"
     data-item-id="{{ t.id }}"
     data-item-name="{{ t.name }}"
     data-item-price="{{ t.price }}"
@@ -131,8 +135,18 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
     data-item-image="{{ t.image }}">
     Adicionar ao carrinho   
 </button>
-<h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}<p style="color:red;font-size: 9px;">New</p></h4>
-      <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4>
+{% if t.stock == 'saldo' %}
+<h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}<p style="color:#d1ba7b !important;font-size: 9px;">Saldo</p></h4>
+     <div style="display: flex; justify-content: space-evenly;"><h4 style="text-decoration: line-through;font-size: 12px;" class="h4price">Antes{{ t.newprice }}0€</h4>
+
+      {% elsif t.stock != 'saldo' %}
+
+ <h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}<p style="color:#d1ba7b !important;font-size: 9px;">NOVO</p></h4>
+
+       {% endif %}
+
+
+ <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4></div>
   {% endif %}
   {% endfor %}
 </div>
@@ -140,6 +154,8 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </li>
 </div>
 </div>
+<div style="display: flex; justify-content: center;align-items: center; height: 70px;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/tshirts/'">VER TODAS AS TSHIRTS</button></div>
+
 
 
 <a class="botdis" onclick="location.href='{{ site.url }}/calcoes/'" style="z-index: 2; width: 100%;">
@@ -194,6 +210,23 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 </div>
 </li>
 </div>
+</div>
+
+
+
+<div class="themiddle" style="display: flex; width: 100%;">
+<a style="" href="{{ site.url }}/sweats">
+  <div style="display: flex; position: relative;">
+  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/sweatsbonitas.jpg">
+  <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/sweats/'">Shop Now</button>
+  </div>
+</div>
+</a>
+<a href="{{ site.url }}/casacos">
+  <div style="display: flex; position: relative;">
+  <img style="align-self: center; width: 100%; height: ;" src="/assets/images/casacoslindos.jpg">
+ <div style="position: absolute; display: flex; justify-content: flex-end; flex-direction: column; height: 100%; width: 100%;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/casacos/'">Shop Now</button>
+  </div>
 </div>
 
 
@@ -336,35 +369,75 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
 <div style="position: relative;">
 
 <div style="display: flex; flex-wrap: wrap;     justify-content: center;">
- {% assign posts = site.blog] | sample:2 %}
+ {% assign posts = site.blog %}
 
-{% for t in posts %}
-
-<a style="width: 50%;" href="{{ site.url }}/blog/{{ t.link }}">
-  <img style="width: 100%;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
+{% for t in posts limit: 2 | reverse  %}
+<div style="display: flex;">
+  <div style="display: flex;">
+<a style="width: 50%;flex:1;" href="{{ site.url }}/blog/{{ t.link }}">
+  <img style="width: 100%;  flex:1;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
 </a>
-<div style="position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 20px;">
-    <div style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 20px;
+<div style="    width: 50%; position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 20px;">
+  <div style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;" class="">
-      <a href="{{ site.url }}/blog/{{ t.link }}"><h2 class="" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
-           <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.resumo }}</h3></a>
-    </div>
-    <div style="display: flex; justify-content: center;">
-    <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite mobks" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
+  <a href="{{ site.url }}/blog/{{ t.link }}"><h2 class="" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
+ <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.resumo }}</h3></a>
+</div>
+<div style="display: flex; justify-content: center;">
+ <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite mobks" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
   </div>
+</div>
+</div>
+
 {% endfor %}
 </div>
+
+</div>
+</div>
+</div>
+<div style="position: relative;">
+
+<div style="display: flex; flex-wrap: wrap;     justify-content: center;">
+ {% assign posts = site.blog %}
+
+{% for t in posts limit: 2 | reverse | offset: 2 %}
+<div style="display: flex;">
+  <div style="display: flex;">
+<a style="width: 50%;flex:1;" href="{{ site.url }}/blog/{{ t.link }}">
+  <img style="width: 100%;  flex:1;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
+</a>
+<div style="    width: 50%; position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 20px;">
+   <div style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;" class="">
+   <a href="{{ site.url }}/blog/{{ t.link }}"><h2 class="" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
+   <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.resumo }}</h3></a>  </div>
+   <div style="display: flex; justify-content: center;">
+  <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite mobks" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
+  </div>
+</div>
+</div>
+
+{% endfor %}
+</div>
+
+</div>
 </div>
 </div>
     <div style="display: flex; justify-content: center;">
-    <a href="{{ site.url }}/blog" style="z-index: 3;"><button class="submite mobks" style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog'">VER BLOG</button></a>
+    <a href="{{ site.url }}/blog" style="z-index: 3;"><button class="submite mobks " style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog'">VER BLOG</button></a>
   </div>
 </div>
 
 </div>
+
+
+
 
 <div class="instagrammobile" style="flex-wrap: wrap; display: none;">
 <div class="" style="   background-color: #f1f1f1;
@@ -415,38 +488,42 @@ sss: Loja Online de Roupa Masculina. Compre em Portugal Continental e Ilhas T-sh
  {% assign posts = site.blog] | sample:2 %}
 
 {% for t in posts %}
-
-<a style="width: 100%;" href="{{ site.url }}/blog/{{ t.link }}">
+<div style="display: flex; flex-direction: column;">
+  <div style="display: flex;  flex-direction: column;">
+  <a style="width: 100%;" href="{{ site.url }}/blog/{{ t.link }}">
   <img style="width: 100%;" class="" src="{{ t.img }}" alt="{{ t.titulo }}">
 </a>
-<div style="position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 40px;">
-    <div style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 40px;
+<div  style="position: absolute; z-index: 20; display: flex; justify-content: center; align-self: center; flex-direction: column; margin-top: 40px;">
+    <div class="mobtestdrive" style=" font-size: 10px;    font-size: 10px; flex-direction: column; margin-top: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;" class="">
-      <a href="{{ site.url }}/blog/{{ t.link }}"><h2 class="" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
-                 <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.dia }}</h3></a>
-           <a style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="text-align: center; color: gray;">{{ t.resumo }}</h3></a>
+    align-items: center;" >
+      <a  href="{{ site.url }}/blog/{{ t.link }}"><h2 class="dayday" style="text-transform: uppercase;">{{ t.titulo }}</h2></a>
+                 <a class="dayday" style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="color: gray;">{{ t.dia }}</h3></a>
+           <a class="dayday" style="margin-top: 20px;" href="{{ site.url }}/blog/{{ t.link }}"> <h3 class="" style="text-align: center; color: gray;">{{ t.resumo }}</h3></a>
     </div>
     <div style="display: flex; justify-content: center;">
     <a href="{{ site.url }}/blog/{{ t.link }}" style="z-index: 3;"><button class="submite " style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog/{{ t.link }}'">LER MAIS</button></a>
   </div>
+</div>
+</div>
+
 {% endfor %}
+
 </div>
 </div>
 </div>
     <div style="display: flex; justify-content: center;     margin-top: 40px;">
-    <a href="{{ site.url }}/blog" style="z-index: 3;"><button class="submite " style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog'">VER BLOG</button></a>
+    <a href="{{ site.url }}/blog" style="z-index: 3;"><button class="submite " style="background-color: #E8E8E8; z-index: 3; align-self: flex-start; " onclick="location.href='{{ site.url }}/blog">VER BLOG</button></a>
   </div>
 </div>
 
 </div>
-
+</div>
 
 <div style="background-color: white; width: 100%; height: 20px;" ></div>
 
 
 {% include footer.html %}
 </div>
-
