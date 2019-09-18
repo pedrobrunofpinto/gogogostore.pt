@@ -3,7 +3,7 @@ layout: product
 id: 334
 name: Colar Cross Pin
 link: colarcrosspin
-price: 9
+price: 9.0
 newprice: ''
 weight: 500
 image: "/assets/images/5feito.jpg"
