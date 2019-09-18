@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/acessorios/colares/colaranchorcross.md
 - _products/acessorios/colares/colarskulljewel.md
 - _products/acessorios/colares/colarcrosspin.md
 - _products/fatosdetreino/fatodetreinoshadow.md
