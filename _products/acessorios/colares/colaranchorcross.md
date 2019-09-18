@@ -11,7 +11,7 @@ sec: "/assets/images/3feito.jpg"
 thir: ''
 four: ''
 categoria: acessorios
-att: colar
+att: colares
 color:
 - Prateado
 discrip: ''
