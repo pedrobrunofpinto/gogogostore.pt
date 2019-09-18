@@ -233,6 +233,48 @@ lang: pt
 
 </a>
 </div>
+
+
+<h2 style="  text-align: center;text-transform: uppercase;margin: 20px 0 20px 0;     font-family: 'Ropa Sans', sans-serif !important;
+">ACCESSORIES</h2>
+<div style="    justify-content: center; display: flex;" class="sliderx" id="sliderx">
+<div class="displayprod slidex" id="slidex" style="">
+  {% for t in site.products %}
+  {% if t.categoria == "acessorios" %}
+   <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }} {{ t.discrip }}" class="prod item">
+  <div class="productplace" >
+  <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
+    <div class="btn">
+      <button class="snipcart-add-item thisbtn"
+    data-item-id="{{ t.id }}"
+    data-item-name="{{ t.name }}"
+    data-item-price="{{ t.price }}"
+    data-item-weight="{{ t.weight }}"
+    data-item-custom2-name="Tamanho"
+    data-item-custom2-options="S|M|L|XL"
+    data-item-custom2-required="true"
+    data-item-custom3-name="Cor"
+    data-item-custom3-options="{{ t.color[0] }}"
+    data-item-custom3-required="True"
+    data-item-quantity="1"
+    data-item-url="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"
+    data-item-description="{{ t.gene }}"
+    data-item-image="{{ t.image }}">
+    Adicionar ao carrinho   
+</button>
+<h4 class="h4name" style="display: flex;justify-content: space-around;" data-position="{{ t.price }}">{{ t.name }}<p style="color:red;font-size: 9px;">New</p></h4>
+      <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4>
+  {% endif %}
+  {% endfor %}
+</div>
+</div>
+</li>
+</div>
+</div>
+
+
+
+
 <div>
 
 <div class="instagramdesk" style=" flex-wrap: wrap; width: 100%; justify-content: space-between; display: flex;">
