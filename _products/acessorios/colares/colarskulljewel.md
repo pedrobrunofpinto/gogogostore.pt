@@ -7,7 +7,7 @@ price: 9.0
 newprice: ''
 weight: 500
 image: "/assets/images/1feito.jpg"
-sec: "/assets/images/2feito.jpg"
+sec: "/assets/images/1feito.jpg"
 thir: ''
 four: ''
 categoria: acessorios
