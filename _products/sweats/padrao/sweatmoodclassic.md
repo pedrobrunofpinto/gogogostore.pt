@@ -11,8 +11,10 @@ sec: "/assets/images/!!12.jpg"
 thir: "/assets/images/!!13.jpg"
 four: ''
 categoria: sweats
-att: ''
-color: []
+att: padrao
+color:
+- Cinzento
+- Branco
 discrip: inverno cores quente
 novo: true
 maisvendidos: false
