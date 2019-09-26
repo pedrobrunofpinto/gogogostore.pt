@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- sweatmsreact.md
 - _products/sweats/padrao/sweatbreak.md
 - _products/sweats/padrao/sweatsurfstreet.md
 - _products/sweats/padrao/sweatsleakstripes.md
