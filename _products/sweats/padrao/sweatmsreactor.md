@@ -10,7 +10,7 @@ image: "/assets/images/ab-1.jpg"
 sec: "/assets/images/ab2-1.jpg"
 thir: "/assets/images/ab3-1.jpg"
 four: ''
-categoria: tshirts
+categoria: sweats
 att: padrao
 color:
 - Vermelho
