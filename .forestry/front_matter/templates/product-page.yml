@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/sweats/padrao/sweatmsbasic.md
 - _products/sweats/padrao/sweatmsbadnews.md
 - _products/sweats/padrao/sweatwoodtexture.md
 - _products/sweats/padrao/sweatmsreactor.md
