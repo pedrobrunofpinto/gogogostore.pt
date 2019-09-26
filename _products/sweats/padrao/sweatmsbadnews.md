@@ -10,7 +10,7 @@ image: "/assets/images/badnews2.jpg"
 sec: "/assets/images/badnews.jpg"
 thir: "/assets/images/badnews3.jpg"
 four: ''
-categoria: tshirts
+categoria: sweats
 att: padrao
 color:
 - Cinzento
