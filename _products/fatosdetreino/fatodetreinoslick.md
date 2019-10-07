@@ -3,7 +3,7 @@ layout: product
 id: 873924
 name: Fato de Treino Slick
 link: fatodetreinoslick
-price: 25.9
+price: 35.9
 newprice: ''
 weight: 500
 image: "/assets/images/!7-1.jpg"
