@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/fatosdetreino/fatodetreinoslick.md
 - _products/sweats/padrao/sweatmsshades.md
 - _products/sweats/padrao/sweatmsrow.md
 - _products/sweats/padrao/sweatclassicstreet.md
