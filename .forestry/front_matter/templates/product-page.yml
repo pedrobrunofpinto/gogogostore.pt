@@ -98,8 +98,8 @@ fields:
     required: false
   label: discription
 pages:
-- _products/sweats/padrao/sweatmsshades.md
 - _products/sweats/padrao/sweatmsrow.md
+- _products/sweats/padrao/sweatmsshades.md
 - _products/sweats/padrao/sweatmstrina.md
 - _products/sweats/padrao/sweatmssharknation.md
 - _products/sweats/padrao/sweatmsreactor.md

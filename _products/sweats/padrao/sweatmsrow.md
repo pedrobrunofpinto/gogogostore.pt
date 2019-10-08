@@ -9,10 +9,11 @@ weight: 500
 image: "/assets/images/!1-1.jpg"
 sec: "/assets/images/!2-1.jpg"
 thir: "/assets/images/!3-1.jpg"
-four: ''
+four: "/assets/images/instagram.jpg"
 categoria: sweats
 att: padrao
 color:
+- Verde
 - Vermelho
 - Branco
 discrip: inverno quente cores
