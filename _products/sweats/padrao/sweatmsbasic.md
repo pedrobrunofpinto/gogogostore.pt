@@ -3,7 +3,7 @@ layout: product
 id: '0237'
 name: Sweat MS Basic
 link: sweatmsbasic
-price: 19.9
+price: 24.9
 newprice: ''
 weight: 500
 image: "/assets/images/classic2.jpg"

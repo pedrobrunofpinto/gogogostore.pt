@@ -3,7 +3,7 @@ layout: product
 id: 984
 name: Sweat MS Bad News
 link: sweatmsbadnews
-price: 19.9
+price: 24.9
 newprice: ''
 weight: 500
 image: "/assets/images/badnews2.jpg"
