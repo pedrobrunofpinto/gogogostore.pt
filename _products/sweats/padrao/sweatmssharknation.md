@@ -3,7 +3,7 @@ layout: product
 id: 64325
 name: Sweat MS SharkNation
 link: sweatmssharknation
-price: 19.9
+price: 24.9
 newprice: ''
 weight: 500
 image: "/assets/images/tshirtshark.jpg"

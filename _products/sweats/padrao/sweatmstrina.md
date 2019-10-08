@@ -3,7 +3,7 @@ layout: product
 id: 9835742
 name: Sweat MS Trina
 link: sweatmstrina
-price: 19.9
+price: 24.9
 newprice: ''
 weight: 500
 image: "/assets/images/222.jpg"

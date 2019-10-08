@@ -98,17 +98,17 @@ fields:
     required: false
   label: discription
 pages:
+- _products/sweats/padrao/sweatmstrina.md
+- _products/sweats/padrao/sweatmssharknation.md
+- _products/sweats/padrao/sweatmsshades.md
+- _products/sweats/padrao/sweatmsrow.md
+- _products/sweats/padrao/sweatmsreactor.md
 - _products/sweats/padrao/sweatmsbasic.md
 - _products/sweats/padrao/sweatmsbadnews.md
 - _products/fatosdetreino/fatodetreinoslick.md
-- _products/sweats/padrao/sweatmsshades.md
-- _products/sweats/padrao/sweatmsrow.md
 - _products/sweats/padrao/sweatclassicstreet.md
-- _products/sweats/padrao/sweatmstrina.md
 - _products/sweats/padrao/sweatsurfstreet.md
 - _products/sweats/padrao/sweatsleakstripes.md
-- _products/sweats/padrao/sweatmssharknation.md
-- _products/sweats/padrao/sweatmsreactor.md
 - _products/sweats/padrao/sweatwoodtexture.md
 - _products/sweats/padrao/sweatbreak.md
 - sweatmsreact.md

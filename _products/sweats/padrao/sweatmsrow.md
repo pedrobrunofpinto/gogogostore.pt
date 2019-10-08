@@ -3,7 +3,7 @@ layout: product
 id: 1320
 name: Sweat MS Row
 link: sweatmsrow
-price: 19.9
+price: 24.9
 newprice: ''
 weight: 500
 image: "/assets/images/!1-1.jpg"

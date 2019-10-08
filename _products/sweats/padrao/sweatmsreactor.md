@@ -3,7 +3,7 @@ layout: product
 id: 876234
 name: Sweat MS Reactor
 link: sweatmsreactor
-price: 19.9
+price: 24.9
 newprice: ''
 weight: 500
 image: "/assets/images/ab-1.jpg"

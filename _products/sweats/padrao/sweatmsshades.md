@@ -3,7 +3,7 @@ layout: product
 id: 76321
 name: Sweat MS Shades
 link: sweatmsshades
-price: 19.9
+price: 24.9
 newprice: ''
 weight: 500
 image: "/assets/images/!4-1.jpg"
