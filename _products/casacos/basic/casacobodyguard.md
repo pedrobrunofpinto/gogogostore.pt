@@ -3,7 +3,7 @@ layout: product
 id: 8756563
 name: Casaco Body Guard
 link: casacobodyguard
-price: 29.9
+price: 44.9
 newprice: ''
 weight: 500
 image: "/assets/images/72169049_2492025344225645_5534659234613952512_n.jpg"
