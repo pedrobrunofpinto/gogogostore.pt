@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/casacos/basic/casacopersimmon.md
 - _products/casacos/basic/casacobodyguard.md
 - _products/fatosdetreino/fatodetreinoblackdetail.md
 - _products/sweats/padrao/sweatmsrow.md
