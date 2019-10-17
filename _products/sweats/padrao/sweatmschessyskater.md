@@ -3,7 +3,7 @@ layout: product
 id: 97163
 name: Sweat MS Chessy Skater
 link: sweatmschessyskater
-price: 19.9
+price: 22.9
 newprice: ''
 weight: 500
 image: "/assets/images/23-6.jpg"
