@@ -8,7 +8,7 @@ newprice: ''
 weight: 500
 image: "/assets/images/Photo 17-10-2019, 10 12 31 (1).jpg"
 sec: "/assets/images/Photo 17-10-2019, 10 08 38.jpg"
-thir: "/assets/images/Photo 17-10-2019, 13 09 45.jpg"
+thir: "/assets/images/!!!2-1.jpg"
 four: ''
 categoria: casacos
 att: padrao
