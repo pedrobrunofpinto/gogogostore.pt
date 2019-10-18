@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/casacos/padrao/casacolati.md
 - _products/casacos/padrao/sweatfutureio.md
 - _products/sweats/padrao/sweatmschessyskater.md
 - _products/sweats/padrao/sweatmschessy.md
