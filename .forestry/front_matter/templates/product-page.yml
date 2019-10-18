@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/casacos/padrao/sweatfutureio.md
 - _products/sweats/padrao/sweatmschessyskater.md
 - _products/sweats/padrao/sweatmschessy.md
 - _products/casacos/basic/casacopersimmon.md
@@ -135,7 +136,6 @@ pages:
 - _products/casacos/padrao/casacomixer.md
 - _products/casacos/padrao/casaconasaspecial.md
 - _products/casacos/padrao/casacorobinred.md
-- _products/casacos/padrao/sweatfutureio.md
 - _products/tshirts/padrao/tshirtmsstreetblue.md
 - _products/casacos/padrao/casaconasaburgler.md
 - _products/casacos/padrao/casacoburglar.md

@@ -17,10 +17,10 @@ color:
 - Preto
 - Vermelho
 discrip: desporto fila fecho
-novo: true
+novo: false
 maisvendidos: false
-stock: sim
-new: true
+stock: nao
+new: false
 inicial: false
 inicialhat: false
 discription: '<li style=" text-transform: none; list-style-type: circle; ">Tecido
