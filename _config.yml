@@ -48,3 +48,9 @@ future: true
 #   - vendor/ruby/
 plugins:
   - jekyll-seo-tag
+
+
+name: "GOGOGO Store"
+short_name: "gogogo"
+language: "pt"
+color: "black"
