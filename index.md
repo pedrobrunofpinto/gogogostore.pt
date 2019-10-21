@@ -38,7 +38,7 @@ lang: pt
 <div class="yourturn" style="width: 100%; height: 50px; background-color: black; display: flex; justify-content: center; align-items: center; "> 
 
 
-  <button style="width: 100%; height: 20px; border: 0; z-index: 1000; background-color: black; color: white;" onclick="install()">
+  <button style=" font-size: 9px;width: 100%; height: 20px; border: 0; z-index: 1000; background-color: black; color: white;" onclick="install()">
   DESEJA INSTALAR A APLICAÇÂO DA GOGOGO STORE?
 </button> 
 
