@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
 <link rel="manifest" href="manifest.json">
 {% include serviceworkerregiste.html %}
+{% include includebtn.html %}
 
 <link rel="serviceworker" href="serviceworker.js">
 
@@ -205,6 +206,8 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 </nav>
 <div style="display: flex; flex-direction: column;">
 	{% include header.html %}
+
+
 
 	<div>{{ content }}</div>
 </div>

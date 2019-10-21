@@ -1,6 +1,3 @@
-<button onclick="install()">
-  Instalar
-</button>
 
 <script>
     let deferredPrompt = null;
@@ -30,6 +27,12 @@ async function install() {
 
 
   }
+}
+
+
+
+async function close() {
+  document.getElementsByClassName("yourturn").style.display = "none";
 }
 
 </script>
