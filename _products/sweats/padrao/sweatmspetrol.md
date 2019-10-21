@@ -1,7 +1,7 @@
 ---
 layout: product
 id: 9324
-name: Sweat MS Petrol
+name: Sweat MS Chessy Petrol
 link: sweatmspetrol
 price: 19.9
 newprice: ''
