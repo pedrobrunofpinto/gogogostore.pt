@@ -19,7 +19,7 @@ color:
 discrip: chuva inverno letras
 novo: true
 maisvendidos: false
-stock: sim
+stock: nao
 new: true
 inicial: false
 inicialhat: false

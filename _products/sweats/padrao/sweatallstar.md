@@ -20,7 +20,7 @@ color:
 discrip: inverno cores quente
 novo: true
 maisvendidos: false
-stock: sim
+stock: nao
 new: true
 inicial: false
 inicialhat: false
