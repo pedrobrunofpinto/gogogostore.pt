@@ -1,30 +1,29 @@
 ---
 layout: product
-id: 3
-name: Sweat Squad 7
-link: sweatsquadseven
-price: 19.9
+id: 2531
+name: Casaco Ranger
+link: casacoranger
+price: 52.9
 newprice: ''
 weight: 500
-image: "/assets/images/DLH-7076.4.jpg"
-sec: "/assets/images/DLH-7076.jpg"
-thir: "/assets/images/DLH-7076.10.jpg"
+image: "/assets/images/semcasaco2.jpg"
+sec: "/assets/images/semcasaco.jpg"
+thir: ''
 four: ''
-categoria: sweats
+categoria: casacos
 att: padrao
 color:
-- Cinzento
+- Vermelho
 - Amarelo
-- Cor de Rosa
-discrip: inverno capucho frio
+discrip: inverno cores preto
 novo: true
 maisvendidos: false
-stock: nao
+stock: sim
 new: true
 inicial: false
 inicialhat: false
 discription: '<li style=" text-transform: none; list-style-type: circle; ">Tecido
-  de toque suave</li><li style="text-transform: none;  list-style-type: circle; ">Sweat
+  de toque suave</li><li style="text-transform: none;  list-style-type: circle; ">Casaco
   padrão</li><li style="text-transform: none;  list-style-type: circle; ">Máquina
   de lavar modo delicado</li>'
 

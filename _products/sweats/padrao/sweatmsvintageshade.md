@@ -1,25 +1,24 @@
 ---
 layout: product
-id: 3
-name: Sweat Squad 7
-link: sweatsquadseven
+id: '0356'
+name: Sweat MS Vintage Shade
+link: sweatmsvintageshade
 price: 19.9
 newprice: ''
 weight: 500
-image: "/assets/images/DLH-7076.4.jpg"
-sec: "/assets/images/DLH-7076.jpg"
-thir: "/assets/images/DLH-7076.10.jpg"
+image: "/assets/images/!!UUUUUU.jpg"
+sec: "/assets/images/!UUU.jpg"
+thir: ''
 four: ''
 categoria: sweats
 att: padrao
 color:
+- Branco
 - Cinzento
-- Amarelo
-- Cor de Rosa
-discrip: inverno capucho frio
+discrip: inverno quente cores
 novo: true
 maisvendidos: false
-stock: nao
+stock: sim
 new: true
 inicial: false
 inicialhat: false
