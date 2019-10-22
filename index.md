@@ -35,14 +35,7 @@ lang: pt
                 
 </div> 
 
-<div class="yourturn" style="width: 100%; height: 50px; background-color: black; display: flex; justify-content: center; align-items: center; "> 
 
-
-  <button style=" font-size: 9px;width: 100%; height: 20px; border: 0; z-index: 1000; background-color: black; color: white;" onclick="install()">
-  DESEJA INSTALAR A APLICAÇÂO DA GOGOGO STORE?
-</button> 
-
-</div>
 <h1 style="font-size: 1px;z-index: -200; position: absolute; top: 0;">GOGOGO Store - Loja Online de Roupa Masculina</h1>
 <div class="wrapper">
   <div class="carousel">
