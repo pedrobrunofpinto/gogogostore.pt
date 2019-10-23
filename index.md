@@ -148,16 +148,16 @@ lang: pt
        {% endif %}
 
 
- <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4></div>
+ <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4>
   {% endif %}
   {% endfor %}
-</div>
+    </div>
 </div>
 </li>
 </div>
-</div>
-<div style="display: flex; justify-content: center;align-items: center; height: 70px;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/tshirts/'">VER TODAS AS TSHIRTS</button></div>
 
+</div>
+<div style="display: flex; justify-content: center;align-items: center; height: 70px;"><button class="submite" style="align-self: center;" onclick="location.href='{{ site.url }}/sweats/'">VER TODAS AS SWEATS</button></div>
 
 
 <a class="botdis" onclick="location.href='{{ site.url }}/calcoes/'" style="z-index: 2; width: 100%;">
