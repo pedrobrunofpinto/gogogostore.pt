@@ -98,7 +98,6 @@ fields:
     required: false
   label: discription
 pages:
-- _products/casacos/padrao/casacorobinred.md
 - _products/casacos/padrao/casaconasaspecial.md
 - _products/casacos/padrao/casacomixer.md
 - _products/sweats/padrao/sweatthreesimplerules.md
@@ -250,8 +249,9 @@ pages:
 - _products/tshirts/padrao/tshirtmsitalianstyle.md
 - _products/sweats/padrao/sweatmshomey.md
 - _products/sweats/padrao/sweatmsbadnews.md
-- _products/tshirts/basic/tshirtmsretobasic.md
 - _products/sweats/padrao/sweatsurfstreet.md
+- _products/casacos/padrao/casacorobinred.md
+- _products/tshirts/basic/tshirtmsretobasic.md
 - _products/casacos/padrao/casacolati.md
 - _products/fatosdetreino/fatodetreinoretro.md
 - _products/fatosdetreino/fatodetreinopro.md
