@@ -3,7 +3,7 @@ layout: product
 id: 4332
 name: Casaco American
 link: casacoamerican
-price: '44.90'
+price: 44.9
 newprice: ''
 weight: 500
 image: "/assets/images/!!!!!B.jpg"
