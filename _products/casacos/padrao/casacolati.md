@@ -20,7 +20,7 @@ novo: true
 maisvendidos: false
 stock: sim
 new: true
-inicial: false
+inicial: true
 inicialhat: false
 discription: '<li style=" text-transform: none; list-style-type: circle; ">Tecido
   de toque suave</li><li style="text-transform: none;  list-style-type: circle; ">Casaco
