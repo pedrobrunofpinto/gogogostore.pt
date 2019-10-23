@@ -4,7 +4,6 @@ author: a
 name: Pólo MS Nr.30
 link: polomsnr30
 id: 1
-
 price: 15.3
 weight: 500
 image: "/assets/images/30.2.jpg"
@@ -21,19 +20,10 @@ maisvendidos: true
 stock: saldo
 new: false
 newprice: '21,9'
-inicial: true
+inicial: false
 inicialhat: false
-discription: '<li style=" text-transform: none; list-style-type: circle;
-">Tecido de toque suave</li>
+discription: |-
+  <li style=" text-transform: none; list-style-type: circle; ">Tecido de toque suave</li>
+  <li style="text-transform: none;  list-style-type: circle; ">Pólo padrão</li> <li style=" text-transform: none; list-style-type: circle; ">Logotipo bordado de MS</li> <li style="text-transform: none;  list-style-type: circle; ">Manga curta</li> <li style=" text-transform: none; list-style-type: circle; ">Bainha curva</li> <li style="text-transform: none;  list-style-type: circle; ">Máquina de lavar modo delicado</li>
 
-<li style="text-transform: none;  list-style-type: circle;
-">Pólo padrão</li>
-<li style=" text-transform: none; list-style-type: circle;
-">Logotipo bordado de MS</li>
-<li style="text-transform: none;  list-style-type: circle;
-">Manga curta</li>
-<li style=" text-transform: none; list-style-type: circle;
-">Bainha curva</li>
-<li style="text-transform: none;  list-style-type: circle;
-">Máquina de lavar modo delicado</li>'
 ---
