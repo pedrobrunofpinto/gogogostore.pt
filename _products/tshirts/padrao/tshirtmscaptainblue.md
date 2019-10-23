@@ -4,7 +4,6 @@ author: d
 name: T-shirt MS Captain Blue
 link: tshirtmscaptainblue
 id: 1
-
 price: 12.5
 weight: 500
 image: "/assets/images/5.1-1.jpg"
@@ -21,21 +20,16 @@ maisvendidos: true
 stock: saldo
 new: true
 newprice: '17,9'
-inicial: true
-discription: '<li style=" text-transform: none; list-style-type: circle;
-">Tecido de toque suave</li>
-<li style=" text-transform: none; list-style-type: circle;
-">Tripulação pescoço</li>
-<li style="text-transform: none;  list-style-type: circle;
-">T-shirt padrão</li>
-<li style=" text-transform: none; list-style-type: circle;
-">Logotipo bordado de MS</li>
-<li style="text-transform: none;  list-style-type: circle;
-">Manga curta</li>
-<li style=" text-transform: none; list-style-type: circle;
-">Bainha curva</li>
-<li style="text-transform: none;  list-style-type: circle;
-">Máquina de lavar modo delicado</li>
-<li style=" text-transform: none; list-style-type: circle;
-">50% algodão 50% poliéster</li>'
+inicial: false
+discription: '<li style=" text-transform: none; list-style-type: circle; ">Tecido
+  de toque suave</li> <li style=" text-transform: none; list-style-type: circle; ">Tripulação
+  pescoço</li> <li style="text-transform: none;  list-style-type: circle; ">T-shirt
+  padrão</li> <li style=" text-transform: none; list-style-type: circle; ">Logotipo
+  bordado de MS</li> <li style="text-transform: none;  list-style-type: circle; ">Manga
+  curta</li> <li style=" text-transform: none; list-style-type: circle; ">Bainha curva</li>
+  <li style="text-transform: none;  list-style-type: circle; ">Máquina de lavar modo
+  delicado</li> <li style=" text-transform: none; list-style-type: circle; ">50% algodão
+  50% poliéster</li>'
+inicialhat: false
+
 ---
