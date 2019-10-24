@@ -1150,5 +1150,3 @@ $( document ).ready(function() {
   });
 });
 
-
-
