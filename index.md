@@ -49,7 +49,7 @@ lang: pt
     display: flex;
     text-align: center;
     align-items: center;font-size: 30px;justify-content: center;text-shadow: 2px 2px black;">test</button></div></a>
-<a href="{{ site.url }}/camisas" class="slide">
+<a href="{{ site.url }}/sweats" class="slide">
   <p class="newcl" style="font-family: 'Montserrat', sans-serif;
     height: 100vh;
     position: absolute;
@@ -68,7 +68,7 @@ lang: pt
     display: flex;
     text-align: center;
     align-items: center;font-size: 60px;justify-content: center;text-shadow: 2px 2px black;"></p></a>
-    <a href="{{ site.url }}/camisas" class="slide">
+    <a href="{{ site.url }}/fazerconjunto" class="slide">
   <p class="newcl" style="font-family: 'Montserrat', sans-serif;
   font-weight: thin !important;
     height: 100vh;
