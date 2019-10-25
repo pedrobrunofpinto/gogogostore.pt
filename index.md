@@ -40,7 +40,7 @@ lang: pt
 <div class="wrapper">
   <div class="carousel">
     <div class="inner" style="">
-<a href="{{ site.url }}/saldos" class="slide active">
+<a href="{{ site.url }}/casacos" class="slide active">
   <div class="slidek">
   <button class="newcl" style="font-family: 'Montserrat', sans-serif;
     position: absolute;

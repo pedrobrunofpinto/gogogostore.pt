@@ -223,9 +223,9 @@ footer {
 <tbody>
 <tr>
 <td class="x_logo" style="display: flex; justify-content: center;">
-<h1><a href="https://www.gogogostore.pt" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="    width: 100%;
+<h1><a href="www.m-susam.com" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="    width: 100%;
     display: flex;
-    justify-content: center;"><img data-imagetype="External" src="https://d33wubrfki0l68.cloudfront.net/6e5e70fbe698c85b47a765860139ed3ebc7cb741/2bdcd/assets/images/gogogostore.png" style="width:50%"></a></h1>
+    justify-content: center;"><img data-imagetype="External" src="https://m-susam.com/wp-content/uploads/2019/04/modasusam.png" style="width:50%; filter: invert(1);"></a></h1>
 </td>
 </tr>
 </tbody>
@@ -239,7 +239,7 @@ footer {
 <tr>
 <td width="60%" class="x_logo" style="text-align:center; border:0px white solid!important">
 <ul class="x_navigation">
-<li><a href="https://www.gogogostore.pt/saldos/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="color:#d1ba7b">Saldos</a></li><li><a href="https://www.gogogostore.pt/novo/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable">Novidade</a></li><li><a href="https://www.gogogostore.pt/tshirts/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable">T-shirts</a></li><li><a href="https://www.gogogostore.pt/polos/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable">Polos</a></li><li><a href="https://www.gogogostore.pt/casacos/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable">Casacos</a></li></ul>
+<li></li></ul>
 </td>
 </tr>
 </tbody>
@@ -247,12 +247,12 @@ footer {
 </td>
 </tr>
 <tr>
-<td valign="middle" class="x_hero x_hero-2 x_bg_white" style="padding:2em 0 4em 0; background-color: #d1ba7b !important; background: #d1ba7b !important;">
+<td valign="middle" class="x_hero x_hero-2 x_bg_white" style="padding:2em 0 4em 0; background-color: white !important; background: white !important;">
 <table>
 <tbody>
 <tr>
 <td>
-<div class="x_text" style="padding:0 2.5em; text-align:center"><a href="https://www.gogogostore.pt/saldos/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable"><img data-imagetype="External" src="https://scontent.fopo2-1.fna.fbcdn.net/v/t1.0-9/69694521_2405504946211019_4718341055798312960_o.jpg?_nc_cat=103&_nc_oc=AQnDzmU5DcFkrgAbcrabI3nTXYwpqEfiR4KTOas8LkyBMKjpBEy66Jhik4UMUEGbWfrvWhHnc1_QEKaFKa9Mshns&_nc_ht=scontent.fopo2-1.fna&oh=34d1fa00fc1eb18be71f6a75e7933ebb&oe=5E0AD1A9" style="width:100%"></a>
+<div class="x_text" style="padding:0 2.5em; text-align:center"><a href="https://m-susam.com/index" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable"><img data-imagetype="External" src="https://scontent.fopo2-1.fna.fbcdn.net/v/t1.0-9/75226359_2354303444834475_6111156159131942912_o.jpg?_nc_cat=109&_nc_oc=AQlFdwbafKsRFIrnTZPrOKcKnbX3q2mo_1Yszl70d-gudNbra_61WyWbuRg7rc4wmySiWYVDjmL47o_gETIwKBqR&_nc_ht=scontent.fopo2-1.fna&oh=28487cbe2a37babce64ecf33b93edb3e&oe=5E5C8089" style="width:100%"></a>
 </div>
 </td>
 </tr>
@@ -275,11 +275,11 @@ footer {
 <tr>
 <td class="x_text-services" style="text-align:left; padding:20px 30px">
 <div class="x_heading-section">
-<h2 style="font-size:22px">CAMISA MS STRIPES</h2>
-<p style="color:#d1ba7b">SALDO - 60% OFF</p>
-<p><strike>ANTES 24,20€</strike><br><bold style="font-size: 18px;">PREÇO 14.50€</bold></p>
-<p>Camisa de alta qualidade e tecido suave, ideal para qualquer ocasião, formal ou informal. Também disponível em branco. Tamanhos do S ao XL.</p>
-<p><a href="https://www.gogogostore.pt/products/camisas/padrao/camisamsstripes/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_btn x_btn-primary" style="background-color:#d1ba7b; color:white">Comprar Agora</a></p>
+<h2 style="font-size:22px">MS191016</h2>
+<p style="color:#d1ba7b"></p>
+<p><strike></strike><br><bold style="font-size: 18px;">PREÇO 7.50 € /por peça</bold></p>
+<p>Sweat moderna e clássica. Confortável e otima para qualquer ocasião.</p>
+<p><a href="https://m-susam.com/produto/ms191016/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_btn x_btn-primary" style="background-color:#d1ba7b; color:white">Comprar Agora</a></p>
 </div>
 </td>
 </tr>
@@ -290,7 +290,7 @@ footer {
 <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 <tbody>
 <tr>
-<td><img data-imagetype="External" src="https://scontent.fopo2-1.fna.fbcdn.net/v/t1.0-9/66602954_2318092331618948_2780696685108527104_n.jpg?_nc_cat=109&amp;_nc_oc=AQns-srg-oV9win-VLOY4VA9gUpdODaETKc_ezaszGs7K7WUHKLrcj0mj7armW528hZ8brDdvIveXgvfl3ncaBNL&amp;_nc_ht=scontent.fopo2-1.fna&amp;oh=7ef0a13b30f51736207aa943a023294c&amp;oe=5DA53432" alt="" style="width:100%; max-width:600px; height:auto; margin:auto; display:block">
+<td><img data-imagetype="External" src="https://m-susam.com/wp-content/uploads/2019/10/UUU.jpg" alt="" style="width:100%; max-width:600px; height:auto; margin:auto; display:block">
 </td>
 </tr>
 </tbody>
@@ -310,7 +310,7 @@ footer {
 <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 <tbody>
 <tr>
-<td><img data-imagetype="External" src="https://d33wubrfki0l68.cloudfront.net/4a8144e6c513b9b217a4941c4fc2880069a2f3e7/53790/assets/images/rosa1.jpg" alt="" style="width:100%; max-width:600px; height:auto; margin:auto; display:block">
+<td><img data-imagetype="External" src="https://m-susam.com/wp-content/uploads/2019/10/casaco2.jpg" alt="" style="width:100%; max-width:600px; height:auto; margin:auto; display:block">
 </td>
 </tr>
 </tbody>
@@ -322,10 +322,10 @@ footer {
 <tr>
 <td class="x_text-services" style="text-align:left; padding:20px 30px">
 <div class="x_heading-section">
-<h2 style="font-size:22px">T-shirt MS Vice City</h2>
-<p><bold style="font-size: 18px;">PREÇO 17.90€</bold></p>
-<p>Temos a T-shirt para aqueles que gostam de impressionar e marcar a sua presença. Tamanhos do S ao XL.</p>
-<p><a href="https://www.gogogostore.pt/products/tshirts/padrao/tshirtmsvicecity/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_btn x_btn-primary" style="background-color:black; color:white">Comprar Agora</a></p>
+<h2 style="font-size:22px">MF-8607</h2>
+<p><bold style="font-size: 18px;">PREÇO 25€ / por peça</bold></p>
+<p>Casaco reversivél com design da última tendência. Quente e versátil.</p>
+<p><a href="https://m-susam.com/produto/mf-8607/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_btn x_btn-primary" style="background-color:black; color:white">Comprar Agora</a></p>
 </div>
 </td>
 </tr>
