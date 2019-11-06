@@ -98,15 +98,15 @@ fields:
     required: false
   label: discription
 pages:
+- _products/casacos/basic/casacomsblq.md
+- _products/sweats/padrao/sweatmsnorth.md
+- _products/sweats/padrao/sweatmswar.md
+- _products/sweats/padrao/sweatmsbrakets.md
 - _products/sweats/padrao/sweatmsgreenberry.md
 - _products/sweats/padrao/sweatmstwotwo.md
 - _products/casacos/basic/casacokarka.md
-- _products/casacos/basic/casacomsblq.md
-- _products/sweats/padrao/sweatmsnorth.md
 - _products/sweats/padrao/sweatmshippie.md
 - _products/sweats/padrao/sweatmssake.md
-- _products/sweats/padrao/sweatmsbrakets.md
-- _products/sweats/padrao/sweatmswar.md
 - _products/casacos/padrao/casacoamerican.md
 - _products/casacos/padrao/casacorobinred.md
 - _products/casacos/padrao/casacolati.md
