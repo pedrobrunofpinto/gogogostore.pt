@@ -222,7 +222,7 @@ footer {
 <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
 <tr>
-<td class="x_logo" style="display: flex; justify-content: center;">
+<td class="x_logo" style="display: flex; justify-content: center; align-content: center; align-self: center;">
 <h1><a href="www.m-susam.com" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="    width: 100%;
     display: flex;
     justify-content: center;"><img data-imagetype="External" src="https://m-susam.com/wp-content/uploads/2019/04/modasusam.png" style="width:50%; filter: invert(1);"></a></h1>
@@ -348,10 +348,10 @@ footer {
 <tr>
 <td class="x_text-services" style="text-align:left; padding:20px 30px">
 <div class="x_heading-section">
-<h2 style="font-size:22px">T-shirt MS Italian Style</h2>
-<p style="color:#d1ba7b">SALDO - 30% OFF</p>
-<p><strike>ANTES 17,90€</strike><br><bold style="font-size: 18px;">PREÇO 12.50€</bold></p><p>A um preço acessivél, uma T-shirt moderna feita de um luxuoso tecido para homens com o espirito jovem. Disponível também em preto. Tamanhos do S ao XL.</p>
-<p><a href="https://www.gogogostore.pt/products/tshirts/padrao/tshirtmsitalianstyle/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_btn x_btn-primary" style="background-color:#d1ba7b; color:white">Comprar Agora</a></p>
+<h2 style="font-size:22px">Ln-8506a</h2>
+<p style="color:#d1ba7b"></p>
+<p><strike></strike><br><bold style="font-size: 18px;">15€ /por peça</bold></p><p>Quentes e impermiavéis, a melhor aposta para o exercicio neste Outono/Inverno.</p>
+<p><a href="https://m-susam.com/produto/ln-8506a/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_btn x_btn-primary" style="background-color:#d1ba7b; color:white">Comprar Agora</a></p>
 </div>
 </td>
 </tr>
@@ -362,7 +362,7 @@ footer {
 <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 <tbody>
 <tr>
-<td><img data-imagetype="External" src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/64579263_2283767665051415_6772591460702224384_n.jpg?_nc_cat=107&amp;_nc_oc=AQmaXEK2c6mSoygtg5eCbS9nuqcn1nMGjAMllF-XxkvRoP4GnnQHUvkzJaFY_WmjLqEPvS6z8Ot4-RQtw2LdqegT&amp;_nc_ht=scontent.fopo2-2.fna&amp;oh=cbe8555ce13542a5fd5f4aafa7d17d80&amp;oe=5DA1F9BF" alt="" style="width:100%; max-width:600px; height:auto; margin:auto; display:block">
+<td><img data-imagetype="External" src="https://m-susam.com/wp-content/uploads/2019/09/22-1.jpg" alt="" style="width:100%; max-width:600px; height:auto; margin:auto; display:block">
 </td>
 </tr>
 </tbody>
@@ -394,9 +394,9 @@ footer {
 <tr>
 <td class="x_text-services" style="text-align:left; padding:20px 30px">
 <div class="x_heading-section">
-<h2 style="font-size:22px">Casaco MS Urban</h2>
-<p>Extremamente confortáveis, a coleção Urban pretende matê-lo com estilo e quente em qualquer ocasião, através do seu design simples mas atrevido. Disponível também em azul e amarelo. Tamanhos do S ao XL.</p>
-<p><a href="https://www.gogogostore.pt/products/casacos/padrao/casacomsurbanred/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_btn x_btn-primary" style="background-color:black">Comprar Agora</a></p>
+<h2 style="font-size:22px"></h2>
+<p></p>
+<p><a href="https://www.gogogostore.pt/products/casacos/padrao/casacomsurbanred/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_btn x_btn-primary" style="display:none; background-color:black"></a></p>
 </div>
 </td>
 </tr>
@@ -415,7 +415,7 @@ footer {
 <tr>
 <td>
 <div class="x_text" style="padding:0 2.5em; text-align:center">
-<p><a href="https://www.gogogostore.pt" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_btn x_btn-black-outline" style="color:black">Ver mais</a></p>
+<p><a href="https://www.m-susam.com/index" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_btn x_btn-black-outline" style="color:black">Ver mais</a></p>
 </div>
 </td>
 </tr>
@@ -429,7 +429,7 @@ footer {
 </tr>
 <tr>
 <td class="x_bg_light" style="text-align:center">
-<p>Não quer receber mais emails destes? <a href="mailto:gogogostore@hotmail.com" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="color:rgba(0,0,0,.8)">
+<p>Não quer receber mais emails destes? <a href="mailto:modasusam2018@hotmail.com" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="color:rgba(0,0,0,.8)">
 Envie-nos um email aqui.</a></p>
 </td>
 </tr>
