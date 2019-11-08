@@ -98,6 +98,7 @@ fields:
     required: false
   label: discription
 pages:
+- _products/mulher/casacoblackfur.md
 - _products/mulher/coletebrownsugar.md
 - _products/casacos/basic/casacomsblq.md
 - _products/sweats/padrao/sweatmsnorth.md
