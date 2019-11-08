@@ -11,7 +11,7 @@ sec: "/assets/images/muler2-1.jpg"
 thir: "/assets/images/muler3.jpg"
 four: ''
 categoria: mulher
-att: colete
+att: ''
 color:
 - Castanho
 discrip: mulher pelo inverno
