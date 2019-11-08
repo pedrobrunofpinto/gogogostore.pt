@@ -1,0 +1,159 @@
+---
+layout: default
+categoria: mulher
+title: Roupa de Mulher
+description: Encontre uma vasta gama de roupa para Mulher aos melhores preços da marca Moda Susam e muito mais.
+image: /assets/images/bannermulher.jpg
+lang: pt
+---
+
+<div class="capscontain">
+  <div class="caps">
+    <div class="found" >
+      <a class="upmess" style="margin-left: 10px; z-index: 1000" href="{{ site.url }}">Home</a>
+      <div class="upmess">></div>
+      <a class="upmess" style="z-index: 1000" href="{{ site.url }}/{{ page.categoria }}">{{ page.categoria }}</a>
+    </div>
+</div>
+</div>
+
+
+<div class="uplost"><h1 class="lost">  </h1></div>
+  <div class="bannerimage"><img class="imagebanner" src="/assets/images/banner{{ page.categoria }}.jpg" alt="banner{{ page.categoria }}"></div>
+<main class="test">
+  <div class="eve">
+  
+<div class="filters"><div class="titlefilter"><div class="pagination pages showpages"></div><h3 class="order"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância<img class="arrow2" src="/assets/images/arrowdown.png" alt="arrowdown"></h3></div><div class="linkinside"><a class="filterlink" href="{{ site.url }}/filtros/{{ page.categoria }}crescente/"><h3 class="upprice">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/{{ page.categoria }}decrescente/"><h3 class="upprice">Preço Alto - Baixo</h3></a> </div></div>
+</div></div>
+
+
+ <main class="lest">
+  <div class="filtercontainer">
+    <h4 class="filtername">Aplicar Filtros</h4>
+  </div>
+{% include oozefilters.html %}
+
+<div class="mobfil">
+   <div class="sortcontainer">
+    <h4 class="filtername"><div class="ordertop"><h3 class="theorder">Ordenar por: </h3><h3 class="place">Relevância</h3></div></h4>
+  </div>
+
+  <div class="oosort"><a class="filterlink" href="{{ site.url }}/filtros/{{ page.categoria }}crescente/"><h3 class="oosort">Preço Baixo - Alto</h3></a><a class="filterlink" href="{{ site.url }}/filtros/{{ page.categoria }}decrescente/"><h3 class="oosort">Preço Alto - Baixo</h3></a></div></div>
+</div>
+
+
+
+</form>
+<ul class="list prodcontain" id="oozer-list">
+ {% assign sorted = site.products | sort: "date" %}
+{% for t in sorted reversed %}
+  {% if t.categoria == page.categoria %}
+{% if t.stock == "sim" %}
+  <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
+  <div class="productplace" >
+  <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
+
+    <div class="btn">
+      <button class="snipcart-add-item thisbtn"
+    data-item-id="{{ t.id }}"
+    data-item-name="{{ t.name }}"
+    data-item-price="{{ t.price }}"
+    data-item-weight="{{ t.weight }}"
+    data-item-custom2-name="Tamanho"
+    data-item-custom2-options="S|M|L|XL"
+    data-item-custom2-required="true"
+    data-item-custom3-name="Cor"
+    data-item-custom3-options="{{ t.color[0] }}"
+    data-item-custom3-required="True"
+    data-item-quantity="1"
+    data-item-url="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"
+    data-item-description="{{ t.gene }}"
+    data-item-image="{{ t.image }}">
+    Adicionar ao carrinho   
+</button>
+
+      <h4 class="h4name" data-position="{{ t.price }}">{{ t.name }}</h4>
+      <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4>
+</li>
+
+</div>
+</div>
+
+{% endif %}
+{% if t.stock == "nao" %}
+  <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
+  <div class="productplace" >
+<img class="productimage yimagey" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt="">
+    <div class="btn">
+      <button class="nostock thisbtn"
+    data-item-id="{{ t.id }}"
+    data-item-name="{{ t.name }}"
+    data-item-price="{{ t.price }}"
+    data-item-weight="{{ t.weight }}"
+    data-item-custom2-name="Tamanho"
+    data-item-custom2-options="S|M|L|XL"
+    data-item-custom2-required="true"
+    data-item-custom3-name="Cor"
+    data-item-custom3-options="{{ t.color[0] }}"
+    data-item-custom3-required="True"
+    data-item-quantity="1"
+    data-item-url="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"
+    data-item-description="{{ t.discrip }}"
+    data-item-image="{{ t.image }}">
+    Sem Stock  
+</button>
+
+            <h4 class="h4name" data-position="{{ t.price }}">{{ t.name }}</h4>
+      <h4 class="h4price" data-position="{{ t.price }}">Preço:{{ t.price }}0€</h4>
+</li>
+
+</div>
+{% endif %}
+{% if t.stock == "saldo" %}
+  <li data-oozer-filter="{{ t.att }} {{ t.color[0] }} {{ t.color[1] }}" class="prod">
+  <div class="productplace" >
+  <a href="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"><img  style="width:96%; border: 5px solid #d1ba7b;" class="productimage" src="{{ t.image }}" data-src="{{ t.image }}" data-hover="{{ t.sec }}" alt=""></a>
+    <div class="btn">
+      <button style="background-color: #d1ba7b; color: white;" class="snipcart-add-item thisbtn"
+    data-item-id="{{ t.id }}"
+    data-item-name="{{ t.name }}"
+    data-item-price="{{ t.price }}"
+    data-item-weight="{{ t.weight }}"
+    data-item-custom2-name="Tamanho"
+    data-item-custom2-options="S|M|L|XL"
+    data-item-custom2-required="true"
+    data-item-custom3-name="Cor"
+    data-item-custom3-options="{{ t.color[0] }}"
+    data-item-custom3-required="True"
+    data-item-quantity="1"
+    data-item-url="{{ site.url }}/products/{{ t.categoria }}/{{ t.att }}/{{ t.link }}"
+    data-item-description="{{ t.gene }}"
+    data-item-image="{{ t.image }}">
+    Adicionar ao carrinho   
+</button>
+
+            <h4 class="h4name" style="display: flex;justify-content: space-around;"data-position="{{ t.price }}">{{ t.name }}{% if t.new %}<p style="color:red;font-size: 9px;">New</p>{% endif %}{% if t.newprice %}<p style="color:red;font-size: 9px;">Saldo</p>{% endif %}</h4>
+      <h4 class="h4price" data-position="{{ t.price }}" style="display: flex; justify-content: space-around; flex-direction: row-reverse;">Preço:{{ t.price }}0€{% if t.newprice %}<p><div style="align-items: center;align-self: center;align-content: center;  width:100%;display:flex;color:black; font-size: 9px">antes <p style="text-decoration: line-through;font-size: 12px;">{{ t.newprice }}0€</p></div></p>{% endif %}</h4>
+</li>
+
+</div>
+</div>
+
+{% endif %}
+{% endif %}
+{% endfor %}
+
+</ul>
+</main>
+<!-- Return to Top -->
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+
+<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+
+
+    <div class="pagination pages showpages"></div>
+
+
+</main>
+
