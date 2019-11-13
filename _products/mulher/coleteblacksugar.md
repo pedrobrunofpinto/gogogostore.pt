@@ -10,7 +10,7 @@ image: "/assets/images/mulherpreto.jpg"
 sec: "/assets/images/mulherpreto2.jpg"
 thir: "/assets/images/mulherpreta3.jpg"
 four: ''
-categoria: ''
+categoria: mulher
 att: ''
 color:
 - Preto
