@@ -10,10 +10,11 @@ image: "/assets/images/snakkkkk.jpg"
 sec: "/assets/images/snakkkkk-1.jpg"
 thir: ''
 four: ''
-categoria: ''
-att: ''
-color: []
-discrip: ''
+categoria: sweats
+att: padrao
+color:
+- Cinzento
+discrip: inverno cores quente
 novo: true
 maisvendidos: false
 stock: sim
